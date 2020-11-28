@@ -178,7 +178,7 @@ if (EventType=="Competitions"){
 #View(df)
 
 
-#/!\ to be updated each time, at least check if there isn't any new archetype
+#/!\ to be updated when you change data, at least check if there isn't any new archetype
 #ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
 df$SUPER_ARCH=df$ARCHETYPE
 length(unique(df$SUPER_ARCH))
@@ -487,13 +487,15 @@ add_super_archetypes = function(df){
     }
   }
   
+  return(df)
+  
 }
 
 #TO SEE WHICH EXACT ARCHETYPES ARE CONTAINED IN A SUPER ARCHETYPE, for instance 
 #"UGx Control"
 #unique(df[grep("UGx Control", df$SUPER_ARCH), ]$ARCHETYPE)
 
-add_super_archetypes(df)
+df=add_super_archetypes(df)
 
 #WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
 
@@ -503,7 +505,7 @@ generate_metagame_data = function(df,graph_share){
   if(Classification=="Super"){
     archetype_acc="SUPER_ARCH"
   }else if(Classification=="Exact"){
-    archetype_acc="ARCHETYPES"
+    archetype_acc="ARCHETYPE"
   }
   
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
@@ -522,7 +524,7 @@ generate_metagame_data = function(df,graph_share){
   
   #ADD AN "OTHER" CATEGORY CONTAINING THE SUM OF COPIES OF ALL ARCHETYPES UNDER X%
   sum_others=sum(arch_rep[arch_rep$NB_COPIES < graph_perc, ]$NB_COPIES)
-  arch_rep_vis=rbind(arch_rep_vis,c("Other", graph_perc))
+  arch_rep_vis=rbind(arch_rep_vis,c("Other", sum_others))
   arch_rep_vis=arch_rep_vis[order(arch_rep_vis$ARCHETYPES),]
   
   return(arch_rep_vis)
@@ -530,7 +532,7 @@ generate_metagame_data = function(df,graph_share){
 
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
 generate_share_graph_title = function(){
-  GraphTitle=paste("Proportion of main archetypes in MTGO", EventType,sep = " ")
+  GraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", EventType, sep = " ")
   
   if(!is.na(End) & !is.na(Beginning)){
     GraphTitle=paste(GraphTitle, "between", Beginning, "and", End, sep = " ")
@@ -549,54 +551,29 @@ generate_pie_chart = function(df){
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
   df_gen=generate_metagame_data(df,PieShare)
   
-  if(Classification=="Super"){
+  df_gen$ARCHETYPES <- reorder(df_gen$ARCHETYPES, as.numeric(df_gen$NB_COPIES))
+  df_gen <- df_gen %>%
+    group_by(ARCHETYPES) %>%
+    summarise(copies = sum(as.numeric(NB_COPIES)), .groups="drop") %>%
+    mutate(share=copies/sum(copies)*100.0) %>%
+    arrange(desc(copies))
+  
+  ggplot(df_gen, aes("", share, fill = ARCHETYPES)) +
+    geom_bar(width = 1, size = 1, color = "white", stat = "identity") +
+    coord_polar("y") +
+    geom_text(aes(label = paste0(round(share), "%")),
+              position = position_stack(vjust = 0.5)) +
+    labs(x = NULL, y = NULL, fill = NULL,
+         title = generate_share_graph_title()) + 
+    guides(color = FALSE, size = FALSE) +
+    scale_color_gradient(low="red", high="green") +
+    theme_classic() +
+    theme(axis.line = element_blank(),
+          axis.text = element_blank(),
+          axis.ticks = element_blank(),
+          plot.title = element_text(hjust = 0.5, color = "#666666"))
     
-    df_gen$SUPER_ARCH <- reorder(df_gen$SUPER_ARCH, as.numeric(df_gen$NB_COPIES))
-    df_gen <- df_gen %>%
-      group_by(SUPER_ARCH) %>%
-      summarise(copies = sum(as.numeric(NB_COPIES)), .groups="drop") %>%
-      mutate(share=copies/sum(copies)*100.0) %>%
-      arrange(desc(copies))
     
-    ggplot(df_gen, aes("", share, fill = SUPER_ARCH)) +
-      geom_bar(width = 1, size = 1, color = "white", stat = "identity") +
-      coord_polar("y") +
-      geom_text(aes(label = paste0(round(share), "%")),
-                position = position_stack(vjust = 0.5)) +
-      labs(x = NULL, y = NULL, fill = NULL,
-           title = generate_share_graph_title()) + 
-      guides(color = FALSE, size = FALSE) +
-      scale_color_gradient(low="red", high="green") +
-      theme_classic() +
-      theme(axis.line = element_blank(),
-            axis.text = element_blank(),
-            axis.ticks = element_blank(),
-            plot.title = element_text(hjust = 0.5, color = "#666666"))
-    
-  }else if(Classification=="Exact"){
-    
-    df_gen$ARCHETYPES <- reorder(df_gen$ARCHETYPES, as.numeric(df_gen$NB_COPIES))
-    df_gen <- df_gen %>%
-      group_by(ARCHETYPES) %>%
-      summarise(copies = sum(as.numeric(NB_COPIES)), .groups="drop") %>%
-      mutate(share=copies/sum(copies)*100.0) %>%
-      arrange(desc(copies))
-    
-    ggplot(df_gen, aes("", share, fill = ARCHETYPES)) +
-      geom_bar(width = 1, size = 1, color = "white", stat = "identity") +
-      coord_polar("y") +
-      geom_text(aes(label = paste0(round(share), "%")),
-                position = position_stack(vjust = 0.5)) +
-      labs(x = NULL, y = NULL, fill = NULL,
-           title = generate_share_graph_title()) + 
-      guides(color = FALSE, size = FALSE) +
-      scale_color_gradient(low="red", high="green") +
-      theme_classic() +
-      theme(axis.line = element_blank(),
-            axis.text = element_blank(),
-            axis.ticks = element_blank(),
-            plot.title = element_text(hjust = 0.5, color = "#666666"))
-  }
 }
 
 generate_pie_chart(df)
