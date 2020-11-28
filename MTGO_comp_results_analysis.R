@@ -20,7 +20,7 @@ RawFile="mtgo_data_2020_11_24.csv"
 #Earliest date - if NA, starts from the beginning of the data
 Beginning="2020-11-01"
 
-#Latest date - if NA, goes up to today
+#Latest date - if NA, goes up to the end of the data
 End=NA
 
 #Event type - "Competitions" (Preliminaries + Challenges), "Preliminaries" or "Challenges"
@@ -60,17 +60,18 @@ for (i in 1:length(rawData$EVENT)){
 rawData$EVENT_NAME=event_names
 #View(rawData) 
 
+if(is.na(Beginning)){
+  End=min(rawData$DATE)
+}
+if(is.na(End)){
+  End=max(rawData$DATE)
+}
+
 #SELECT DATA FOR A SPECIFIC PERIOD
 rawData$DATE <- as.Date(rawData$DATE)
 rawData$POINTS <- as.numeric(rawData$POINTS)
 periodData=rawData
-if(!is.na(End) & !is.na(Beginning)){
-  periodData=subset(rawData, DATE > as.Date(Beginning) & DATE < as.Date(End))
-} else if (!is.na(Beginning)){
-  periodData=subset(rawData, DATE > as.Date(Beginning))
-} else if (!is.na(End)){
-  periodData=subset(rawData, DATE < as.Date(End))
-}
+periodData=subset(rawData, DATE > as.Date(Beginning) & DATE < as.Date(End))
 
 #View(periodData)
 #length(periodData$PLAYER)
@@ -532,16 +533,8 @@ generate_metagame_data = function(df,graph_share){
 
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
 generate_share_graph_title = function(){
-  GraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", EventType, sep = " ")
-  
-  if(!is.na(End) & !is.na(Beginning)){
-    GraphTitle=paste(GraphTitle, "between", Beginning, "and", End, sep = " ")
-  } else if (!is.na(Beginning)){
-    GraphTitle=paste(GraphTitle, "after", Beginning, sep = " ")
-  } else if (!is.na(End)){
-    GraphTitle=paste(GraphTitle, "before", End, sep = " ")
-  }
-  
+  GraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
+                   EventType,"between", Beginning, "and", End, sep = " ")
   return(GraphTitle)
 }
 
