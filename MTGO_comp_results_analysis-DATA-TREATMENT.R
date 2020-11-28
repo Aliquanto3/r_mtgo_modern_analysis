@@ -576,19 +576,17 @@ metric_graph = function(metric_df,metric_name) {
   sdeviation=sd(metric_df$METRIC_AVERAGE)
   
   #GENERATES THE LABELS
-  MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
-                       EventType,"between", Beginning, "and", End, sep = " ")
   x_label=paste("Number of points acquired in", EventType, "by each archetype", 
                 sep = " ")
-  y_label=paste("Number of points divided by the number of copies of each 
-                archetype", sep = " ")
+  y_label=paste("Number of points divided by the number of copies of each archetype", 
+                sep = " ")
   graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
-                    Beginning, "and", End, sep = " ")
+                    Beginning, "and", End, " ", sep = " ")
+  graph_title=paste(graph_title, "(", MetricGraphType,")", sep = "")
   graph_subtitle="Separated by mean + 2*n standard deviation (n=0,1,2,3,4)"
   
-  
   #DISPLAY THE GRAPH
-  ggplot(metric_df, aes(METRIC_POINTS, METRIC_AVERAGE)) + 
+  metric_plot=ggplot(metric_df, aes(METRIC_POINTS, METRIC_AVERAGE)) + 
     geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) +
@@ -603,30 +601,19 @@ metric_graph = function(metric_df,metric_name) {
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+8*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5)
-}
-
-
-#WE START OFF WITH A METRIC THAT GIVES A SPECIFIC AMOUNT OF POINT DEPENDING ON
-#THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
-m_defeat_weight = function(df){
   
-  #CREATE A COLUMN FOR THE METRIC
-  df$DEFEAT_WEIGHT=rep(0,length(df$NB_DEFEATS))
-  
-  #FILL THE COLUMN WITH THE SUITED POINTS
-  for (i in 1:length(df$NB_DEFEATS)){
-    if (df$NB_DEFEATS[i]==0){
-      df$METRIC_POINTS[i]=X_0_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }else if (df$NB_DEFEATS[i]==1){
-      df$METRIC_POINTS[i]=X_1_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }else if (df$NB_DEFEATS[i]==2){
-      df$METRIC_POINTS[i]=X_2_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }
+  if (MetricGraphType=="LOGARITHM"){
+    metric_plot=metric_plot+ scale_x_continuous(trans = 'log10') + 
+      scale_y_continuous(trans = 'log10') +
+      annotation_logticks(sides="lb")
   }
   
+  return(metric_plot)
+  
+}
+
+#FILL IN METRIC POINTS IN AN ARCHETYPES DATA FRAME
+metric_points_archetypes = function(df){
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
   metric_df=generate_archetype_list(df)
   
@@ -646,20 +633,71 @@ m_defeat_weight = function(df){
     metric_df$METRIC_AVERAGE[i]=metric_df$METRIC_POINTS[i]/metric_df$NB_COPIES[i]
   }
   
-  metric_graph(metric_df, "Defeat Weight")
-  
+  return(metric_df)
 }
 
-#m_defeat_weight(df)
+#WE START OFF WITH A METRIC THAT GIVES A SPECIFIC AMOUNT OF POINT DEPENDING ON
+#THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
+m_defeat_weight = function(df){
+  
+  #CREATE A COLUMN FOR THE METRIC
+  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
+  
+  #FILL THE COLUMN WITH THE SUITED POINTS
+  for (i in 1:length(df$NB_DEFEATS)){
+    if (df$NB_DEFEATS[i]==0){
+      df$METRIC_POINTS[i]=X_0_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
+    }else if (df$NB_DEFEATS[i]==1){
+      df$METRIC_POINTS[i]=X_1_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
+    }else if (df$NB_DEFEATS[i]==2){
+      df$METRIC_POINTS[i]=X_2_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
+    }
+  }
+  
+  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
+  metric_df=metric_points_archetypes(df)
+  
+  return(metric_df)
+}
 
-#
+
+#NOW WE IMPLEMENT A METRIC THAT COUNTS THE NUMBER OF WINS OF EACH ARCHETYPE, THEN
+#SUBSTRACTS THE NUMBER OF DEFEATS WITH A CERTAIN PARAMETRIZED RATIO, FOR INSTANCE 
+#3 WINS FOR 1 DEFEAT. A 6-3 WOULD BE EQUIVALENT TO A 5-0 WITH THAT PARAMETER
 m_swiss_wins = function(df){
+  #CREATE A COLUMN FOR THE METRIC
+  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
   
+  #FILL THE COLUMN WITH THE SUITED POINTS
+  for (i in 1:length(df$METRIC_POINTS)){
+    df$METRIC_POINTS[i]=df$POINTS[i]/3*WIN_DEF_RATIO-df$NB_DEFEATS[i]
+  }
+  
+  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
+  metric_df=metric_points_archetypes(df)
+  
+  return(metric_df)
 }
 
-#
+#WE DO THE SAME AS WITH THE PREVIOUS METRIC, EXCEPT THAT WE CONSIDER THE TOP8
+#RESULTS AS WELL
 m_top8_swiss_wins = function(df){
+  #CREATE A COLUMN FOR THE METRIC
+  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
   
+  #FILL THE COLUMN WITH THE SUITED POINTS
+  for (i in 1:length(df$METRIC_POINTS)){
+    df$METRIC_POINTS[i]=(df$POINTS[i]+df$TOP8_PTS[i])/3*WIN_DEF_RATIO-
+      (df$NB_DEFEATS[i]+df$TOP8_DEF[i])
+  }
+  
+  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
+  metric_df=metric_points_archetypes(df)
+  
+  return(metric_df)
 }
 
 

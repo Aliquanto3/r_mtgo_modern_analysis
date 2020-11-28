@@ -38,8 +38,11 @@ Classification="Super"
 #Required metagame share to appear on pie chart (numeric, gets converted to %)
 PieShare=3
 
-#Required metagame share to appear on histogramme (numeric, gets converted to %)
+#Required metagame share to appear on histogram (numeric, gets converted to %)
 HistShare=2
+
+#METRIC GRAPH TYPE: "LINEAR" OR "LOGARITHM"
+MetricGraphType="LINEAR"
 
 #NUMBER OF POINTS FOR LISTS AT X-0
 X_0_PTS=3
@@ -49,5 +52,8 @@ X_1_PTS=2
 
 #NUMBER OF POINTS FOR LISTS AT X-2
 X_2_PTS=1
+
+#NUMBER OF DEFEATS TO BE EQUIVALENT TO A WIN BY THE WINS METRICS
+WIN_DEF_RATIO=3
 
 ###############################################################################
