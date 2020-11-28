@@ -8,51 +8,6 @@
 library(ggplot2)
 library(dplyr)
 
-###############################################################################
-#PARAMETERS
-
-#Directory of the file
-DirectoryFile="D:\\MTG\\Meta analysis\\2020-26-11"
-
-#Name of the file
-RawFile="mtgo_data_2020_11_24.csv"
-
-#Earliest date - if NA, starts from the beginning of the data
-Beginning=NA
-#If you want to know the minimum date in the data, use:
-#min(rawData$DATE)
-#after you executed the IMPORT DATA paragraph
-
-#Latest date - if NA, goes up to the end of the data
-End="2020-07-01"
-
-#If you want to know the maximum date in the data, use:
-#max(rawData$DATE)
-#after you executed the IMPORT DATA paragraph
-
-#Event type - "Competitions" (Preliminaries + Challenges), "Preliminaries" or "Challenges"
-EventType="Preliminaries"
-
-#Type of deck classification - "Super" or "Exact"
-Classification="Exact"
-
-#Required metagame share to appear on pie chart (numeric, gets converted to %)
-PieShare=3
-
-#Required metagame share to appear on histogramme (numeric, gets converted to %)
-HistShare=2
-
-#NUMBER OF POINTS FOR LISTS AT X-0
-X_0_PTS=3
-
-#NUMBER OF POINTS FOR LISTS AT X-1
-X_1_PTS=2
-
-#NUMBER OF POINTS FOR LISTS AT X-2
-X_2_PTS=1
-  
-###############################################################################
-
 #IMPORT DATA
 setwd(DirectoryFile)
 rawData=read.csv(RawFile,sep=",",header=T)
@@ -491,17 +446,19 @@ add_super_archetypes = function(df){
 
 #/!\ to be updated when you change data, at least check if there isn't any new archetype
 #ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
-if (Classification=="Super"){
-  
-  df$SUPER_ARCH=df$ARCHETYPE
-  length(unique(df$SUPER_ARCH))
-  unique(df$SUPER_ARCH)
-  
-  #TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
-  #df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
-  
-  df=add_super_archetypes(df)
-}
+
+df$SUPER_ARCH=df$ARCHETYPE
+length(unique(df$SUPER_ARCH))
+unique(df$SUPER_ARCH)
+
+#TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
+#df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
+
+df=add_super_archetypes(df)
+#THE CODE DOES NOT CHECK WHETHER WE WANT TO USE SUPER ARCHETYPES HERE, BECAUSE 
+#IT IS STILL VERY FAST TO ADD THAT COLUMN, AND IT IS EASIER FOR USE WHEN YOU 
+#CHANGE THE TYPE OF ARCHETYPES YOU WANT TO USE IN THE CONSOLE ONCE YOU EXECUTED
+#THE ENTIRE CODE ONCE TO GENERATE VARIOUS GRAPHS
 
 #TO SEE WHICH EXACT ARCHETYPES ARE CONTAINED IN A SUPER ARCHETYPE, for instance 
 #"UGx Control"
@@ -548,7 +505,7 @@ generate_share_graph_title = function(){
 }
 
 #GENERATE A PIE CHART BASED ON DATA IN DF
-generate_pie_chart = function(df){
+metagame_pie_chart = function(df){
   
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
   df_gen=generate_metagame_data(df,PieShare)
@@ -578,10 +535,8 @@ generate_pie_chart = function(df){
     
 }
 
-generate_pie_chart(df)
-
 #GENERATE A BOX PLOT BASED ON DATA IN DF
-generate_box_plot = function(df){
+metagame_box_plot = function(df){
   
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
   df_gen=generate_metagame_data(df,HistShare)
@@ -597,8 +552,6 @@ generate_box_plot = function(df){
     scale_color_gradient(low="blue", high="red")
   
 }
-
-generate_box_plot(df)
 
 #NOW THAT THE DATA IS READY AND WE KNOW WHAT IT CONTAINS, WE CAN START WORKING 
 # ON METRICS TO DETERMINE WHICH ARCHETYPES APPEAR TO BE THE BEST PERFORMERS OVERALL
@@ -636,9 +589,30 @@ metric_graph = function(metric_df) {
 #THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
 m_defeat_weight = function(df){
   
+  df$DEFEAT_WEIGHT=rep(0,df$NB_DEFEATS)
+  
+  for (i in 1:length(df$NB_DEFEATS)){
+    if (df$NB_DEFEATS[i]==0){
+      df$DEFEAT_WEIGHT[i]=X_0_PTS
+    }if (df$NB_DEFEATS[i]==1){
+      df$DEFEAT_WEIGHT[i]=X_1_PTS
+    }if (df$NB_DEFEATS[i]==2){
+      df$DEFEAT_WEIGHT[i]=X_2_PTS
+    }
+  }
+  
+  
+  
 }
 
 #
 m_swiss_wins = function(df){
   
 }
+
+#
+m_top8_swiss_wins = function(df){
+  
+}
+
+
