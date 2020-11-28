@@ -466,42 +466,51 @@ df=add_super_archetypes(df)
 
 #WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
 
-generate_metagame_data = function(df,graph_share){
-  
-  archetype_acc=NA
-  if(Classification=="Super"){
-    archetype_acc="SUPER_ARCH"
-  }else if(Classification=="Exact"){
-    archetype_acc="ARCHETYPE"
-  }
+archetype_acc=NA
+if(Classification=="Super"){
+  archetype_acc="SUPER_ARCH"
+}else if(Classification=="Exact"){
+  archetype_acc="ARCHETYPE"
+}
+
+#LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
+generate_archetype_list = function(df){
   
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
-  arch_rep=data.frame(unique(df[[archetype_acc]]))
-  names(arch_rep)[1] <- "ARCHETYPES"
+  arch_list=data.frame(unique(df[[archetype_acc]]))
+  names(arch_list)[1] <- "ARCHETYPES"
+  return(arch_list)
+}
+
+#COMPUTES THE SHARE OF EACH ARCHETYPE IN THE DATA
+generate_metagame_data = function(df,graph_share){
+  
+  arch_list=generate_archetype_list(df)
   
   #ADD THE NUMBER OF COPIES FOR EACH ARCHETYPE IN THE DATA
-  arch_rep$NB_COPIES=rep(0,length(arch_rep$ARCHETYPES))
-  for (i in 1:length(arch_rep$NB_COPIES)){
-    arch_rep$NB_COPIES[i]=length(which(df[[archetype_acc]]==arch_rep$ARCHETYPES[i]))
+  arch_list$NB_COPIES=rep(0,length(arch_list$ARCHETYPES))
+  for (i in 1:length(arch_list$NB_COPIES)){
+    arch_list$NB_COPIES[i]=length(which(df[[archetype_acc]]==arch_list$ARCHETYPES[i]))
   }
   
-  #FOR EASIER READ, AGGREGATE ALL THE ARCHETYPES MAKING UP FOR LESS THAN X% OF THE DATA
-  graph_perc=graph_share/100*sum(arch_rep$NB_COPIES)
-  arch_rep_vis=arch_rep[arch_rep$NB_COPIES >= graph_perc, ]
+  #FOR EASIER READ OF THE GRAPHS, AGGREGATE ALL THE ARCHETYPES ACCOUNTING FOR 
+  #LESS THAN graph_share% OF THE DATA
+  graph_perc=graph_share/100*sum(arch_list$NB_COPIES)
+  arch_list_vis=arch_list[arch_list$NB_COPIES >= graph_perc, ]
   
   #ADD AN "OTHER" CATEGORY CONTAINING THE SUM OF COPIES OF ALL ARCHETYPES UNDER X%
-  sum_others=sum(arch_rep[arch_rep$NB_COPIES < graph_perc, ]$NB_COPIES)
-  arch_rep_vis=rbind(arch_rep_vis,c("Other", sum_others))
-  arch_rep_vis=arch_rep_vis[order(arch_rep_vis$ARCHETYPES),]
+  sum_others=sum(arch_list[arch_list$NB_COPIES < graph_perc, ]$NB_COPIES)
+  arch_list_vis=rbind(arch_list_vis,c("Other", sum_others))
+  arch_list_vis=arch_list_vis[order(arch_list_vis$ARCHETYPES),]
   
-  return(arch_rep_vis)
+  return(arch_list_vis)
 }
 
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
-generate_share_graph_title = function(){
-  GraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
+generate_metagame_graph_title = function(){
+  MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
                    EventType,"between", Beginning, "and", End, sep = " ")
-  return(GraphTitle)
+  return(MetaGraphTitle)
 }
 
 #GENERATE A PIE CHART BASED ON DATA IN DF
@@ -523,7 +532,7 @@ metagame_pie_chart = function(df){
     geom_text(aes(label = paste0(round(share), "%")),
               position = position_stack(vjust = 0.5)) +
     labs(x = NULL, y = NULL, fill = NULL,
-         title = generate_share_graph_title()) + 
+         title = generate_metagame_graph_title()) + 
     guides(color = FALSE, size = FALSE) +
     scale_color_gradient(low="red", high="green") +
     theme_classic() +
@@ -531,7 +540,6 @@ metagame_pie_chart = function(df){
           axis.text = element_blank(),
           axis.ticks = element_blank(),
           plot.title = element_text(hjust = 0.5, color = "#666666"))
-    
     
 }
 
@@ -548,7 +556,7 @@ metagame_box_plot = function(df){
   #plot is much more clear
   ggplot(df_gen, aes(x=ARCHETYPES, y=as.numeric(NB_COPIES), fill=ARCHETYPES)) + 
     geom_bar(stat="identity") + theme_minimal() + guides( fill = FALSE) +
-    labs(x = NULL, y = NULL, fill = NULL, title = generate_share_graph_title()) + 
+    labs(x = NULL, y = NULL, fill = NULL, title = generate_metagame_graph_title()) + 
     scale_color_gradient(low="blue", high="red")
   
 }
@@ -560,18 +568,31 @@ metagame_box_plot = function(df){
 
 #PROVIDE A GRAPH FOR A METRIC DATAFRAME DISPLAYING AVERAGE POINTS DEPENDING ON
 #TOTAL POINTS, THE NUMBER OF COPIES OF EACH ARCHETYPE IS SHOWN BY THE DIAMETERS
-metric_graph = function(metric_df) {
-  coeffdir=-max(metric_df$Average.points)/max(metric_df$Sum.total.points)
-  average=mean(metric_df$Average.points)
-  sdeviation=sd(metric_df$Average.points)
-  ggplot(metric_df, aes(Sum.total.points, Average.points)) + 
-    geom_point(aes(color = Super.archetypes), size=metric_df$Number.of.lists) +
+metric_graph = function(metric_df,metric_name) {
+  
+  #COMPUTES THE PARAMETERS OF THE LINES TO APPEAR ON THE GRAPH
+  coeffdir=-max(metric_df$METRIC_AVERAGE)/max(metric_df$METRIC_POINTS)
+  average=mean(metric_df$METRIC_AVERAGE)
+  sdeviation=sd(metric_df$METRIC_AVERAGE)
+  
+  #GENERATES THE LABELS
+  MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
+                       EventType,"between", Beginning, "and", End, sep = " ")
+  x_label=paste("Number of points acquired in", EventType, "by each archetype", 
+                sep = " ")
+  y_label=paste("Number of points divided by the number of copies of each 
+                archetype", sep = " ")
+  graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
+                    Beginning, "and", End, sep = " ")
+  graph_subtitle="Separated by mean + 2*n standard deviation (n=0,1,2,3,4)"
+  
+  
+  #DISPLAY THE GRAPH
+  ggplot(metric_df, aes(METRIC_POINTS, METRIC_AVERAGE)) + 
+    geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
-    labs(x="Number of points acquired in Challenges by each archetype", 
-         y="Number of points divided by the number of copies of each archetype", 
-         title="Metric 5: Super Archetypes - 2020/10/25-2020/11/16",
-         subtitle = "Separated by mean + 2*n standard deviation (n=0,1,2,3,4)") +
-    geom_text(aes(label=Super.archetypes),hjust=0, vjust=0) + 
+    labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) +
+    geom_text(aes(label=ARCHETYPES),hjust=0, vjust=0) + 
     geom_abline(intercept = average, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+2*sdeviation, slope = coeffdir, 
@@ -589,21 +610,47 @@ metric_graph = function(metric_df) {
 #THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
 m_defeat_weight = function(df){
   
-  df$DEFEAT_WEIGHT=rep(0,df$NB_DEFEATS)
+  #CREATE A COLUMN FOR THE METRIC
+  df$DEFEAT_WEIGHT=rep(0,length(df$NB_DEFEATS))
   
+  #FILL THE COLUMN WITH THE SUITED POINTS
   for (i in 1:length(df$NB_DEFEATS)){
     if (df$NB_DEFEATS[i]==0){
-      df$DEFEAT_WEIGHT[i]=X_0_PTS
-    }if (df$NB_DEFEATS[i]==1){
-      df$DEFEAT_WEIGHT[i]=X_1_PTS
-    }if (df$NB_DEFEATS[i]==2){
-      df$DEFEAT_WEIGHT[i]=X_2_PTS
+      df$METRIC_POINTS[i]=X_0_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
+    }else if (df$NB_DEFEATS[i]==1){
+      df$METRIC_POINTS[i]=X_1_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
+    }else if (df$NB_DEFEATS[i]==2){
+      df$METRIC_POINTS[i]=X_2_PTS
+      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
     }
   }
   
+  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
+  metric_df=generate_archetype_list(df)
   
+  #ADD THE NUMBER OF POINTS FOR EACH ARCHETYPE IN THE DATA
+  metric_df$METRIC_POINTS=rep(0,length(metric_df$ARCHETYPES))
+  for (i in 1:length(metric_df$METRIC_POINTS)){
+    metric_df$METRIC_POINTS[i]=
+      sum(df$METRIC_POINTS[which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])])
+  }
+  
+  #ADD THE NUMBER OF COPIES FOR EACH ARCHETYPE IN THE DATA FOR THE AVERAGE POINTS
+  metric_df$NB_COPIES=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$METRIC_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
+  for (i in 1:length(metric_df$NB_COPIES)){
+    metric_df$NB_COPIES[i]=
+      length(which(df[[archetype_acc]]==metric_df$ARCHETYPES[i]))
+    metric_df$METRIC_AVERAGE[i]=metric_df$METRIC_POINTS[i]/metric_df$NB_COPIES[i]
+  }
+  
+  metric_graph(metric_df, "Defeat Weight")
   
 }
+
+#m_defeat_weight(df)
 
 #
 m_swiss_wins = function(df){
