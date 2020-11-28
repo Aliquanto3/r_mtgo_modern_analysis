@@ -18,16 +18,23 @@ DirectoryFile="D:\\MTG\\Meta analysis\\2020-26-11"
 RawFile="mtgo_data_2020_11_24.csv"
 
 #Earliest date - if NA, starts from the beginning of the data
-Beginning="2020-11-01"
+Beginning=NA
+#If you want to know the minimum date in the data, use:
+#min(rawData$DATE)
+#after you executed the IMPORT DATA paragraph
 
 #Latest date - if NA, goes up to the end of the data
-End=NA
+End="2020-07-01"
+
+#If you want to know the maximum date in the data, use:
+#max(rawData$DATE)
+#after you executed the IMPORT DATA paragraph
 
 #Event type - "Competitions" (Preliminaries + Challenges), "Preliminaries" or "Challenges"
-EventType="Competitions"
+EventType="Preliminaries"
 
 #Type of deck classification - "Super" or "Exact"
-Classification="Super"
+Classification="Exact"
 
 #Required metagame share to appear on pie chart (numeric, gets converted to %)
 PieShare=3
@@ -61,7 +68,7 @@ rawData$EVENT_NAME=event_names
 #View(rawData) 
 
 if(is.na(Beginning)){
-  End=min(rawData$DATE)
+  Beginning=min(rawData$DATE)
 }
 if(is.na(End)){
   End=max(rawData$DATE)
@@ -177,16 +184,6 @@ if (EventType=="Competitions"){
   df=generate_Prelim_Data()
 }
 #View(df)
-
-
-#/!\ to be updated when you change data, at least check if there isn't any new archetype
-#ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
-df$SUPER_ARCH=df$ARCHETYPE
-length(unique(df$SUPER_ARCH))
-unique(df$SUPER_ARCH)
-
-#TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
-#df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
 
 add_super_archetypes = function(df){
   
@@ -492,11 +489,23 @@ add_super_archetypes = function(df){
   
 }
 
+#/!\ to be updated when you change data, at least check if there isn't any new archetype
+#ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
+if (Classification=="Super"){
+  
+  df$SUPER_ARCH=df$ARCHETYPE
+  length(unique(df$SUPER_ARCH))
+  unique(df$SUPER_ARCH)
+  
+  #TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
+  #df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
+  
+  df=add_super_archetypes(df)
+}
+
 #TO SEE WHICH EXACT ARCHETYPES ARE CONTAINED IN A SUPER ARCHETYPE, for instance 
 #"UGx Control"
 #unique(df[grep("UGx Control", df$SUPER_ARCH), ]$ARCHETYPE)
-
-df=add_super_archetypes(df)
 
 #WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
 
