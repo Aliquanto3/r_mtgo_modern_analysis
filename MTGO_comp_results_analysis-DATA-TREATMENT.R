@@ -5,8 +5,10 @@
 #LIBRARIES
 #install.packages("ggplot2")
 #install.packages("dplyr")
+#install.packages("ggrepel")
 library(ggplot2)
 library(dplyr)
+library(ggrepel)
 
 #IMPORT DATA
 setwd(DirectoryFile)
@@ -589,8 +591,7 @@ metric_graph = function(metric_df,metric_name) {
   metric_plot=ggplot(metric_df, aes(METRIC_POINTS, METRIC_AVERAGE)) + 
     geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
-    labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) +
-    geom_text(aes(label=ARCHETYPES),hjust=0, vjust=0) + 
+    labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) + 
     geom_abline(intercept = average, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+2*sdeviation, slope = coeffdir, 
@@ -602,10 +603,16 @@ metric_graph = function(metric_df,metric_name) {
     geom_abline(intercept = average+8*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5)
   
-  if (MetricGraphType=="LOGARITHM"){
-    metric_plot=metric_plot+ scale_x_continuous(trans = 'log10') + 
+  if (MetricGraphType=="Linear"){
+    metric_plot=metric_plot + geom_text_repel(aes(label=ARCHETYPES),hjust=0, 
+                                              vjust=0,point.padding = NA)
+  }
+  
+  if (MetricGraphType=="Logarithm"){
+    metric_plot=metric_plot + scale_x_continuous(trans = 'log10') + 
       scale_y_continuous(trans = 'log10') +
-      annotation_logticks(sides="lb")
+      annotation_logticks(sides="lb") + 
+      geom_text(aes(label=ARCHETYPES),hjust=0, vjust=0)
   }
   
   return(metric_plot)
@@ -700,4 +707,40 @@ m_top8_swiss_wins = function(df){
   return(metric_df)
 }
 
+#COMPILATION - SET EACH METRIC POINTS REPARTITION TO HAVE VALUES BETWEEN 0 AND 1
+#BY DIVIDING BY THE MAXIMUM OF EACH METRIC, AND RETURN A DATAFRAME CONTAINING A
+#LINEAR COMBINATION OF THOSE RESULTS
+metrics_compilation=function(df){
+  
+  #COLLECT THE DATA FROM EACH PREVIOUS METRIC
+  m_defeat_weight_df=m_defeat_weight(df)
+  m_swiss_wins_df=m_swiss_wins(df)
+  m_top8_swiss_wins_df=m_top8_swiss_wins(df)
+  
+  #CREATE DATA FRAME TO COMBINE THAT DATA, COPYING ANY OF THE PREVIOUS ONES TO
+  #GET THE DATA THEY HAVE IN COMMON BEFORE UPDATING THE REST
+  compilation_df=m_defeat_weight_df
+  
+  #UPDATE THE DATA WITH THE COMPILATION RULES
+  for (i in 1:length(compilation_df$METRIC_POINTS)){
+    compilation_df$METRIC_POINTS[i]= 
+      (Comp_D_W_Ratio * m_defeat_weight_df$METRIC_POINTS[i]/
+      max(m_defeat_weight_df$METRIC_POINTS) + 
+      Comp_S_W_Ratio * m_swiss_wins_df$METRIC_POINTS[i]/
+      max(m_swiss_wins_df$METRIC_POINTS) + 
+      Comp_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_POINTS[i]/
+      max(m_top8_swiss_wins_df$METRIC_POINTS))*100
+    
+    compilation_df$METRIC_AVERAGE[i]= 
+      (Comp_D_W_Ratio * m_defeat_weight_df$METRIC_AVERAGE[i]/
+      max(m_defeat_weight_df$METRIC_AVERAGE) + 
+      Comp_S_W_Ratio * m_swiss_wins_df$METRIC_AVERAGE[i]/
+      max(m_swiss_wins_df$METRIC_AVERAGE) + 
+      Comp_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_AVERAGE[i]/
+      max(m_top8_swiss_wins_df$METRIC_AVERAGE))*100
+  }
+  
+  return(compilation_df)
+  
+}
 

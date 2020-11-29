@@ -24,3 +24,9 @@ metric_df_top8_swiss_wins=m_top8_swiss_wins(df)
 metric_df_top8_swiss_wins
 metric_plot_top8_swiss_wins=metric_graph(metric_df, "Top8 + Swiss wins")
 metric_plot_top8_swiss_wins
+
+#COMPILATION
+compilation_df=metrics_compilation(df)
+compilation_df
+compilation_plot=metric_graph(compilation_df, "Metrics Compilation")
+compilation_plot
