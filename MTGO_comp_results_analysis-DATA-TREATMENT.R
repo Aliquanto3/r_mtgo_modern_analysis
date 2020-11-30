@@ -129,7 +129,6 @@ generate_Challenge_Data = function() {
   
 }
 
-#Enter here the name of the dataframe you want to use
 df=rawData
 
 if (EventType=="Competitions"){
@@ -140,7 +139,14 @@ if (EventType=="Competitions"){
 }else if (EventType=="Preliminaries"){
   df=generate_Prelim_Data()
 }
-#View(df)
+
+#QUICKFIX REQUIRED FOR A BETTER ACCURACY IN THE DATA
+for (i in 1:length(df$ARCHETYPE)){
+  if(df$ARCHETYPE[i]=="Shadow Prowess"){
+    df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
+  }
+}
+
 
 add_super_archetypes = function(df){
   
@@ -195,7 +201,9 @@ add_super_archetypes = function(df){
     
     if(df$ARCHETYPE[i]=="UBRG Shadow" | 
        df$ARCHETYPE[i]=="Grixis Shadow"|
-       df$ARCHETYPE[i]=="Shadow Prowess"| 
+       df$ARCHETYPE[i]=="BR Shadow Prowess"|
+       df$ARCHETYPE[i]=="WBR Shadow Prowess"| 
+       df$ARCHETYPE[i]=="BRG Shadow Prowess"|
        df$ARCHETYPE[i]=="Jund Shadow"|
        df$ARCHETYPE[i]=="RB Shadow Lurrus"|
        df$ARCHETYPE[i]=="Mardu Shadow Lurrus"){
@@ -584,7 +592,6 @@ metric_graph = function(metric_df,metric_name) {
                 sep = " ")
   graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
                     Beginning, "and", End, " ", sep = " ")
-  graph_title=paste(graph_title, "(", MetricGraphType,")", sep = "")
   graph_subtitle="Separated by mean + 2*n standard deviation (n=0,1,2,3,4)"
   
   #DISPLAY THE GRAPH
@@ -601,19 +608,8 @@ metric_graph = function(metric_df,metric_name) {
     geom_abline(intercept = average+6*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+8*sdeviation, slope = coeffdir, 
-                color="red", linetype="dashed", size=1.5)
-  
-  if (MetricGraphType=="Linear"){
-    metric_plot=metric_plot + geom_text_repel(aes(label=ARCHETYPES),hjust=0, 
-                                              vjust=0,point.padding = NA)
-  }
-  
-  if (MetricGraphType=="Logarithm"){
-    metric_plot=metric_plot + scale_x_continuous(trans = 'log10') + 
-      scale_y_continuous(trans = 'log10') +
-      annotation_logticks(sides="lb") + 
-      geom_text(aes(label=ARCHETYPES),hjust=0, vjust=0)
-  }
+                color="red", linetype="dashed", size=1.5) + 
+    geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)
   
   return(metric_plot)
   
@@ -645,7 +641,7 @@ metric_points_archetypes = function(df){
 
 #WE START OFF WITH A METRIC THAT GIVES A SPECIFIC AMOUNT OF POINT DEPENDING ON
 #THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
-m_defeat_weight = function(df){
+m_1_defeat_weight = function(df){
   
   #CREATE A COLUMN FOR THE METRIC
   df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
@@ -670,11 +666,10 @@ m_defeat_weight = function(df){
   return(metric_df)
 }
 
-
 #NOW WE IMPLEMENT A METRIC THAT COUNTS THE NUMBER OF WINS OF EACH ARCHETYPE, THEN
 #SUBSTRACTS THE NUMBER OF DEFEATS WITH A CERTAIN PARAMETRIZED RATIO, FOR INSTANCE 
 #3 WINS FOR 1 DEFEAT. A 6-3 WOULD BE EQUIVALENT TO A 5-0 WITH THAT PARAMETER
-m_swiss_wins = function(df){
+m_2_swiss_wins = function(df){
   #CREATE A COLUMN FOR THE METRIC
   df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
   
@@ -691,7 +686,7 @@ m_swiss_wins = function(df){
 
 #WE DO THE SAME AS WITH THE PREVIOUS METRIC, EXCEPT THAT WE CONSIDER THE TOP8
 #RESULTS AS WELL
-m_top8_swiss_wins = function(df){
+m_2.5_top8_swiss_wins = function(df){
   #CREATE A COLUMN FOR THE METRIC
   df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
   
@@ -708,14 +703,14 @@ m_top8_swiss_wins = function(df){
 }
 
 #COMPILATION - SET EACH METRIC POINTS REPARTITION TO HAVE VALUES BETWEEN 0 AND 1
-#BY DIVIDING BY THE MAXIMUM OF EACH METRIC, AND RETURN A DATAFRAME CONTAINING A
-#LINEAR COMBINATION OF THOSE RESULTS
+#BY DIVIDING BY THE MAXIMUM OF EACH METRIC AND MULTIPLYING BY A CHOSEN WEIGHT, 
+#AND RETURN A DATAFRAME CONTAINING A LINEAR COMBINATION OF THOSE RESULTS
 metrics_compilation=function(df){
   
   #COLLECT THE DATA FROM EACH PREVIOUS METRIC
-  m_defeat_weight_df=m_defeat_weight(df)
-  m_swiss_wins_df=m_swiss_wins(df)
-  m_top8_swiss_wins_df=m_top8_swiss_wins(df)
+  m_defeat_weight_df=m_1_defeat_weight(df)
+  m_swiss_wins_df=m_2_swiss_wins(df)
+  m_top8_swiss_wins_df=m_2.5_top8_swiss_wins(df)
   
   #CREATE DATA FRAME TO COMBINE THAT DATA, COPYING ANY OF THE PREVIOUS ONES TO
   #GET THE DATA THEY HAVE IN COMMON BEFORE UPDATING THE REST
@@ -724,23 +719,41 @@ metrics_compilation=function(df){
   #UPDATE THE DATA WITH THE COMPILATION RULES
   for (i in 1:length(compilation_df$METRIC_POINTS)){
     compilation_df$METRIC_POINTS[i]= 
-      (Comp_D_W_Ratio * m_defeat_weight_df$METRIC_POINTS[i]/
+      (Comp_M1_D_W_Ratio * m_defeat_weight_df$METRIC_POINTS[i]/
       max(m_defeat_weight_df$METRIC_POINTS) + 
-      Comp_S_W_Ratio * m_swiss_wins_df$METRIC_POINTS[i]/
+        Comp_M2_S_W_Ratio * m_swiss_wins_df$METRIC_POINTS[i]/
       max(m_swiss_wins_df$METRIC_POINTS) + 
-      Comp_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_POINTS[i]/
+        Comp_M2.5_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_POINTS[i]/
       max(m_top8_swiss_wins_df$METRIC_POINTS))*100
     
     compilation_df$METRIC_AVERAGE[i]= 
-      (Comp_D_W_Ratio * m_defeat_weight_df$METRIC_AVERAGE[i]/
+      (Comp_M1_D_W_Ratio * m_defeat_weight_df$METRIC_AVERAGE[i]/
       max(m_defeat_weight_df$METRIC_AVERAGE) + 
-      Comp_S_W_Ratio * m_swiss_wins_df$METRIC_AVERAGE[i]/
+        Comp_M2_S_W_Ratio * m_swiss_wins_df$METRIC_AVERAGE[i]/
       max(m_swiss_wins_df$METRIC_AVERAGE) + 
-      Comp_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_AVERAGE[i]/
+        Comp_M2.5_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_AVERAGE[i]/
       max(m_top8_swiss_wins_df$METRIC_AVERAGE))*100
   }
   
   return(compilation_df)
   
+}
+
+#THE PREVIOUS FUNCTION COMPILES THE INDICATORS OF A SAME CATEGORY. NOW, WE CAN 
+#USE THE SAME REASONING TO COMBINE BOTH TYPES OF METRICS IN A SINGLE ROW
+final_compilation = function(df) {
+  compilation_df = metrics_compilation(df)
+  compilation_df$COMPILATION_POINTS=compilation_df$METRIC_POINTS
+  for (i in 1:length(compilation_df$COMPILATION_POINTS)){
+    compilation_df$COMPILATION_POINTS[i] = 
+      M_P_Weight * compilation_df$METRIC_POINTS[i] /
+      max(compilation_df$METRIC_POINTS) +
+      M_A_Weight * compilation_df$METRIC_AVERAGE[i] /
+      max(compilation_df$METRIC_AVERAGE) 
+  }
+  
+  compilation_df = compilation_df[order(-compilation_df$COMPILATION_POINTS),]
+  
+  return(compilation_df)
 }
 
