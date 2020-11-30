@@ -10,7 +10,8 @@ metagame_box_plot(df)
 #DISPLAYS THE DATA AND THE GRAPH FOR THE DEFEAT WEIGHTS METRIC
 metric_1_df_defeat_weight=m_1_defeat_weight(df)
 metric_1_df_defeat_weight
-metric_1_plot_defeat_weight=metric_graph(metric_1_df_defeat_weight, "M1 - Defeat Weight")
+metric_1_plot_defeat_weight=metric_graph(metric_1_df_defeat_weight, 
+                                         "M1 - Defeat Weight")
 metric_1_plot_defeat_weight
 
 #DISPLAYS THE DATA AND THE GRAPH FOR THE SWISS WINS METRIC
@@ -22,7 +23,8 @@ metric_2_plot_swiss_wins
 #DISPLAYS THE DATA AND THE GRAPH FOR THE SWISS WINS METRIC
 metric_2.5_df_top8_swiss_wins=m_2.5_top8_swiss_wins(df)
 metric_2.5_df_top8_swiss_wins
-metric_2.5_plot_top8_swiss_wins=metric_graph(metric_2.5_df_top8_swiss_wins, "M2.5 - Top8 + Swiss wins")
+metric_2.5_plot_top8_swiss_wins=metric_graph(metric_2.5_df_top8_swiss_wins, 
+                                             "M2.5 - Top8 + Swiss wins")
 metric_2.5_plot_top8_swiss_wins
 
 #FIRST COMPILATION
@@ -36,5 +38,9 @@ final_df=final_compilation(df)
 final_df
 m=mean(final_df$COMPILATION_POINTS)
 s=sd(final_df$COMPILATION_POINTS)
-final_df[final_df$COMPILATION_POINTS>m+s,]
-final_df[final_df$COMPILATION_POINTS>m+2*s,]
+final_df[final_df$COMPILATION_POINTS>m+0.5*s,]$ARCHETYPES
+final_df[final_df$COMPILATION_POINTS>m+1*s,]$ARCHETYPES
+final_df[final_df$COMPILATION_POINTS>m+1.5*s,]$ARCHETYPES
+final_df[final_df$COMPILATION_POINTS>m+2*s,]$ARCHETYPES
+final_df[final_df$COMPILATION_POINTS>m+2.5*s,]$ARCHETYPES
+final_df[final_df$COMPILATION_POINTS>m+3*s,]$ARCHETYPES

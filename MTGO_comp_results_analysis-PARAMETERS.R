@@ -29,11 +29,11 @@ End=NA
 #Event type - "Competitions" (Preliminaries + Challenges), "Preliminaries" or 
 #"Challenges"
 #Requires restarting Data Treatment if updated
-EventType="Challenges"
+EventType="Competitions"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
-Classification="Super"
+Classification="Exact"
 
 #Required metagame share to appear on pie chart (numeric, gets converted to %)
 PieShare=3
