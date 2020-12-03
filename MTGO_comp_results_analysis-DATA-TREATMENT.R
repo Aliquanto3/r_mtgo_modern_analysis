@@ -54,8 +54,8 @@ metagame_pie_chart = function(df){
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
   df_gen=generate_metagame_data(df,PieShare)
   
-  df_gen$ARCHETYPES <- reorder(df_gen$ARCHETYPES, as.numeric(df_gen$NB_COPIES))
-  df_gen <- df_gen %>%
+  df_gen$ARCHETYPES = reorder(df_gen$ARCHETYPES, as.numeric(df_gen$NB_COPIES))
+  df_gen = df_gen %>%
     group_by(ARCHETYPES) %>%
     summarise(copies = sum(as.numeric(NB_COPIES)), .groups="drop") %>%
     mutate(share=copies/sum(copies)*100.0) %>%
@@ -156,10 +156,37 @@ metric_points_archetypes = function(df){
   #ADD THE NUMBER OF COPIES FOR EACH ARCHETYPE IN THE DATA FOR THE AVERAGE POINTS
   metric_df$NB_COPIES=rep(0,length(metric_df$ARCHETYPES))
   metric_df$PPR_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
-  for (i in 1:length(metric_df$NB_COPIES)){
-    metric_df$NB_COPIES[i]=
-      length(which(df[[archetype_acc]]==metric_df$ARCHETYPES[i]))
-    metric_df$PPR_AVERAGE[i]=metric_df$PPR[i]/metric_df$NB_COPIES[i]
+  # for (i in 1:length(metric_df$NB_COPIES)){
+  #   metric_df$NB_COPIES[i]=
+  #     length(which(df[[archetype_acc]]==metric_df$ARCHETYPES[i]))
+  #   metric_df$PPR_AVERAGE[i]=metric_df$PPR[i]/metric_df$NB_COPIES[i]
+  # }
+  for (i in 1:length(metric_df$ARCHETYPES)){
+    arch_identification=which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])
+    metric_df$NB_COPIES[i]=length(arch_identification)
+    
+    # metric_df$PPR_AVERAGE[i]=mean(metric_df$PPR[arch_identification])
+    # metric_df$PPR_SD[i]=sd(df$PPR[arch_identification])
+    # metric_df$PPR_N[i]=length(df$PPR[arch_identification])
+    #95% CONFIDENCE INTERVAL WITH NORMAL DISTRIBUTION HYPOTHESIS
+    #metric_df$PPR_95_ERROR[i]=qnorm(0.975)*metric_df$PPR_SD[i]/sqrt(metric_df$PPR_N[i])
+    #metric_df$PPR_95_MIN[i]=metric_df$PPR_AVERAGE[i]-metric_df$PPR_95_ERROR[i]
+    #metric_df$PPR_95_MAX[i]=metric_df$PPR_AVERAGE[i]+metric_df$PPR_95_ERROR[i]
+    
+    #WITH CLOPPER-PEARSON
+    total_wins_arch=sum((df$POINTS[arch_identification] + 
+                       df$TOP8_PTS[arch_identification])/3)
+    total_matches_arch=sum(df$NB_ROUNDS[arch_identification] + 
+      df$TOP8_MATCHES[arch_identification])
+    
+    metric_df$PPR_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
+                                        alternative="two.sided", conf.level=0.95)$estimate
+                   
+    metric_df$PPR_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
+                                       alternative="two.sided", conf.level=0.95)$conf.int[1]
+    
+    metric_df$PPR_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
+                                       alternative="two.sided", conf.level=0.95)$conf.int[2]
   }
   
   return(metric_df)

@@ -150,11 +150,11 @@ if (EventType=="Competitions"){
 }
 
 #QUICKFIX REQUIRED FOR A BETTER ACCURACY IN THE DATA
-for (i in 1:length(df$ARCHETYPE)){
-  if(df$ARCHETYPE[i]=="Shadow Prowess"){
-    df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
-  }
-}
+# for (i in 1:length(df$ARCHETYPE)){
+#   if(df$ARCHETYPE[i]=="Shadow Prowess"){
+#     df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
+#   }
+# }
 
 
 add_super_archetypes = function(df){
