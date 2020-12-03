@@ -112,14 +112,17 @@ metric_graph = function(metric_df,metric_name) {
   sdeviation=sd(metric_df$PPR_AVERAGE)
   
   #GENERATES THE LABELS
-  x_label="Total number of copies of each archetype"
+  #x_label="Total number of copies of each archetype"
+  x_label="Total number of different players for each archetype"
   y_label="Average number of points per round of each archetype"
   graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
                     Beginning, "and", End, "in MTGO", EventType,sep = " ")
   graph_subtitle="Separated by mean + 2*n standard deviations (n={0,1,2,3,4,5})"
   
+  #FOR THE NUMBER OF COPIES
+  #metric_plot=ggplot(metric_df, aes(NB_COPIES, PPR_AVERAGE))
   #DISPLAY THE GRAPH
-  metric_plot=ggplot(metric_df, aes(NB_COPIES, PPR_AVERAGE)) + 
+  metric_plot=ggplot(metric_df, aes(NB_PLAYERS, PPR_AVERAGE)) + 
     geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) + 
@@ -164,7 +167,7 @@ metric_points_archetypes = function(df){
   for (i in 1:length(metric_df$ARCHETYPES)){
     arch_identification=which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])
     metric_df$NB_COPIES[i]=length(arch_identification)
-    
+    metric_df$NB_PLAYERS[i]=length(unique(df[arch_identification,]$PLAYER))
     # metric_df$PPR_AVERAGE[i]=mean(metric_df$PPR[arch_identification])
     # metric_df$PPR_SD[i]=sd(df$PPR[arch_identification])
     # metric_df$PPR_N[i]=length(df$PPR[arch_identification])
@@ -209,7 +212,7 @@ points_per_round = function(df) {
   return(ppr_df)
 }
 
-#COMBINES THE RATIOS OF POINTS PER ROUND AND TOTAL POINTS PER ROUND FOR EACH
+#COMBINES THE RATIOS OF POINTS PER ROUND AND NUMBER OF COPIES FOR EACH
 #ARCHETYPE, THEN PROVIDES A RANK BASED ON THAT
 archetypes_ranking = function(ppr_df){
   
