@@ -1,6 +1,4 @@
-#DATA SHARED BY PHELPS-SAN @ TRON DISCORD, HIS WORK CAN BE FOUND HERE:
-#https://github.com/Badaro/MTGODecklistCache
-#https://github.com/Badaro/MTGOArchetypeParser
+#Execute this file only once, unless you directly edit it
 
 #LIBRARIES
 #install.packages("ggplot2")
@@ -9,479 +7,6 @@
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
-
-#IMPORT DATA
-setwd(DirectoryFile)
-rawData=read.csv(RawFile,sep=",",header=T)
-rawData=subset(rawData,select = -12)
-
-#NAMES AND DATE DON'T ALLOW THE IDENTIFICATION OF AN EVENT, BUT THE COMBINATION
-#OF BOTH CAN, HENCE THE ADDITION OF ANOTHER COLUMN FOR THIS IDENTIFICATION
-event_names=rep(NA,length(rawData$EVENT))
-for (i in 1:length(rawData$EVENT)){
-  event_names[i]=paste(rawData$EVENT[i],as.character(rawData$DATE[i]),sep=" ")
-}
-rawData$EVENT_NAME=event_names
-#View(rawData) 
-
-if(is.na(Beginning)){
-  Beginning=min(rawData$DATE)
-}
-if(is.na(End)){
-  End=max(rawData$DATE)
-}
-
-#SELECT DATA FOR A SPECIFIC PERIOD
-rawData$DATE <- as.Date(rawData$DATE)
-rawData$POINTS <- as.numeric(rawData$POINTS)
-periodData=rawData
-periodData=subset(rawData, DATE > as.Date(Beginning) & DATE < as.Date(End))
-
-#View(periodData)
-#length(periodData$PLAYER)
-
-generate_Prelim_Data = function() {
-  
-  #COLLECT PRELIMINARIES ONLY FOR SPECIFIC TREATMENT
-  PrelimData=periodData[grep("Preliminary", periodData$EVENT), ]
-  #View(PrelimData) 
-  
-  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE PRELIMINARIES - ALWAYS 5
-  nbRoundsVecPrelim=rep(5,length(PrelimData$EVENT))
-  PrelimData$NB_ROUNDS=nbRoundsVecPrelim
-  #View(PrelimData)
-  
-  #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN PRELIMINARIES - 
-  #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
-  PrelimData$NB_DEFEATS=PrelimData$NB_ROUNDS - PrelimData$POINTS/3
-  
-  if(EventType=="Competitions"){
-    #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
-    PrelimData$TOP8_PTS=PrelimData$POINTS
-    PrelimData$TOP8_DEF=PrelimData$NB_DEFEATS
-  }
-  
-  return(PrelimData)
-  
-}
-
-generate_Challenge_Data = function() {
-  
-  #COLLECT CHALLENGES ONLY FOR SPECIFIC TREATMENT
-  ChallData=periodData[grep("Challenge", periodData$EVENT), ]
-  #View(ChallData)                                   
-  
-  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE CHALLENGES
-  #DIVIDE THE MAXIMUM NUMBER OF POINTS IN SWISS TO GET THE RESULT
-  #IF MORE THAN 1 PLAYER HAS THE MAXIMUM OF POINTS, THEN IT IS LIKELY THAT 
-  #THERE IS NOT ANY PLAYER AT X-0, SO YOU ADD 1 TO THE RESULT
-  listEventsChall=unique(ChallData$EVENT_NAME)
-  nbRoundsVec=c()
-  for (i in 1:length(listEventsChall)){
-    periodChallEventData=subset(ChallData, EVENT_NAME == listEventsChall[i])
-    maxPoints=max(periodChallEventData$POINTS)
-    nbPlayMaxPts=length(which(periodChallEventData$POINTS == maxPoints))
-    if(nbPlayMaxPts==1){
-      nbRounds=maxPoints/3
-    }else{
-      nbRounds=1+maxPoints/3
-    }
-    nbRoundsEvent=rep(nbRounds,length(periodChallEventData$EVENT))
-    nbRoundsVec=c(nbRoundsVec,nbRoundsEvent)
-  }
-  ChallData$NB_ROUNDS=nbRoundsVec
-  #View(ChallData)
-  
-  #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN CHALLENGES - 
-  #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
-  ChallData$NB_DEFEATS=ChallData$NB_ROUNDS - ChallData$POINTS/3
-  
-  #ADD TOP8 POINTS: 3*3 to 1st, 3*2 to 2nd, 3*1 to 3rd and 4th, none to others
-  ChallData$TOP8_PTS=ChallData$POINTS
-  for (i in 1:length(ChallData$RESULT)){
-    if (ChallData$RESULT[i] == "1st Place"){
-      ChallData$TOP8_PTS[i] = 9 + ChallData$TOP8_PTS[i]
-    }else if (ChallData$RESULT[i] == "2nd Place"){
-      ChallData$TOP8_PTS[i] = 6 + ChallData$TOP8_PTS[i]
-    }else if (ChallData$RESULT[i] == "3rd Place" | ChallData$RESULT[i] == "4th Place"){
-      ChallData$TOP8_PTS[i] = 3 + ChallData$TOP8_PTS[i]
-    }
-  }
-  #View(ChallData)
-  
-  #ADD TOP8 DEFEATS: 0 FOR THE WINNER, 1 FOR THE OTHERS
-  ChallData$TOP8_DEF=ChallData$NB_DEFEATS
-  for (i in 1:length(ChallData$TOP8_DEF)){
-    if (ChallData$RESULT[i] == "2nd Place" | ChallData$RESULT[i] == "3rd Place" | 
-        ChallData$RESULT[i] == "4th Place" | ChallData$RESULT[i] == "5th Place"| 
-        ChallData$RESULT[i] == "6th Place" | ChallData$RESULT[i] == "7th Place"| 
-        ChallData$RESULT[i] == "8th Place"){
-      ChallData$TOP8_DEF[i] = 1 + ChallData$NB_DEFEATS[i]
-    }
-  }
-  
-  #REMOVE ALL THE RESULTS WITH 3 DEFEATS (BECAUSE WE ONLY HAVE PART OF THEM, 
-  #WHEREAS WE HAVE ALL THE X-0, X-1 AND X-2 RESULTS)
-  ChallDataWO3Def=ChallData[ChallData$NB_DEFEATS != 3, ]
-  #View(ChallDataWO3Def)
-  
-  return(ChallDataWO3Def)
-  
-}
-
-df=rawData
-
-if (EventType=="Competitions"){
-  #FUSE THE DATA BACK TO GET ALL THE COMPETITIVE RESULTS IN THE SAME FILE
-  df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
-}else if (EventType=="Challenges"){
-  df=generate_Challenge_Data()
-}else if (EventType=="Preliminaries"){
-  df=generate_Prelim_Data()
-}
-
-#QUICKFIX REQUIRED FOR A BETTER ACCURACY IN THE DATA
-for (i in 1:length(df$ARCHETYPE)){
-  if(df$ARCHETYPE[i]=="Shadow Prowess"){
-    df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
-  }
-}
-
-
-add_super_archetypes = function(df){
-  
-  for (i in 1:length(df$SUPER_ARCH)){
-    if(df$ARCHETYPE[i]=="WURG Control" | 
-       df$ARCHETYPE[i]=="Bant Midrange"| 
-       df$ARCHETYPE[i]=="Scapeshift"| 
-       df$ARCHETYPE[i]=="UBRG Control"| 
-       df$ARCHETYPE[i]=="Niv To Light"| 
-       df$ARCHETYPE[i]=="Omnath Saheeli"| 
-       df$ARCHETYPE[i]=="Bant Blink"| 
-       df$ARCHETYPE[i]=="Temur Control"| 
-       df$ARCHETYPE[i]=="Sultai Control"| 
-       df$ARCHETYPE[i]=="Bant Control"){
-      
-      df$SUPER_ARCH[i]="UGx Control"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Jund Prowess" | 
-       df$ARCHETYPE[i]=="Izzet Prowess"| 
-       df$ARCHETYPE[i]=="Obosh Aggro"| 
-       df$ARCHETYPE[i]=="Mono Red Prowess"| 
-       df$ARCHETYPE[i]=="Rakdos Prowess"|  
-       df$ARCHETYPE[i]=="Naya Prowess"){
-      
-      df$SUPER_ARCH[i]="Rx Prowess"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Jeskai Control" | 
-       df$ARCHETYPE[i]=="Izzet Control"| 
-       df$ARCHETYPE[i]=="Dimir Control"| 
-       df$ARCHETYPE[i]=="Azorius Control"|
-       df$ARCHETYPE[i]=="Esper Control"| 
-       df$ARCHETYPE[i]=="Grixis Control"|
-       df$ARCHETYPE[i]=="UW Miracles"|
-       df$ARCHETYPE[i]=="UR Kiki Boilproof"){
-      
-      df$SUPER_ARCH[i]="Non UGx Control"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Amulet Titan" | 
-       df$ARCHETYPE[i]=="KGC Amulet Titan"| 
-       df$ARCHETYPE[i]=="Primeval Titan"| 
-       df$ARCHETYPE[i]=="Reclaimer Titan"){
-      
-      df$SUPER_ARCH[i]="P.Titan"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="UBRG Shadow" | 
-       df$ARCHETYPE[i]=="Grixis Shadow"|
-       df$ARCHETYPE[i]=="BR Shadow Prowess"|
-       df$ARCHETYPE[i]=="WBR Shadow Prowess"| 
-       df$ARCHETYPE[i]=="BRG Shadow Prowess"|
-       df$ARCHETYPE[i]=="Jund Shadow"|
-       df$ARCHETYPE[i]=="RB Shadow Lurrus"|
-       df$ARCHETYPE[i]=="Mardu Shadow Lurrus"){
-      
-      df$SUPER_ARCH[i]="DS"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Azorius Taxes" | 
-       df$ARCHETYPE[i]=="Mono White Taxes"| 
-       df$ARCHETYPE[i]=="Selenya Taxes"|
-       df$ARCHETYPE[i]=="BW Eldrazi & Taxes"){
-      
-      df$SUPER_ARCH[i]="D&T"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Abzan Company" | 
-       df$ARCHETYPE[i]=="Selenya Midrange"){
-      
-      df$SUPER_ARCH[i]="GWx Midrange"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Mardu Midrange" | 
-       df$ARCHETYPE[i]=="Rakdos Midrange"){
-      
-      df$SUPER_ARCH[i]="RBx Midrange"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Bant Spirits" | 
-       df$ARCHETYPE[i]=="Spirits"){
-      
-      df$SUPER_ARCH[i]="Spirits"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Belcher"|
-       df$ARCHETYPE[i]=="UW Belcher"|
-       df$ARCHETYPE[i]=="RG Belcher" | 
-       df$ARCHETYPE[i]=="Oops All Spells"){
-      
-      df$SUPER_ARCH[i]="All Spells"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Gifts Storm"){
-      
-      df$SUPER_ARCH[i]="Storm"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Izzet Restore Balance" |
-       df$ARCHETYPE[i]=="Temur Foretold Balance" |
-       df$ARCHETYPE[i]=="Izzet Living End"){
-      
-      df$SUPER_ARCH[i]="URx Balance"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Slivers"){
-      
-      df$SUPER_ARCH[i]="Slivers"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="E Tron"){
-      
-      df$SUPER_ARCH[i]="Eldrazi"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="U Tron" |
-       df$ARCHETYPE[i]=="Dice Factory Tron"){
-      
-      df$SUPER_ARCH[i]="Other Tron"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Elementals"){
-      
-      df$SUPER_ARCH[i]="Elementals"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Humans"){
-      
-      df$SUPER_ARCH[i]="Humans"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Merfolks"){
-      
-      df$SUPER_ARCH[i]="Merfolks"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Heliod Combo" |
-       df$ARCHETYPE[i]=="GW Heliod"|
-       df$ARCHETYPE[i]=="Mono White Heliod"){
-      
-      df$SUPER_ARCH[i]="Heliod"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Jund Midrange" |
-       df$ARCHETYPE[i]=="Jund Lurrus Midrange"|
-       df$ARCHETYPE[i]=="Sultai Midrange"|
-       df$ARCHETYPE[i]=="Abzan Midrange"){
-      
-      df$SUPER_ARCH[i]="BGx Midrange"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Gruul Midrange" |
-       df$ARCHETYPE[i]=="Naya Midrange"){
-      
-      df$SUPER_ARCH[i]="RGx Midrange"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Dredge"){
-      
-      df$SUPER_ARCH[i]="Dredge"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Burn" |
-       df$ARCHETYPE[i]=="RW Burn"|
-       df$ARCHETYPE[i]=="RG Burn"|
-       df$ARCHETYPE[i]=="RB Burn"){
-      
-      df$SUPER_ARCH[i]="Rx Burn"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Crabvine"){
-      
-      df$SUPER_ARCH[i]="Crabvine"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Orzhov Midrange"){
-      
-      df$SUPER_ARCH[i]="BWx Midrange"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Thopter Urza" |
-       df$ARCHETYPE[i]=="Grixis Whirza"){
-      
-      df$SUPER_ARCH[i]="Urza"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Bant Stoneblade" |
-       df$ARCHETYPE[i]=="UW Stoneblade"){
-      
-      df$SUPER_ARCH[i]="UWx Stoneblade"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Infect"){
-      
-      df$SUPER_ARCH[i]="Infect"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="UB Inverter"){
-      
-      df$SUPER_ARCH[i]="Inverter"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="MonoG Tron" |
-       df$ARCHETYPE[i]=="KGC Tron"){
-      
-      df$SUPER_ARCH[i]="Gx Tron"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Bogles"){
-      
-      df$SUPER_ARCH[i]="Bogles"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Devoted"|
-       df$ARCHETYPE[i]=="GW Devoted Lurrus"){
-      
-      df$SUPER_ARCH[i]="Devoted"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Ad Nauseam"){
-      
-      df$SUPER_ARCH[i]="Ad Nauseam"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Rogues"){
-      
-      df$SUPER_ARCH[i]="Rogues"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Mill" |
-       df$ARCHETYPE[i]=="UB Mill"){
-      
-      df$SUPER_ARCH[i]="Mill"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Hammer Time"){
-      
-      df$SUPER_ARCH[i]="Hammer Time"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Enduring Ideal"){
-      
-      df$SUPER_ARCH[i]="Enduring Ideal"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Polymorph"){
-      
-      df$SUPER_ARCH[i]="Polymorph"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Red Prison" | 
-       df$ARCHETYPE[i]=="Boros Land Destruction"){
-      
-      df$SUPER_ARCH[i]="Red Prison"
-      
-    }
-    
-    if(df$ARCHETYPE[i]=="Kiki Chord"){
-      
-      df$SUPER_ARCH[i]="Kiki Chord"
-      
-    }
-  }
-  
-  return(df)
-  
-}
-
-#/!\ to be updated when you change data, at least check if there isn't any new archetype
-#ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
-
-df$SUPER_ARCH=df$ARCHETYPE
-length(unique(df$SUPER_ARCH))
-unique(df$SUPER_ARCH)
-
-#TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
-#df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
-
-df=add_super_archetypes(df)
-#THE CODE DOES NOT CHECK WHETHER WE WANT TO USE SUPER ARCHETYPES HERE, BECAUSE 
-#IT IS STILL VERY FAST TO ADD THAT COLUMN, AND IT IS EASIER FOR USE WHEN YOU 
-#CHANGE THE TYPE OF ARCHETYPES YOU WANT TO USE IN THE CONSOLE ONCE YOU EXECUTED
-#THE ENTIRE CODE ONCE TO GENERATE VARIOUS GRAPHS
-
-#TO SEE WHICH EXACT ARCHETYPES ARE CONTAINED IN A SUPER ARCHETYPE, for instance 
-#"UGx Control"
-#unique(df[grep("UGx Control", df$SUPER_ARCH), ]$ARCHETYPE)
-
-#WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
-
-archetype_acc=NA
-if(Classification=="Super"){
-  archetype_acc="SUPER_ARCH"
-}else if(Classification=="Exact"){
-  archetype_acc="ARCHETYPE"
-}
 
 #LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
 generate_archetype_list = function(df){
@@ -519,7 +44,7 @@ generate_metagame_data = function(df,graph_share){
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
 generate_metagame_graph_title = function(){
   MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
-                   EventType,"between", Beginning, "and", End, sep = " ")
+                       EventType,"between", Beginning, "and", End, sep = " ")
   return(MetaGraphTitle)
 }
 
@@ -550,7 +75,7 @@ metagame_pie_chart = function(df){
           axis.text = element_blank(),
           axis.ticks = element_blank(),
           plot.title = element_text(hjust = 0.5, color = "#666666"))
-    
+  
 }
 
 #GENERATE A BOX PLOT BASED ON DATA IN DF
@@ -567,7 +92,8 @@ metagame_box_plot = function(df){
   ggplot(df_gen, aes(x=ARCHETYPES, y=as.numeric(NB_COPIES), fill=ARCHETYPES)) + 
     geom_bar(stat="identity") + theme_minimal() + guides( fill = FALSE) +
     labs(x = NULL, y = NULL, fill = NULL, title = generate_metagame_graph_title()) + 
-    scale_color_gradient(low="blue", high="red")
+    scale_color_gradient(low="blue", high="red")+
+    scale_x_discrete(guide = guide_axis(n.dodge=2))
   
 }
 
@@ -581,21 +107,19 @@ metagame_box_plot = function(df){
 metric_graph = function(metric_df,metric_name) {
   
   #COMPUTES THE PARAMETERS OF THE LINES TO APPEAR ON THE GRAPH
-  coeffdir=-max(metric_df$METRIC_AVERAGE)/max(metric_df$METRIC_POINTS)
-  average=mean(metric_df$METRIC_AVERAGE)
-  sdeviation=sd(metric_df$METRIC_AVERAGE)
+  coeffdir=-max(metric_df$PPR_AVERAGE)/max(metric_df$PPR)
+  average=mean(metric_df$PPR_AVERAGE)
+  sdeviation=sd(metric_df$PPR_AVERAGE)
   
   #GENERATES THE LABELS
-  x_label=paste("Number of points acquired in", EventType, "by each archetype", 
-                sep = " ")
-  y_label=paste("Number of points divided by the number of copies of each archetype", 
-                sep = " ")
+  x_label="Total number of copies of each archetype"
+  y_label="Average number of points per round of each archetype"
   graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
-                    Beginning, "and", End, " ", sep = " ")
-  graph_subtitle="Separated by mean + 2*n standard deviation (n=0,1,2,3,4)"
+                    Beginning, "and", End, "in MTGO", EventType,sep = " ")
+  graph_subtitle="Separated by mean + 2*n standard deviations (n={0,1,2,3,4,5})"
   
   #DISPLAY THE GRAPH
-  metric_plot=ggplot(metric_df, aes(METRIC_POINTS, METRIC_AVERAGE)) + 
+  metric_plot=ggplot(metric_df, aes(NB_COPIES, PPR_AVERAGE)) + 
     geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) + 
@@ -609,6 +133,8 @@ metric_graph = function(metric_df,metric_name) {
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+8*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
+    geom_abline(intercept = average+10*sdeviation, slope = coeffdir, 
+                color="red", linetype="dashed", size=1.5) + 
     geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)
   
   return(metric_plot)
@@ -621,139 +147,60 @@ metric_points_archetypes = function(df){
   metric_df=generate_archetype_list(df)
   
   #ADD THE NUMBER OF POINTS FOR EACH ARCHETYPE IN THE DATA
-  metric_df$METRIC_POINTS=rep(0,length(metric_df$ARCHETYPES))
-  for (i in 1:length(metric_df$METRIC_POINTS)){
-    metric_df$METRIC_POINTS[i]=
-      sum(df$METRIC_POINTS[which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])])
+  metric_df$PPR=rep(0,length(metric_df$ARCHETYPES))
+  for (i in 1:length(metric_df$PPR)){
+    metric_df$PPR[i]=
+      sum(df$PPR[which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])])
   }
   
   #ADD THE NUMBER OF COPIES FOR EACH ARCHETYPE IN THE DATA FOR THE AVERAGE POINTS
   metric_df$NB_COPIES=rep(0,length(metric_df$ARCHETYPES))
-  metric_df$METRIC_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$PPR_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
   for (i in 1:length(metric_df$NB_COPIES)){
     metric_df$NB_COPIES[i]=
       length(which(df[[archetype_acc]]==metric_df$ARCHETYPES[i]))
-    metric_df$METRIC_AVERAGE[i]=metric_df$METRIC_POINTS[i]/metric_df$NB_COPIES[i]
+    metric_df$PPR_AVERAGE[i]=metric_df$PPR[i]/metric_df$NB_COPIES[i]
   }
   
   return(metric_df)
 }
 
-#WE START OFF WITH A METRIC THAT GIVES A SPECIFIC AMOUNT OF POINT DEPENDING ON
-#THE NUMBER OF DEFEATS IN SWISS, THEN MULTIPLY THAT SCORE BY THE NUMBER OF ROUNDS
-m_1_defeat_weight = function(df){
-  
+#COMPUTE THE NUMBER OF POINTS PER ROUND FOR EACH ARCHETYPE
+points_per_round = function(df) {
   #CREATE A COLUMN FOR THE METRIC
-  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
+  df$PPR=rep(0,length(df$NB_ROUNDS))
   
   #FILL THE COLUMN WITH THE SUITED POINTS
-  for (i in 1:length(df$NB_DEFEATS)){
-    if (df$NB_DEFEATS[i]==0){
-      df$METRIC_POINTS[i]=X_0_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }else if (df$NB_DEFEATS[i]==1){
-      df$METRIC_POINTS[i]=X_1_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }else if (df$NB_DEFEATS[i]==2){
-      df$METRIC_POINTS[i]=X_2_PTS
-      df$METRIC_POINTS[i]=df$METRIC_POINTS[i]*df$NB_ROUNDS[i]
-    }
+  for (i in 1:length(df$PPR)){
+    df$PPR[i]=(df$POINTS[i]+df$TOP8_PTS[i])/
+      (df$NB_ROUNDS[i]+df$TOP8_MATCHES[i])
   }
   
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
-  metric_df=metric_points_archetypes(df)
+  ppr_df=metric_points_archetypes(df)
   
-  return(metric_df)
+  return(ppr_df)
 }
 
-#NOW WE IMPLEMENT A METRIC THAT COUNTS THE NUMBER OF WINS OF EACH ARCHETYPE, THEN
-#SUBSTRACTS THE NUMBER OF DEFEATS WITH A CERTAIN PARAMETRIZED RATIO, FOR INSTANCE 
-#3 WINS FOR 1 DEFEAT. A 6-3 WOULD BE EQUIVALENT TO A 5-0 WITH THAT PARAMETER
-m_2_swiss_wins = function(df){
-  #CREATE A COLUMN FOR THE METRIC
-  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
+#COMBINES THE RATIOS OF POINTS PER ROUND AND TOTAL POINTS PER ROUND FOR EACH
+#ARCHETYPE, THEN PROVIDES A RANK BASED ON THAT
+archetypes_ranking = function(ppr_df){
   
-  #FILL THE COLUMN WITH THE SUITED POINTS
-  for (i in 1:length(df$METRIC_POINTS)){
-    df$METRIC_POINTS[i]=df$POINTS[i]/3*WIN_DEF_RATIO-df$NB_DEFEATS[i]
+  ppr_df$COMB_PPR=ppr_df$PPR
+  for (i in 1:length(ppr_df$COMB_PPR)){
+    ppr_df$COMB_PPR[i] = 
+      Presence_Weight * ppr_df$NB_COPIES[i] /
+      max(ppr_df$NB_COPIES) +
+      PPR_Weight * ppr_df$PPR_AVERAGE[i] /
+      max(ppr_df$PPR_AVERAGE) 
   }
   
-  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
-  metric_df=metric_points_archetypes(df)
+  ppr_df = ppr_df[order(-ppr_df$COMB_PPR),]
   
-  return(metric_df)
-}
-
-#WE DO THE SAME AS WITH THE PREVIOUS METRIC, EXCEPT THAT WE CONSIDER THE TOP8
-#RESULTS AS WELL
-m_2.5_top8_swiss_wins = function(df){
-  #CREATE A COLUMN FOR THE METRIC
-  df$METRIC_POINTS=rep(0,length(df$NB_DEFEATS))
-  
-  #FILL THE COLUMN WITH THE SUITED POINTS
-  for (i in 1:length(df$METRIC_POINTS)){
-    df$METRIC_POINTS[i]=(df$POINTS[i]+df$TOP8_PTS[i])/3*WIN_DEF_RATIO-
-      (df$NB_DEFEATS[i]+df$TOP8_DEF[i])
+  ppr_df$RANK=ppr_df$COMB_PPR
+  for (i in 1:length(ppr_df$RANK)){
+    ppr_df$RANK[i]=i
   }
   
-  #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
-  metric_df=metric_points_archetypes(df)
-  
-  return(metric_df)
+  return(ppr_df)
 }
-
-#COMPILATION - SET EACH METRIC POINTS REPARTITION TO HAVE VALUES BETWEEN 0 AND 1
-#BY DIVIDING BY THE MAXIMUM OF EACH METRIC AND MULTIPLYING BY A CHOSEN WEIGHT, 
-#AND RETURN A DATAFRAME CONTAINING A LINEAR COMBINATION OF THOSE RESULTS
-metrics_compilation=function(df){
-  
-  #COLLECT THE DATA FROM EACH PREVIOUS METRIC
-  m_defeat_weight_df=m_1_defeat_weight(df)
-  m_swiss_wins_df=m_2_swiss_wins(df)
-  m_top8_swiss_wins_df=m_2.5_top8_swiss_wins(df)
-  
-  #CREATE DATA FRAME TO COMBINE THAT DATA, COPYING ANY OF THE PREVIOUS ONES TO
-  #GET THE DATA THEY HAVE IN COMMON BEFORE UPDATING THE REST
-  compilation_df=m_defeat_weight_df
-  
-  #UPDATE THE DATA WITH THE COMPILATION RULES
-  for (i in 1:length(compilation_df$METRIC_POINTS)){
-    compilation_df$METRIC_POINTS[i]= 
-      (Comp_M1_D_W_Ratio * m_defeat_weight_df$METRIC_POINTS[i]/
-      max(m_defeat_weight_df$METRIC_POINTS) + 
-        Comp_M2_S_W_Ratio * m_swiss_wins_df$METRIC_POINTS[i]/
-      max(m_swiss_wins_df$METRIC_POINTS) + 
-        Comp_M2.5_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_POINTS[i]/
-      max(m_top8_swiss_wins_df$METRIC_POINTS))*100
-    
-    compilation_df$METRIC_AVERAGE[i]= 
-      (Comp_M1_D_W_Ratio * m_defeat_weight_df$METRIC_AVERAGE[i]/
-      max(m_defeat_weight_df$METRIC_AVERAGE) + 
-        Comp_M2_S_W_Ratio * m_swiss_wins_df$METRIC_AVERAGE[i]/
-      max(m_swiss_wins_df$METRIC_AVERAGE) + 
-        Comp_M2.5_T8_S_W_Ratio * m_top8_swiss_wins_df$METRIC_AVERAGE[i]/
-      max(m_top8_swiss_wins_df$METRIC_AVERAGE))*100
-  }
-  
-  return(compilation_df)
-  
-}
-
-#THE PREVIOUS FUNCTION COMPILES THE INDICATORS OF A SAME CATEGORY. NOW, WE CAN 
-#USE THE SAME REASONING TO COMBINE BOTH TYPES OF METRICS IN A SINGLE ROW
-final_compilation = function(df) {
-  compilation_df = metrics_compilation(df)
-  compilation_df$COMPILATION_POINTS=compilation_df$METRIC_POINTS
-  for (i in 1:length(compilation_df$COMPILATION_POINTS)){
-    compilation_df$COMPILATION_POINTS[i] = 
-      M_P_Weight * compilation_df$METRIC_POINTS[i] /
-      max(compilation_df$METRIC_POINTS) +
-      M_A_Weight * compilation_df$METRIC_AVERAGE[i] /
-      max(compilation_df$METRIC_AVERAGE) 
-  }
-  
-  compilation_df = compilation_df[order(-compilation_df$COMPILATION_POINTS),]
-  
-  return(compilation_df)
-}
-
