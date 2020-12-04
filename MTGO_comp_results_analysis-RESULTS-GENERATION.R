@@ -115,16 +115,21 @@ ggplot(ppr_most_played, aes(x=WIN_AVERAGE_RANK, y=PPR_AVERAGE/3)) + theme_classi
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
+ppr_ranked$ARCHETYPES = reorder(ppr_ranked$ARCHETYPES, 
+                                as.numeric(ppr_ranked$PPR_AVERAGE))
 y_label_full_winrate="Winrates and confidence intervals"
-graph_title_full_winrate=paste("Winrate of each archetype between", Beginning, "and", 
-                               End, "in MTGO",  EventType,sep = " ")
-graph_subtitle_full_winrate="Red line for the average winrate of those archetypes combined"
+graph_title_full_winrate=paste("Winrate of each archetype between", Beginning, 
+                               "and", End, "in MTGO",  EventType,sep = " ")
+graph_subtitle_full_winrate="Red line for the average winrate of those archetypes 
+combined"
 
 ggplot(ppr_ranked, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
   geom_point(size=4) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
-  labs(y=y_label_full_winrate, title=graph_title_full_winrate, subtitle=graph_subtitle_full_winrate) + 
-  geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + ylim(0,1)+
-  geom_hline(yintercept = mean(ppr_ranked$PPR_AVERAGE), color="red", linetype="dashed", size=1.5)
+  labs(y=y_label_full_winrate, title=graph_title_full_winrate, 
+       subtitle=graph_subtitle_full_winrate) + 
+  geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
+  geom_hline(yintercept = mean(ppr_ranked$PPR_AVERAGE), color="red", 
+             linetype="dashed", size=1.5)
  
 #SAME FOR ONLY CI UNDER A DETERMINED LENGTH
 specify_decimal = function(x, k) trimws(format(round(x, k), nsmall=k))
@@ -135,18 +140,30 @@ df_small_CI$PPR_95_MAX=as.numeric(specify_decimal(df_small_CI$PPR_95_MAX,3))
 df_small_CI$PPR_AVERAGE=as.numeric(specify_decimal(df_small_CI$PPR_AVERAGE,3))
 df_small_CI$PPR_95_MIN=as.numeric(specify_decimal(df_small_CI$PPR_95_MIN,3))
 
-df_small_CI$ARCHETYPES = reorder(df_small_CI$ARCHETYPES, as.numeric(df_small_CI$PPR_AVERAGE))
+df_small_CI$ARCHETYPES = reorder(df_small_CI$ARCHETYPES, 
+                                 as.numeric(df_small_CI$PPR_AVERAGE))
 
 y_label_small_CI="Winrates and confidence intervals"
 graph_title_small_CI=paste("Winrate of each archetype between", Beginning, "and", 
-                               End, "in MTGO",  EventType, "with a CI <", CI_length*100, "%",sep = " ")
-graph_subtitle_small_CI="Red line for the average winrate of those archetypes combined"
+                               End, "in MTGO",  EventType, "with a CI <", 
+                           CI_length*100, "%",sep = " ")
+graph_subtitle_small_CI="Red line for the average winrate and green lines for the 
+average CI of those archetypes combined"
 
 ggplot(df_small_CI, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
   geom_point(size=1) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
-  labs(y=y_label_small_CI, title=graph_title_small_CI, subtitle=graph_subtitle_small_CI) + 
+  labs(y=y_label_small_CI, title=graph_title_small_CI, 
+       subtitle=graph_subtitle_small_CI) + 
   geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
-  geom_hline(yintercept = mean(df_small_CI$PPR_AVERAGE), color="red", linetype="dashed", size=1.5)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MAX), label = PPR_95_MAX, x = ARCHETYPES), vjust = -1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MIN), label = PPR_95_MIN, x = ARCHETYPES), vjust = 1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_AVERAGE), label = PPR_AVERAGE, x = ARCHETYPES), vjust = -1)
+  geom_hline(yintercept = mean(df_small_CI$PPR_AVERAGE), color="green", 
+             linetype="dashed", size=1.5)+
+  geom_hline(yintercept = mean(df_small_CI$PPR_95_MIN), color="red", 
+             linetype="dashed", size=1.5)+
+  geom_hline(yintercept = mean(df_small_CI$PPR_95_MAX), color="red", 
+             linetype="dashed", size=1.5)+ 
+  geom_text(aes(y = stat(df_small_CI$PPR_95_MAX), label = PPR_95_MAX, 
+                x = ARCHETYPES), vjust = -1)+ 
+  geom_text(aes(y = stat(df_small_CI$PPR_95_MIN), label = PPR_95_MIN, 
+                x = ARCHETYPES), vjust = 1)+ 
+  geom_text(aes(y = stat(df_small_CI$PPR_AVERAGE), label = PPR_AVERAGE, 
+                x = ARCHETYPES), vjust = -1)

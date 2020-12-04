@@ -4,9 +4,21 @@
 #install.packages("ggplot2")
 #install.packages("dplyr")
 #install.packages("ggrepel")
+#install.packages("jsonlite")
+#install.packages("tidyverse")
+#install.packages("data.table")
+#install.packages("purrr")
+#install.packages("rjson")
+#install.packages("RJSONIO")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
+library(jsonlite)
+library(tidyverse)
+library(data.table)
+library(purrr)
+library(rjson)
+library(RJSONIO)
 
 #LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
 generate_archetype_list = function(df){
@@ -107,36 +119,41 @@ metagame_box_plot = function(df){
 metric_graph = function(metric_df,metric_name) {
   
   #COMPUTES THE PARAMETERS OF THE LINES TO APPEAR ON THE GRAPH
-  coeffdir=-max(metric_df$PPR_AVERAGE)/max(metric_df$PPR)
+  #coeffdir=-max(metric_df$PPR_AVERAGE)/max(metric_df$PPR)
+  coeffdir=-max(metric_df$PPR_AVERAGE)/max(metric_df$TOTAL_NB_MATCHES)
   average=mean(metric_df$PPR_AVERAGE)
   sdeviation=sd(metric_df$PPR_AVERAGE)
   
   #GENERATES THE LABELS
   #x_label="Total number of copies of each archetype"
-  x_label="Total number of different players for each archetype"
+  #x_label="Total number of different players for each archetype"
+  x_label="Total number of matches played for each archetype"
   y_label="Average number of points per round of each archetype"
   graph_title=paste(metric_name,":", Classification,"archetypes ", "between", 
                     Beginning, "and", End, "in MTGO", EventType,sep = " ")
-  graph_subtitle="Separated by mean + 2*n standard deviations (n={0,1,2,3,4,5})"
+  graph_subtitle="Separated by mean + 4*n standard deviations (n={0,1,2,3,4,5})"
   
   #FOR THE NUMBER OF COPIES
   #metric_plot=ggplot(metric_df, aes(NB_COPIES, PPR_AVERAGE))
+  #FOR THE NUMBER OF PLAYERS
+  #metric_plot=ggplot(metric_df, aes(NB_PLAYERS, PPR_AVERAGE)) + 
   #DISPLAY THE GRAPH
-  metric_plot=ggplot(metric_df, aes(NB_PLAYERS, PPR_AVERAGE)) + 
+  #FOR THE TOTAL NUMBER OF MATCHES PLAYED BY THE ARCHETYPE
+  metric_plot=ggplot(metric_df, aes(TOTAL_NB_MATCHES, PPR_AVERAGE)) + 
     geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES) +
     coord_cartesian() + theme_bw() + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) + 
     geom_abline(intercept = average, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
-    geom_abline(intercept = average+2*sdeviation, slope = coeffdir, 
-                color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+4*sdeviation, slope = coeffdir, 
-                color="red", linetype="dashed", size=1.5) + 
-    geom_abline(intercept = average+6*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
     geom_abline(intercept = average+8*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
-    geom_abline(intercept = average+10*sdeviation, slope = coeffdir, 
+    geom_abline(intercept = average+12*sdeviation, slope = coeffdir, 
+                color="red", linetype="dashed", size=1.5) + 
+    geom_abline(intercept = average+16*sdeviation, slope = coeffdir, 
+                color="red", linetype="dashed", size=1.5) + 
+    geom_abline(intercept = average+20*sdeviation, slope = coeffdir, 
                 color="red", linetype="dashed", size=1.5) + 
     geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)
   
@@ -168,6 +185,9 @@ metric_points_archetypes = function(df){
     arch_identification=which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])
     metric_df$NB_COPIES[i]=length(arch_identification)
     metric_df$NB_PLAYERS[i]=length(unique(df[arch_identification,]$PLAYER))
+    metric_df$TOTAL_NB_MATCHES[i]=sum(df[arch_identification,]$NB_ROUNDS,
+                                      df[arch_identification,]$TOP8_MATCHES)
+    
     # metric_df$PPR_AVERAGE[i]=mean(metric_df$PPR[arch_identification])
     # metric_df$PPR_SD[i]=sd(df$PPR[arch_identification])
     # metric_df$PPR_N[i]=length(df$PPR[arch_identification])
