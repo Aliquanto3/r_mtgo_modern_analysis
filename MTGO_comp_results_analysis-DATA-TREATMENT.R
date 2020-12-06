@@ -9,6 +9,7 @@
 #install.packages("data.table")
 #install.packages("purrr")
 #install.packages("jsonify")
+#install.packages("plyr")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
@@ -17,10 +18,10 @@ library(tidyverse)
 library(data.table)
 library(purrr)
 library(jsonify)
+library(plyr)
 
 #LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
 generate_archetype_list = function(df){
-  
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
   arch_list=data.frame(unique(df[[archetype_acc]]))
   names(arch_list)[1] <- "ARCHETYPES"
@@ -185,14 +186,6 @@ metric_points_archetypes = function(df){
     metric_df$NB_PLAYERS[i]=length(unique(df[arch_identification,]$PLAYER))
     metric_df$TOTAL_NB_MATCHES[i]=sum(df[arch_identification,]$NB_ROUNDS,
                                       df[arch_identification,]$TOP8_MATCHES)
-    
-    # metric_df$PPR_AVERAGE[i]=mean(metric_df$PPR[arch_identification])
-    # metric_df$PPR_SD[i]=sd(df$PPR[arch_identification])
-    # metric_df$PPR_N[i]=length(df$PPR[arch_identification])
-    #95% CONFIDENCE INTERVAL WITH NORMAL DISTRIBUTION HYPOTHESIS
-    #metric_df$PPR_95_ERROR[i]=qnorm(0.975)*metric_df$PPR_SD[i]/sqrt(metric_df$PPR_N[i])
-    #metric_df$PPR_95_MIN[i]=metric_df$PPR_AVERAGE[i]-metric_df$PPR_95_ERROR[i]
-    #metric_df$PPR_95_MAX[i]=metric_df$PPR_AVERAGE[i]+metric_df$PPR_95_ERROR[i]
     
     #WITH CLOPPER-PEARSON
     total_wins_arch=sum((df$POINTS[arch_identification] + 

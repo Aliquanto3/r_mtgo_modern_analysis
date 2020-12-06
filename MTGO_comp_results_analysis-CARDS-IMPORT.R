@@ -1,6 +1,5 @@
 library(jsonify)
 
-
 #CREATE DF TO CONTAIN THE LIST OF PLAYED CARDS: OVERALL, MD AND SB
 ModernDataGetter = function(){
   
@@ -95,48 +94,31 @@ ModernCardsStatsGetter = function(ModernCardsList,board){
   return(ModernCards)
 }
 
-#STATS OF CARDS OVERALL
-ModernCardsStats=ModernCardsStatsGetter(ModernData,"All")
-#STATS OF MD CARDS
-ModernMDStats=ModernCardsStatsGetter(ModernData,"MD")
-#STATS OF SB CARDS
-ModernSBStats=ModernCardsStatsGetter(ModernData,"SB")
+#DATA FROM: https://mtgjson.com/downloads/all-files/
+setwd(DirectoryFile)
+cardData=read.csv("cards.csv",sep=",",header=T)
+#View(cardData)
+names(cardData)
+cardDataSub=subset(cardData,select=c(colors,convertedManaCost,faceName,layout,
+                                     manaCost,name,setCode,subtypes,supertypes,
+                                     type,types))
+names(cardDataSub)
+# unique(cardDataSub$type)
+# unique(cardDataSub$types)
+# unique(cardDataSub$subtypes)
+# unique(cardDataSub$supertypes)
+# unique(cardDataSub$setCode)
 
-names(ModernCardsStats)
+#SELECT FIRST LINE CONTAINING THE NAME OF A CARD - EXAMPLE: "Lightning Bolt
+boltData0=cardDataSub[cardDataSub$name=="Lightning Bolt",]
+boltData=t(cardDataSub[grep("Lightning Bolt", cardDataSub$name),])[
+  1:length(names(cardDataSub))]
+mode(boltData0)
 
-#NUMBER OF DIFFERENT CARDS OVERALL
-length(ModernCardsStats$CardNames)
-#NUMBER OF DIFFERENT CARDS IN SB
-length(ModernSBStats$CardNames)
-#NUMBER OF DIFFERENT CARDS IN MD
-length(ModernMDStats$CardNames)
-#NUMBER OF CARDS APPEARING BOTH IN MD AND SB
-length(intersect(ModernMDStats$CardNames,ModernSBStats$CardNames))
-#LIST OF CARDS APPEARING BOTH IN MD AND SB
-#intersect(ModernMDStats$CardNames,ModernSBStats$CardNames)
-
-#DATA FOR A SPECIFIC CARD OVERALL - FOR INSTANCE, "Aether Gust"
-ModernCardsStats[ModernCardsStats$CardNames=="Aether Gust",]
-#DATA FOR A SPECIFIC CARD IN MD - FOR INSTANCE, "Aether Gust"
-ModernMDStats[ModernMDStats$CardNames=="Aether Gust",]
-#DATA FOR A SPECIFIC CARD IN SB - FOR INSTANCE, "Aether Gust"
-ModernSBStats[ModernSBStats$CardNames=="Aether Gust",]
-
-#SORT THE CARDS ALPHABETICALLY
-ModernCardsStats=ModernCardsStats[order(ModernCardsStats$CardNames,decreasing=FALSE),]
-head(ModernCardsStats)
-#SORT THE CARDS DEPENDING ON THEIR NUMBER OF COPIES
-ModernCardsStats=ModernCardsStats[order(ModernCardsStats$CardCount,decreasing=TRUE),]
-head(ModernCardsStats)
-head(ModernCardsStats$CardNames)
-#SORT THE CARDS DEPENDING ON THEIR NUMBER OF DECKS PLAYING THEM
-ModernCardsStats=ModernCardsStats[order(ModernCardsStats$DeckCount,decreasing=TRUE),]
-head(ModernCardsStats)
-head(ModernCardsStats$CardNames)
-
-#GET THE RANK OF A CARD IN THE DATA AFTER A CHOSEN SORTING ABOVE  
-CardNameToTest="Island"
-which(ModernCardsStats$CardNames==CardNameToTest)
-ModernCardsStats[which(ModernCardsStats$CardNames==CardNameToTest),]
-
-
+#TO BE USED FOR DFC
+# if (card.layout == "transform" | card.layout == "flip" | 
+#     card.layout == "adventure" | card.layout == "meld" | card.layout == "modal_dfc") {
+#   cardName = card.faceName
+# }else{
+#   cardName = card.name;
+# }

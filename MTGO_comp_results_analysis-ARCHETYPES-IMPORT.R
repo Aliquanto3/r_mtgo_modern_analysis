@@ -1,7 +1,5 @@
 #Execute this file whenever you update a parameter that tells you to do so
 
-
-
 #DATA SHARED BY PHELPS-SAN @ TRON DISCORD, HIS WORK CAN BE FOUND HERE:
 #https://github.com/Badaro/MTGODecklistCache
 #https://github.com/Badaro/MTGOArchetypeParser
@@ -132,7 +130,7 @@ generate_Challenge_Data = function() {
   #REMOVE ALL THE RESULTS WITH 3 DEFEATS (BECAUSE WE ONLY HAVE PART OF THEM, 
   #WHEREAS WE HAVE ALL THE X-0, X-1 AND X-2 RESULTS)
   #ChallDataWO3Def=ChallData[ChallData$NB_DEFEATS != 3, ]
-  #FEATURE REMOVED FOR NOW
+  #NO NEED FOR THAT FEATURE ANYMORE
   
   return(ChallData)
   
@@ -149,13 +147,37 @@ if (EventType=="Competitions"){
   df=generate_Prelim_Data()
 }
 
-#QUICKFIX REQUIRED FOR A BETTER ACCURACY IN THE DATA
+#ADD THE LIST OF CARDS OF EACH DECK TO THE DATAFRAME
+for (i in 1:length(df$URL)){
+  #LIST OF MD CARDS
+  df$MD[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Mainboard
+  #LIST OF SB CARDS
+  df$SB[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Sideboard
+  #COMBINE BOTH LISTS WHILE SUMMING DUPLICATES
+  tempDl=merge(df$MD[i][[1]], df$SB[i][[1]], by="CardName", all = T)
+  tempDl[is.na(tempDl)] = 0
+  tempDl$Count=tempDl$Count.x+tempDl$Count.y
+  df$DL[i]=list(tempDl[c("CardName","Count")])
+  
+  df$MDCounts[i]=list(df$MD[i][[1]]$Count)
+  df$MDCards[i]=list(df$MD[i][[1]]$CardName)
+  
+  df$SBCounts[i]=list(df$SB[i][[1]]$Count)
+  df$SBCards[i]=list(df$SB[i][[1]]$CardName)
+  
+  df$DLCountsList[i]=list(df$DL[i][[1]]$Count)
+  df$DLCards[i]=list(df$DL[i][[1]]$CardName)
+}
+df$MD=NULL
+df$SB=NULL
+df$DL=NULL
+
+#POSSIBLE QUICKFIX FOR A BETTER ACCURACY IN THE DATA
 # for (i in 1:length(df$ARCHETYPE)){
 #   if(df$ARCHETYPE[i]=="Shadow Prowess"){
 #     df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
 #   }
 # }
-
 
 add_super_archetypes = function(df){
   
@@ -466,9 +488,6 @@ add_super_archetypes = function(df){
 #/!\ to be updated when you change data, at least check if there isn't any new archetype
 #ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
 
-df$SUPER_ARCH=df$ARCHETYPE
-
-
 #TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
 #df[grep("Bant Midrange", df$ARCHETYPE), ]$URL
 
@@ -491,4 +510,5 @@ if(Classification=="Super"){
 }else if(Classification=="Exact"){
   archetype_acc="ARCHETYPE"
 }
+
 
