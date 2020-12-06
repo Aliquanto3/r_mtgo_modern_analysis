@@ -11,6 +11,10 @@ DirectoryFile="D:\\MTG\\Meta analysis\\r_mtgo_modern_analysis\\MTGO_Data"
 #Requires restarting Data Treatment if updated
 RawFile="mtgo_data_2020_11_29.csv"
 
+#Path of the repertory containing the multiple subdirectories of the results
+#converted to JSON
+MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments/2020/11"
+
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
 Beginning="2020-11-01"

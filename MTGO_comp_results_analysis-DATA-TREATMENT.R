@@ -8,8 +8,7 @@
 #install.packages("tidyverse")
 #install.packages("data.table")
 #install.packages("purrr")
-#install.packages("rjson")
-#install.packages("RJSONIO")
+#install.packages("jsonify")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
@@ -17,8 +16,7 @@ library(jsonlite)
 library(tidyverse)
 library(data.table)
 library(purrr)
-library(rjson)
-library(RJSONIO)
+library(jsonify)
 
 #LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
 generate_archetype_list = function(df){
