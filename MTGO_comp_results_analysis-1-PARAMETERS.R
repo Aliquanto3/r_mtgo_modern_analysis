@@ -1,3 +1,7 @@
+#1st file to execute
+#Contains the parameters of the programs, such as the files to be used, the
+#period to cover, the type of events, how to aggregate results in graphics...
+
 ###############################################################################
 #PARAMETERS - CHANGE THEM TO ANALYSE DIFFERENT DATA SETS AND ARCHETYPES, OR
 #TUNE THE METRICS. YOU CAN ALSO UPDATE THEM IN THE CONSOLE AFTER RUNNING THE
@@ -5,15 +9,16 @@
 
 #Directory of the file
 #Requires restarting Data Treatment if updated
-DirectoryFile="D:\\MTG\\Meta analysis\\r_mtgo_modern_analysis\\MTGO_Data"
+DirectoryFile="D:/MTG/Meta analysis/r_mtgo_modern_analysis/MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2020_11_29.csv"
+RawFile="mtgo_data_2020_12_13.csv"
 
 #Path of the repertory containing the multiple subdirectories of the results
 #converted to JSON
-MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments/2020/11"
+#Repertory of the data imported from: https://github.com/Badaro/MTGODecklistCache 
+MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
@@ -50,6 +55,5 @@ Presence_Weight=1
 
 #WEIGHT OF THE METRICS AVERAGE FOR THE COMPILATION REQUIRED FOR RANKING
 PPR_Weight=1
-
 
 ###############################################################################

@@ -1,3 +1,7 @@
+#2nd file to execute
+#Imports all the archetypes that appeared in MTGO results in a specific period
+#on specific events, and add another layer of archetypes if needed
+
 #Execute this file whenever you update a parameter that tells you to do so
 
 #DATA SHARED BY PHELPS-SAN @ TRON DISCORD, HIS WORK CAN BE FOUND HERE:
@@ -40,7 +44,18 @@ generate_Prelim_Data = function() {
   PrelimData=periodData[grep("Preliminary", periodData$EVENT), ]
   #View(PrelimData) 
   
-  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE PRELIMINARIES - ALWAYS 5
+  for (i in 1:length(PrelimData)){
+    if (PrelimData$RESULT[i]=="5-0" | PrelimData$RESULT[i]=="4-1" | 
+        PrelimData$RESULT[i]=="3-2"){
+      #before prelim structure changes
+      PrelimData$NB_ROUNDS[i]=5
+    }else if (PrelimData$RESULT[i]=="4-0" | PrelimData$RESULT[i]=="3-1"){
+      #after prelim structure changes
+      PrelimData$NB_ROUNDS[i]=4
+    }
+  }
+  
+  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE PRELIMINARIES
   nbRoundsVecPrelim=rep(5,length(PrelimData$EVENT))
   PrelimData$NB_ROUNDS=nbRoundsVecPrelim
   #View(PrelimData)
@@ -52,7 +67,7 @@ generate_Prelim_Data = function() {
   if(EventType=="Competitions"){
     #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
     PrelimData$TOP8_PTS=rep(0,length(PrelimData$POINTS))
-    PrelimData$TOP8_DEF=PrelimData$NB_DEFEATS
+    PrelimData$TOP8_DEF=rep(0,length(PrelimData$NB_DEFEATS))
     PrelimData$TOP8_MATCHES=rep(0,length(PrelimData$NB_ROUNDS))
   }
   
@@ -64,7 +79,6 @@ generate_Challenge_Data = function() {
   
   #COLLECT CHALLENGES ONLY FOR SPECIFIC TREATMENT
   ChallData=periodData[grep("Challenge", periodData$EVENT), ]
-  #View(ChallData)                                   
   
   #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE CHALLENGES
   #DIVIDE THE MAXIMUM NUMBER OF POINTS IN SWISS TO GET THE RESULT
@@ -85,7 +99,6 @@ generate_Challenge_Data = function() {
     nbRoundsVec=c(nbRoundsVec,nbRoundsEvent)
   }
   ChallData$NB_ROUNDS=nbRoundsVec
-  #View(ChallData)
   
   #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN CHALLENGES - 
   #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
@@ -98,16 +111,16 @@ generate_Challenge_Data = function() {
       ChallData$TOP8_PTS[i] = 9
     }else if (ChallData$RESULT[i] == "2nd Place"){
       ChallData$TOP8_PTS[i] = 6
-    }else if (ChallData$RESULT[i] == "3rd Place" | ChallData$RESULT[i] == "4th Place"){
+    }else if (ChallData$RESULT[i] == "3rd Place" | 
+              ChallData$RESULT[i] == "4th Place"){
       ChallData$TOP8_PTS[i] = 3
     }
   }
-  #View(ChallData)
   
   #ADD TOP8 DEFEATS: 0 FOR THE WINNER, 1 FOR THE OTHERS
   ChallData$TOP8_DEF=ChallData$NB_DEFEATS
   for (i in 1:length(ChallData$TOP8_DEF)){
-    if (ChallData$RESULT[i] == "2nd Place" | ChallData$RESULT[i] == "3rd Place" | 
+    if (ChallData$RESULT[i] == "2nd Place" | ChallData$RESULT[i] == "3rd Place"| 
         ChallData$RESULT[i] == "4th Place" | ChallData$RESULT[i] == "5th Place"| 
         ChallData$RESULT[i] == "6th Place" | ChallData$RESULT[i] == "7th Place"| 
         ChallData$RESULT[i] == "8th Place"){
@@ -117,12 +130,16 @@ generate_Challenge_Data = function() {
   
   ChallData$TOP8_MATCHES=rep(0,length(ChallData$TOP8_PTS))
   for (i in 1:length(ChallData$TOP8_MATCHES)){
-    if (ChallData$RESULT[i] == "1st Place" | ChallData$RESULT[i] == "2nd Place"){
+    if (ChallData$RESULT[i] == "1st Place" | 
+        ChallData$RESULT[i] == "2nd Place"){
       ChallData$TOP8_MATCHES[i] = 3
-    }else if (ChallData$RESULT[i] == "3rd Place" | ChallData$RESULT[i] == "4th Place"){
+    }else if (ChallData$RESULT[i] == "3rd Place" | 
+              ChallData$RESULT[i] == "4th Place"){
       ChallData$TOP8_MATCHES[i] = 2 
-    }else if (ChallData$RESULT[i] == "5th Place"| ChallData$RESULT[i] == "6th Place" | 
-              ChallData$RESULT[i] == "7th Place"| ChallData$RESULT[i] == "8th Place"){
+    }else if (ChallData$RESULT[i] == "5th Place"| 
+              ChallData$RESULT[i] == "6th Place" | 
+              ChallData$RESULT[i] == "7th Place"| 
+              ChallData$RESULT[i] == "8th Place"){
       ChallData$TOP8_MATCHES[i] = 1 
     }
   }
@@ -147,31 +164,6 @@ if (EventType=="Competitions"){
   df=generate_Prelim_Data()
 }
 
-#ADD THE LIST OF CARDS OF EACH DECK TO THE DATAFRAME
-for (i in 1:length(df$URL)){
-  #LIST OF MD CARDS
-  df$MD[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Mainboard
-  #LIST OF SB CARDS
-  df$SB[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Sideboard
-  #COMBINE BOTH LISTS WHILE SUMMING DUPLICATES
-  tempDl=merge(df$MD[i][[1]], df$SB[i][[1]], by="CardName", all = T)
-  tempDl[is.na(tempDl)] = 0
-  tempDl$Count=tempDl$Count.x+tempDl$Count.y
-  df$DL[i]=list(tempDl[c("CardName","Count")])
-  
-  df$MDCounts[i]=list(df$MD[i][[1]]$Count)
-  df$MDCards[i]=list(df$MD[i][[1]]$CardName)
-  
-  df$SBCounts[i]=list(df$SB[i][[1]]$Count)
-  df$SBCards[i]=list(df$SB[i][[1]]$CardName)
-  
-  df$DLCountsList[i]=list(df$DL[i][[1]]$Count)
-  df$DLCards[i]=list(df$DL[i][[1]]$CardName)
-}
-df$MD=NULL
-df$SB=NULL
-df$DL=NULL
-
 #POSSIBLE QUICKFIX FOR A BETTER ACCURACY IN THE DATA
 # for (i in 1:length(df$ARCHETYPE)){
 #   if(df$ARCHETYPE[i]=="Shadow Prowess"){
@@ -181,7 +173,7 @@ df$DL=NULL
 
 add_super_archetypes = function(df){
   
-  for (i in 1:length(df$SUPER_ARCH)){
+  for (i in 1:length(df$ARCHETYPE)){
     if(df$ARCHETYPE[i]=="WURG Control" | 
        df$ARCHETYPE[i]=="Bant Midrange"| 
        df$ARCHETYPE[i]=="Scapeshift"| 
@@ -485,7 +477,10 @@ add_super_archetypes = function(df){
   
 }
 
-#/!\ to be updated when you change data, at least check if there isn't any new archetype
+#/!\ to be updated when you change data, at least check if there isn't any new 
+#archetype that should be considered - worst case the simple archetype name is
+#reused
+
 #ADD SUPER ARCHETYPES DEPENDING ON EXACT ARCHETYPE
 
 #TO SEE WHICH DECKLISTS CORRESPONDS TO A LABEL, FOR INSTANCE "Bant Midrange"
@@ -503,12 +498,4 @@ df=add_super_archetypes(df)
 #unique(df[grep("UGx Control", df$SUPER_ARCH), ]$ARCHETYPE)
 
 #WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
-
-archetype_acc=NA
-if(Classification=="Super"){
-  archetype_acc="SUPER_ARCH"
-}else if(Classification=="Exact"){
-  archetype_acc="ARCHETYPE"
-}
-
 

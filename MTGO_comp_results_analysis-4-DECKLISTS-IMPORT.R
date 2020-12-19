@@ -1,17 +1,29 @@
-library(jsonify)
+#4th file to execute
+#Import the decklists of all events in the chosen period
 
 #CREATE DF TO CONTAIN THE LIST OF PLAYED CARDS: OVERALL, MD AND SB
 ModernDataGetter = function(){
   
-  ModernResultsPaths=dir(MTGODataPath, 
-                         recursive=TRUE, full.names=TRUE, pattern=
-                           "modern-[^league].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json")
+  DaysList=seq(as.Date(Beginning), as.Date(End), by="days")
   
-  ModernResults=jsonlite::fromJSON(ModernResultsPaths[1])$Deck
+  ModernResultsPaths=c()
+  
+  for (i in 1:length(DaysList)){
+    yeari=substr(x = DaysList[i], start = 1, stop = 4)
+    monthi=substr(x = DaysList[i], start = 6, stop = 7)
+    dayi=substr(x = DaysList[i], start = 9, stop = 10)
+    MTGODataPathDate=paste(MTGODataPath,yeari,monthi,dayi,sep = "/")
+    ModernResultsPaths=c(ModernResultsPaths,dir(MTGODataPathDate, 
+                           recursive=TRUE, full.names=TRUE, pattern=
+                             "modern-[^league].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"))
+  }
+  
+  ModernResults=data.frame()
+  #IMPORT ALL THE DECKS DATA FROM EACH EVENT FOR EACH DATE
   #THE IMPORTANT DATA IS CONTAINED IN $Deck, USING ONLY IT MAKES THE MANIPULATION 
   #MUCH EASIER
   #jsonlite APPEARS AS THE BEST LIBRARY FOR THE IMPORT HERE (BETTER NAMES AND RBIND)
-  for (i in 2:length(ModernResultsPaths)){
+  for (i in 1:length(ModernResultsPaths)){
     ModernResults=rbind(ModernResults, jsonlite::fromJSON(ModernResultsPaths[i])$Deck)
   }
   
@@ -43,12 +55,45 @@ ModernDataGetter = function(){
               All = ModernAllResults))
 }
 
+#CAN TAKE SOME TIME TO EXECUTE, LEAVE IT A MINUTE OR TWO EVENTUALLY
 ModernData=ModernDataGetter()
 
-specify_decimal = function(x, k) trimws(format(round(x, k), nsmall=k))
+#ADD THE DECKLISTS OF EACH DECK TO THE MAIN DATAFRAME
+DecklistsAdd = function(ModernData,df){
+  for (i in 1:length(df$URL)){
+    #LIST OF MD CARDS
+    df$MD_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Mainboard
+    #LIST OF SB CARDS
+    df$SB_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Sideboard
+    #COMBINE BOTH LISTS WHILE SUMMING DUPLICATES
+    tempDl=merge(df$MD_TEMP[i][[1]], df$SB_TEMP[i][[1]], by="CardName", all = T)
+    tempDl[is.na(tempDl)] = 0
+    tempDl$Count=tempDl$Count.x+tempDl$Count.y
+    df$DL_TEMP[i]=list(tempDl[c("CardName","Count")])
+    
+    df$MDCounts[i]=list(df$MD_TEMP[i][[1]]$Count)
+    df$MDCards[i]=list(df$MD_TEMP[i][[1]]$CardName)
+    
+    df$SBCounts[i]=list(df$SB_TEMP[i][[1]]$Count)
+    df$SBCards[i]=list(df$SB_TEMP[i][[1]]$CardName)
+    
+    df$DLCountsList[i]=list(df$DL_TEMP[i][[1]]$Count)
+    df$DLCards[i]=list(df$DL_TEMP[i][[1]]$CardName)
+  }
+  #THE 3 COLUMNS BELOW WERE USED AS TEMPORARY SAVING SPACES
+  df$MD_TEMP=NULL
+  df$SB_TEMP=NULL
+  df$DL_TEMP=NULL
+  
+  return(df)
+}
+
+df=DecklistsAdd(ModernData,df)
 
 #ModernCardsList = dataframe containing the list of cards you want to analyse
 #board = "All","MD or "SB
+#returns a dataframe containing statistics for each card in the data: names, 
+#number of copies per deck/overall/on average, number of decks, presence  
 ModernCardsStatsGetter = function(ModernCardsList,board){
   
   #GET THE NAMES OF EACH DIFFERENT CARD
@@ -77,48 +122,26 @@ ModernCardsStatsGetter = function(ModernCardsList,board){
   NbTotalCards=sum(ModernCards$CardCount)
   
   #GET THE % PRESENCE OF EACH CARD OUT OF ALL THE CARDS PLAYED
-  ModernCards$CardCountOutTotalCards=as.numeric(specify_decimal(
-    ModernCards$CardCount*100/NbTotalCards,2))
+  ModernCards$CardCountOutTotalCards=as.numeric(format(round(
+    ModernCards$CardCount*100/NbTotalCards,1), nsmall = 1))
   
   #TOTAL NUMBER OF DECKS PLAYED IN THE EVENTS
   NbTotalDecks=length(ModernCardsList$Raw$AnchorUri)
   
   #GET THE % OF DECKS PLAYING EACH CARD
-  ModernCards$DeckCountOutTotalDecks=as.numeric(specify_decimal(
-    ModernCards$DeckCount*100/NbTotalDecks,2))
+  ModernCards$DeckCountOutTotalDecks=as.numeric(format(round(
+    ModernCards$DeckCount*100/NbTotalDecks,1), nsmall = 1))
   
   #GET THE AVERAGE NUMBER OF COPIES OF EACH CARD
-  ModernCards$AverageCopies=as.numeric(specify_decimal(
-    ModernCards$CardCount/ModernDecksCounts,2))
+  ModernCards$AverageCopies=as.numeric(format(round(
+    ModernCards$CardCount/ModernDecksCounts,1), nsmall = 1))
   
   return(ModernCards)
 }
 
-#DATA FROM: https://mtgjson.com/downloads/all-files/
-setwd(DirectoryFile)
-cardData=read.csv("cards.csv",sep=",",header=T)
-#View(cardData)
-names(cardData)
-cardDataSub=subset(cardData,select=c(colors,convertedManaCost,faceName,layout,
-                                     manaCost,name,setCode,subtypes,supertypes,
-                                     type,types))
-names(cardDataSub)
-# unique(cardDataSub$type)
-# unique(cardDataSub$types)
-# unique(cardDataSub$subtypes)
-# unique(cardDataSub$supertypes)
-# unique(cardDataSub$setCode)
-
-#SELECT FIRST LINE CONTAINING THE NAME OF A CARD - EXAMPLE: "Lightning Bolt
-boltData0=cardDataSub[cardDataSub$name=="Lightning Bolt",]
-boltData=t(cardDataSub[grep("Lightning Bolt", cardDataSub$name),])[
-  1:length(names(cardDataSub))]
-mode(boltData0)
-
-#TO BE USED FOR DFC
-# if (card.layout == "transform" | card.layout == "flip" | 
-#     card.layout == "adventure" | card.layout == "meld" | card.layout == "modal_dfc") {
-#   cardName = card.faceName
-# }else{
-#   cardName = card.name;
-# }
+#STATS OF CARDS OVERALL
+ModernCardsStats=ModernCardsStatsGetter(ModernData,"All")
+#STATS OF MD CARDS
+ModernMDStats=ModernCardsStatsGetter(ModernData,"MD")
+#STATS OF SB CARDS
+ModernSBStats=ModernCardsStatsGetter(ModernData,"SB")

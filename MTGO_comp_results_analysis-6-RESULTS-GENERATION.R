@@ -1,14 +1,21 @@
+#untested
 ################################################################################
 #USE THE METHODS BELOW TO GENERATE THE GRAPHS AND RESULTS YOU LOOK FOR
 
+#NUMBER OF DECKS IN THE DATA
 length(df$ARCHETYPE)
 
+#NUMBER OF DIFFERENT EXACT ARCHETYPES IN THE DATA
 length(unique(df$ARCHETYPE))
+#LIST OF DIFFERENT EXACT ARCHETYPES IN THE DATA
 unique(df$ARCHETYPE)
 
+#NUMBER OF DIFFERENT SUPER ARCHETYPES IN THE DATA
 length(unique(df$SUPER_ARCH))
+#LIST OF DIFFERENT SUPER ARCHETYPES IN THE DATA
 unique(df$SUPER_ARCH)
 
+#TOTAL NUMBER OF ROUNDS PLAYED IN THE DATA, INCLUDING TOP8 MATCHES
 sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES)
 
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
@@ -19,43 +26,40 @@ metagame_box_plot(df)
 
 ################################################################################
 #COUNT THE NUMBER OF POINTS PER ROUND
-ppr_df=points_per_round(df)
-ppr_df
-ppr_plot=metric_graph(ppr_df, "Points per round in Swiss & Top8")
+ppr_plot=metric_graph(metric_df)
 ppr_plot
-ppr_ranked=archetypes_ranking(ppr_df)
 ################################################################################
 
-print(subset(ppr_ranked,select = c(RANK,ARCHETYPES)), row.names = FALSE)
-print(subset(ppr_ranked,select = c(ARCHETYPES)), row.names = FALSE)
-#View(subset(ppr_ranked,select = c(ARCHETYPES,RANK,COMB_PPR)))
-ppr_ranked$ARCHETYPES
+print(subset(arch_ranked,select = c(RANK,ARCHETYPES)), row.names = FALSE)
+print(subset(arch_ranked,select = c(ARCHETYPES)), row.names = FALSE)
+#View(subset(arch_ranked,select = c(ARCHETYPES,RANK,COMB_PPR)))
+arch_ranked$ARCHETYPES
 
 #FIND THE URL OF AN ARCHETYPE - ex "Azorius Control"
-df[grep("WBR Shadow", df$ARCHETYPE),]$URL
+df[grep("Stoneblade", df$ARCHETYPE),]$URL
 #FIND THE NUMBER OF DIFFERENT PILOTES OF AN ARCHETYPE - ex "Azorius Control"
 length(unique(df[grep("Hammer Time", df$ARCHETYPE),]$PLAYER))
 #NUMBER OF COPIES OF AN ARCHETYPE IN THE DATA
 length(df[grep("Hammer Time", df$ARCHETYPE),]$URL)
 
 #FIND THE RANK OF A DECK - EX: "Sultai Control"
-ppr_ranked[grep("Tron", ppr_ranked$ARCHETYPES), ]
+arch_ranked[grep("Tron", arch_ranked$ARCHETYPES), ]
 
 #MEAN
-ppr_m=mean(ppr_ranked$COMB_PPR)
+ppr_m=mean(arch_ranked$COMB_PPR)
 
 #STANDARD DEVIATION
-ppr_sd=sd(ppr_ranked$COMB_PPR)
+ppr_sd=sd(arch_ranked$COMB_PPR)
 
 #DISPLAYS EACH ARCHETYPE ABOVE THE AVERAGE + X * STANDARD DEVIATION
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+0.5*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+1*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+1.5*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+2*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+2.5*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+3*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+3.5*ppr_sd,]$ARCHETYPES
-ppr_ranked[ppr_ranked$COMB_PPR>ppr_m+4*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+0.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+1*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+1.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+2*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+2.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+3*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+3.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$COMB_PPR>ppr_m+4*ppr_sd,]$ARCHETYPES
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
@@ -66,7 +70,7 @@ graph_title=paste("Rank of each archetype ", "between", Beginning, "and", End,
                   "in MTGO", EventType, "based on points per round",sep = " ")
 graph_subtitle="Separated by mean + n standard deviations (n={0,1,2,3,4})"
 
-ggplot(ppr_ranked, aes(x=RANK, y=COMB_PPR)) + theme_classic() + geom_point() + 
+ggplot(arch_ranked, aes(x=RANK, y=COMB_PPR)) + theme_classic() + geom_point() + 
   geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)+ 
   labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle)+
   geom_abline(intercept = ppr_m, slope = 0, 
@@ -84,7 +88,7 @@ ggplot(ppr_ranked, aes(x=RANK, y=COMB_PPR)) + theme_classic() + geom_point() +
 ################################################################################
 #GET ONLY THE DECKS APPEARING THE MOST IN THE DATA
 nb_copies_min=10
-ppr_most_played=ppr_ranked[ppr_ranked$NB_COPIES>=nb_copies_min,]
+ppr_most_played=arch_ranked[arch_ranked$NB_COPIES>=nb_copies_min,]
 ppr_most_played$WINRATE=ppr_most_played$PPR_AVERAGE/3
 ppr_most_played = ppr_most_played[order(-ppr_most_played$PPR_AVERAGE),]
 ppr_most_played
@@ -115,27 +119,27 @@ ggplot(ppr_most_played, aes(x=WIN_AVERAGE_RANK, y=PPR_AVERAGE/3)) + theme_classi
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
-ppr_ranked$ARCHETYPES = reorder(ppr_ranked$ARCHETYPES, 
-                                as.numeric(ppr_ranked$PPR_AVERAGE))
+arch_ranked$ARCHETYPES = reorder(arch_ranked$ARCHETYPES, 
+                                as.numeric(arch_ranked$PPR_AVERAGE))
 y_label_full_winrate="Winrates and confidence intervals"
 graph_title_full_winrate=paste("Winrate of each archetype between", Beginning, 
                                "and", End, "in MTGO",  EventType,sep = " ")
 graph_subtitle_full_winrate="Red line for the average winrate of those archetypes 
 combined"
 
-ggplot(ppr_ranked, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
+ggplot(arch_ranked, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
   geom_point(size=4) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
   labs(y=y_label_full_winrate, title=graph_title_full_winrate, 
        subtitle=graph_subtitle_full_winrate) + 
   geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
-  geom_hline(yintercept = mean(ppr_ranked$PPR_AVERAGE), color="red", 
+  geom_hline(yintercept = mean(arch_ranked$PPR_AVERAGE), color="red", 
              linetype="dashed", size=1.5)
  
 #SAME FOR ONLY CI UNDER A DETERMINED LENGTH
 #specify_decimal = function(x, k) trimws(format(round(x, k), nsmall=k))
 
 CI_length=0.3
-df_small_CI = ppr_ranked[ppr_ranked$PPR_95_MAX-ppr_ranked$PPR_95_MIN<CI_length,]
+df_small_CI = arch_ranked[arch_ranked$PPR_95_MAX-arch_ranked$PPR_95_MIN<CI_length,]
 df_small_CI$PPR_95_MAX=as.numeric(specify_decimal(df_small_CI$PPR_95_MAX,3))
 df_small_CI$PPR_AVERAGE=as.numeric(specify_decimal(df_small_CI$PPR_AVERAGE,3))
 df_small_CI$PPR_95_MIN=as.numeric(specify_decimal(df_small_CI$PPR_95_MIN,3))
@@ -177,12 +181,7 @@ ggplot(df_small_CI, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
 #   }
 # }
 
-#STATS OF CARDS OVERALL
-ModernCardsStats=ModernCardsStatsGetter(ModernData,"All")
-#STATS OF MD CARDS
-ModernMDStats=ModernCardsStatsGetter(ModernData,"MD")
-#STATS OF SB CARDS
-ModernSBStats=ModernCardsStatsGetter(ModernData,"SB")
+
 
 #NUMBER OF DIFFERENT CARDS OVERALL
 length(ModernCardsStats$CardNames)
@@ -196,7 +195,7 @@ length(intersect(ModernMDStats$CardNames,ModernSBStats$CardNames))
 #intersect(ModernMDStats$CardNames,ModernSBStats$CardNames)
 
 #DATA FOR A SPECIFIC CARD OVERALL - FOR INSTANCE, "Aether Gust"
-ModernCardsStats[ModernCardsStats$CardNames=="Aether Gust",]
+ModernCardsStats[ModernCardsStats$CardNames=="Uro, Titan of Nature's Wrath",]
 #DATA FOR A SPECIFIC CARD IN MD - FOR INSTANCE, "Aether Gust"
 ModernMDStats[ModernMDStats$CardNames=="Aether Gust",]
 #DATA FOR A SPECIFIC CARD IN SB - FOR INSTANCE, "Aether Gust"
@@ -215,9 +214,12 @@ head(ModernCardsStats)
 head(ModernCardsStats$CardNames)
 
 #GET THE RANK OF A CARD IN THE DATA AFTER A CHOSEN SORTING ABOVE  
-CardNameToTest="Island"
+CardNameToTest="Wilderness Reclamation"
 which(ModernCardsStats$CardNames==CardNameToTest)
 ModernCardsStats[which(ModernCardsStats$CardNames==CardNameToTest),]
+
+df[grep("Wilderness Reclamation",df$DLCards),]$URL
+names(df)
 
 #GET THE DECKLIST OF A DECK BASED ON ITS URI/L
 RawResults=ModernData$Raw
@@ -271,14 +273,15 @@ print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,PPR_AVERAGE )),
       row.names = FALSE)
 
 #SAME BUT ONLY FOR CARDS WITH A SMALL CI ON THE WINRATE
-df_small_CI = CardResults[CardResults$PPR_95_MAX-CardResults$PPR_95_MIN<0.2,]
+df_small_CI = CardResults[CardResults$PPR_95_MAX-CardResults$PPR_95_MIN<0.1,]
 length(df_small_CI$CardNames)
 df_small_CI = df_small_CI[order(df_small_CI$PPR_AVERAGE),]
+df_small_CI = df_small_CI[order(-df_small_CI$PPR_AVERAGE),]
 print(subset(df_small_CI[1:50,],select = c(CardNames,CardMatches,PPR_AVERAGE )), 
       row.names = FALSE)
 
 #INSTEAD WE TAKE THE LOWER BORN OF THE WINRATE CONFIDENCE INTERVAL NOW
-CardResults = CardResults[order(CardResults$PPR_95_MIN),]
+CardResults = CardResults[order(-CardResults$PPR_95_MIN),]
 print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,PPR_95_MIN )), 
       row.names = FALSE)
 
@@ -291,7 +294,7 @@ min(CardResults$PPR_AVERAGE)
 
 
 #DISPLAY THE CI OF WINRATES FOR EACH CARD WITH A SMALL CI
-CI_length=0.07
+CI_length=0.05
 df_small_CI = CardResults[CardResults$PPR_95_MAX-CardResults$PPR_95_MIN<CI_length,]
 length(df_small_CI$CardNames)
 df_small_CI$PPR_95_MAX=as.numeric(specify_decimal(df_small_CI$PPR_95_MAX,3))
@@ -311,7 +314,7 @@ average CI of those cards combined"
 ggplot(df_small_CI, aes(x=CardNames, y=PPR_AVERAGE)) + theme_classic() +
   geom_point(size=1) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
   labs(y=y_label_small_CI, title=graph_title_small_CI, 
-       subtitle=graph_subtitle_small_CI) + ylim(0,1) +
+       subtitle=graph_subtitle_small_CI) + #ylim(0,1) +
   geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
   geom_hline(yintercept = mean(df_small_CI$PPR_AVERAGE), color="green", 
              linetype="dashed", size=1.5)+
