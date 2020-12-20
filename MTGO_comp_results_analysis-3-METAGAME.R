@@ -7,6 +7,7 @@
 #Execute this file only once, unless you directly edit it, it doesn't treat data
 #only provides some functions to analyse it
 
+################################################################################
 #LIBRARIES
 #install.packages("ggplot2")
 #install.packages("dplyr")
@@ -26,6 +27,7 @@ library(data.table)
 library(purrr)
 library(jsonify)
 library(plyr)
+################################################################################
 
 #VARIABLE FOR THE ACCURACY ON THE NAMING OF THE ARCHETYPES
 #PROVIDES THE NAME OF THE COLUMN OF THE DATAFRAME TO BE USED
@@ -189,13 +191,13 @@ Circle diameters depending on",diameters,"\nby Anaël Yahi",sep=" ")
   
   if (diameters=="Copies"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES/2,show.legend = FALSE)
   }else if (diameters=="Players"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_PLAYERS)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_PLAYERS/2,show.legend = FALSE)
   }else if (diameters=="Matches"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$TOTAL_NB_MATCHES)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$TOTAL_NB_MATCHES/2,show.legend = FALSE)
   }
   
   metric_plot=metric_plot + coord_cartesian() + theme_bw() + 
@@ -262,9 +264,9 @@ metric_df=metric_points_archetypes(df)
 #THE NEW METRIC OBTAINED THAT WAY IS NORMALIZED TO BE BETWEEN 0 AND 1
 archetypes_ranking = function(metric_df){
   
-  metric_df$COMB_PPR=metric_df$WINRATE_AVERAGE
-  for (i in 1:length(metric_df$COMB_PPR)){
-    metric_df$COMB_PPR[i] = 
+  metric_df$METRIC_COMB=metric_df$WINRATE_AVERAGE
+  for (i in 1:length(metric_df$METRIC_COMB)){
+    metric_df$METRIC_COMB[i] = 
       (Presence_Weight * (metric_df$NB_COPIES[i]-min(metric_df$NB_COPIES)) /
       max(metric_df$NB_COPIES) +
       (PPR_Weight * metric_df$WINRATE_AVERAGE[i]-min(metric_df$WINRATE_AVERAGE)) /
@@ -272,9 +274,9 @@ archetypes_ranking = function(metric_df){
         (Presence_Weight+PPR_Weight)
   }
   
-  metric_df = metric_df[order(-metric_df$COMB_PPR),]
+  metric_df = metric_df[order(-metric_df$METRIC_COMB),]
   
-  metric_df$RANK=metric_df$COMB_PPR
+  metric_df$RANK=metric_df$METRIC_COMB
   for (i in 1:length(metric_df$RANK)){
     metric_df$RANK[i]=i
   }
@@ -317,7 +319,9 @@ winrates_graph = function(df,arch_ranked,presence){
     geom_text_repel(aes(label=format(round(WINRATE_AVERAGE*100,1), nsmall = 1)),
                     hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
     labs(x=NULL, y=y_label_winrate, title=graph_title_winrate,
-         subtitle="by Anaël Yahi")+
+         subtitle="Red lines for the average of the borns of the CI
+Green line for the average of the computed winrate
+by Anaël Yahi")+
     geom_errorbar(aes(ymax = WINRATE_95_MAX*100, ymin = WINRATE_95_MIN*100)) + 
     geom_hline(yintercept = mean(arch_most_played$WINRATE_AVERAGE*100), 
                color="green", linetype="dashed", size=0.5)+ 
@@ -325,4 +329,70 @@ winrates_graph = function(df,arch_ranked,presence){
                color="red", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = mean(arch_most_played$WINRATE_95_MAX*100), 
                color="red", linetype="dashed", size=0.5)
+}
+
+#PLOT THE REPARTITION FOR THE LINEAR COMBINATION OF THE PRESENCE AND WINRATES
+#FOR THE MOST POPULAR ARCHETYPES
+#PRESENCE: NUMBER OF MATCHES
+linear_comb_graph = function(df,arch_ranked){
+  
+  presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
+  arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
+  
+  meanData=mean(arch_ranked_sub_2$METRIC_COMB*100)
+  sdData=sd(arch_ranked_sub_2$METRIC_COMB*100)
+  meanPlusSd=meanData+sdData
+  meanMinusSd=meanData-sdData
+  
+  arch_ranked_sub_2$ARCHETYPES=reorder(arch_ranked_sub_2$ARCHETYPES,arch_ranked_sub_2$METRIC_COMB)
+  
+  titleLinearComb=paste("Linear combination of the metrics for the most popular archetypes
+At least ",HistShare,"% of presence
+Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
+  
+  ggplot(arch_ranked_sub_2, aes(x=ARCHETYPES, y=METRIC_COMB*100)) + 
+    theme_classic() + geom_point(size=2,color="blue") +  
+    geom_text_repel(aes(label=format(round(METRIC_COMB*100,1), nsmall = 1)),
+                    hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
+    labs(x=NULL, y=y_label_winrate, title=titleLinearComb,
+         subtitle="Green line for the average of the metrics linear combination
+Red lines for the average +/- a standard deviation
+by Anaël Yahi")+
+    geom_hline(yintercept = meanData, color="green", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5)
+  
+}
+
+#PLOT THE REPARTITION FOR THE LINEAR COMBINATION OF THE PRESENCE AND WINRATES
+#FOR THE MOST POPULAR ARCHETYPES
+#PRESENCE: NUMBER OF MATCHES
+lower_born_ci_winrate_graph = function(df,arch_ranked){
+  
+  presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
+  arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
+  
+  meanData=mean(arch_ranked_sub_2$WINRATE_95_MIN*100)
+  sdData=sd(arch_ranked_sub_2$WINRATE_95_MIN*100)
+  meanPlusSd=meanData+sdData
+  meanMinusSd=meanData-sdData
+  
+  arch_ranked_sub_2$ARCHETYPES=reorder(arch_ranked_sub_2$ARCHETYPES,arch_ranked_sub_2$WINRATE_95_MIN)
+  
+  titleLinearComb=paste("Lower born of the confidence intervals for the winrates of the most popular decks
+At least ",HistShare,"% of presence
+Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
+  
+  ggplot(arch_ranked_sub_2, aes(x=ARCHETYPES, y=WINRATE_95_MIN*100)) + 
+    theme_classic() + geom_point(size=2,color="blue") +  
+    geom_text_repel(aes(label=format(round(WINRATE_95_MIN*100,1), nsmall = 1)),
+                    hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
+    labs(x=NULL, y=y_label_winrate, title=titleLinearComb,
+         subtitle="Green line for the average of the lower estimation of winrates
+Red lines for the average +/- a standard deviation
+by Anaël Yahi")+
+    geom_hline(yintercept = meanData, color="green", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5)
+  
 }

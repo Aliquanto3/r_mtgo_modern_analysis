@@ -21,7 +21,7 @@ sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES)
 #AVERAGE NUMBER OF ROUNDS
 (sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))/length(df$ARCHETYPE)
 
-#IV.1.A - Indicateur 1 : présence de chaque archétype
+# IV.1.A - Indicateur 1 : présence de chaque archétype
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
 PieShare=2.5
 metagame_pie_chart(df,"Players")
@@ -33,11 +33,54 @@ metagame_pie_chart(df,"Matches")
 metagame_box_plot(df,"Matches")
 
 
-#IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
+# IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
 winrates_graph(df,arch_ranked,"Matches")
 
 #IV.2 – Analyse de la combinaison des indicateurs
-cor.test(metric_df$WINRATE_AVERAGE,metric_df$TOTAL_NB_MATCHES,method="pearson")
+corIndicateurs=cor.test(metric_df$WINRATE_AVERAGE,metric_df$TOTAL_NB_MATCHES/
+           max(metric_df$TOTAL_NB_MATCHES),method="pearson")
+corIndicateurs
+
+regIndicateurs=lm(WINRATE_AVERAGE~TOTAL_NB_MATCHES, data=metric_df)
+summary(reg)
+plot(regIndicateurs)
+
+ggplot(metric_df, aes(x=WINRATE_AVERAGE, y=TOTAL_NB_MATCHES)) + 
+  theme_classic() + geom_point(size=2,color="blue")
+
+length(metric_df$WINRATE_AVERAGE)
+
+# IV.2.A - Compilation 1 : analyse graphique
+metric_graph(metric_df,"Matches","Players")
+
+# IV.2.B - Compilation 2 : combinaison linéaire des indicateurs
+PPR_Weight=1
+arch_ranked=archetypes_ranking(metric_df)
+linear_comb_graph(df,arch_ranked)
+
+PPR_Weight=2
+arch_ranked=archetypes_ranking(metric_df)
+linear_comb_graph(df,arch_ranked)
+
+PPR_Weight=4
+arch_ranked=archetypes_ranking(metric_df)
+linear_comb_graph(df,arch_ranked)
+
+# IV.2.C - Compilation 3 : la borne inférieure de l’intervalle de confiance sur 
+#les winrates
+lower_born_ci_winrate_graph(df,arch_ranked)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -46,14 +89,22 @@ cor.test(metric_df$WINRATE_AVERAGE,metric_df$TOTAL_NB_MATCHES,method="pearson")
 
 
 ################################################################################
+
+
+
+#DRAFT CODE, DO NOT TAKE THIS INTO ACCOUNT, ONLY USED FOR TESTING
+
+
+
+################################################################################
+
 #COUNT THE NUMBER OF POINTS PER ROUND
 ppr_plot=metric_graph(metric_df,"Matches","Players")
 ppr_plot
-################################################################################
 
 print(subset(arch_ranked,select = c(RANK,ARCHETYPES)), row.names = FALSE)
 print(subset(arch_ranked,select = c(ARCHETYPES)), row.names = FALSE)
-#View(subset(arch_ranked,select = c(ARCHETYPES,RANK,COMB_PPR)))
+#View(subset(arch_ranked,select = c(ARCHETYPES,RANK,METRIC_COMB)))
 arch_ranked$ARCHETYPES
 
 #FIND THE URL OF AN ARCHETYPE - ex "Azorius Control"
@@ -67,20 +118,20 @@ length(df[grep("Hammer Time", df$ARCHETYPE),]$URL)
 arch_ranked[grep("Tron", arch_ranked$ARCHETYPES), ]
 
 #MEAN
-ppr_m=mean(arch_ranked$COMB_PPR)
+ppr_m=mean(arch_ranked$METRIC_COMB)
 
 #STANDARD DEVIATION
-ppr_sd=sd(arch_ranked$COMB_PPR)
+ppr_sd=sd(arch_ranked$METRIC_COMB)
 
 #DISPLAYS EACH ARCHETYPE ABOVE THE AVERAGE + X * STANDARD DEVIATION
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+0.5*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+1*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+1.5*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+2*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+2.5*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+3*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+3.5*ppr_sd,]$ARCHETYPES
-arch_ranked[arch_ranked$COMB_PPR>ppr_m+4*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+0.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+1*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+1.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+2*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+2.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+3*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+3.5*ppr_sd,]$ARCHETYPES
+arch_ranked[arch_ranked$METRIC_COMB>ppr_m+4*ppr_sd,]$ARCHETYPES
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
@@ -91,7 +142,7 @@ graph_title=paste("Rank of each archetype ", "between", Beginning, "and", End,
                   "in MTGO", EventType, "based on points per round",sep = " ")
 graph_subtitle="Separated by mean + n standard deviations (n={0,1,2,3,4})"
 
-ggplot(arch_ranked, aes(x=RANK, y=COMB_PPR)) + theme_classic() + geom_point() + 
+ggplot(arch_ranked, aes(x=RANK, y=METRIC_COMB)) + theme_classic() + geom_point() + 
   geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)+ 
   labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle)+
   geom_abline(intercept = ppr_m, slope = 0, 
@@ -121,8 +172,6 @@ for (i in 1:length(ppr_most_played$RANK)){
 }
 ################################################################################
 #PLOTS OF THE ARCHETYPE METRICS
-
-
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
@@ -187,8 +236,6 @@ ggplot(df_small_CI, aes(x=ARCHETYPES, y=WINRATE_AVERAGE)) + theme_classic() +
 #     print(ModernData$Raw$AnchorUri[[i]])
 #   }
 # }
-
-
 
 #NUMBER OF DIFFERENT CARDS OVERALL
 length(ModernCardsStats$CardNames)
