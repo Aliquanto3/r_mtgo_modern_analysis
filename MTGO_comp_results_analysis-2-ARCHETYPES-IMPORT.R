@@ -30,8 +30,8 @@ if(is.na(End)){
 }
 
 #SELECT DATA FOR A SPECIFIC PERIOD
-rawData$DATE <- as.Date(rawData$DATE)
-rawData$POINTS <- as.numeric(rawData$POINTS)
+rawData$DATE = as.Date(rawData$DATE)
+rawData$POINTS = as.numeric(rawData$POINTS)
 periodData=rawData
 periodData=subset(rawData, DATE > as.Date(Beginning) & DATE < as.Date(End))
 

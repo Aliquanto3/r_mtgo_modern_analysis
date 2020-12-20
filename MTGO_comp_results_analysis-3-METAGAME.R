@@ -18,6 +18,9 @@
 #install.packages("purrr")
 #install.packages("jsonify")
 #install.packages("plyr")
+#install.packages("FactoMineR")
+#install.packages("factoextra")
+#install.packages("corrplot")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
@@ -27,6 +30,9 @@ library(data.table)
 library(purrr)
 library(jsonify)
 library(plyr)
+library(FactoMineR)
+library(factoextra)
+library(corrplot)
 ################################################################################
 
 #VARIABLE FOR THE ACCURACY ON THE NAMING OF THE ARCHETYPES

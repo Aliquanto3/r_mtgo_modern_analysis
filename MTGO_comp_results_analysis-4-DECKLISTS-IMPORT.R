@@ -157,3 +157,4 @@ ModernCardsStats=ModernCardsStatsGetter(ModernData,"All")
 ModernMDStats=ModernCardsStatsGetter(ModernData,"MD")
 #STATS OF SB CARDS
 ModernSBStats=ModernCardsStatsGetter(ModernData,"SB")
+
