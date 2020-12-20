@@ -7,11 +7,13 @@
 bestArchetype="WURG Control"
 df_best_arch=df[df$ARCHETYPE==bestArchetype,]
 
+#ADD THE NUMBER OF MAINDECK CARDS FOR EACH DECK - DEFAULT IS 60
 df_best_arch$TOTAL_MD=rep(60,length(df_best_arch$URL))
 for (i in 1:length(df_best_arch$TOTAL_MD)){
   df_best_arch$TOTAL_MD[i]=sum(df_best_arch$MDCounts[[i]])
 }
 
+#ADD THE WINRATE OF EACH DECK
 for (i in 1:length(df_best_arch$URL)){
   #NUMBER OF WINS OF EACH DECK
   total_wins_deck=(df_best_arch$POINTS[i] + df_best_arch$TOP8_PTS[i])/3
@@ -59,68 +61,41 @@ df_best_arch=addRatioType(df_best_arch,"Sorcery")
 df_best_arch=addRatioType(df_best_arch,"Artifact")
 df_best_arch=addRatioType(df_best_arch,"Enchantment")
 
-#
-names(df_best_arch)
+#names(df_best_arch)
 
-regBestArch=lm(WINRATE~RATIO_SORCERY+RATIO_INSTANT+RATIO_PLANESWALKER+RATIO_CREATURE+
-                 RATIO_LAND+RATIO_ARTIFACT+RATIO_ENCHANTMENT+TOTAL_MD+CMC,data=df_best_arch)
-summary(regBestArch)
+#unique(unlist(df_best_arch$SBCards))
+#table(unlist(df_best_arch$SBCards))
+#length(df_best_arch$URL)
 
-activeBestArch=select(df_best_arch, RATIO_SORCERY,RATIO_INSTANT,RATIO_PLANESWALKER,
-                      RATIO_CREATURE,RATIO_LAND,RATIO_ARTIFACT,RATIO_ENCHANTMENT,
-                      TOTAL_MD,CMC,WINRATE)
-#View(activeBestArch)
+#ADD A VARIABLE TELLING WHETHER cardName IS IN THE SB (1) OR NOT (0)
+isPresentSBCard = function(df_best_arch,cardName){
+  #GENERATE THE NAME OF THE COLUMN BASED ON THE TYPE
+  rowName=gsub('[[:punct:] ]+',' ',cardName)
+  rowName=chartr(" ", "_", rowName)
+  rowNameCard=toupper(paste("PRESENCE",rowName,sep="_"))
+  
+  #CREATE THE COLUMN
+  df_best_arch[[rowNameCard]]=rep(0,length(df_best_arch$URL))
+  #FILL THE COLUMN WITH THE NUMBER OF CARDS OF THE CHOSEN TYPE IN EACH DECK
+  for (i in 1:length(df_best_arch$URL)){
+    if(cardName %in% df_best_arch$SBCards[[i]]){
+      df_best_arch[[rowNameCard]][i]=1
+    }
+  }
+  return(df_best_arch)
+}
 
+df_best_arch=isPresentSBCard(df_best_arch,"Kozilek, Butcher of Truth")
+df_best_arch=isPresentSBCard(df_best_arch,"Dispel")
+df_best_arch=isPresentSBCard(df_best_arch,"Nexus of Fate")
+df_best_arch=isPresentSBCard(df_best_arch,"Condemn")
+df_best_arch=isPresentSBCard(df_best_arch,"Stony Silence")
+df_best_arch=isPresentSBCard(df_best_arch,"Deicide")
+df_best_arch=isPresentSBCard(df_best_arch,"Tale's End")
+df_best_arch=isPresentSBCard(df_best_arch,"Madcap Experiment")
+df_best_arch=isPresentSBCard(df_best_arch,"Nature's Claim")
+df_best_arch=isPresentSBCard(df_best_arch,"Containment Priest")
+df_best_arch=isPresentSBCard(df_best_arch,"Gaea's Blessing")
+df_best_arch=isPresentSBCard(df_best_arch,"Timely Reinforcements")
 
-res.pca <- PCA(activeBestArch, graph = FALSE)
-print(res.pca)
-
-eig.val <- get_eigenvalue(res.pca)
-eig.val
-fviz_eig(res.pca, addlabels = TRUE, ylim = c(0, 50))
-var <- get_pca_var(res.pca)
-var
-# Coordonnées
-head(var$coord)
-# Cos2: qualité de répresentation
-head(var$cos2)
-# Contributions aux composantes principales
-head(var$contrib)
-# Coordonnées des variables
-head(var$coord, 4)
-fviz_pca_var(res.pca, col.var = "black")
-head(var$cos2, 4)
-
-corrplot(var$cos2, is.corr=FALSE)
-# Cos2 total des variables sur Dim.1 et Dim.2
-fviz_cos2(res.pca, choice = "var", axes = 1:2)
-
-# Colorer en fonction du cos2: qualité de représentation
-fviz_pca_var(res.pca, col.var = "cos2",
-             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07"),
-             repel = TRUE # Évite le chevauchement de texte
-)
-
-head(var$contrib, 4)
-
-corrplot(var$contrib, is.corr=FALSE)  
-
-# Contributions des variables à PC1
-fviz_contrib(res.pca, choice = "var", axes = 1, top = 10)
-# Contributions des variables à PC2
-fviz_contrib(res.pca, choice = "var", axes = 2, top = 10)
-
-fviz_pca_var(res.pca, col.var = "contrib",
-             gradient.cols = c("#00AFBB", "#E7B800", "#FC4E07")
-)
-
-# Changez la transparence en fonction de contrib
-fviz_pca_var(res.pca, alpha.var = "contrib")
-
-# Créer une variable aléatoire continue de longueur 10
-set.seed (123)
-my.cont.var <- rnorm (4)
-# Colorer les variables en fonction de la variable continue
-fviz_pca_var(res.pca, col.var = my.cont.var,
-             gradient.cols = c("blue", "yellow", "red"),
-             legend.title = "Cont.Var")
+#names(df_best_arch)

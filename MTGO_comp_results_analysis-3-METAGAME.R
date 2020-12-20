@@ -360,7 +360,7 @@ Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
     theme_classic() + geom_point(size=2,color="blue") +  
     geom_text_repel(aes(label=format(round(METRIC_COMB*100,1), nsmall = 1)),
                     hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
-    labs(x=NULL, y=y_label_winrate, title=titleLinearComb,
+    labs(x=NULL, y="Value of the linear combination metric", title=titleLinearComb,
          subtitle="Green line for the average of the metrics linear combination
 Red lines for the average +/- a standard deviation
 by Anaël Yahi")+
@@ -393,7 +393,7 @@ Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
     theme_classic() + geom_point(size=2,color="blue") +  
     geom_text_repel(aes(label=format(round(WINRATE_95_MIN*100,1), nsmall = 1)),
                     hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
-    labs(x=NULL, y=y_label_winrate, title=titleLinearComb,
+    labs(x=NULL, y="Lower estimation of the winrate (%)", title=titleLinearComb,
          subtitle="Green line for the average of the lower estimation of winrates
 Red lines for the average +/- a standard deviation
 by Anaël Yahi")+
