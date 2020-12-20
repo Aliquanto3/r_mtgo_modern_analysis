@@ -22,7 +22,7 @@ MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2020-11-16"
+Beginning="2020-09-17"
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
 #after you executed the IMPORT DATA paragraph
@@ -42,7 +42,7 @@ EventType="Competitions"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
-Classification="Super"
+Classification="Exact"
 
 #Required metagame share to appear on pie chart (numeric, gets converted to %)
 PieShare=2.5

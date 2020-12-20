@@ -1,7 +1,7 @@
-#untested
 ################################################################################
-#USE THE METHODS BELOW TO GENERATE THE GRAPHS AND RESULTS YOU LOOK FOR
+#CODE FOR THE REPORT
 
+#IV.1- Analyse des indicateurs
 #NUMBER OF DECKS IN THE DATA
 length(df$ARCHETYPE)
 
@@ -18,11 +18,32 @@ unique(df$SUPER_ARCH)
 #TOTAL NUMBER OF ROUNDS PLAYED IN THE DATA, INCLUDING TOP8 MATCHES
 sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES)
 
+#AVERAGE NUMBER OF ROUNDS
+(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))/length(df$ARCHETYPE)
+
+#IV.1.A - Indicateur 1 : présence de chaque archétype
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
-metagame_pie_chart(df)
+PieShare=2.5
+metagame_pie_chart(df,"Players")
+metagame_pie_chart(df,"Copies")
+PieShare=2
+metagame_pie_chart(df,"Matches")
 
 #GENERATE THE METAGAME HISTOGRAM FOR THE SELECTED DATA
-metagame_box_plot(df)
+metagame_box_plot(df,"Matches")
+
+
+#IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
+winrates_graph(df,arch_ranked,"Matches")
+
+#IV.2 – Analyse de la combinaison des indicateurs
+cor.test(metric_df$WINRATE_AVERAGE,metric_df$TOTAL_NB_MATCHES,method="pearson")
+
+
+
+
+
+
 
 ################################################################################
 #COUNT THE NUMBER OF POINTS PER ROUND
@@ -87,65 +108,51 @@ ggplot(arch_ranked, aes(x=RANK, y=COMB_PPR)) + theme_classic() + geom_point() +
 
 ################################################################################
 #GET ONLY THE DECKS APPEARING THE MOST IN THE DATA
-nb_copies_min=10
+nb_copies_min=PieShare/100*length(df$ARCHETYPE)
 ppr_most_played=arch_ranked[arch_ranked$NB_COPIES>=nb_copies_min,]
-ppr_most_played$WINRATE=ppr_most_played$PPR_AVERAGE/3
-ppr_most_played = ppr_most_played[order(-ppr_most_played$PPR_AVERAGE),]
+ppr_most_played = ppr_most_played[order(-ppr_most_played$WINRATE_AVERAGE),]
 ppr_most_played
 print(subset(ppr_most_played,select = c(NB_COPIES,ARCHETYPES,WINRATE)), 
       row.names = FALSE)
 length(ppr_most_played$ARCHETYPES)
-ppr_most_played$WIN_AVERAGE_RANK=ppr_most_played$WINRATE
-for (i in 1:length(ppr_most_played$WIN_AVERAGE_RANK)){
-  ppr_most_played$WIN_AVERAGE_RANK[i]=i
+ppr_most_played$RANK=ppr_most_played$WINRATE
+for (i in 1:length(ppr_most_played$RANK)){
+  ppr_most_played$RANK[i]=i
 }
 ################################################################################
 #PLOTS OF THE ARCHETYPE METRICS
 
-#PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
-#COMBINED PPR
-x_label_winrate="Archetype rank based on winrate"
-y_label_winrate="Winrate of the most popular decks"
-graph_title_winrate=paste("Rank of each popular archetype (at least",nb_copies_min,
-                          "copies) between", Beginning, "and", End, "in MTGO", 
-                          EventType, "based on winrate",sep = " ")
 
-ggplot(ppr_most_played, aes(x=WIN_AVERAGE_RANK, y=PPR_AVERAGE/3)) + theme_classic() +
-  geom_point(size=4) +  
-  geom_text_repel(aes(label=ARCHETYPES),hjust=0, vjust=0,point.padding = NA)+ 
-  labs(x=x_label_winrate, y=y_label_winrate, title=graph_title_winrate)+
-  geom_errorbar(aes(ymax = PPR_95_MAX/3, ymin = PPR_95_MIN/3)) 
-# + geom_hline(yintercept = 1.5, color="red", linetype="dashed", size=1.5)
 
 #PLOT THE AVERAGE PPR DEPENDING ON THE TOTAL PPR FOR EACH ARCHETYPE, RANKED BY 
 #COMBINED PPR
 arch_ranked$ARCHETYPES = reorder(arch_ranked$ARCHETYPES, 
-                                as.numeric(arch_ranked$PPR_AVERAGE))
+                                as.numeric(arch_ranked$WINRATE_AVERAGE))
 y_label_full_winrate="Winrates and confidence intervals"
 graph_title_full_winrate=paste("Winrate of each archetype between", Beginning, 
                                "and", End, "in MTGO",  EventType,sep = " ")
 graph_subtitle_full_winrate="Red line for the average winrate of those archetypes 
 combined"
 
-ggplot(arch_ranked, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
+ggplot(arch_ranked, aes(x=ARCHETYPES, y=WINRATE_AVERAGE)) + theme_classic() +
   geom_point(size=4) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
   labs(y=y_label_full_winrate, title=graph_title_full_winrate, 
        subtitle=graph_subtitle_full_winrate) + 
-  geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
-  geom_hline(yintercept = mean(arch_ranked$PPR_AVERAGE), color="red", 
+  geom_errorbar(aes(ymax = WINRATE_95_MAX , ymin = WINRATE_95_MIN)) + 
+  geom_hline(yintercept = mean(arch_ranked$WINRATE_AVERAGE), color="red", 
              linetype="dashed", size=1.5)
  
 #SAME FOR ONLY CI UNDER A DETERMINED LENGTH
 #specify_decimal = function(x, k) trimws(format(round(x, k), nsmall=k))
 
 CI_length=0.3
-df_small_CI = arch_ranked[arch_ranked$PPR_95_MAX-arch_ranked$PPR_95_MIN<CI_length,]
-df_small_CI$PPR_95_MAX=as.numeric(specify_decimal(df_small_CI$PPR_95_MAX,3))
-df_small_CI$PPR_AVERAGE=as.numeric(specify_decimal(df_small_CI$PPR_AVERAGE,3))
-df_small_CI$PPR_95_MIN=as.numeric(specify_decimal(df_small_CI$PPR_95_MIN,3))
+df_small_CI = arch_ranked[arch_ranked$WINRATE_95_MAX -arch_ranked$WINRATE_95_MIN<CI_length,]
+df_small_CI$WINRATE_95_MAX =as.numeric(specify_decimal(df_small_CI$WINRATE_95_MAX ,3))
+df_small_CI$WINRATE_AVERAGE=as.numeric(specify_decimal(df_small_CI$WINRATE_AVERAGE,3))
+df_small_CI$WINRATE_95_MIN=as.numeric(specify_decimal(df_small_CI$WINRATE_95_MIN,3))
 
 df_small_CI$ARCHETYPES = reorder(df_small_CI$ARCHETYPES, 
-                                 as.numeric(df_small_CI$PPR_AVERAGE))
+                                 as.numeric(df_small_CI$WINRATE_AVERAGE))
 
 y_label_small_CI="Winrates and confidence intervals"
 graph_title_small_CI=paste("Winrate of each archetype between", Beginning, "and", 
@@ -154,22 +161,22 @@ graph_title_small_CI=paste("Winrate of each archetype between", Beginning, "and"
 graph_subtitle_small_CI="Red line for the average winrate and green lines for the 
 average CI of those archetypes combined"
 
-ggplot(df_small_CI, aes(x=ARCHETYPES, y=PPR_AVERAGE)) + theme_classic() +
+ggplot(df_small_CI, aes(x=ARCHETYPES, y=WINRATE_AVERAGE)) + theme_classic() +
   geom_point(size=1) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
   labs(y=y_label_small_CI, title=graph_title_small_CI, 
        subtitle=graph_subtitle_small_CI) + 
-  geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
-  geom_hline(yintercept = mean(df_small_CI$PPR_AVERAGE), color="green", 
+  geom_errorbar(aes(ymax = WINRATE_95_MAX , ymin = WINRATE_95_MIN)) + 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_AVERAGE), color="green", 
              linetype="dashed", size=1.5)+
-  geom_hline(yintercept = mean(df_small_CI$PPR_95_MIN), color="red", 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_95_MIN), color="red", 
              linetype="dashed", size=1.5)+
-  geom_hline(yintercept = mean(df_small_CI$PPR_95_MAX), color="red", 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_95_MAX ), color="red", 
              linetype="dashed", size=1.5)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MAX), label = PPR_95_MAX, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_95_MAX ), label = WINRATE_95_MAX , 
                 x = ARCHETYPES), vjust = -1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MIN), label = PPR_95_MIN, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_95_MIN), label = WINRATE_95_MIN, 
                 x = ARCHETYPES), vjust = 1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_AVERAGE), label = PPR_AVERAGE, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_AVERAGE), label = WINRATE_AVERAGE, 
                 x = ARCHETYPES), vjust = -1)
 
 ################################################################################
@@ -250,13 +257,13 @@ for (i in 1:length(ModernCardsStats)){
                                 df$TOP8_MATCHES[card_id])
   
   #CI WITH CLOPPER-PEARSON
-  CardResults$PPR_AVERAGE[i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
+  CardResults$WINRATE_AVERAGE[i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
                                       alternative="two.sided", conf.level=0.95)$estimate
   
-  CardResults$PPR_95_MIN[i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
+  CardResults$WINRATE_95_MIN[i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
                                      alternative="two.sided", conf.level=0.95)$conf.int[1]
   
-  CardResults$PPR_95_MAX[i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
+  CardResults$WINRATE_95_MAX [i]=binom.test(CardResults$CardWins[i], CardResults$CardMatches[i], p=0.5,
                                      alternative="two.sided", conf.level=0.95)$conf.int[2]
 }
 
@@ -265,44 +272,44 @@ names(CardResults)
 CardResults$NbDecks
 #PRINT WINRATES OF THE MOST PLAYED CARDS (WITH THE MOST MATCHES)
 CardResults = CardResults[order(-CardResults$NbDecks),]
-print(subset(CardResults[1:10,],select = c(CardNames,CardMatches,PPR_AVERAGE )), 
+print(subset(CardResults[1:10,],select = c(CardNames,CardMatches,WINRATE_AVERAGE )), 
       row.names = FALSE)
 #PRINT WINRATES OF THE TOP CARDS WITH THE BEST WINRATES
-CardResults = CardResults[order(-CardResults$PPR_AVERAGE),]
-print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,PPR_AVERAGE )), 
+CardResults = CardResults[order(-CardResults$WINRATE_AVERAGE),]
+print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,WINRATE_AVERAGE )), 
       row.names = FALSE)
 
 #SAME BUT ONLY FOR CARDS WITH A SMALL CI ON THE WINRATE
-df_small_CI = CardResults[CardResults$PPR_95_MAX-CardResults$PPR_95_MIN<0.1,]
+df_small_CI = CardResults[CardResults$WINRATE_95_MAX -CardResults$WINRATE_95_MIN<0.1,]
 length(df_small_CI$CardNames)
-df_small_CI = df_small_CI[order(df_small_CI$PPR_AVERAGE),]
-df_small_CI = df_small_CI[order(-df_small_CI$PPR_AVERAGE),]
-print(subset(df_small_CI[1:50,],select = c(CardNames,CardMatches,PPR_AVERAGE )), 
+df_small_CI = df_small_CI[order(df_small_CI$WINRATE_AVERAGE),]
+df_small_CI = df_small_CI[order(-df_small_CI$WINRATE_AVERAGE),]
+print(subset(df_small_CI[1:50,],select = c(CardNames,CardMatches,WINRATE_AVERAGE )), 
       row.names = FALSE)
 
 #INSTEAD WE TAKE THE LOWER BORN OF THE WINRATE CONFIDENCE INTERVAL NOW
-CardResults = CardResults[order(-CardResults$PPR_95_MIN),]
-print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,PPR_95_MIN )), 
+CardResults = CardResults[order(-CardResults$WINRATE_95_MIN),]
+print(subset(CardResults[1:50,],select = c(CardNames,CardMatches,WINRATE_95_MIN )), 
       row.names = FALSE)
 
-max(CardResults$PPR_95_MIN)
-min(CardResults$PPR_95_MIN)
+max(CardResults$WINRATE_95_MIN)
+min(CardResults$WINRATE_95_MIN)
 
-max(CardResults$PPR_AVERAGE)
-min(CardResults$PPR_AVERAGE)
+max(CardResults$WINRATE_AVERAGE)
+min(CardResults$WINRATE_AVERAGE)
 
 
 
 #DISPLAY THE CI OF WINRATES FOR EACH CARD WITH A SMALL CI
 CI_length=0.05
-df_small_CI = CardResults[CardResults$PPR_95_MAX-CardResults$PPR_95_MIN<CI_length,]
+df_small_CI = CardResults[CardResults$WINRATE_95_MAX -CardResults$WINRATE_95_MIN<CI_length,]
 length(df_small_CI$CardNames)
-df_small_CI$PPR_95_MAX=as.numeric(specify_decimal(df_small_CI$PPR_95_MAX,3))
-df_small_CI$PPR_AVERAGE=as.numeric(specify_decimal(df_small_CI$PPR_AVERAGE,3))
-df_small_CI$PPR_95_MIN=as.numeric(specify_decimal(df_small_CI$PPR_95_MIN,3))
+df_small_CI$WINRATE_95_MAX =as.numeric(specify_decimal(df_small_CI$WINRATE_95_MAX ,3))
+df_small_CI$WINRATE_AVERAGE=as.numeric(specify_decimal(df_small_CI$WINRATE_AVERAGE,3))
+df_small_CI$WINRATE_95_MIN=as.numeric(specify_decimal(df_small_CI$WINRATE_95_MIN,3))
 
 df_small_CI$CardNames = reorder(df_small_CI$CardNames, 
-                                 as.numeric(df_small_CI$PPR_AVERAGE))
+                                 as.numeric(df_small_CI$WINRATE_AVERAGE))
 
 y_label_small_CI="Winrates and confidence intervals"
 graph_title_small_CI=paste("Winrate of each card between", Beginning, "and", 
@@ -311,22 +318,22 @@ graph_title_small_CI=paste("Winrate of each card between", Beginning, "and",
 graph_subtitle_small_CI="Red line for the average winrate and green lines for the 
 average CI of those cards combined"
 
-ggplot(df_small_CI, aes(x=CardNames, y=PPR_AVERAGE)) + theme_classic() +
+ggplot(df_small_CI, aes(x=CardNames, y=WINRATE_AVERAGE)) + theme_classic() +
   geom_point(size=1) + scale_x_discrete(guide = guide_axis(n.dodge=5))+
   labs(y=y_label_small_CI, title=graph_title_small_CI, 
        subtitle=graph_subtitle_small_CI) + #ylim(0,1) +
-  geom_errorbar(aes(ymax = PPR_95_MAX, ymin = PPR_95_MIN)) + 
-  geom_hline(yintercept = mean(df_small_CI$PPR_AVERAGE), color="green", 
+  geom_errorbar(aes(ymax = WINRATE_95_MAX , ymin = WINRATE_95_MIN)) + 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_AVERAGE), color="green", 
              linetype="dashed", size=1.5)+
-  geom_hline(yintercept = mean(df_small_CI$PPR_95_MIN), color="red", 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_95_MIN), color="red", 
              linetype="dashed", size=1.5)+
-  geom_hline(yintercept = mean(df_small_CI$PPR_95_MAX), color="red", 
+  geom_hline(yintercept = mean(df_small_CI$WINRATE_95_MAX ), color="red", 
              linetype="dashed", size=1.5)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MAX), label = PPR_95_MAX, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_95_MAX ), label = WINRATE_95_MAX , 
                 x = CardNames), vjust = -1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_95_MIN), label = PPR_95_MIN, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_95_MIN), label = WINRATE_95_MIN, 
                 x = CardNames), vjust = 1)+ 
-  geom_text(aes(y = stat(df_small_CI$PPR_AVERAGE), label = PPR_AVERAGE, 
+  geom_text(aes(y = stat(df_small_CI$WINRATE_AVERAGE), label = WINRATE_AVERAGE, 
                 x = CardNames), vjust = -1) 
 
 

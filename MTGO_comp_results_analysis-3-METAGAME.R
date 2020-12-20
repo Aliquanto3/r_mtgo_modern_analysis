@@ -45,48 +45,64 @@ generate_archetype_list = function(df){
 }
 
 #COMPUTES THE SHARE OF EACH ARCHETYPE IN THE DATA
-generate_metagame_data = function(df,graph_share){
+#presence CAN BE EITHER "Copies", "Players" or "Matches"
+generate_metagame_data = function(df,graph_share,presence){
   
   arch_list=generate_archetype_list(df)
   
-  #ADD THE NUMBER OF COPIES FOR EACH ARCHETYPE IN THE DATA
-  arch_list$NB_COPIES=rep(0,length(arch_list$ARCHETYPES))
-  for (i in 1:length(arch_list$NB_COPIES)){
-    arch_list$NB_COPIES[i]=length(which(df[[archetype_acc]]==arch_list$ARCHETYPES[i]))
+  #ADD THE PRESENCE OF EACH ARCHETYPE IN THE DATA
+  arch_list$PRESENCE=rep(0,length(arch_list$ARCHETYPES))
+  for (i in 1:length(arch_list$PRESENCE)){
+    arch_id=which(df[[archetype_acc]]==arch_list$ARCHETYPES[i])
+    if (presence=="Copies"){
+      #NUMBER OF COPIES
+      arch_list$PRESENCE[i]=length(arch_id)
+    }else if (presence=="Players"){
+      #NUMBER OF PLAYERS
+      arch_list$PRESENCE[i]=length(unique(df[arch_id,]$PLAYER))
+    }else if (presence=="Matches"){
+      #NUMBER OF ROUNDS PLAYED
+      arch_list$PRESENCE[i]=sum(df[arch_id,]$NB_ROUNDS,df[arch_id,]$TOP8_MATCHES)
+    }
   }
   
   #FOR EASIER READING OF THE GRAPHS, AGGREGATE ALL THE ARCHETYPES ACCOUNTING FOR 
   #LESS THAN graph_share% OF THE DATA
-  graph_perc=graph_share/100*sum(arch_list$NB_COPIES)
-  arch_list_vis=arch_list[arch_list$NB_COPIES >= graph_perc, ]
+  graph_perc=graph_share/100*sum(arch_list$PRESENCE)
+  arch_list_vis=arch_list[arch_list$PRESENCE >= graph_perc, ]
   
   #ADD AN "OTHER" CATEGORY CONTAINING THE SUM OF COPIES OF ALL ARCHETYPES UNDER X%
-  sum_others=sum(arch_list[arch_list$NB_COPIES < graph_perc, ]$NB_COPIES)
-  arch_list_vis=rbind(arch_list_vis,c("Other", sum_others))
+  sum_others=sum(arch_list[arch_list$PRESENCE < graph_perc, ]$PRESENCE)
+  otherName=paste("Other (<",graph_share,"%)",sep="")
+  arch_list_vis=rbind(arch_list_vis,c(otherName, sum_others))
   arch_list_vis=arch_list_vis[order(arch_list_vis$ARCHETYPES),]
   
-  arch_list_vis$NB_COPIES=as.numeric(arch_list_vis$NB_COPIES)
-  arch_list_vis$SHARE=as.numeric(format(round(arch_list_vis$NB_COPIES/
-                                                sum(arch_list_vis$NB_COPIES)*100,
+  arch_list_vis$PRESENCE=as.numeric(arch_list_vis$PRESENCE)
+  arch_list_vis$SHARE=as.numeric(format(round(arch_list_vis$PRESENCE/
+                                                sum(arch_list_vis$PRESENCE)*100,
                                               1), nsmall = 1))
   
-  arch_list_vis$ARCHETYPES = reorder(arch_list_vis$ARCHETYPES, as.numeric(arch_list_vis$NB_COPIES))
+  arch_list_vis$ARCHETYPES = reorder(arch_list_vis$ARCHETYPES, 
+                                     as.numeric(arch_list_vis$PRESENCE))
   
   return(arch_list_vis)
 }
 
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
-generate_metagame_graph_title = function(){
+#presence CAN BE EITHER "Copies", "Players" or "Matches"
+generate_metagame_graph_title = function(presence){
   MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
-                       EventType,"between", Beginning, "and", End, sep = " ")
+                       EventType,"between", Beginning, "and", End,
+                       "based on number of", presence,sep = " ")
   return(MetaGraphTitle)
 }
 
 #GENERATE A PIE CHART BASED ON DATA IN DF
-metagame_pie_chart = function(df){
+#presence CAN BE EITHER "Copies", "Players" or "Matches"
+metagame_pie_chart = function(df,presence){
   
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
-  df_gen=generate_metagame_data(df,PieShare)
+  df_gen=generate_metagame_data(df,PieShare,presence)
   
   ggplot(df_gen, aes(x="", SHARE, fill = ARCHETYPES)) + 
     geom_bar(width = 1, size = 1, color = "white", stat = "identity") + 
@@ -94,7 +110,7 @@ metagame_pie_chart = function(df){
     geom_text(aes(label = paste0(SHARE, "%")), 
               position = position_stack(vjust = 0.5)) +
     labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anaël Yahi",
-         title = generate_metagame_graph_title()) + 
+         title = generate_metagame_graph_title(presence)) + 
     guides(color = FALSE, size = FALSE) +
     scale_color_gradient(low="red", high="blue") +
     theme_classic() +
@@ -106,22 +122,28 @@ metagame_pie_chart = function(df){
 }
 
 #GENERATE A BOX PLOT BASED ON DATA IN DF
-metagame_box_plot = function(df){
+#presence CAN BE EITHER "Copies", "Players" or "Matches"
+metagame_box_plot = function(df,presence){
   
   #GET THE DATA FOR ALL ARCHETYPES HAVING A META SHARE ABOVE HistShare
-  df_gen=generate_metagame_data(df,HistShare)
-  #THIS GRAPH DOESN'T DISPLAY THE "Other" CATEGORY
-  df_gen=df_gen[df_gen$ARCHETYPES!="Other",]
+  df_gen=generate_metagame_data(df,HistShare,presence)
   
-  #reorder ARCHETYPES by ascending count
-  df_gen$ARCHETYPES = reorder(df_gen$ARCHETYPES, as.numeric(df_gen$NB_COPIES))
+  #GENERATE A TITLE FOR THE BOXPLOT
+  boxplot_title=paste(generate_metagame_graph_title(presence),"-",
+                      df_gen[grep("Other",df_gen$ARCHETYPES),]$ARCHETYPES, sep=" ")
+  
+  #THIS GRAPH DOESN'T DISPLAY THE "Other" CATEGORY
+  df_gen=df_gen[!grepl("Other",df_gen$ARCHETYPES),]
+  
+  #REORDER ARCHETYPES BY ASCENDING PRESENCE
+  df_gen$ARCHETYPES = reorder(df_gen$ARCHETYPES, as.numeric(df_gen$PRESENCE))
   
   #plot is much clearer
   ggplot(df_gen, aes(x=ARCHETYPES, y=as.numeric(SHARE), fill=ARCHETYPES)) + 
     geom_bar(stat="identity") + theme_minimal() + guides( fill = FALSE) +
-    labs(x = NULL, y = NULL, fill = NULL, 
-         title = generate_metagame_graph_title(), subtitle = "by Anaël Yahi") + 
-    scale_color_gradient(low="blue", high="red")+
+    labs(x = NULL, y = "Presence (%)", fill = NULL, 
+         title = boxplot_title, subtitle = "by Anaël Yahi") + 
+    scale_color_gradient(low="blue", high="red") +
     scale_x_discrete(guide = guide_axis(n.dodge=2))
   
 }
@@ -196,8 +218,6 @@ Circle diameters depending on",diameters,"\nby Anaël Yahi",sep=" ")
   
 }
 
-metric_graph(metric_df,"Matches","Players")
-
 #FILL IN METRIC POINTS IN AN ARCHETYPES DATA FRAME
 metric_points_archetypes = function(df){
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
@@ -263,3 +283,46 @@ archetypes_ranking = function(metric_df){
 }
 
 arch_ranked=archetypes_ranking(metric_df)
+
+#PLOT OF THE AVERAGE WINRATE FOR THE MOST POPULAR ARCHETYPES
+#presence CAN BE EITHER "Copies", "Players" or "Matches"
+winrates_graph = function(df,arch_ranked,presence){
+  
+  #GET ONLY THE DECKS APPEARING THE MOST IN THE DATA
+  if (presence=="Copies"){
+    #KEEP ONLY THE DECK WITH THE MOST COPIES
+    presence_min=HistShare/100*length(df$ARCHETYPE)
+    arch_most_played=arch_ranked[arch_ranked$NB_COPIES>=presence_min,]
+  }else if (presence=="Players"){
+    #KEEP ONLY THE DECK WITH THE MOST PLAYERS
+    presence_min=HistShare/100*length(unique(df$PLAYER))
+    arch_most_played=arch_ranked[arch_ranked$NB_PLAYERS>=presence_min,]
+  }else if (presence=="Matches"){
+    #KEEP ONLY THE DECK WITH THE MOST MATCHES
+    presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
+    arch_most_played=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
+  }
+  
+  #REORDER ARCHETYPES BY ASCENDING AVERAGE WINRATE
+  arch_most_played$ARCHETYPES = reorder(arch_most_played$ARCHETYPES, 
+                                        as.numeric(arch_most_played$WINRATE_AVERAGE))
+  #PLOT THE AVERAGE WINRATE AND THE CONFIDENCE INTERVALS
+  y_label_winrate="Winrates of the most popular archetypes"
+  graph_title_winrate=paste("Confidence intervals on the winrates of the most present archetypes", 
+                            "(at least",HistShare,"% of the",presence,") between", 
+                            Beginning, "and", End, "in MTGO", EventType,sep=" ")
+  
+  ggplot(arch_most_played, aes(x=ARCHETYPES, y=WINRATE_AVERAGE*100)) + 
+    theme_classic() + geom_point(size=2,color="blue") +  
+    geom_text_repel(aes(label=format(round(WINRATE_AVERAGE*100,1), nsmall = 1)),
+                    hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
+    labs(x=NULL, y=y_label_winrate, title=graph_title_winrate,
+         subtitle="by Anaël Yahi")+
+    geom_errorbar(aes(ymax = WINRATE_95_MAX*100, ymin = WINRATE_95_MIN*100)) + 
+    geom_hline(yintercept = mean(arch_most_played$WINRATE_AVERAGE*100), 
+               color="green", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = mean(arch_most_played$WINRATE_95_MIN*100), 
+               color="red", linetype="dashed", size=0.5)+ 
+    geom_hline(yintercept = mean(arch_most_played$WINRATE_95_MAX*100), 
+               color="red", linetype="dashed", size=0.5)
+}
