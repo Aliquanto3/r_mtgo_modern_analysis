@@ -12,6 +12,9 @@ cardDataSub=unique(subset(cardData,select=c(colors,convertedManaCost,faceName,
                                             layout,manaCost,name,subtypes,
                                             supertypes,type,types)))
 
+#filtrer pour ne garder que les cartes présentes dans les résultats au lieu de 
+#toutes les cartes du jeu ? 
+
 #ADD A COLUMN WITH THE AVERAGE CONVERTED MANA COST OF EACH DECK (WITH OR WITHOUT
 #CONSIDERING LANDS, WHICH ALWAYS HAVE A CMC OF 0)
 addCMC = function(df){
@@ -59,6 +62,7 @@ addCMC = function(df){
 #IT CAN BE A BIT LONG TO EXECUTE, LEAVE IT A MINUTE OR TWO
 df=addCMC(df)
 
+####################################################
 #CHECK IF THERE IS ANY ABSURD VALUE IN THE RESULTS
 # df[df$CMC==0,]$CMC
 # df[df$CMC=="0",]$CMC
@@ -71,4 +75,46 @@ df=addCMC(df)
 #AVERAGE CMC OF A DECK
 # mean(df[df$ARCHETYPE=="Oops All Spells",]$CMC)
 # mean(df[df$ARCHETYPE=="Oops All Spells",]$CMC_LANDS)
+####################################################
 
+#ADD THE NUMBER OF CARDS HAVING AT LEAST A SPECIFIC TYPE OF EACH DECK
+#USE THE FOLLOWING COMMAND TO FIND ALL THE TYPES YOU CAN USE:
+#unique(cardDataSub$types)
+addNbType = function(df,type){
+  #GENERATE THE NAME OF THE COLUMN BASED ON THE TYPE
+  rowNameType=toupper(paste("NB",type,sep="_"))
+  #CREATE THE COLUMN
+  df[[rowNameType]]=rep(0,length(df$URL))
+  #FILL THE COLUMN WITH THE NUMBER OF CARDS OF THE CHOSEN TYPE IN EACH DECK
+  for (i in 1:length(df$URL)){
+    landcount=0
+    for (j in 1:length(df$MDCards[[i]])){
+      if (df$MDCards[[i]][j] %in% cardDataSub$name){
+        if((length(grep(type,cardDataSub[cardDataSub$name==df$MDCards[[i]][j],]$types))==1)&&
+           (grep(type,cardDataSub[cardDataSub$name==df$MDCards[[i]][j],]$types)==1)){
+          landcount=landcount+df$MDCounts[[i]][j]
+        }
+      }else if (df$MDCards[[i]][j] %in% cardDataSub$faceName){
+        if((length(grep(type,cardDataSub[cardDataSub$faceName==df$MDCards[[i]][j],]$types))==1)&&
+           (grep(type,cardDataSub[cardDataSub$faceName==df$MDCards[[i]][j],]$types)==1)){
+          landcount=landcount+df$MDCounts[[i]][j]
+        }
+      }
+    }
+    df[[rowNameType]][i]=landcount
+  }
+  return(df)
+}
+
+#IT CAN BE A BIT LONG TO EXECUTE, LEAVE IT A MINUTE OR TWO
+df=addNbType(df,"Land")
+
+df$TOTAL_MD=rep(60,length(df$URL))
+for (i in 1:length(df$TOTAL_MD)){
+  df$TOTAL_MD[i]=sum(df$MDCounts[[i]])
+}
+
+df$MD_LAND_RATIO=rep(24/60,length(df$URL))
+for (i in 1:length(df$TOTAL_MD)){
+  df$MD_LAND_RATIO[i]=df$NB_LAND[i]/df$TOTAL_MD[i]
+}

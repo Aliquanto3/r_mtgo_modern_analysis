@@ -1,6 +1,8 @@
 #4th file to execute
 #Import the decklists of all events in the chosen period
 
+#Data cloned from: https://github.com/Badaro/MTGODecklistCache 
+
 #CREATE DF TO CONTAIN THE LIST OF PLAYED CARDS: OVERALL, MD AND SB
 ModernDataGetter = function(){
   
@@ -8,14 +10,24 @@ ModernDataGetter = function(){
   
   ModernResultsPaths=c()
   
+  #PATTERNS OF THE FILE NAMES DEPENDING ON THE EVENT TYPES WE USE
+  eventPattern=""
+  if (EventType=="Competitions"){
+    eventPattern="modern-[^league].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
+  }else if (EventType=="Challenges"){
+    eventPattern="modern-.*?challenge.*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
+  }else if (EventType=="Preliminaries"){
+    eventPattern="modern-preliminary.*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
+  }
+  
+  #LIST THE PATHS OF ALL THE RELEVANT FILES
   for (i in 1:length(DaysList)){
     yeari=substr(x = DaysList[i], start = 1, stop = 4)
     monthi=substr(x = DaysList[i], start = 6, stop = 7)
     dayi=substr(x = DaysList[i], start = 9, stop = 10)
     MTGODataPathDate=paste(MTGODataPath,yeari,monthi,dayi,sep = "/")
     ModernResultsPaths=c(ModernResultsPaths,dir(MTGODataPathDate, 
-                           recursive=TRUE, full.names=TRUE, pattern=
-                             "modern-[^league].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"))
+                           recursive=TRUE, full.names=TRUE, pattern=eventPattern))
   }
   
   ModernResults=data.frame()

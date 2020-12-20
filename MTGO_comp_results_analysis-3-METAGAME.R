@@ -40,7 +40,7 @@ if(Classification=="Super"){
 generate_archetype_list = function(df){
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
   arch_list=data.frame(unique(df[[archetype_acc]]))
-  names(arch_list)[1] <- "ARCHETYPES"
+  names(arch_list)[1] = c("ARCHETYPES")
   return(arch_list)
 }
 
@@ -93,7 +93,7 @@ metagame_pie_chart = function(df){
     coord_polar("y", start=0) + 
     geom_text(aes(label = paste0(SHARE, "%")), 
               position = position_stack(vjust = 0.5)) +
-    labs(x = NULL, y = NULL, fill = NULL,
+    labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anaël Yahi",
          title = generate_metagame_graph_title()) + 
     guides(color = FALSE, size = FALSE) +
     scale_color_gradient(low="red", high="blue") +
@@ -101,7 +101,7 @@ metagame_pie_chart = function(df){
     theme(axis.line = element_blank(),
           axis.text = element_blank(),
           axis.ticks = element_blank(),
-          plot.title = element_text(hjust = 0, color = "#111111")) 
+          plot.title = element_text(hjust = 0, color = "#111111"))
   
 }
 
@@ -119,7 +119,8 @@ metagame_box_plot = function(df){
   #plot is much clearer
   ggplot(df_gen, aes(x=ARCHETYPES, y=as.numeric(SHARE), fill=ARCHETYPES)) + 
     geom_bar(stat="identity") + theme_minimal() + guides( fill = FALSE) +
-    labs(x = NULL, y = NULL, fill = NULL, title = generate_metagame_graph_title()) + 
+    labs(x = NULL, y = NULL, fill = NULL, 
+         title = generate_metagame_graph_title(), subtitle = "by Anaël Yahi") + 
     scale_color_gradient(low="blue", high="red")+
     scale_x_discrete(guide = guide_axis(n.dodge=2))
   
@@ -153,7 +154,7 @@ metric_graph = function(metric_df,presence,diameters) {
   graph_title=paste("Winrates:", Classification,"archetypes ", "between", 
                     Beginning, "and", End, "in MTGO", EventType,sep = " ")
   graph_subtitle=paste("Separated by mean + 4*n standard deviations (n={0,1,2,3,4,5}) 
-  Circle diameters depending on",diameters,sep=" ")
+Circle diameters depending on",diameters,"\nby Anaël Yahi",sep=" ")
   
   #GENERATES THE GRAPH
   if (presence=="Copies"){
@@ -194,6 +195,9 @@ metric_graph = function(metric_df,presence,diameters) {
   return(metric_plot)
   
 }
+
+metric_graph(metric_df,"Matches","Players")
+
 #FILL IN METRIC POINTS IN AN ARCHETYPES DATA FRAME
 metric_points_archetypes = function(df){
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
@@ -241,10 +245,11 @@ archetypes_ranking = function(metric_df){
   metric_df$COMB_PPR=metric_df$WINRATE_AVERAGE
   for (i in 1:length(metric_df$COMB_PPR)){
     metric_df$COMB_PPR[i] = 
-      (Presence_Weight * metric_df$NB_COPIES[i] /
+      (Presence_Weight * (metric_df$NB_COPIES[i]-min(metric_df$NB_COPIES)) /
       max(metric_df$NB_COPIES) +
-      PPR_Weight * metric_df$WINRATE_AVERAGE [i] /
-      max(metric_df$WINRATE_AVERAGE ))/(Presence_Weight+PPR_Weight)
+      (PPR_Weight * metric_df$WINRATE_AVERAGE[i]-min(metric_df$WINRATE_AVERAGE)) /
+      max(metric_df$WINRATE_AVERAGE )) /
+        (Presence_Weight+PPR_Weight)
   }
   
   metric_df = metric_df[order(-metric_df$COMB_PPR),]

@@ -165,9 +165,12 @@ if (EventType=="Competitions"){
 }
 
 #POSSIBLE QUICKFIX FOR A BETTER ACCURACY IN THE DATA
+#THE Shadow Prowess STRATEGY PLAYING BLACK, RED AND GREEN CARDS (A COLOR 
+#COMBINATION CALLED JUND) HAS QUITE A DIFFERENT STRUCTURE FROM THE OTHER 
+#SHADOW PROWESS DECKS
 # for (i in 1:length(df$ARCHETYPE)){
-#   if(df$ARCHETYPE[i]=="Shadow Prowess"){
-#     df$ARCHETYPE[i]=paste(df$COLOR[i], df$ARCHETYPE[i],sep = " ")
+#   if(df$ARCHETYPE[i]=="Shadow Prowess" && df$COLOR[i]=="BRG"){
+#     df$ARCHETYPE[i]="Jund Shadow"
 #   }
 # }
 
@@ -496,6 +499,3 @@ df=add_super_archetypes(df)
 #TO SEE WHICH EXACT ARCHETYPES ARE CONTAINED IN A SUPER ARCHETYPE, for instance 
 #"UGx Control"
 #unique(df[grep("UGx Control", df$SUPER_ARCH), ]$ARCHETYPE)
-
-#WE CAN START DISPLAYING THE REPARTITION OF THE ARCHETYPES IN THE DATA
-

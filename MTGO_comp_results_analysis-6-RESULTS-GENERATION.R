@@ -26,7 +26,7 @@ metagame_box_plot(df)
 
 ################################################################################
 #COUNT THE NUMBER OF POINTS PER ROUND
-ppr_plot=metric_graph(metric_df)
+ppr_plot=metric_graph(metric_df,"Matches","Players")
 ppr_plot
 ################################################################################
 
@@ -328,3 +328,11 @@ ggplot(df_small_CI, aes(x=CardNames, y=PPR_AVERAGE)) + theme_classic() +
                 x = CardNames), vjust = 1)+ 
   geom_text(aes(y = stat(df_small_CI$PPR_AVERAGE), label = PPR_AVERAGE, 
                 x = CardNames), vjust = -1) 
+
+
+#CMC depending on land ratio
+ggplot(df[df$NB_LAND!=0,], aes(MD_LAND_RATIO*60, CMC))+ 
+  geom_point() + 
+  coord_cartesian() + theme_bw()+ 
+  labs(title="Average CMC (without lands) of each deck depending on land ratio
+       (Number of lands / Number of cards in the MD)")
