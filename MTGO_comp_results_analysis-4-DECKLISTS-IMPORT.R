@@ -11,13 +11,14 @@ ModernDataGetter = function(){
   ModernResultsPaths=c()
   
   #PATTERNS OF THE FILE NAMES DEPENDING ON THE EVENT TYPES WE USE
-  eventPattern=""
   if (EventType=="Competitions"){
     eventPattern="modern-[^league].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
   }else if (EventType=="Challenges"){
-    eventPattern="modern-.*?challenge.*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
+    eventPattern="modern-.*?[challenge|champ qual|showcase].*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
   }else if (EventType=="Preliminaries"){
     eventPattern="modern-preliminary.*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
+  }else if (EventType=="All"){
+    eventPattern="modern-*?-\\d{4}-\\d{1,2}-\\d{1,2}(-\\d)?\\.json"
   }
   
   #LIST THE PATHS OF ALL THE RELEVANT FILES
@@ -72,11 +73,27 @@ ModernData=ModernDataGetter()
 
 #ADD THE DECKLISTS OF EACH DECK TO THE MAIN DATAFRAME
 DecklistsAdd = function(ModernData,df){
+  df$MD_TEMP=rep(NA,length(df$URL))
+  df$SB_TEMP=rep(NA,length(df$URL))
+  df$DL_TEMP=rep(NA,length(df$URL))
+  df$MDCounts=rep(NA,length(df$URL))
+  df$MDCards=rep(NA,length(df$URL))
+  df$SBCounts=rep(NA,length(df$URL))
+  df$SBCards=rep(NA,length(df$URL))
+  df$DLCountsList=rep(NA,length(df$URL))
+  df$DLCards=rep(NA,length(df$URL))
   for (i in 1:length(df$URL)){
     #LIST OF MD CARDS
-    df$MD_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Mainboard
-    #LIST OF SB CARDS
-    df$SB_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Sideboard
+    if(!is.na(df$URL[i])){
+      df$MD_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Mainboard
+      #LIST OF SB CARDS
+      df$SB_TEMP[i]=ModernData$Raw[ModernData$Raw$AnchorUri==df$URL[i],]$Sideboard
+    }else{ #FOR A SINGLE EVENT FILE
+      df$MD_TEMP[i]=ModernData$Raw$Mainboard[i]
+      #LIST OF SB CARDS
+      df$SB_TEMP[i]=ModernData$Raw$Sideboard[i]
+    }
+    
     #COMBINE BOTH LISTS WHILE SUMMING DUPLICATES
     tempDl=merge(df$MD_TEMP[i][[1]], df$SB_TEMP[i][[1]], by="CardName", all = T)
     tempDl[is.na(tempDl)] = 0

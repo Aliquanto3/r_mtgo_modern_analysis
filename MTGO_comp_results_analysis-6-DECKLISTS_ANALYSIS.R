@@ -30,7 +30,7 @@ addRatioType = function(df,type){
         }
       }
     }
-    df[[rowNameType]][i]=landcount/df_best_arch$TOTAL_MD[i]
+    df[[rowNameType]][i]=landcount/df$TOTAL_MD[i]
   }
   return(df)
 }
@@ -121,7 +121,7 @@ for (i in 1:length(mdCards)){
   df_best_arch=isPresentMDCard(df_best_arch,mdCards[i])
 }
 
-names(df_best_arch)
+#names(df_best_arch)
 
 #COMPUTES THE AVERAGE CHARACTERISTICS OF THE ARCHETYPE
 #AVERAGE RATIO OF EACH TYPE OF CARD, AVERAGE NUMBER OF EACH CARD IN MD/SB...
@@ -180,7 +180,7 @@ archAverageData = function(df,bestArchetype){
   return(averageCards)
 }
 
-#GENERATE AN AVERAGE DECKLIST
+#GENERATE AN AVERAGE DECKLIST ROUNDING DOWN THE NUMBER OF CARDS
 Average_decklist_round_down= function(df_avg_cards,avgCardRatio){
   MDCardsByType=list(arrange(df_avg_cards[df_avg_cards$Types=="Land",],
                              desc(AvgMdCount)),
@@ -224,7 +224,7 @@ Average_decklist_round_down= function(df_avg_cards,avgCardRatio){
   return(averageMD)
 }
 
-#GENERATE AN AVERAGE DECKLIST
+#GENERATE AN AVERAGE DECKLIST ROUNDING UP THE NUMBER OF CARDS
 Average_decklist_round_up= function(df_avg_cards,avgCardRatio){
   MDCardsByType=list(arrange(df_avg_cards[df_avg_cards$Types=="Land",],
                              desc(AvgMdCount)),
@@ -300,102 +300,102 @@ Average_SB= function(df_avg_cards){
 #TESTING THE PRESENCE OF ALL THE SB CARDS IN REGARD TO THE WINRATE
 ################################################################################
 
-#ACP sur la présence ou non de certaines cartes en sideboard
-listColSB=c(grep("WINRATE", colnames(df_best_arch)),
-            grep("SB_PRESENCE", colnames(df_best_arch)))
-activeBestArchSB=df_best_arch[,listColSB]
+# #ACP sur la présence ou non de certaines cartes en sideboard
+# listColSB=c(grep("WINRATE", colnames(df_best_arch)),
+#             grep("SB_PRESENCE", colnames(df_best_arch)))
+# activeBestArchSB=df_best_arch[,listColSB]
+# # names(activeBestArchSB)
+# # length(names(activeBestArchSB))
+# # fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))  
+# #   
+# # res.pca2 = PCA(activeBestArchSB, graph = FALSE)
+# # fviz_eig (res.pca2)
+# # fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# # var2 = get_pca_var(res.pca2)
+# # var2$coord
+# 
+# activeBestArch2A=activeBestArchSB[,c(1,2:11)]
+# res.pca2A = PCA(activeBestArch2A, graph = FALSE)
+# fviz_pca_var(res.pca2A, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2A)$coord
+# 
+# activeBestArch2B=activeBestArchSB[,c(1,12:22)]
+# res.pca2B = PCA(activeBestArch2B, graph = FALSE)
+# fviz_pca_var(res.pca2B, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2B)$coord
+# 
+# activeBestArch2C=activeBestArchSB[,c(1,23:33)]
+# res.pca2C = PCA(activeBestArch2C, graph = FALSE)
+# fviz_pca_var(res.pca2C, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2C)$coord
+# 
+# activeBestArch2D=activeBestArchSB[,c(1,34:44)]
+# res.pca2D = PCA(activeBestArch2D, graph = FALSE)
+# fviz_pca_var(res.pca2D, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2D)$coord
+# 
+# activeBestArch2E=activeBestArchSB[,c(1,45:54)]
+# res.pca2E = PCA(activeBestArch2E, graph = FALSE)
+# fviz_pca_var(res.pca2E, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2E)$coord
+# 
 # names(activeBestArchSB)
-# length(names(activeBestArchSB))
-# fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))  
-#   
-# res.pca2 = PCA(activeBestArchSB, graph = FALSE)
-# fviz_eig (res.pca2)
-# fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-# var2 = get_pca_var(res.pca2)
-# var2$coord
-
-activeBestArch2A=activeBestArchSB[,c(1,2:11)]
-res.pca2A = PCA(activeBestArch2A, graph = FALSE)
-fviz_pca_var(res.pca2A, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2A)$coord
-
-activeBestArch2B=activeBestArchSB[,c(1,12:22)]
-res.pca2B = PCA(activeBestArch2B, graph = FALSE)
-fviz_pca_var(res.pca2B, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2B)$coord
-
-activeBestArch2C=activeBestArchSB[,c(1,23:33)]
-res.pca2C = PCA(activeBestArch2C, graph = FALSE)
-fviz_pca_var(res.pca2C, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2C)$coord
-
-activeBestArch2D=activeBestArchSB[,c(1,34:44)]
-res.pca2D = PCA(activeBestArch2D, graph = FALSE)
-fviz_pca_var(res.pca2D, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2D)$coord
-
-activeBestArch2E=activeBestArchSB[,c(1,45:54)]
-res.pca2E = PCA(activeBestArch2E, graph = FALSE)
-fviz_pca_var(res.pca2E, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2E)$coord
-
-names(activeBestArchSB)
-sum(activeBestArchSB$SB_PRESENCE_AETHER_GUST)
-length(activeBestArchSB$SB_PRESENCE_AETHER_GUST)
-################################################################################
-#TESTING THE PRESENCE OF ALL THE MD CARDS IN REGARD TO THE WINRATE
-################################################################################
-#ACP sur la présence ou non de certaines cartes en sideboard
-listColMD=c(grep("WINRATE", colnames(df_best_arch)),
-            grep("MD_PRESENCE", colnames(df_best_arch)))
-activeBestArchMD=df_best_arch[,listColMD]
+# sum(activeBestArchSB$SB_PRESENCE_AETHER_GUST)
+# length(activeBestArchSB$SB_PRESENCE_AETHER_GUST)
+# ################################################################################
+# #TESTING THE PRESENCE OF ALL THE MD CARDS IN REGARD TO THE WINRATE
+# ################################################################################
+# #ACP sur la présence ou non de certaines cartes en sideboard
+# listColMD=c(grep("WINRATE", colnames(df_best_arch)),
+#             grep("MD_PRESENCE", colnames(df_best_arch)))
+# activeBestArchMD=df_best_arch[,listColMD]
+# # names(activeBestArchMD)
+# # length(names(activeBestArchMD))
+# # fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))  
+# #   
+# # res.pca2 = PCA(activeBestArchMD, graph = FALSE)
+# # fviz_eig (res.pca2)
+# # fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# # var2 = get_pca_var(res.pca2)
+# # var2$coord
+# 
+# activeBestArch2A=activeBestArchMD[,c(1,2:11)]
+# res.pca2A = PCA(activeBestArch2A, graph = FALSE)
+# fviz_pca_var(res.pca2A, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2A)$coord
+# 
+# activeBestArch2B=activeBestArchMD[,c(1,12:22)]
+# res.pca2B = PCA(activeBestArch2B, graph = FALSE)
+# fviz_pca_var(res.pca2B, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2B)$coord
+# 
+# activeBestArch2C=activeBestArchMD[,c(1,23:33)]
+# res.pca2C = PCA(activeBestArch2C, graph = FALSE)
+# fviz_pca_var(res.pca2C, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2C)$coord
+# 
+# activeBestArch2D=activeBestArchMD[,c(1,34:44)]
+# res.pca2D = PCA(activeBestArch2D, graph = FALSE)
+# fviz_pca_var(res.pca2D, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2D)$coord
+# 
+# activeBestArch2E=activeBestArchMD[,c(1,45:55)]
+# res.pca2E = PCA(activeBestArch2E, graph = FALSE)
+# fviz_pca_var(res.pca2E, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2E)$coord
+# 
+# activeBestArch2F=activeBestArchMD[,c(1,56:66)]
+# res.pca2F = PCA(activeBestArch2F, graph = FALSE)
+# fviz_pca_var(res.pca2F, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2F)$coord
+# 
+# activeBestArch2G=activeBestArchMD[,c(1,67:77)]
+# res.pca2G = PCA(activeBestArch2G, graph = FALSE)
+# fviz_pca_var(res.pca2G, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
+# get_pca_var(res.pca2G)$coord
+# 
+# 
 # names(activeBestArchMD)
-# length(names(activeBestArchMD))
-# fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))  
-#   
-# res.pca2 = PCA(activeBestArchMD, graph = FALSE)
-# fviz_eig (res.pca2)
-# fviz_pca_var(res.pca2, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-# var2 = get_pca_var(res.pca2)
-# var2$coord
-
-activeBestArch2A=activeBestArchMD[,c(1,2:11)]
-res.pca2A = PCA(activeBestArch2A, graph = FALSE)
-fviz_pca_var(res.pca2A, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2A)$coord
-
-activeBestArch2B=activeBestArchMD[,c(1,12:22)]
-res.pca2B = PCA(activeBestArch2B, graph = FALSE)
-fviz_pca_var(res.pca2B, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2B)$coord
-
-activeBestArch2C=activeBestArchMD[,c(1,23:33)]
-res.pca2C = PCA(activeBestArch2C, graph = FALSE)
-fviz_pca_var(res.pca2C, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2C)$coord
-
-activeBestArch2D=activeBestArchMD[,c(1,34:44)]
-res.pca2D = PCA(activeBestArch2D, graph = FALSE)
-fviz_pca_var(res.pca2D, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2D)$coord
-
-activeBestArch2E=activeBestArchMD[,c(1,45:55)]
-res.pca2E = PCA(activeBestArch2E, graph = FALSE)
-fviz_pca_var(res.pca2E, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2E)$coord
-
-activeBestArch2F=activeBestArchMD[,c(1,56:66)]
-res.pca2F = PCA(activeBestArch2F, graph = FALSE)
-fviz_pca_var(res.pca2F, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2F)$coord
-
-activeBestArch2G=activeBestArchMD[,c(1,67:77)]
-res.pca2G = PCA(activeBestArch2G, graph = FALSE)
-fviz_pca_var(res.pca2G, col.var = "contrib", gradient.cols = c("blue", "green", "red"))
-get_pca_var(res.pca2G)$coord
-
-
-names(activeBestArchMD)
-sum(activeBestArchMD$MD_PRESENCE_PATH_TO_EXILE)
-length(activeBestArchMD$MD_PRESENCE_PATH_TO_EXILE)
+# sum(activeBestArchMD$MD_PRESENCE_PATH_TO_EXILE)
+# length(activeBestArchMD$MD_PRESENCE_PATH_TO_EXILE)
 ################################################################################

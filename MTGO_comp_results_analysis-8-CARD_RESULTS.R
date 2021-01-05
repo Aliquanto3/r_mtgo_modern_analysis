@@ -54,19 +54,21 @@ CardResults = CardResults[order(-CardResults$NbDecks),]
 mostPlayedCards=subset(CardResults[1:50,],select = c(CardNames,Presence,WINRATE_AVERAGE))
 mostPlayedCards=arrange(mostPlayedCards,desc(Presence))
 print(mostPlayedCards, row.names = TRUE)
-write.csv(mostPlayedCards, paste('DF_Most_Played_Cards_',archName,'-',
-                        Beginning,'-',End,'.csv',sep=''),row.names = TRUE)
+write.csv(mostPlayedCards, paste('Results_as_CSV/',Beginning,'-',End,
+                                 '_DF_Most_Played_Cards.csv',sep=''),
+          row.names = TRUE)
 
 #PRINT WINRATES OF THE TOP CARDS WITH THE BEST WINRATES
 CardResults = CardResults[order(-CardResults$WINRATE_AVERAGE),]
 highestWinrateCards=subset(CardResults[1:50,],select = c(CardNames,Presence,WINRATE_AVERAGE))
 highestWinrateCards=arrange(highestWinrateCards,desc(WINRATE_AVERAGE))
 print(highestWinrateCards, row.names = TRUE)
-write.csv(highestWinrateCards, paste('DF_Highest_Winrate_Cards_',archName,'-',
-                                 Beginning,'-',End,'.csv',sep=''),row.names = TRUE)
+write.csv(highestWinrateCards, paste('Results_as_CSV/',Beginning,'-',End,
+                                     '_DF_Highest_Winrate_Cards.csv',sep=''),
+          row.names = TRUE)
 
 #SAME BUT ONLY FOR CARDS WITH A SMALL CI ON THE WINRATE
-df_small_CI = CardResults[CardResults$WINRATE_95_MAX -CardResults$WINRATE_95_MIN<0.1,]
+df_small_CI = CardResults[CardResults$WINRATE_95_MAX - CardResults$WINRATE_95_MIN<7,]
 length(df_small_CI$CardNames)
 df_small_CI = df_small_CI[order(df_small_CI$WINRATE_AVERAGE),]
 df_small_CI = df_small_CI[order(-df_small_CI$WINRATE_AVERAGE),]
@@ -75,11 +77,13 @@ print(subset(df_small_CI[1:50,],select = c(CardNames,Presence,WINRATE_AVERAGE)),
 
 #INSTEAD WE TAKE THE LOWER BORN OF THE WINRATE CONFIDENCE INTERVAL NOW
 CardResults = CardResults[order(-CardResults$WINRATE_95_MIN),]
-highestLowerWinrateBorn=subset(CardResults[1:50,],select = c(CardNames,Presence,WINRATE_95_MIN))
+highestLowerWinrateBorn=subset(CardResults[1:50,],select = c(CardNames,Presence,
+                                                             WINRATE_95_MIN))
 highestLowerWinrateBorn=arrange(highestLowerWinrateBorn,desc(WINRATE_95_MIN))
 print(highestLowerWinrateBorn, row.names = TRUE)
-write.csv(highestLowerWinrateBorn, paste('DF_Highest_Lower_Winrate_Born_Cards_',archName,'-',
-                                     Beginning,'-',End,'.csv',sep=''),row.names = TRUE)
+write.csv(highestLowerWinrateBorn, paste('Results_as_CSV/',Beginning,'-',End,
+                                         '_DF_Highest_Lower_Winrate_Born_Cards.csv',
+                                         sep=''),row.names = TRUE)
 
 max(CardResults$WINRATE_95_MIN)
 min(CardResults$WINRATE_95_MIN)
@@ -88,14 +92,60 @@ max(CardResults$WINRATE_AVERAGE)
 min(CardResults$WINRATE_AVERAGE)
 
 
+################################################################################
+#LET US COMPUTE THE WINRATE OF EACH ARTIST
+CardResults[1:50,]
+names(cardData)
+length(unique(cardData$artist))
 
+for (i in 1:length(CardResults$CardNames)){
+  if (CardResults$CardNames[i] %in% cardData$name){
+    CardResults$Artists[i]=cardData[cardData$name==CardResults$CardNames[i],]$artist[1]
+  }else if (CardResults$CardNames[i] %in% cardData$faceName){
+    CardResults$Artists[i]=cardData[cardData$faceName==CardResults$CardNames[i],]$artist[1]
+  }
+}
+
+artistsList=unique(unlist(CardResults$Artists))
+length(artistsList)
+someZeros=rep(0,length(artistsList))
+artistsResults = setNames(data.frame(artistsList,someZeros,someZeros),c("ArtistName","Winrate","Presence"))
+
+for (i in 1:length(artistsList)){
+  artistsResults$Winrate[i]=sum((CardResults[CardResults$Artists==artistsResults$ArtistName[i],]$WINRATE_AVERAGE*
+                               CardResults[CardResults$Artists==artistsResults$ArtistName[i],]$Presence))/
+    sum(CardResults[CardResults$Artists==artistsResults$ArtistName[i],]$Presence)
+  
+  artistsResults$Winrate[i]=as.numeric(format(round(artistsResults$Winrate[i],1), 
+    nsmall = 1))
+  
+  artistsResults$Presence[i]=sum(CardResults[CardResults$Artists==artistsResults$ArtistName[i],]$Presence)
+  artistsResults$Presence[i]=as.numeric(format(round(artistsResults$Presence[i],1), 
+                                               nsmall = 1))
+}
+
+artistsResults=arrange(artistsResults,desc(Winrate))
+head(artistsResults)
+artistsResults
+
+artistsResults[artistsResults$ArtistName=="Magali Villeneuve",]
+
+write.csv(artistsResults, paste('Results_as_CSV/','-',Beginning,'-',End,
+                                '_DF_Artists_by_Winrate.csv',sep=''),
+          row.names = TRUE)
+
+#GRAPHICS BELOW
+###################################################################################
 #DISPLAY THE CI OF WINRATES FOR EACH CARD WITH A SMALL CI
-CI_length=0.05
+CI_length=7.5
 df_small_CI = CardResults[CardResults$WINRATE_95_MAX -CardResults$WINRATE_95_MIN<CI_length,]
 length(df_small_CI$CardNames)
-df_small_CI$WINRATE_95_MAX =as.numeric(specify_decimal(df_small_CI$WINRATE_95_MAX ,3))
-df_small_CI$WINRATE_AVERAGE=as.numeric(specify_decimal(df_small_CI$WINRATE_AVERAGE,3))
-df_small_CI$WINRATE_95_MIN=as.numeric(specify_decimal(df_small_CI$WINRATE_95_MIN,3))
+df_small_CI$WINRATE_95_MAX =as.numeric(format(round(
+  df_small_CI$WINRATE_95_MAX,3), nsmall = 3))
+df_small_CI$WINRATE_AVERAGE=as.numeric(format(round(
+  df_small_CI$WINRATE_AVERAGE,3), nsmall = 3))
+df_small_CI$WINRATE_95_MIN=as.numeric(format(round(
+  df_small_CI$WINRATE_95_MIN,3), nsmall = 3))
 
 df_small_CI$CardNames = reorder(df_small_CI$CardNames, 
                                 as.numeric(df_small_CI$WINRATE_AVERAGE))
@@ -103,7 +153,7 @@ df_small_CI$CardNames = reorder(df_small_CI$CardNames,
 y_label_small_CI="Winrates and confidence intervals"
 graph_title_small_CI=paste("Winrate of each card between", Beginning, "and", 
                            End, "in MTGO",  EventType, "with a CI <", 
-                           CI_length*100, "%",sep = " ")
+                           CI_length, "%",sep = " ")
 graph_subtitle_small_CI="Red line for the average winrate and green lines for the 
 average CI of those cards combined"
 
@@ -125,10 +175,10 @@ ggplot(df_small_CI, aes(x=CardNames, y=WINRATE_AVERAGE)) + theme_classic() +
   geom_text(aes(y = stat(df_small_CI$WINRATE_AVERAGE), label = WINRATE_AVERAGE, 
                 x = CardNames), vjust = -1) 
 
-
+################################################################################
 #CMC depending on land ratio
-ggplot(df[df$NB_LAND!=0,], aes(MD_LAND_RATIO*60, CMC))+ 
-  geom_point() + 
-  coord_cartesian() + theme_bw()+ 
-  labs(title="Average CMC (without lands) of each deck depending on land ratio
-       (Number of lands / Number of cards in the MD)")
+# ggplot(df[df$NB_LAND!=0,], aes(MD_LAND_RATIO*60, CMC))+ 
+#   geom_point() + 
+#   coord_cartesian() + theme_bw()+ 
+#   labs(title="Average CMC (without lands) of each deck depending on land ratio
+#        (Number of lands / Number of cards in the MD)")

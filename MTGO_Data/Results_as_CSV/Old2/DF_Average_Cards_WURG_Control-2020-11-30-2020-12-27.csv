@@ -1,0 +1,70 @@
+"CardName","Types","AvgMdCount","AvgSbCount","AlwaysMDPresent","AlwaysSBPresent"
+"Aether Gust","Instant",0.68,2.03,FALSE,TRUE
+"Ashiok, Dream Render","Planeswalker",0,0.9,FALSE,FALSE
+"Celestial Purge","Instant",0,1.81,FALSE,FALSE
+"Cleansing Wildfire","Sorcery",0,2.06,FALSE,FALSE
+"Engineered Explosives","Artifact",0,0.35,FALSE,FALSE
+"Mystical Dispute","Instant",0,1.16,FALSE,FALSE
+"Soul-Guide Lantern","Artifact",0,0.9,FALSE,FALSE
+"Supreme Verdict","Sorcery",0.1,1.1,FALSE,FALSE
+"Timely Reinforcements","Sorcery",0,0.81,FALSE,FALSE
+"Veil of Summer","Instant",0,1.84,FALSE,TRUE
+"Containment Priest","Creature",0,0.13,FALSE,FALSE
+"Firespout","Sorcery",0,0.55,FALSE,FALSE
+"Stony Silence","Enchantment",0,0.1,FALSE,FALSE
+"Dovin's Veto","Instant",0,0.32,FALSE,FALSE
+"Force of Negation","Instant",2.19,0.03,FALSE,FALSE
+"Condemn","Instant",0,0.13,FALSE,FALSE
+"Nature's Claim","Instant",0,0.16,FALSE,FALSE
+"Gaea's Blessing","Sorcery",0,0.1,FALSE,FALSE
+"Lightning Bolt","Instant",1.26,0.03,FALSE,FALSE
+"Surgical Extraction","Instant",0,0.06,FALSE,FALSE
+"Tale's End","Instant",0.03,0.06,FALSE,FALSE
+"Wilt","Instant",0,0.06,FALSE,FALSE
+"Path to Exile","Instant",3.84,0.03,TRUE,FALSE
+"Negate","Instant",0,0.06,FALSE,FALSE
+"Spell Pierce","Instant",0,0.06,FALSE,FALSE
+"Deicide","Instant",0,0.03,FALSE,FALSE
+"Kozilek, Butcher of Truth","Creature",0,0.03,FALSE,FALSE
+"Pithing Needle","Artifact",0,0.03,FALSE,FALSE
+"Nexus of Fate","Instant",0,0.03,FALSE,FALSE
+"Teferi, Hero of Dominaria","Planeswalker",1.23,0,TRUE,FALSE
+"Teferi, Time Raveler","Planeswalker",2.03,0,TRUE,FALSE
+"Wrenn and Six","Planeswalker",3,0,TRUE,FALSE
+"Omnath, Locus of Creation","Creature",2.39,0,TRUE,FALSE
+"Uro, Titan of Nature's Wrath","Creature",3.81,0,TRUE,FALSE
+"Hour of Promise","Sorcery",1.35,0,FALSE,FALSE
+"Cryptic Command","Instant",2.9,0,TRUE,FALSE
+"Growth Spiral","Instant",2.58,0,TRUE,FALSE
+"Mana Leak","Instant",2.81,0,TRUE,FALSE
+"Breeding Pool","Land",1.03,0,TRUE,FALSE
+"Field of Ruin","Land",1.55,0,FALSE,FALSE
+"Field of the Dead","Land",1.94,0,FALSE,FALSE
+"Flooded Strand","Land",4,0,TRUE,FALSE
+"Forest","Land",0.94,0,FALSE,FALSE
+"Hallowed Fountain","Land",1,0,TRUE,FALSE
+"Island","Land",1,0,FALSE,FALSE
+"Ketria Triome","Land",1,0,TRUE,FALSE
+"Misty Rainforest","Land",3.97,0,TRUE,FALSE
+"Mystic Sanctuary","Land",2.03,0,TRUE,FALSE
+"Plains","Land",0.45,0,FALSE,FALSE
+"Raugrin Triome","Land",1,0,TRUE,FALSE
+"Scalding Tarn","Land",3.26,0,TRUE,FALSE
+"Snow-Covered Forest","Land",0.97,0,FALSE,FALSE
+"Snow-Covered Island","Land",1,0,TRUE,FALSE
+"Steam Vents","Land",1.03,0,TRUE,FALSE
+"Stomping Ground","Land",0.9,0,FALSE,FALSE
+"Temple Garden","Land",1,0,TRUE,FALSE
+"Jace, the Mind Sculptor","Planeswalker",0.58,0,FALSE,FALSE
+"Snow-Covered Plains","Land",0.55,0,FALSE,FALSE
+"Life from the Loam","Sorcery",0.03,0,FALSE,FALSE
+"Castle Vantress","Land",0.03,0,FALSE,FALSE
+"Sea Gate Restoration","Sorcery",0.03,0,FALSE,FALSE
+"Spell Snare","Instant",0.03,0,FALSE,FALSE
+"Snow-Covered Mountain","Land",0.06,0,FALSE,FALSE
+"Time Warp","Sorcery",0.16,0,FALSE,FALSE
+"Ghost Quarter","Land",0.03,0,FALSE,FALSE
+"Remand","Instant",0.1,0,FALSE,FALSE
+"Blast Zone","Land",0.03,0,FALSE,FALSE
+"Farseek","Sorcery",0.06,0,FALSE,FALSE
+"Wooded Foothills","Land",0.03,0,FALSE,FALSE

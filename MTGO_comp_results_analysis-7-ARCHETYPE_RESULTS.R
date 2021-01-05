@@ -21,6 +21,9 @@ sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES)
 #AVERAGE NUMBER OF ROUNDS
 (sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))/length(df$ARCHETYPE)
 
+#TOTAL NUMBER OF EVENTS
+length(unique(df$EVENT_NAME))
+
 # IV.1.A - Indicateur 1 : présence de chaque archétype
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
 PieShare=2.5
@@ -37,20 +40,28 @@ metagame_box_plot(df,"Matches")
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY PRESENCE
 arch_list=generate_archetype_list(df)
 arch_list$PRESENCE=rep(0,length(arch_list$ARCHETYPES))
+#BY DEFAULT, PRESENCE IS THE NUMBER OF MATCHES PLAYED
+#HOWEVER, IN THE CASE OF A SINGLE EVENT, WITHOUT URL, WE CAN TAKE THE NUMBER OF 
+#COPIES INSTEAD
 for (i in 1:length(arch_list$PRESENCE)){
   arch_id=which(df[[archetype_acc]]==arch_list$ARCHETYPES[i])
   #NUMBER OF ROUNDS PLAYED
   arch_list$PRESENCE[i]=sum(df[arch_id,]$NB_ROUNDS,df[arch_id,]$TOP8_MATCHES)
+  if (all(is.na(df$URL))){
+    arch_list$PRESENCE[i]=arch_list$PRESENCE[i]/df$NB_ROUNDS[i]
+  }
 }
 arch_list=arrange(arch_list,desc(PRESENCE))
 
-print(subset(arch_list,select = c(ARCHETYPES)), row.names = TRUE)
-print(subset(arch_list,select = c(PRESENCE)), row.names = FALSE)
-write.csv(arch_list,paste('DF_Archetypes_Presence_',Beginning,'-',
-                          End,'.csv',sep=''), row.names = TRUE)
+print(subset(arch_list,select = c(ARCHETYPES,PRESENCE)), row.names = TRUE)
+print(subset(arch_list,select = c(ARCHETYPES)), row.names = FALSE)
+write.csv(arch_list,paste('Results_as_CSV/',Beginning,'-',
+                          End,'_DF_Archetypes_Presence.csv',sep=''), row.names = TRUE)
 ###################################################################
 
 # IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
+metric_df=metric_points_archetypes(df)
+arch_ranked=archetypes_ranking(metric_df)
 winrates_graph(df,arch_ranked,"Matches")
 
 ####################################################################
@@ -62,7 +73,7 @@ arch_ranked$WINRATE_AVERAGE = as.numeric(format(round(
   arch_ranked$WINRATE_AVERAGE*100,1), nsmall = 1))
 print(subset(arch_ranked,select = c(WINRATE_AVERAGE)), row.names = FALSE)
 write.csv(subset(arch_ranked,select = c(ARCHETYPES,WINRATE_AVERAGE)),
-          paste('DF_Archetypes_Winrates_',Beginning,'-',End,'.csv',sep=''), 
+          paste('Results_as_CSV/',Beginning,'-',End,'_DF_Archetypes_Winrates.csv',sep=''), 
           row.names = TRUE)
 ###################################################################
 
@@ -116,7 +127,7 @@ arch_ranked$METRIC_COMB = as.numeric(format(round(
   arch_ranked$METRIC_COMB,3), nsmall = 3))
 print(subset(arch_ranked,select = c(METRIC_COMB)), row.names = FALSE)
 write.csv(subset(arch_ranked,select = c(ARCHETYPES,METRIC_COMB)),
-          paste('DF_Archetypes_Metric_Comb_',Beginning,'-',End,'.csv',sep=''), 
+          paste('Results_as_CSV/',Beginning,'-',End,'_DF_Archetypes_Metric_Comb.csv',sep=''), 
           row.names = TRUE)
 ###################################################################
 
@@ -135,7 +146,7 @@ arch_ranked$WINRATE_95_MIN = as.numeric(format(round(
   arch_ranked$WINRATE_95_MIN*100,1), nsmall = 1))
 print(subset(arch_ranked,select = c(WINRATE_95_MIN)), row.names = FALSE)
 write.csv(subset(arch_ranked,select = c(ARCHETYPES,WINRATE_95_MIN)),
-          paste('DF_Archetypes_Lower_Winrate_',Beginning,'-',End,'.csv',sep=''), 
+          paste('Results_as_CSV/',Beginning,'-',End,'_DF_Archetypes_Lower_Winrate.csv',sep=''), 
           row.names = TRUE)
 ###################################################################
 
@@ -171,6 +182,8 @@ summary(regBestArch2)
 ################################################################################
 #ARCHETYPE AVERAGE STRUCTURE
 archName="WURG Control"
+archNameFile=gsub('[[:punct:] ]+',' ',archName)
+archNameFile=chartr(" ", "_", archName)
 #A BIT LONG TO EXECUTE
 df_best_arch=infos_best_arch(df,bestArchetype)
 
@@ -204,17 +217,15 @@ avgCardRatio$SumCards=sum(avgCardRatio)
 avgCardRatioRound$SumCards=sum(avgCardRatioRound)
 avgCardRatio
 avgCardRatioRound
-write.csv(avgCardRatioRound, paste('DF_Average_Cards_',archName,'-',
-                                        Beginning,'-',End,'.csv',sep=''), 
+write.csv(avgCardRatioRound, paste('Results_as_CSV/',Beginning,'-',End,'-',
+                                   archNameFile,'_DF_Average_Ratios.csv',sep=''), 
           row.names = FALSE)
 
 #AVERAGE NUMBER OF EACH CARD IN THE ARCHETYPE
 df_avg_cards=archAverageData(df,archName)
 df_avg_cards
-archName=gsub('[[:punct:] ]+',' ',archName)
-archName=chartr(" ", "_", archName)
-write.csv(df_avg_cards, paste('DF_Average_Cards_',archName,'-',
-                                        Beginning,'-',End,'.csv',sep=''), 
+write.csv(df_avg_cards, paste('Results_as_CSV/',Beginning,'-',End,'-',archNameFile,
+                              '_DF_Average_Cards.csv',sep=''), 
           row.names = FALSE)
 #AVERAGE MD ROUNDING DOWN THE RATIOS
 # avg_decklist_down=Average_decklist_round_down(df_avg_cards,avgCardRatio)
@@ -225,8 +236,8 @@ avg_decklist_up=Average_decklist_round_up(df_avg_cards,avgCardRatio)
 avg_decklist_up=rbind(avg_decklist_up,setNames(data.frame(
   "Total",sum(avg_decklist_up$CardCount)),c("CardName","CardCount")))
 print(avg_decklist_up, row.names = FALSE)
-write.csv(avg_decklist_up, paste('DF_Average_Maindeck_',archName,'-',
-                              Beginning,'-',End,'.csv',sep=''), 
+write.csv(avg_decklist_up, paste('Results_as_CSV/',Beginning,'-',End,'-',
+                                 archNameFile,'_DF_Average_Maindeck.csv',sep=''), 
           row.names = FALSE)
 
 #AVERAGE MD ROUNDING UP THE RATIOS
@@ -234,8 +245,8 @@ avg_decklist_up=Average_decklist_round_up(df_avg_cards,avgCardRatio)
 avg_decklist_up=rbind(avg_decklist_up,setNames(data.frame(
   "Total",sum(avg_decklist_up$CardCount)),c("CardName","CardCount")))
 print(avg_decklist_up, row.names = FALSE)
-write.csv(avg_decklist_up, paste('DF_Average_Maindeck_',archName,'-',
-                                 Beginning,'-',End,'.csv',sep=''), 
+write.csv(avg_decklist_up, paste('Results_as_CSV/',Beginning,'-',End,'-',
+                                 archNameFile,'_DF_Average_Maindeck.csv',sep=''), 
           row.names = FALSE)
 
 #AVERAGE SB ROUNDING UP THE RATIOS
@@ -243,7 +254,7 @@ avg_SB=Average_SB(df_avg_cards)
 avg_SB=rbind(avg_SB,setNames(data.frame(
   "Total",sum(avg_SB$CardCount)),c("CardName","CardCount")))
 print(avg_SB, row.names = FALSE)
-write.csv(avg_SB, paste('DF_Average_Sideboard_',archName,'-',
-                                 Beginning,'-',End,'.csv',sep=''), 
+write.csv(avg_SB, paste('Results_as_CSV/',Beginning,'-',End,'-',archNameFile,
+                        '_DF_Average_Sideboard.csv',sep=''), 
           row.names = FALSE)
 

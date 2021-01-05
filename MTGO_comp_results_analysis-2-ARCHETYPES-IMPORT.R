@@ -32,8 +32,7 @@ if(is.na(End)){
 #SELECT DATA FOR A SPECIFIC PERIOD
 rawData$DATE = as.Date(rawData$DATE)
 rawData$POINTS = as.numeric(rawData$POINTS)
-periodData=rawData
-periodData=subset(rawData, DATE > as.Date(Beginning) & DATE < as.Date(End))
+periodData=subset(rawData, DATE >= as.Date(Beginning) & DATE < as.Date(End))
 
 #View(periodData)
 #length(periodData$PLAYER)
@@ -44,27 +43,25 @@ generate_Prelim_Data = function() {
   PrelimData=periodData[grep("Preliminary", periodData$EVENT), ]
   #View(PrelimData) 
   
-  for (i in 1:length(PrelimData)){
-    if (PrelimData$RESULT[i]=="5-0" | PrelimData$RESULT[i]=="4-1" | 
-        PrelimData$RESULT[i]=="3-2"){
-      #before prelim structure changes
-      PrelimData$NB_ROUNDS[i]=5
-    }else if (PrelimData$RESULT[i]=="4-0" | PrelimData$RESULT[i]=="3-1"){
-      #after prelim structure changes
-      PrelimData$NB_ROUNDS[i]=4
+  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE PRELIMINARIES
+  if(length(PrelimData$EVENT)>=1){
+    for (i in 1:length(PrelimData)){
+      if (PrelimData$RESULT[i]=="5-0" | PrelimData$RESULT[i]=="4-1" | 
+          PrelimData$RESULT[i]=="3-2"){
+        #before prelim structure changes
+        PrelimData$NB_ROUNDS[i]=5
+      }else if (PrelimData$RESULT[i]=="4-0" | PrelimData$RESULT[i]=="3-1"){
+        #after prelim structure changes
+        PrelimData$NB_ROUNDS[i]=4
+      }
     }
   }
-  
-  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE PRELIMINARIES
-  nbRoundsVecPrelim=rep(5,length(PrelimData$EVENT))
-  PrelimData$NB_ROUNDS=nbRoundsVecPrelim
-  #View(PrelimData)
   
   #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN PRELIMINARIES - 
   #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
   PrelimData$NB_DEFEATS=PrelimData$NB_ROUNDS - PrelimData$POINTS/3
   
-  if(EventType=="Competitions"){
+  if(EventType=="Competitions" || EventType=="Events"){
     #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
     PrelimData$TOP8_PTS=rep(0,length(PrelimData$POINTS))
     PrelimData$TOP8_DEF=rep(0,length(PrelimData$NB_DEFEATS))
@@ -78,7 +75,8 @@ generate_Prelim_Data = function() {
 generate_Challenge_Data = function() {
   
   #COLLECT CHALLENGES ONLY FOR SPECIFIC TREATMENT
-  ChallData=periodData[grep("Challenge", periodData$EVENT), ]
+  challEvents = c("Challenge","Champ","Showcase")
+  ChallData=periodData[grep(paste(challEvents,collapse="|"), periodData$EVENT), ]
   
   #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE CHALLENGES
   #DIVIDE THE MAXIMUM NUMBER OF POINTS IN SWISS TO GET THE RESULT
@@ -86,17 +84,19 @@ generate_Challenge_Data = function() {
   #THERE IS NOT ANY PLAYER AT X-0, SO YOU ADD 1 TO THE RESULT
   listEventsChall=unique(ChallData$EVENT_NAME)
   nbRoundsVec=c()
-  for (i in 1:length(listEventsChall)){
-    periodChallEventData=subset(ChallData, EVENT_NAME == listEventsChall[i])
-    maxPoints=max(periodChallEventData$POINTS)
-    nbPlayMaxPts=length(which(periodChallEventData$POINTS == maxPoints))
-    if(nbPlayMaxPts==1){
-      nbRounds=maxPoints/3
-    }else{
-      nbRounds=1+maxPoints/3
+  if(length(listEventsChall)>=1){
+    for (i in 1:length(listEventsChall)){
+      periodChallEventData=subset(ChallData, EVENT_NAME == listEventsChall[i])
+      maxPoints=max(periodChallEventData$POINTS)
+      nbPlayMaxPts=length(which(periodChallEventData$POINTS == maxPoints))
+      if(nbPlayMaxPts==1){
+        nbRounds=maxPoints/3
+      }else{
+        nbRounds=1+maxPoints/3
+      }
+      nbRoundsEvent=rep(nbRounds,length(periodChallEventData$EVENT))
+      nbRoundsVec=c(nbRoundsVec,nbRoundsEvent)
     }
-    nbRoundsEvent=rep(nbRounds,length(periodChallEventData$EVENT))
-    nbRoundsVec=c(nbRoundsVec,nbRoundsEvent)
   }
   ChallData$NB_ROUNDS=nbRoundsVec
   
@@ -106,41 +106,47 @@ generate_Challenge_Data = function() {
   
   #ADD TOP8 POINTS: 3*3 to 1st, 3*2 to 2nd, 3*1 to 3rd and 4th, none to others
   ChallData$TOP8_PTS=rep(0,length(ChallData$POINTS))
-  for (i in 1:length(ChallData$RESULT)){
-    if (ChallData$RESULT[i] == "1st Place"){
-      ChallData$TOP8_PTS[i] = 9
-    }else if (ChallData$RESULT[i] == "2nd Place"){
-      ChallData$TOP8_PTS[i] = 6
-    }else if (ChallData$RESULT[i] == "3rd Place" | 
-              ChallData$RESULT[i] == "4th Place"){
-      ChallData$TOP8_PTS[i] = 3
+  if(length(listEventsChall)>=1){
+    for (i in 1:length(ChallData$RESULT)){
+      if (ChallData$RESULT[i] == "1st Place"){
+        ChallData$TOP8_PTS[i] = 9
+      }else if (ChallData$RESULT[i] == "2nd Place"){
+        ChallData$TOP8_PTS[i] = 6
+      }else if (ChallData$RESULT[i] == "3rd Place" | 
+                ChallData$RESULT[i] == "4th Place"){
+        ChallData$TOP8_PTS[i] = 3
+      }
     }
   }
   
   #ADD TOP8 DEFEATS: 0 FOR THE WINNER, 1 FOR THE OTHERS
   ChallData$TOP8_DEF=ChallData$NB_DEFEATS
-  for (i in 1:length(ChallData$TOP8_DEF)){
-    if (ChallData$RESULT[i] == "2nd Place" | ChallData$RESULT[i] == "3rd Place"| 
-        ChallData$RESULT[i] == "4th Place" | ChallData$RESULT[i] == "5th Place"| 
-        ChallData$RESULT[i] == "6th Place" | ChallData$RESULT[i] == "7th Place"| 
-        ChallData$RESULT[i] == "8th Place"){
-      ChallData$TOP8_DEF[i] = 1 + ChallData$NB_DEFEATS[i]
+  if(length(listEventsChall)>=1){
+    for (i in 1:length(ChallData$TOP8_DEF)){
+      if (ChallData$RESULT[i] == "2nd Place" | ChallData$RESULT[i] == "3rd Place"| 
+          ChallData$RESULT[i] == "4th Place" | ChallData$RESULT[i] == "5th Place"| 
+          ChallData$RESULT[i] == "6th Place" | ChallData$RESULT[i] == "7th Place"| 
+          ChallData$RESULT[i] == "8th Place"){
+        ChallData$TOP8_DEF[i] = 1 + ChallData$NB_DEFEATS[i]
+      }
     }
   }
   
-  ChallData$TOP8_MATCHES=rep(0,length(ChallData$TOP8_PTS))
-  for (i in 1:length(ChallData$TOP8_MATCHES)){
-    if (ChallData$RESULT[i] == "1st Place" | 
-        ChallData$RESULT[i] == "2nd Place"){
-      ChallData$TOP8_MATCHES[i] = 3
-    }else if (ChallData$RESULT[i] == "3rd Place" | 
-              ChallData$RESULT[i] == "4th Place"){
-      ChallData$TOP8_MATCHES[i] = 2 
-    }else if (ChallData$RESULT[i] == "5th Place"| 
-              ChallData$RESULT[i] == "6th Place" | 
-              ChallData$RESULT[i] == "7th Place"| 
-              ChallData$RESULT[i] == "8th Place"){
-      ChallData$TOP8_MATCHES[i] = 1 
+  if(length(listEventsChall)>=1){
+    ChallData$TOP8_MATCHES=rep(0,length(ChallData$TOP8_PTS))
+    for (i in 1:length(ChallData$TOP8_MATCHES)){
+      if (ChallData$RESULT[i] == "1st Place" | 
+          ChallData$RESULT[i] == "2nd Place"){
+        ChallData$TOP8_MATCHES[i] = 3
+      }else if (ChallData$RESULT[i] == "3rd Place" | 
+                ChallData$RESULT[i] == "4th Place"){
+        ChallData$TOP8_MATCHES[i] = 2 
+      }else if (ChallData$RESULT[i] == "5th Place"| 
+                ChallData$RESULT[i] == "6th Place" | 
+                ChallData$RESULT[i] == "7th Place"| 
+                ChallData$RESULT[i] == "8th Place"){
+        ChallData$TOP8_MATCHES[i] = 1 
+      }
     }
   }
   
@@ -153,6 +159,72 @@ generate_Challenge_Data = function() {
   
 }
 
+generate_League_Data = function() {
+  
+  #COLLECT PRELIMINARIES ONLY FOR SPECIFIC TREATMENT
+  LeagueData=periodData[grep("League", periodData$EVENT), ]
+  #View(LeagueData) 
+  
+  for (i in 1:length(LeagueData)){
+    LeagueData$NB_ROUNDS[i]=5
+  }
+  
+  #NUMBER OF ROUNDS IN EACH EVENT FOR THE LEAGUES - ALWAYS 5
+  LeagueData$NB_ROUNDS=rep(5,length(LeagueData$EVENT))
+  
+  #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN PRELIMINARIES - 
+  #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
+  LeagueData$NB_DEFEATS=rep(0,length(LeagueData$EVENT))
+  
+  #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
+  LeagueData$TOP8_PTS=rep(0,length(LeagueData$POINTS))
+  LeagueData$TOP8_DEF=rep(0,length(LeagueData$NB_DEFEATS))
+  LeagueData$TOP8_MATCHES=rep(0,length(LeagueData$NB_ROUNDS))
+  
+  return(LeagueData)
+  
+}
+
+generate_ManaTraders_Data = function() {
+  
+  #COLLECT CHALLENGES ONLY FOR SPECIFIC TREATMENT
+  MTData=periodData[grep("ManaTraders", periodData$EVENT), ]
+  
+  #CALCULATE THE NUMBER OF ROUNDS IN EACH EVENT FOR THE CHALLENGES
+  #DIVIDE THE MAXIMUM NUMBER OF POINTS IN SWISS TO GET THE RESULT
+  #IF MORE THAN 1 PLAYER HAS THE MAXIMUM OF POINTS, THEN IT IS LIKELY THAT 
+  #THERE IS NOT ANY PLAYER AT X-0, SO YOU ADD 1 TO THE RESULT
+  listEventsMT=unique(MTData$EVENT_NAME)
+  nbRoundsVec=c()
+  if(length(listEventsMT)>=1){
+    for (i in 1:length(listEventsMT)){
+      periodMTEventData=subset(MTData, EVENT_NAME == listEventsMT[i])
+      maxPoints=max(periodMTEventData$POINTS)
+      nbPlayMaxPts=length(which(periodMTEventData$POINTS == maxPoints))
+      if(nbPlayMaxPts==1){
+        nbRounds=maxPoints/3
+      }else{
+        nbRounds=1+maxPoints/3
+      }
+      nbRoundsEvent=rep(nbRounds,length(periodMTEventData$EVENT))
+      nbRoundsVec=c(nbRoundsVec,nbRoundsEvent)
+    }
+  }
+  MTData$NB_ROUNDS=nbRoundsVec
+  
+  #CALCULATE THE NUMBER OF DEFEAT OF EACH DECK IN CHALLENGES - 
+  #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
+  MTData$NB_DEFEATS=MTData$NB_ROUNDS - MTData$POINTS/3
+  
+  #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
+  MTData$TOP8_PTS=rep(0,length(MTData$POINTS))
+  MTData$TOP8_DEF=rep(0,length(MTData$NB_DEFEATS))
+  MTData$TOP8_MATCHES=rep(0,length(MTData$NB_ROUNDS))
+  
+  return(MTData)
+  
+}
+
 df=rawData
 
 if (EventType=="Competitions"){
@@ -162,6 +234,10 @@ if (EventType=="Competitions"){
   df=generate_Challenge_Data()
 }else if (EventType=="Preliminaries"){
   df=generate_Prelim_Data()
+}else if (EventType=="Events"){
+  df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
+  df=rbind(df,generate_League_Data())
+  df=rbind(df,generate_ManaTraders_Data())
 }
 
 #POSSIBLE QUICKFIX FOR A BETTER ACCURACY IN THE DATA
@@ -176,6 +252,7 @@ if (EventType=="Competitions"){
 
 add_super_archetypes = function(df){
   
+  df$SUPER_ARCH=df$ARCHETYPE
   for (i in 1:length(df$ARCHETYPE)){
     if(df$ARCHETYPE[i]=="WURG Control" | 
        df$ARCHETYPE[i]=="Bant Midrange"| 

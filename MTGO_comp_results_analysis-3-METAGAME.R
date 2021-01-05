@@ -117,7 +117,7 @@ metagame_pie_chart = function(df,presence){
     coord_polar("y", start=0) + 
     geom_text(aes(label = paste0(SHARE, "%")), 
               position = position_stack(vjust = 0.5)) +
-    labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anaël Yahi",
+    labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anael Yahi",
          title = generate_metagame_graph_title(presence)) + 
     guides(color = FALSE, size = FALSE) +
     scale_color_gradient(low="red", high="blue") +
@@ -150,7 +150,7 @@ metagame_box_plot = function(df,presence){
   ggplot(df_gen, aes(x=ARCHETYPES, y=as.numeric(SHARE), fill=ARCHETYPES)) + 
     geom_bar(stat="identity") + theme_minimal() + guides( fill = FALSE) +
     labs(x = NULL, y = "Presence (%)", fill = NULL, 
-         title = boxplot_title, subtitle = "by Anaël Yahi") + 
+         title = boxplot_title, subtitle = "by Anael Yahi") + 
     scale_color_gradient(low="blue", high="red") +
     scale_x_discrete(guide = guide_axis(n.dodge=2)) + 
     theme(axis.text.x  = element_text(size=12))
@@ -184,7 +184,7 @@ metric_graph = function(metric_df,presence,diameters) {
   graph_title=paste("Winrates depending on presence:", Classification,"archetypes ", 
                     "between", Beginning, "and", End, "in MTGO", EventType,sep = " ")
   graph_subtitle=paste("Separated by mean + 4*n standard deviations (n={0,1,2,3,4,5}) 
-Circle diameters depending on",diameters,"\nby Anaël Yahi",sep=" ")
+Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   
   #GENERATES THE GRAPH
   if (presence=="Copies"){
@@ -231,6 +231,12 @@ metric_points_archetypes = function(df){
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
   metric_df=generate_archetype_list(df)
   
+  metric_df$NB_COPIES=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$NB_PLAYERS=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$TOTAL_NB_MATCHES=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$WINRATE_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$WINRATE_95_MIN=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$WINRATE_95_MAX=rep(0,length(metric_df$ARCHETYPES))
   for (i in 1:length(metric_df$ARCHETYPES)){
     #POSITION OF THE CORRESPONDING EXACT OR SUPER ARCHETYPE IN THE DATA
     arch_identification=which(df[[archetype_acc]]==metric_df$ARCHETYPES[i])
@@ -263,8 +269,6 @@ metric_points_archetypes = function(df){
   return(metric_df)
 }
 
-metric_df=metric_points_archetypes(df)
-
 #COMBINES THE RATIOS OF POINTS PER ROUND AND NUMBER OF COPIES FOR EACH
 #ARCHETYPE, THEN PROVIDES A RANK BASED ON THAT
 #THE NEW METRIC OBTAINED THAT WAY IS NORMALIZED TO BE BETWEEN 0 AND 1
@@ -289,8 +293,6 @@ archetypes_ranking = function(metric_df){
   
   return(metric_df)
 }
-
-arch_ranked=archetypes_ranking(metric_df)
 
 #PLOT OF THE AVERAGE WINRATE FOR THE MOST POPULAR ARCHETYPES
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
@@ -327,7 +329,7 @@ winrates_graph = function(df,arch_ranked,presence){
     labs(x=NULL, y=y_label_winrate, title=graph_title_winrate,
          subtitle="Red lines for the average of the borns of the CI
 Green line for the average of the computed winrate
-by Anaël Yahi")+
+by Anael Yahi")+
     geom_errorbar(aes(ymax = WINRATE_95_MAX*100, ymin = WINRATE_95_MIN*100)) + 
     geom_hline(yintercept = mean(arch_most_played$WINRATE_AVERAGE*100), 
                color="green", linetype="dashed", size=1)+ 
@@ -357,7 +359,8 @@ linear_comb_graph = function(df,arch_ranked){
   
   titleLinearComb=paste("Linear combination of the metrics for the most popular archetypes
 At least ",HistShare,"% of presence
-Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
+Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, "
+Between ",Beginning," and ",End," in MTGO ",EventType,sep="")
   
   ggplot(arch_ranked_sub_2, aes(x=ARCHETYPES, y=METRIC_COMB*100)) + 
     theme_classic() + geom_point(size=2,color="blue") +  
@@ -366,7 +369,7 @@ Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
     labs(x=NULL, y="Value of the linear combination metric", title=titleLinearComb,
          subtitle="Green line for the average of the metrics linear combination
 Red lines for the average +/- a standard deviation
-by Anaël Yahi")+
+by Anael Yahi")+
     geom_hline(yintercept = meanData, color="green", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5) + 
@@ -393,7 +396,8 @@ log_comb_graph = function(df,arch_ranked){
   
   titleLinearComb=paste("Combination of the metrics for the most popular archetypes
 At least ",HistShare,"% of presence - Linear winrate, logarithmic presence
-Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
+Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight,  "
+Between ",Beginning," and ",End," in MTGO ",EventType,sep="")
   
   ggplot(arch_ranked_sub_2, aes(x=ARCHETYPES, y=METRIC_COMB*100)) + 
     theme_classic() + geom_point(size=2,color="blue") +  
@@ -402,7 +406,7 @@ Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
     labs(x=NULL, y="Value of the linear combination metric", title=titleLinearComb,
          subtitle="Green line for the average of the metrics linear combination
 Red lines for the average +/- a standard deviation
-by Anaël Yahi")+
+by Anael Yahi")+
     geom_hline(yintercept = meanData, color="green", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5) + 
@@ -429,7 +433,8 @@ lower_born_ci_winrate_graph = function(df,arch_ranked){
   
   titleLinearComb=paste("Lower born of the confidence intervals for the winrates of the most popular decks
 At least ",HistShare,"% of presence
-Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
+Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight,   "
+Between ",Beginning," and ",End," in MTGO ",EventType,sep="")
   
   ggplot(arch_ranked_sub_2, aes(x=ARCHETYPES, y=WINRATE_95_MIN*100)) + 
     theme_classic() + geom_point(size=2,color="blue") +  
@@ -438,7 +443,7 @@ Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight, sep="")
     labs(x=NULL, y="Lower estimation of the winrate (%)", title=titleLinearComb,
          subtitle="Green line for the average of the lower estimation of winrates
 Red lines for the average +/- a standard deviation
-by Anaël Yahi")+
+by Anael Yahi")+
     geom_hline(yintercept = meanData, color="green", linetype="dashed", size=1)+ 
     geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
     geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5) + 

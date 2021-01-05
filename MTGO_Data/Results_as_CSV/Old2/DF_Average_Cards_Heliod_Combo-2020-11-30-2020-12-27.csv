@@ -1,0 +1,69 @@
+"CardName","Types","AvgMdCount","AvgSbCount","AlwaysMDPresent","AlwaysSBPresent"
+"Auriok Champion","Creature",2.9,0.51,TRUE,FALSE
+"Skyclave Apparition","Creature",2.13,1.36,FALSE,FALSE
+"Choke","Enchantment",0,1.41,FALSE,FALSE
+"Damping Sphere","Artifact",0,1.87,FALSE,FALSE
+"Eidolon of Rhetoric","Enchantment,Creature",0,0.38,FALSE,FALSE
+"Path to Exile","Instant",0.44,1.85,FALSE,FALSE
+"Rest in Peace","Enchantment",0,1.26,FALSE,FALSE
+"Veil of Summer","Instant",0,2.38,FALSE,FALSE
+"Boil","Instant",0,0.44,FALSE,FALSE
+"Burrenton Forge-Tender","Creature",0,0.18,FALSE,FALSE
+"Celestial Purge","Instant",0,0.21,FALSE,FALSE
+"Giant Killer","Creature",0,0.23,FALSE,FALSE
+"Magus of the Moon","Creature",0,0.49,FALSE,FALSE
+"Soul-Guide Lantern","Artifact",0,0.13,FALSE,FALSE
+"Thalia, Guardian of Thraben","Creature",0.21,0.21,FALSE,FALSE
+"Wheel of Sun and Moon","Enchantment",0,0.31,FALSE,FALSE
+"Linvala, Keeper of Silence","Creature",0,0.26,FALSE,FALSE
+"Relic of Progenitus","Artifact",0,0.46,FALSE,FALSE
+"Aven Mindcensor","Creature",0,0.33,FALSE,FALSE
+"Grand Abolisher","Creature",0.05,0.03,FALSE,FALSE
+"Knight of Autumn","Creature",0,0.08,FALSE,FALSE
+"Remorseful Cleric","Creature",0,0.05,FALSE,FALSE
+"Hushbringer","Creature",0,0.13,FALSE,FALSE
+"Kozilek, Butcher of Truth","Creature",0,0.08,FALSE,FALSE
+"Force of Vigor","Instant",0,0.03,FALSE,FALSE
+"Archon of Emeria","Creature",0.05,0.13,FALSE,FALSE
+"Yorion, Sky Nomad","Creature",0,0.03,FALSE,FALSE
+"Surgical Extraction","Instant",0,0.15,FALSE,FALSE
+"Gaea's Blessing","Sorcery",0,0.05,FALSE,FALSE
+"Arbor Elf","Creature",3.38,0,FALSE,FALSE
+"Conclave Mentor","Creature",3,0,FALSE,FALSE
+"Giver of Runes","Creature",1.67,0,FALSE,FALSE
+"Heliod, Sun-Crowned","Enchantment,Creature",4,0,TRUE,FALSE
+"Ranger-Captain of Eos","Creature",3.9,0,TRUE,FALSE
+"Scavenging Ooze","Creature",1.08,0,FALSE,FALSE
+"Spike Feeder","Creature",3.38,0,FALSE,FALSE
+"Walking Ballista","Artifact,Creature",2.31,0,TRUE,FALSE
+"Collected Company","Instant",3.38,0,FALSE,FALSE
+"Eladamri's Call","Instant",1.62,0,FALSE,FALSE
+"Utopia Sprawl","Enchantment",3.38,0,FALSE,FALSE
+"Forest","Land",3.97,0,FALSE,FALSE
+"Horizon Canopy","Land",2.67,0,FALSE,FALSE
+"Misty Rainforest","Land",0.56,0,FALSE,FALSE
+"Pendelhaven","Land",0.82,0,FALSE,FALSE
+"Plains","Land",2.92,0,FALSE,FALSE
+"Prismatic Vista","Land",0.85,0,FALSE,FALSE
+"Temple Garden","Land",3.15,0,FALSE,FALSE
+"Windswept Heath","Land",3.38,0,FALSE,FALSE
+"Luminarch Aspirant","Creature",0.62,0,FALSE,FALSE
+"Aether Vial","Artifact",0.62,0,FALSE,FALSE
+"Arid Mesa","Land",0.62,0,FALSE,FALSE
+"Cavern of Souls","Land",0.62,0,FALSE,FALSE
+"Mountain","Land",0.13,0,FALSE,FALSE
+"Sacred Foundry","Land",0.15,0,FALSE,FALSE
+"Sunbaked Canyon","Land",0.62,0,FALSE,FALSE
+"Verdant Catacombs","Land",0.28,0,FALSE,FALSE
+"Gavony Township","Land",0.23,0,FALSE,FALSE
+"Noble Hierarch","Creature",0.31,0,FALSE,FALSE
+"Spellskite","Artifact,Creature",0.03,0,FALSE,FALSE
+"Snow-Covered Plains","Land",0.15,0,FALSE,FALSE
+"Stomping Ground","Land",0.08,0,FALSE,FALSE
+"Wooded Foothills","Land",0.64,0,FALSE,FALSE
+"Ranger of Eos","Creature",0.03,0,FALSE,FALSE
+"Field of Ruin","Land",0.05,0,FALSE,FALSE
+"Charming Prince","Creature",0.03,0,FALSE,FALSE
+"Eternal Witness","Creature",0.08,0,FALSE,FALSE
+"Archangel of Thune","Creature",0.03,0,FALSE,FALSE
+"Wooded Bastion","Land",0.03,0,FALSE,FALSE
