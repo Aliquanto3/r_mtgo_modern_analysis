@@ -254,7 +254,8 @@ add_super_archetypes = function(df){
   
   df$SUPER_ARCH=df$ARCHETYPE
   for (i in 1:length(df$ARCHETYPE)){
-    if(df$ARCHETYPE[i]=="WURG Control" | 
+    if(df$ARCHETYPE[i]=="WURG Control" |
+       df$ARCHETYPE[i]=="WUBG Control" |
        df$ARCHETYPE[i]=="Bant Midrange"| 
        df$ARCHETYPE[i]=="Scapeshift"| 
        df$ARCHETYPE[i]=="UBRG Control"| 
@@ -263,27 +264,35 @@ add_super_archetypes = function(df){
        df$ARCHETYPE[i]=="Bant Blink"| 
        df$ARCHETYPE[i]=="Temur Control"| 
        df$ARCHETYPE[i]=="Sultai Control"| 
-       df$ARCHETYPE[i]=="Bant Control"){
+       df$ARCHETYPE[i]=="Bant Control"|
+       df$ARCHETYPE[i]=="Simic Control"|
+       df$ARCHETYPE[i]=="WURG Blink"){
       
       df$SUPER_ARCH[i]="UGx Control"
       
     }
     
-    if(df$ARCHETYPE[i]=="Jund Prowess" | 
+    if(df$ARCHETYPE[i]=="Jund Prowess" |
+       df$ARCHETYPE[i]=="Gruul Prowess" |
        df$ARCHETYPE[i]=="Izzet Prowess"| 
+       df$ARCHETYPE[i]=="Boros Prowess"|
+       df$ARCHETYPE[i]=="Mardu Prowess"|
        df$ARCHETYPE[i]=="Obosh Aggro"| 
        df$ARCHETYPE[i]=="Mono Red Prowess"| 
-       df$ARCHETYPE[i]=="Rakdos Prowess"|  
+       df$ARCHETYPE[i]=="Rakdos Prowess"| 
+       df$ARCHETYPE[i]=="Jeskai Prowess"| 
        df$ARCHETYPE[i]=="Naya Prowess"){
       
       df$SUPER_ARCH[i]="Rx Prowess"
       
     }
     
-    if(df$ARCHETYPE[i]=="Jeskai Control" | 
+    if(df$ARCHETYPE[i]=="Jeskai Control" |
+       df$ARCHETYPE[i]=="Jeskai Blink" |
        df$ARCHETYPE[i]=="Izzet Control"| 
        df$ARCHETYPE[i]=="Dimir Control"| 
        df$ARCHETYPE[i]=="Azorius Control"|
+       df$ARCHETYPE[i]=="Azorius Midrange"|
        df$ARCHETYPE[i]=="Esper Control"| 
        df$ARCHETYPE[i]=="Grixis Control"|
        df$ARCHETYPE[i]=="UW Miracles"|
@@ -304,20 +313,39 @@ add_super_archetypes = function(df){
     
     if(df$ARCHETYPE[i]=="UBRG Shadow" | 
        df$ARCHETYPE[i]=="Grixis Shadow"|
+       df$ARCHETYPE[i]=="Shadow Prowess"|
        df$ARCHETYPE[i]=="BR Shadow Prowess"|
        df$ARCHETYPE[i]=="WBR Shadow Prowess"| 
        df$ARCHETYPE[i]=="BRG Shadow Prowess"|
        df$ARCHETYPE[i]=="Jund Shadow"|
+       df$ARCHETYPE[i]=="Rakdos Shadow"|
+       df$ARCHETYPE[i]=="Sultai Shadow"|
+       df$ARCHETYPE[i]=="Esper Shadow"|
+       df$ARCHETYPE[i]=="Orzhov Shadow"|
+       df$ARCHETYPE[i]=="Dimir Shadow"|
+       df$ARCHETYPE[i]=="Mardu Shadow"|
        df$ARCHETYPE[i]=="RB Shadow Lurrus"|
        df$ARCHETYPE[i]=="Mardu Shadow Lurrus"){
       
-      df$SUPER_ARCH[i]="DS"
+      df$SUPER_ARCH[i]="Shadow"
       
     }
     
-    if(df$ARCHETYPE[i]=="Azorius Taxes" | 
+    if(df$ARCHETYPE[i]=="Stoneforge Eldrazi" |
+       df$ARCHETYPE[i]=="Obligator Eldrazi" |
+       df$ARCHETYPE[i]=="Eldrazi Tron"){
+      
+      df$SUPER_ARCH[i]="Eldrazi"
+      
+    }
+    
+    if(df$ARCHETYPE[i]=="Azorius Taxes" |
+       df$ARCHETYPE[i]=="Abzan Taxes" |
        df$ARCHETYPE[i]=="Mono White Taxes"| 
        df$ARCHETYPE[i]=="Selenya Taxes"|
+       df$ARCHETYPE[i]=="Boros Taxes"|
+       df$ARCHETYPE[i]=="Orzhov Taxes"|
+       df$ARCHETYPE[i]=="Jeskai Taxes"|
        df$ARCHETYPE[i]=="BW Eldrazi & Taxes"){
       
       df$SUPER_ARCH[i]="D&T"
@@ -325,7 +353,8 @@ add_super_archetypes = function(df){
     }
     
     if(df$ARCHETYPE[i]=="Abzan Company" | 
-       df$ARCHETYPE[i]=="Selenya Midrange"){
+       df$ARCHETYPE[i]=="Selenya Midrange"|
+       df$ARCHETYPE[i]=="Naya Midrange"){
       
       df$SUPER_ARCH[i]="GWx Midrange"
       
@@ -347,14 +376,15 @@ add_super_archetypes = function(df){
     
     if(df$ARCHETYPE[i]=="Belcher"|
        df$ARCHETYPE[i]=="UW Belcher"|
-       df$ARCHETYPE[i]=="RG Belcher" | 
-       df$ARCHETYPE[i]=="Oops All Spells"){
+       df$ARCHETYPE[i]=="RG Belcher"){
       
-      df$SUPER_ARCH[i]="All Spells"
+      df$SUPER_ARCH[i]="Belcher"
       
     }
     
-    if(df$ARCHETYPE[i]=="Gifts Storm"){
+    if(df$ARCHETYPE[i]=="Gifts Storm"|
+       df$ARCHETYPE[i]=="Twiddle Storm"|
+       df$ARCHETYPE[i]=="Song Storm"){
       
       df$SUPER_ARCH[i]="Storm"
       
@@ -416,7 +446,9 @@ add_super_archetypes = function(df){
     if(df$ARCHETYPE[i]=="Jund Midrange" |
        df$ARCHETYPE[i]=="Jund Lurrus Midrange"|
        df$ARCHETYPE[i]=="Sultai Midrange"|
-       df$ARCHETYPE[i]=="Abzan Midrange"){
+       df$ARCHETYPE[i]=="UBRG Midrange"|
+       df$ARCHETYPE[i]=="Abzan Midrange"|
+       df$ARCHETYPE[i]=="Golgari Midrange"){
       
       df$SUPER_ARCH[i]="BGx Midrange"
       
@@ -457,6 +489,7 @@ add_super_archetypes = function(df){
     }
     
     if(df$ARCHETYPE[i]=="Thopter Urza" |
+       df$ARCHETYPE[i]=="Uroza" |
        df$ARCHETYPE[i]=="Grixis Whirza"){
       
       df$SUPER_ARCH[i]="Urza"
@@ -540,16 +573,17 @@ add_super_archetypes = function(df){
     }
     
     if(df$ARCHETYPE[i]=="Red Prison" | 
-       df$ARCHETYPE[i]=="Boros Land Destruction"){
+       df$ARCHETYPE[i]=="Boros Land Destruction"|
+       df$ARCHETYPE[i]=="Pyro Prison" ){
       
       df$SUPER_ARCH[i]="Red Prison"
       
     }
     
-    if(df$ARCHETYPE[i]=="Kiki Chord"){
+    if(df$ARCHETYPE[i]=="Domain Zoo"|
+       df$ARCHETYPE[i]=="Bushwhacker Zoo"){
       
-      df$SUPER_ARCH[i]="Kiki Chord"
-      
+      df$SUPER_ARCH[i]="Zoo"
     }
   }
   

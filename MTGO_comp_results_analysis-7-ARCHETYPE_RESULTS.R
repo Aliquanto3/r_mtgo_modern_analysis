@@ -1,3 +1,23 @@
+#GRAPHIC ANALYSIS
+metric_df=metric_points_archetypes(df,Beginning,End)
+
+#function(metric_df,presence,diameters,diam_ratio,beginning,end,tiers,isLog,only_best)
+metric_graph(metric_df_most_present,"Matches","Players",0.1,Beginning,End,"",TRUE,FALSE)
+
+#ARCHETYPE CLUSTERING
+kmeans_arch(metric_df,4,30,50,"Hartigan-Wong",Beginning,End,3)
+
+#PRESENCE
+metagame_pie_chart(df,"Matches",Beginning,End)
+
+#RATIO MATCHES/PLAYERS
+HistShare=1.8
+metagame_box_plot(df,"Ratio M/P",Beginning,End)
+
+#WINRATES
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+winrates_graph(df,arch_ranked,"Matches",Beginning,End)
+
 ################################################################################
 #CODE FOR THE REPORT
 
@@ -24,21 +44,25 @@ sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES)
 #TOTAL NUMBER OF EVENTS
 length(unique(df$EVENT_NAME))
 
+#FIND THE URL FOR AN ARCHETYPE
+df[grep("Grinding Breach", df$ARCHETYPE), ]$URL
+
 # IV.1.A - Indicateur 1 : présence de chaque archétype
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
 PieShare=2.5
-metagame_pie_chart(df,"Players")
-metagame_pie_chart(df,"Copies")
-metagame_pie_chart(df,"Matches")
+metagame_pie_chart(df,"Players",Beginning,End)
+metagame_pie_chart(df,"Copies",Beginning,End)
+metagame_pie_chart(df,"Matches",Beginning,End)
 PieShare=2
-metagame_pie_chart(df,"Matches")
+metagame_pie_chart(df,"Matches",Beginning,End)
 
 #GENERATE THE METAGAME HISTOGRAM FOR THE SELECTED DATA
-metagame_box_plot(df,"Matches")
+HistShare=2
+metagame_box_plot(df,"Matches",Beginning,End)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY PRESENCE
-arch_list=generate_archetype_list(df)
+arch_list=generate_archetype_list(df,Beginning,End)
 arch_list$PRESENCE=rep(0,length(arch_list$ARCHETYPES))
 #BY DEFAULT, PRESENCE IS THE NUMBER OF MATCHES PLAYED
 #HOWEVER, IN THE CASE OF A SINGLE EVENT, WITHOUT URL, WE CAN TAKE THE NUMBER OF 
@@ -60,9 +84,9 @@ write.csv(arch_list,paste('Results_as_CSV/',Beginning,'-',
 ###################################################################
 
 # IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
-metric_df=metric_points_archetypes(df)
-arch_ranked=archetypes_ranking(metric_df)
-winrates_graph(df,arch_ranked,"Matches")
+metric_df=metric_points_archetypes(df,Beginning,End)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+winrates_graph(df,arch_ranked,"Matches",Beginning,End)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY WINRATE
@@ -92,34 +116,34 @@ ggplot(metric_df, aes(x=WINRATE_AVERAGE, y=TOTAL_NB_MATCHES)) +
 length(metric_df$WINRATE_AVERAGE)
 
 #WHAT IF WE USE THE LOG OF THE PRESENCE INSTEAD?
+metric_df=metric_points_archetypes(df,Beginning,End)
 metric_df_log_matches=metric_df
 metric_df_log_matches$TOTAL_NB_MATCHES=log(metric_df_log_matches$TOTAL_NB_MATCHES)
 
 
 # IV.2.A - Compilation 1 : analyse graphique
-metric_graph(metric_df,"Matches","Players")
-metric_graph(metric_df_log_matches,"Matches","Players")
+metric_graph(metric_df,"Matches","Players",0.1,Beginning,End,"",TRUE,FALSE)
 
 # IV.2.B - Compilation 2 : combinaison linéaire des indicateurs
 PPR_Weight=1
-arch_ranked=archetypes_ranking(metric_df)
-linear_comb_graph(df,arch_ranked)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End)
 
 PPR_Weight=2
-arch_ranked=archetypes_ranking(metric_df)
-linear_comb_graph(df,arch_ranked)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End)
 
 PPR_Weight=4
-arch_ranked=archetypes_ranking(metric_df)
-linear_comb_graph(df,arch_ranked)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End)
 
 PPR_Weight=1
-arch_ranked=archetypes_ranking(metric_df_log_matches)
-log_comb_graph(df,arch_ranked)
+arch_ranked=archetypes_ranking(metric_df_log_matches,Beginning,End)
+log_comb_graph(df,arch_ranked,Beginning,End)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY NORMALIZED LOG(PRESENCE) + WINRATE
-arch_ranked=archetypes_ranking(metric_df_log_matches)
+arch_ranked=archetypes_ranking(metric_df_log_matches,Beginning,End)
 names(arch_ranked)
 arch_ranked=arrange(arch_ranked,desc(METRIC_COMB))
 print(subset(arch_ranked,select = c(ARCHETYPES,METRIC_COMB)), row.names = TRUE)
@@ -133,12 +157,12 @@ write.csv(subset(arch_ranked,select = c(ARCHETYPES,METRIC_COMB)),
 
 # IV.2.C - Compilation 3 : la borne inférieure de l’intervalle de confiance sur 
 #les winrates
-arch_ranked=archetypes_ranking(metric_df)
-lower_born_ci_winrate_graph(df,arch_ranked)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+lower_born_ci_winrate_graph(df,arch_ranked,Beginning,End)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY LOWER WINRATE ESTIMATION
-arch_ranked=archetypes_ranking(metric_df)
+arch_ranked=archetypes_ranking(metric_df,Beginning,End)
 names(arch_ranked)
 arch_ranked=arrange(arch_ranked,desc(WINRATE_95_MIN))
 print(subset(arch_ranked,select = c(ARCHETYPES,WINRATE_95_MIN)), row.names = TRUE)
