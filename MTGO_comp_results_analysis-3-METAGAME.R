@@ -111,7 +111,7 @@ generate_metagame_data = function(df,graph_share,presence,beginning,end){
 
 #COMPUTES A NAME FOR THE HISTOGRAM AND THE PIE CHART
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
-generate_metagame_graph_title = function(presence,beginning,end){
+generate_metagame_graph_title = function(presence,beginning,end,EventType){
   MetaGraphTitle=paste("Proportion of", Classification,"archetypes in MTGO", 
                        EventType,"between", beginning, "and", end,
                        "based on number of", presence,sep = " ")
@@ -120,7 +120,7 @@ generate_metagame_graph_title = function(presence,beginning,end){
 
 #GENERATE A PIE CHART BASED ON DATA IN DF
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
-metagame_pie_chart = function(df,presence,beginning,end){
+metagame_pie_chart = function(df,presence,beginning,end,EventType){
   
   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
   df_gen=generate_metagame_data(df,PieShare,presence,beginning,end)
@@ -131,7 +131,7 @@ metagame_pie_chart = function(df,presence,beginning,end){
     geom_text(aes(label = paste0(SHARE, "%")), 
               position = position_stack(vjust = 0.5)) +
     labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anael Yahi",
-         title = generate_metagame_graph_title(presence,beginning,end)) + 
+         title = generate_metagame_graph_title(presence,beginning,end,EventType)) + 
     guides(color = FALSE, size = FALSE) +
     scale_color_gradient(low="red", high="blue") +
     theme_classic() +
@@ -144,13 +144,13 @@ metagame_pie_chart = function(df,presence,beginning,end){
 
 #GENERATE A BOX PLOT BASED ON DATA IN DF
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
-metagame_box_plot = function(df,presence,beginning,end){
+metagame_box_plot = function(df,presence,beginning,end,EventType){
   
   #GET THE DATA FOR ALL ARCHETYPES HAVING A META SHARE ABOVE HistShare
   df_gen=generate_metagame_data(df,HistShare,presence,beginning,end)
   
   #GENERATE A TITLE FOR THE BOXPLOT
-  boxplot_title=paste(generate_metagame_graph_title(presence,beginning,end),"-",
+  boxplot_title=paste(generate_metagame_graph_title(presence,beginning,end,EventType),"-",
                       df_gen[grep("Other",df_gen$ARCHETYPES),]$ARCHETYPES, sep=" ")
   
   #THIS GRAPH DOESN'T DISPLAY THE "Other" CATEGORY
@@ -176,7 +176,7 @@ metagame_box_plot = function(df,presence,beginning,end){
 #isLog is a boolean
 #only_best is a boolean
 metric_graph = function(metric_df,presence,diameters,diam_ratio,beginning,end,
-                        tiers,isLog,only_best) {
+                        tiers,isLog,only_best,EventType) {
   if(only_best){
     metric_df=metric_df[metric_df$TOTAL_NB_MATCHES>mean(metric_df$TOTAL_NB_MATCHES),]
   }
@@ -197,13 +197,13 @@ metric_graph = function(metric_df,presence,diameters,diam_ratio,beginning,end,
   
   #GENERATES THE LABELS
   if (presence=="Copies"){
-    x_label="Total number of copies of each archetype"
+    x_label="Total number of copies of each archetype (%)"
   }else if (presence=="Players"){
-    x_label="Total number of different players for each archetype"
+    x_label="Total number of different players for each archetype (%)"
   }else if (presence=="Matches"){
-    x_label="Total number of matches played for each archetype"
+    x_label="Total number of matches played by each archetype (%)"
   }
-  y_label="Average winrate of each archetype"
+  y_label="Average winrate of each archetype (%)"
   graph_title=paste("Winrates depending on presence:", Classification,"archetypes ", 
                     "between", beginning, "and", end, "in MTGO", EventType,sep = " ")
   graph_subtitle=paste("Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
@@ -215,17 +215,17 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   #GENERATES THE GRAPH
   if (presence=="Copies"){
     metric_df$NB_COPIES=metric_df$NB_COPIES/sum(metric_df$NB_COPIES)*100
-    metric_plot=ggplot(metric_df, aes(NB_COPIES, WINRATE_AVERAGE))
+    metric_plot=ggplot(metric_df, aes(NB_COPIES, WINRATE_AVERAGE*100))
     avg_presence=mean(metric_df$NB_COPIES)
     std_presence=sd(metric_df$NB_COPIES)
   }else if (presence=="Players"){
     metric_df$NB_PLAYERS=metric_df$NB_PLAYERS/sum(metric_df$NB_PLAYERS)*100
-    metric_plot=ggplot(metric_df, aes(NB_PLAYERS, WINRATE_AVERAGE))
+    metric_plot=ggplot(metric_df, aes(NB_PLAYERS, WINRATE_AVERAGE*100))
     avg_presence=mean(metric_df$NB_PLAYERS)
     std_presence=sd(metric_df$NB_PLAYERS)
   }else if (presence=="Matches"){
     metric_df$TOTAL_NB_MATCHES=metric_df$TOTAL_NB_MATCHES/sum(metric_df$TOTAL_NB_MATCHES)*100
-    metric_plot=ggplot(metric_df, aes(TOTAL_NB_MATCHES, WINRATE_AVERAGE))
+    metric_plot=ggplot(metric_df, aes(TOTAL_NB_MATCHES, WINRATE_AVERAGE*100))
     avg_presence=mean(metric_df$TOTAL_NB_MATCHES)
     std_presence=sd(metric_df$TOTAL_NB_MATCHES)
   }
@@ -265,25 +265,46 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
     
   }else if (tiers=="Pres M+SD"){
     #TIERS BASED ON MEAN + N * STANDARD DEVIATION OF PRESENCE, N={0,1,2,3}
-    metric_plot=metric_plot + geom_vline(xintercept = avg_presence,
-                                        color = "blue", size=2) +
-      geom_text(aes(x=avg_presence, label="\nPresence average", y=0.6), colour="red",
-                angle=90, text=element_text(size=10)) +
-      geom_vline(xintercept = avg_presence + std_presence, linetype="dashed",
-                 color = "blue", size=1.5) +
-      geom_text(aes(x=avg_presence + std_presence, label="\nPresence average + sd",
-                    y=0.6), colour="red",
-                angle=90, text=element_text(size=10)) +
+    metric_plot=metric_plot + geom_vline(xintercept = avg_presence, linetype="dotted",
+                                        color = "dark green", size=2) +
+      geom_text(aes(x=avg_presence, label="Tiers 2.5\n", y=
+                      max(WINRATE_AVERAGE*100)-1), colour="dark green",
+                angle=0, size=8) +
+      geom_text(aes(x=avg_presence, label="\nPresence mean", y=
+                      max(WINRATE_AVERAGE*100)-1), colour="black",
+                angle=0, size=4) +
+      geom_vline(xintercept = avg_presence + std_presence, linetype="dotted",
+                 color = "purple", size=1.5) +
+      geom_text(aes(x=avg_presence + std_presence, label="Tiers 2\n",
+                    y=max(WINRATE_AVERAGE*100)-2), colour="purple",
+                angle=0, size=8) +
+      geom_text(aes(x=avg_presence + std_presence, label="\nPresence mean + 1*sd",
+                    y=max(WINRATE_AVERAGE*100)-2), colour="black",
+                angle=0, size=4) +
       geom_vline(xintercept = avg_presence + 2*std_presence, linetype="dotted",
-                 color = "blue", size=1) +
-      geom_text(aes(x=avg_presence + 2*std_presence, label="\nPresence average + 2*sd",
-                    y=0.6), colour="red",
-                angle=90, text=element_text(size=10)) +
+                 color = "blue", size=1.5) +
+      geom_text(aes(x=avg_presence + 2*std_presence, label="Tiers 1.5\n",
+                    y=max(WINRATE_AVERAGE*100)-4), colour="blue",
+                angle=0, size=8) +
+      geom_text(aes(x=avg_presence + 2*std_presence, label="\nPresence mean + 2*sd",
+                    y=max(WINRATE_AVERAGE*100)-4), colour="black",
+                angle=0, size=4) +
       geom_vline(xintercept = avg_presence + 3*std_presence, linetype="dotted",
-                 color = "green", size=1) +
-      geom_text(aes(x=avg_presence + 3*std_presence, label="\nPresence average + 3*sd",
-                    y=0.6), colour="red",
-                angle=90, text=element_text(size=10))
+                 color = "orange", size=1.5) +
+      geom_text(aes(x=avg_presence + 3*std_presence, label="Tiers 1\n",
+                    y=max(WINRATE_AVERAGE*100)-7), colour="orange",
+                angle=0, size=8) +
+      geom_text(aes(x=avg_presence + 3*std_presence, label="\nPresence mean + 3*sd",
+                    y=max(WINRATE_AVERAGE*100)-7), colour="black",
+                angle=0, size=4) +
+      geom_vline(xintercept = avg_presence + 4*std_presence, linetype="dotted",
+                 color = "red", size=1.5) +
+      geom_text(aes(x=avg_presence + 4*std_presence, label="Tiers 0\n",
+                    y=max(WINRATE_AVERAGE*100)-11), colour="red",
+                angle=0, size=8) +
+      geom_text(aes(x=avg_presence + 4*std_presence, label="\nPresence mean + 4*sd",
+                    y=max(WINRATE_AVERAGE*100)-11), colour="black",
+                angle=0, size=4)
     
   }else if (tiers=="Pres %"){
     #TIERS BASED ON ARBITRARY % OF PRESENCE: 2,4,6,8,10
@@ -389,7 +410,7 @@ archetypes_ranking = function(metric_df,beginning,end){
 
 #PLOT OF THE AVERAGE WINRATE FOR THE MOST POPULAR ARCHETYPES
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
-winrates_graph = function(df,arch_ranked,presence,beginning,end){
+winrates_graph = function(df,arch_ranked,presence,beginning,end,EventType){
   
   #GET ONLY THE DECKS APPEARING THE MOST IN THE DATA
   if (presence=="Copies"){
@@ -410,10 +431,11 @@ winrates_graph = function(df,arch_ranked,presence,beginning,end){
   arch_most_played$ARCHETYPES = reorder(arch_most_played$ARCHETYPES, 
                                         as.numeric(arch_most_played$WINRATE_AVERAGE))
   #PLOT THE AVERAGE WINRATE AND THE CONFIDENCE INTERVALS
-  y_label_winrate="Winrates of the most popular archetypes"
-  graph_title_winrate=paste("Confidence intervals on the winrates of the most present archetypes", 
-                            "(at least",HistShare,"% of the",presence,") between", 
-                            beginning, "and", end, "in MTGO", EventType,sep=" ")
+  y_label_winrate="Winrates of the most popular archetypes (%)"
+  graph_title_winrate=paste(
+    "Confidence intervals on the winrates of the most present archetypes ", 
+    "( at least ",HistShare,"% of the ",presence,") between ", beginning, 
+    " and ", end, " in MTGO ", EventType,sep="")
   
   ggplot(arch_most_played, aes(x=ARCHETYPES, y=WINRATE_AVERAGE*100)) + 
     theme_classic() + geom_point(size=2,color="blue") +  
@@ -437,7 +459,7 @@ by Anael Yahi")+
 #PLOT THE REPARTITION FOR THE LINEAR COMBINATION OF THE PRESENCE AND WINRATES
 #FOR THE MOST POPULAR ARCHETYPES
 #PRESENCE: NUMBER OF MATCHES
-linear_comb_graph = function(df,arch_ranked,beginning,end){
+linear_comb_graph = function(df,arch_ranked,beginning,end,EventType){
   
   presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
   arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
@@ -474,7 +496,7 @@ by Anael Yahi")+
 #PLOT THE REPARTITION FOR THE A LOGARITHMIC COMBINATION OF THE PRESENCE AND WINRATES
 #FOR THE MOST POPULAR ARCHETYPES
 #PRESENCE: NUMBER OF MATCHES
-log_comb_graph = function(df,arch_ranked,beginning,end){
+log_comb_graph = function(df,arch_ranked,beginning,end,EventType){
   
   presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
   arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=log(presence_min),]
@@ -511,7 +533,7 @@ by Anael Yahi")+
 #PLOT THE REPARTITION FOR THE LINEAR COMBINATION OF THE PRESENCE AND WINRATES
 #FOR THE MOST POPULAR ARCHETYPES
 #PRESENCE: NUMBER OF MATCHES
-lower_born_ci_winrate_graph = function(df,arch_ranked,beginning,end){
+lower_born_ci_winrate_graph = function(df,arch_ranked,beginning,end,EventType){
   
   presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
   arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
@@ -546,7 +568,7 @@ by Anael Yahi")+
 
 #SORT THE ARCHETYPES IN CLUSTERS BASED ON PRESENCE AND WINRATE
 kmeans_arch = function (metric_df,k,iter,init,algo,beginning,end,diam_ratio,
-                        count_wr,only_best){
+                        count_wr,only_best,EventType){
   df_elim=select(metric_df, TOTAL_NB_MATCHES, WINRATE_AVERAGE, ARCHETYPES,NB_PLAYERS)
   if(only_best){
     df_elim=df_elim[df_elim$TOTAL_NB_MATCHES>mean(df_elim$TOTAL_NB_MATCHES),]

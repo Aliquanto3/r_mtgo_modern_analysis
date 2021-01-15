@@ -61,12 +61,10 @@ generate_Prelim_Data = function() {
   #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN) 
   PrelimData$NB_DEFEATS=PrelimData$NB_ROUNDS - PrelimData$POINTS/3
   
-  if(EventType=="Competitions" || EventType=="Events"){
-    #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
-    PrelimData$TOP8_PTS=rep(0,length(PrelimData$POINTS))
-    PrelimData$TOP8_DEF=rep(0,length(PrelimData$NB_DEFEATS))
-    PrelimData$TOP8_MATCHES=rep(0,length(PrelimData$NB_ROUNDS))
-  }
+  #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
+  PrelimData$TOP8_PTS=rep(0,length(PrelimData$POINTS))
+  PrelimData$TOP8_DEF=rep(0,length(PrelimData$NB_DEFEATS))
+  PrelimData$TOP8_MATCHES=rep(0,length(PrelimData$NB_ROUNDS))
   
   return(PrelimData)
   
@@ -225,20 +223,28 @@ generate_ManaTraders_Data = function() {
   
 }
 
-df=rawData
-
-if (EventType=="Competitions"){
-  #FUSE THE DATA BACK TO GET ALL THE COMPETITIVE RESULTS IN THE SAME FILE
-  df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
-}else if (EventType=="Challenges"){
-  df=generate_Challenge_Data()
-}else if (EventType=="Preliminaries"){
-  df=generate_Prelim_Data()
-}else if (EventType=="Events"){
-  df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
-  df=rbind(df,generate_League_Data())
-  df=rbind(df,generate_ManaTraders_Data())
+generate_df = function(df,EventType){
+  if (EventType=="Competitions"){
+    #FUSE THE DATA BACK TO GET ALL THE COMPETITIVE RESULTS IN THE SAME FILE
+    df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
+  }else if (EventType=="Challenges"){
+    df=generate_Challenge_Data()
+  }else if (EventType=="Preliminaries"){
+    df=generate_Prelim_Data()
+  }else if (EventType=="Events"){
+    df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
+    df=rbind(df,generate_League_Data())
+    df=rbind(df,generate_ManaTraders_Data())
+  }else if (EventType=="Manatraders"){
+    df=rbind(generate_Challenge_Data(),generate_Prelim_Data())
+    df=rbind(df,generate_League_Data())
+    df=rbind(df,generate_ManaTraders_Data())
+  }
+  
+  return(df)
 }
+
+df=generate_df(rawData,EventType)
 
 #POSSIBLE QUICKFIX FOR A BETTER ACCURACY IN THE DATA
 #THE Shadow Prowess STRATEGY PLAYING BLACK, RED AND GREEN CARDS (A COLOR 

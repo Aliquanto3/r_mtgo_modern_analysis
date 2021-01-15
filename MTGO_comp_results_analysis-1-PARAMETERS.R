@@ -23,21 +23,21 @@ MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning=NA
+Beginning="2020-12-14"
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
 #after you executed the 2nd file paragraph
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End=NA
+End="2021-01-11"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
 #after you executed the 2nd file paragraph
 
-#Event type - "Competitions" (All but Leagues), "Preliminaries", 
-#"Challenges" or "Events" (All)
+#Event type - "Competitions" (All but Manatraders), "Preliminaries", 
+#"Challenges", "Events" (All) or "Manatraders"
 #Requires restarting Data Treatment if updated
 EventType="Competitions"
 

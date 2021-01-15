@@ -1,24 +1,4 @@
-#GRAPHIC ANALYSIS
-metric_df=metric_points_archetypes(df,Beginning,End)
-
-#function(metric_df,presence,diameters,diam_ratio,beginning,end,tiers,isLog,only_best)
-metric_graph(metric_df_most_present,"Matches","Players",0.1,Beginning,End,"",TRUE,FALSE)
-
-#ARCHETYPE CLUSTERING
-kmeans_arch(metric_df,4,30,50,"Hartigan-Wong",Beginning,End,3)
-
-#PRESENCE
-metagame_pie_chart(df,"Matches",Beginning,End)
-
-#RATIO MATCHES/PLAYERS
-HistShare=1.8
-metagame_box_plot(df,"Ratio M/P",Beginning,End)
-
-#WINRATES
-arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-winrates_graph(df,arch_ranked,"Matches",Beginning,End)
-
-################################################################################
+###############################################################################
 #CODE FOR THE REPORT
 
 #IV.1- Analyse des indicateurs
@@ -47,18 +27,22 @@ length(unique(df$EVENT_NAME))
 #FIND THE URL FOR AN ARCHETYPE
 df[grep("Grinding Breach", df$ARCHETYPE), ]$URL
 
+#RATIO MATCHES/PLAYERS - NOT IN THE REPORT
+HistShare=1.2
+metagame_box_plot(df,"Players",Beginning,End,EventType)
+
 # IV.1.A - Indicateur 1 : présence de chaque archétype
 #GENERATE THE METAGAME PIE CHART FOR THE SELECTED DATA
 PieShare=2.5
-metagame_pie_chart(df,"Players",Beginning,End)
-metagame_pie_chart(df,"Copies",Beginning,End)
-metagame_pie_chart(df,"Matches",Beginning,End)
+metagame_pie_chart(df,"Players",Beginning,End,EventType)
+metagame_pie_chart(df,"Copies",Beginning,End,EventType)
+metagame_pie_chart(df,"Matches",Beginning,End,EventType)
 PieShare=2
-metagame_pie_chart(df,"Matches",Beginning,End)
+metagame_pie_chart(df,"Matches",Beginning,End,EventType)
 
 #GENERATE THE METAGAME HISTOGRAM FOR THE SELECTED DATA
 HistShare=2
-metagame_box_plot(df,"Matches",Beginning,End)
+metagame_box_plot(df,"Matches",Beginning,End,EventType)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY PRESENCE
@@ -86,7 +70,7 @@ write.csv(arch_list,paste('Results_as_CSV/',Beginning,'-',
 # IV.1.B – Indicateur 2 : nombre de points par ronde (taux de victoire)
 metric_df=metric_points_archetypes(df,Beginning,End)
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-winrates_graph(df,arch_ranked,"Matches",Beginning,End)
+winrates_graph(df,arch_ranked,"Matches",Beginning,End,EventType)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY WINRATE
@@ -122,24 +106,24 @@ metric_df_log_matches$TOTAL_NB_MATCHES=log(metric_df_log_matches$TOTAL_NB_MATCHE
 
 
 # IV.2.A - Compilation 1 : analyse graphique
-metric_graph(metric_df,"Matches","Players",0.1,Beginning,End,"",TRUE,FALSE)
+metric_graph(metric_df,"Matches","Players",0.1,Beginning,End,"",TRUE,FALSE,EventType)
 
 # IV.2.B - Compilation 2 : combinaison linéaire des indicateurs
 PPR_Weight=1
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-linear_comb_graph(df,arch_ranked,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End,EventType)
 
 PPR_Weight=2
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-linear_comb_graph(df,arch_ranked,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End,EventType)
 
 PPR_Weight=4
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-linear_comb_graph(df,arch_ranked,Beginning,End)
+linear_comb_graph(df,arch_ranked,Beginning,End,EventType)
 
 PPR_Weight=1
 arch_ranked=archetypes_ranking(metric_df_log_matches,Beginning,End)
-log_comb_graph(df,arch_ranked,Beginning,End)
+log_comb_graph(df,arch_ranked,Beginning,End,EventType)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY NORMALIZED LOG(PRESENCE) + WINRATE
@@ -158,7 +142,7 @@ write.csv(subset(arch_ranked,select = c(ARCHETYPES,METRIC_COMB)),
 # IV.2.C - Compilation 3 : la borne inférieure de l’intervalle de confiance sur 
 #les winrates
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-lower_born_ci_winrate_graph(df,arch_ranked,Beginning,End)
+lower_born_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY LOWER WINRATE ESTIMATION
