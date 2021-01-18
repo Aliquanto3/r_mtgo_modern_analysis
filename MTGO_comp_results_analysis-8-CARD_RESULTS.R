@@ -91,6 +91,9 @@ min(CardResults$WINRATE_95_MIN)
 max(CardResults$WINRATE_AVERAGE)
 min(CardResults$WINRATE_AVERAGE)
 
+################################################################################
+#WINRATE OF THE "NEW" CARDS
+
 
 ################################################################################
 #LET US COMPUTE THE WINRATE OF EACH ARTIST

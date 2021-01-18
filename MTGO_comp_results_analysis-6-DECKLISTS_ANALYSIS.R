@@ -4,7 +4,7 @@
 
 #TO BE MANUALLY CHOSEN AFTER ANALYSIS OF ALL THE METRICS
 #KEEP ONLY THE DATA OF A SINGLE ARCHETYPE
-bestArchetype="Urza Oko"
+#bestArchetype="Urza Oko"
 
 #ADD THE NUMBER OF CARDS HAVING AT LEAST A SPECIFIC TYPE OF EACH DECK
 #USE THE FOLLOWING COMMAND TO FIND ALL THE TYPES YOU CAN USE:
@@ -64,7 +64,7 @@ infos_best_arch=function(df,bestArchetype){
   return(df_best_arch)
 }
 
-df_best_arch=infos_best_arch(df,bestArchetype)
+#df_best_arch=infos_best_arch(df,bestArchetype)
 
 #names(df_best_arch)
 

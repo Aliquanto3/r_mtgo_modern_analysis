@@ -13,7 +13,7 @@ DirectoryFile="D:/MTG/Meta analysis/r_mtgo_modern_analysis/MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2021_01_11.csv"
+RawFile="mtgo_data_2021_01_17.csv"
 
 #Path of the repertory containing the multiple subdirectories of the results
 #converted to JSON
@@ -23,14 +23,15 @@ MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2020-12-14"
+Beginning="2019-12-13"
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
 #after you executed the 2nd file paragraph
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2021-01-11"
+#End="2021-01-18"
+End="2021-01-17"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)

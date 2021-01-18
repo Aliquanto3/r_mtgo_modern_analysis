@@ -25,6 +25,11 @@
 #install.packages("ClustMAPDP")
 #install.packages("expm")
 #install.packages("matrixStats")
+#devtools::install_github('thomasp85/gganimate')
+#install.packages('gganimate')
+#install.packages("gifski")
+#install.packages("raster")
+#install.packages("conflicted")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
@@ -41,6 +46,14 @@ library(ggpubr)
 library(ClustMAPDP)
 library(expm)
 library(matrixStats)
+library(gganimate)
+library(gifski)
+library(raster)
+library(conflicted)
+
+conflict_prefer("select", "dplyr")
+conflict_prefer("arrange", "dplyr")
+
 ################################################################################
 
 #VARIABLE FOR THE ACCURACY ON THE NAMING OF THE ARCHETYPES
@@ -224,7 +237,8 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
     avg_presence=mean(metric_df$NB_PLAYERS)
     std_presence=sd(metric_df$NB_PLAYERS)
   }else if (presence=="Matches"){
-    metric_df$TOTAL_NB_MATCHES=metric_df$TOTAL_NB_MATCHES/sum(metric_df$TOTAL_NB_MATCHES)*100
+    metric_df$TOTAL_NB_MATCHES=metric_df$TOTAL_NB_MATCHES/
+      sum(metric_df$TOTAL_NB_MATCHES)*100
     metric_plot=ggplot(metric_df, aes(TOTAL_NB_MATCHES, WINRATE_AVERAGE*100))
     avg_presence=mean(metric_df$TOTAL_NB_MATCHES)
     std_presence=sd(metric_df$TOTAL_NB_MATCHES)
@@ -232,13 +246,16 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   
   if (diameters=="Copies"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES*diam_ratio,show.legend = FALSE)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_COPIES*diam_ratio,
+                 show.legend = FALSE)
   }else if (diameters=="Players"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_PLAYERS*diam_ratio,show.legend = FALSE)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$NB_PLAYERS*diam_ratio,
+                 show.legend = FALSE)
   }else if (diameters=="Matches"){
     metric_plot=metric_plot + 
-      geom_point(aes(color = ARCHETYPES), size=metric_df$TOTAL_NB_MATCHES*diam_ratio,show.legend = FALSE)
+      geom_point(aes(color = ARCHETYPES), size=metric_df$TOTAL_NB_MATCHES*
+                   diam_ratio,show.legend = FALSE)
   }
   
   metric_plot=metric_plot + coord_cartesian() + theme_bw() + 
@@ -266,44 +283,44 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   }else if (tiers=="Pres M+SD"){
     #TIERS BASED ON MEAN + N * STANDARD DEVIATION OF PRESENCE, N={0,1,2,3}
     metric_plot=metric_plot + geom_vline(xintercept = avg_presence, linetype="dotted",
-                                        color = "dark green", size=2) +
+                                        color = "purple", size=2) +
       geom_text(aes(x=avg_presence, label="Tiers 2.5\n", y=
-                      max(WINRATE_AVERAGE*100)-1), colour="dark green",
+                      max(WINRATE_AVERAGE*100)), colour="purple",
                 angle=0, size=8) +
       geom_text(aes(x=avg_presence, label="\nPresence mean", y=
-                      max(WINRATE_AVERAGE*100)-1), colour="black",
+                      max(WINRATE_AVERAGE*100)), colour="grey",
                 angle=0, size=4) +
       geom_vline(xintercept = avg_presence + std_presence, linetype="dotted",
-                 color = "purple", size=1.5) +
+                 color = "blue", size=1.5) +
       geom_text(aes(x=avg_presence + std_presence, label="Tiers 2\n",
-                    y=max(WINRATE_AVERAGE*100)-2), colour="purple",
+                    y=max(WINRATE_AVERAGE*100)), colour="blue",
                 angle=0, size=8) +
-      geom_text(aes(x=avg_presence + std_presence, label="\nPresence mean + 1*sd",
-                    y=max(WINRATE_AVERAGE*100)-2), colour="black",
+      geom_text(aes(x=avg_presence + std_presence, label="\nMean + 1*sd",
+                    y=max(WINRATE_AVERAGE*100)), colour="grey",
                 angle=0, size=4) +
       geom_vline(xintercept = avg_presence + 2*std_presence, linetype="dotted",
-                 color = "blue", size=1.5) +
+                 color = "dark green", size=1.5) +
       geom_text(aes(x=avg_presence + 2*std_presence, label="Tiers 1.5\n",
-                    y=max(WINRATE_AVERAGE*100)-4), colour="blue",
+                    y=max(WINRATE_AVERAGE*100)), colour="dark green",
                 angle=0, size=8) +
-      geom_text(aes(x=avg_presence + 2*std_presence, label="\nPresence mean + 2*sd",
-                    y=max(WINRATE_AVERAGE*100)-4), colour="black",
+      geom_text(aes(x=avg_presence + 2*std_presence, label="\nMean + 2*sd",
+                    y=max(WINRATE_AVERAGE*100)), colour="grey",
                 angle=0, size=4) +
       geom_vline(xintercept = avg_presence + 3*std_presence, linetype="dotted",
                  color = "orange", size=1.5) +
       geom_text(aes(x=avg_presence + 3*std_presence, label="Tiers 1\n",
-                    y=max(WINRATE_AVERAGE*100)-7), colour="orange",
+                    y=max(WINRATE_AVERAGE*100)), colour="orange",
                 angle=0, size=8) +
-      geom_text(aes(x=avg_presence + 3*std_presence, label="\nPresence mean + 3*sd",
-                    y=max(WINRATE_AVERAGE*100)-7), colour="black",
+      geom_text(aes(x=avg_presence + 3*std_presence, label="\nMean + 3*sd",
+                    y=max(WINRATE_AVERAGE*100)), colour="grey",
                 angle=0, size=4) +
       geom_vline(xintercept = avg_presence + 4*std_presence, linetype="dotted",
                  color = "red", size=1.5) +
       geom_text(aes(x=avg_presence + 4*std_presence, label="Tiers 0\n",
-                    y=max(WINRATE_AVERAGE*100)-11), colour="red",
+                    y=max(WINRATE_AVERAGE*100)), colour="red",
                 angle=0, size=8) +
-      geom_text(aes(x=avg_presence + 4*std_presence, label="\nPresence mean + 4*sd",
-                    y=max(WINRATE_AVERAGE*100)-11), colour="black",
+      geom_text(aes(x=avg_presence + 4*std_presence, label="\nMean + 4*sd",
+                    y=max(WINRATE_AVERAGE*100)), colour="grey",
                 angle=0, size=4)
     
   }else if (tiers=="Pres %"){
@@ -340,8 +357,10 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
 
 #FILL IN METRIC POINTS IN AN ARCHETYPES DATA FRAME
 metric_points_archetypes = function(df,beginning,end){
+  df2=subset(df, DATE >= as.Date(beginning) & DATE < as.Date(end))
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
-  metric_df=generate_archetype_list(df,beginning,end)
+  metric_df=generate_archetype_list(df2,beginning,end)
+  players_df=metric_points_players(df,beginning,end)
   
   metric_df$NB_COPIES=rep(0,length(metric_df$ARCHETYPES))
   metric_df$NB_PLAYERS=rep(0,length(metric_df$ARCHETYPES))
@@ -349,8 +368,9 @@ metric_points_archetypes = function(df,beginning,end){
   metric_df$WINRATE_AVERAGE=rep(0,length(metric_df$ARCHETYPES))
   metric_df$WINRATE_95_MIN=rep(0,length(metric_df$ARCHETYPES))
   metric_df$WINRATE_95_MAX=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$MATCHES_PER_PLAYER=rep(0,length(metric_df$ARCHETYPES))
+  metric_df$WINRATE_ARCH_OUT_PLAYERS=rep(0,length(metric_df$ARCHETYPES))
   
-  df2=subset(df, DATE >= as.Date(beginning) & DATE < as.Date(end))
   for (i in 1:length(metric_df$ARCHETYPES)){
     #POSITION OF THE CORRESPONDING EXACT OR SUPER ARCHETYPE IN THE DATA
     arch_identification=which(df2[[archetype_acc]]==metric_df$ARCHETYPES[i])
@@ -361,6 +381,11 @@ metric_points_archetypes = function(df,beginning,end){
     #NUMBER OF MATCHES PLAYED BY THAT ARCHETYPE IN THE DATA
     metric_df$TOTAL_NB_MATCHES[i]=sum(df2[arch_identification,]$NB_ROUNDS,
                                       df2[arch_identification,]$TOP8_MATCHES)
+    #NUMBER OF MATCHES PER PLAYER - THE HIGHER, THE MORE A PLAYER wiTH THAT DECK
+    #APPEARED IN THE RESULTS
+    metric_df$MATCHES_PER_PLAYER[i]=metric_df$TOTAL_NB_MATCHES[i]/
+      metric_df$NB_PLAYERS[i]
+    
     #NUMBER OF WINS OF THAT ARCHETYPE
     total_wins_arch=sum((df2$POINTS[arch_identification] + 
                            df2$TOP8_PTS[arch_identification])/3)
@@ -370,32 +395,44 @@ metric_points_archetypes = function(df,beginning,end){
     
     #95% CONFIDENCE INTERVALS OF THE WINRATE
     #EFFECTIVE WINRATE IN THE DATA
-    metric_df$WINRATE_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
-                                        alternative="two.sided", conf.level=0.95)$estimate
+    metric_df$WINRATE_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                            p=0.5,alternative="two.sided", 
+                                            conf.level=0.95)$estimate
     #LOWER BORN OF THE "TRUE" WINRATE             
-    metric_df$WINRATE_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
-                                       alternative="two.sided", conf.level=0.95)$conf.int[1]
+    metric_df$WINRATE_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                           p=0.5,alternative="two.sided", 
+                                           conf.level=0.95)$conf.int[1]
     #UPPER BORN OF THE "TRUE" WINRATE 
-    metric_df$WINRATE_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, p=0.5,
-                                       alternative="two.sided", conf.level=0.95)$conf.int[2]
+    metric_df$WINRATE_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                           p=0.5,alternative="two.sided", 
+                                           conf.level=0.95)$conf.int[2]
+    
+    #WINRATE OF THAT ARCHETYPE DIVIDED BY THE AVERAGE WINRATE OF ITS PILOTS
+    metric_df$WINRATE_ARCH_OUT_PLAYERS[i]=metric_df$WINRATE_AVERAGE[i]/
+      mean(players_df[grep(metric_df$ARCHETYPES[i],
+                           players_df$ARCHETYPE_NAMES),]$WINRATE_AVERAGE)
   }
-  
+
   return(metric_df)
 }
 
 #COMBINES THE RATIOS OF POINTS PER ROUND AND NUMBER OF COPIES FOR EACH
 #ARCHETYPE, THEN PROVIDES A RANK BASED ON THAT
 #THE NEW METRIC OBTAINED THAT WAY IS NORMALIZED TO BE BETWEEN 0 AND 1
+#ALSO IMPLEMENTS THE VS META SCORE 
+#https://www.vicioussyndicate.com/vs-meta-score-new-metric-measuring-archetypes-standing-meta/
 archetypes_ranking = function(metric_df,beginning,end){
   
   metric_df$METRIC_COMB=metric_df$WINRATE_AVERAGE
   for (i in 1:length(metric_df$METRIC_COMB)){
     metric_df$METRIC_COMB[i] = 
-      (Presence_Weight * (metric_df$TOTAL_NB_MATCHES[i]-min(metric_df$TOTAL_NB_MATCHES)) /
-      max(metric_df$TOTAL_NB_MATCHES) +
-      (PPR_Weight * metric_df$WINRATE_AVERAGE[i]-min(metric_df$WINRATE_AVERAGE)) /
-      max(metric_df$WINRATE_AVERAGE )) /
-        (Presence_Weight+PPR_Weight)
+      (Presence_Weight * (metric_df$TOTAL_NB_MATCHES[i]-
+                            min(metric_df$TOTAL_NB_MATCHES)) /
+         max(metric_df$TOTAL_NB_MATCHES) +
+         (PPR_Weight * metric_df$WINRATE_AVERAGE[i]-
+            min(metric_df$WINRATE_AVERAGE)) /
+         max(metric_df$WINRATE_AVERAGE )) /
+      (Presence_Weight+PPR_Weight)
   }
   
   metric_df = metric_df[order(-metric_df$METRIC_COMB),]
@@ -405,6 +442,20 @@ archetypes_ranking = function(metric_df,beginning,end){
     metric_df$RANK[i]=i
   }
   
+  metric_df$VS_META_SCORE=metric_df$METRIC_COMB
+  MetaPeak=c(max(metric_df$TOTAL_NB_MATCHES) - min(metric_df$TOTAL_NB_MATCHES) /
+               max(metric_df$TOTAL_NB_MATCHES),
+             max(metric_df$WINRATE_AVERAGE) - min(metric_df$WINRATE_AVERAGE) /
+               max(metric_df$WINRATE_AVERAGE))
+  
+  for (i in 1:length(metric_df$VS_META_SCORE)){
+    ArchCoord=c((metric_df$TOTAL_NB_MATCHES[i]-min(metric_df$TOTAL_NB_MATCHES)) /
+      max(metric_df$TOTAL_NB_MATCHES),
+          (metric_df$WINRATE_AVERAGE[i]-min(metric_df$WINRATE_AVERAGE)) /
+      max(metric_df$WINRATE_AVERAGE))
+    
+    metric_df$VS_META_SCORE[i]=pointDistance(MetaPeak, ArchCoord, lonlat=FALSE)
+  }
   return(metric_df)
 }
 
@@ -566,8 +617,36 @@ by Anael Yahi")+
     scale_x_discrete(guide = guide_axis(n.dodge=2))
 }
 
+#PLOT THE REPARTITION FOR THE WINRATE RATIO OF ARCHETYPE OUT OF PLAYERS
+#FOR THE MOST POPULAR ARCHETYPES
+#PRESENCE: NUMBER OF MATCHES
+winrate_ratio_arch_out_player_graph = function(df,metric_df,beginning,end,EventType){
+  
+  presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
+  metric_df_2=metric_df[metric_df$TOTAL_NB_MATCHES>=presence_min,]
+  
+  metric_df_2$ARCHETYPES=reorder(metric_df_2$ARCHETYPES,
+                                       metric_df_2$WINRATE_ARCH_OUT_PLAYERS)
+  
+  titleRatioWin=paste("Ratio of the winrate of the archetypes out of the winrate ", 
+  "of their pilotes for the most popular decks
+At least ",HistShare,"% of presence",
+"\nBetween ",beginning," and ",end," in MTGO ",EventType,sep="")
+  
+  ggplot(metric_df_2, aes(x=ARCHETYPES, y=WINRATE_ARCH_OUT_PLAYERS)) + 
+    theme_classic() + geom_point(size=2,color="blue") +  
+    geom_text_repel(aes(label=format(round(WINRATE_ARCH_OUT_PLAYERS,3), nsmall = 3)),
+                    hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
+    labs(x=NULL, y="Ratio", title=titleRatioWin,
+         subtitle="Ratio>1 means that the archetype winrate is over its pilots' winrate
+         \nby Anael Yahi")+
+    geom_hline(yintercept = 1, color="green", linetype="dotted", size=1)+
+    theme(axis.text.x  = element_text(size=12)) +
+    scale_x_discrete(guide = guide_axis(n.dodge=2))
+}
+
 #SORT THE ARCHETYPES IN CLUSTERS BASED ON PRESENCE AND WINRATE
-kmeans_arch = function (metric_df,k,iter,init,algo,beginning,end,diam_ratio,
+kmeans_arch = function (metric_df,k,iter,init,algo,beginning,end,
                         count_wr,only_best,EventType){
   df_elim=select(metric_df, TOTAL_NB_MATCHES, WINRATE_AVERAGE, ARCHETYPES,NB_PLAYERS)
   if(only_best){
@@ -599,5 +678,197 @@ by Anael Yahi",sep = " ")
     coord_cartesian() + theme_bw() + scale_x_continuous(trans = 'log10') + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) +
     geom_text_repel(aes(label=ARCHETYPES),hjust=0.5, vjust=-1.5,point.padding = NA) + 
-    geom_point(aes(size=NB_PLAYERS*diam_ratio),show.legend = FALSE)
+    geom_point(aes(size=NB_PLAYERS),show.legend = FALSE)
+}
+
+#LIST ALL THE DIFFERENT PLAYERS IN THE DATA
+generate_player_list = function(df,beginning,end){
+  #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
+  periodDf=subset(df, DATE >= as.Date(beginning) & DATE < as.Date(end))
+  play_list=data.frame(unique(df$PLAYER))
+  names(play_list)[1] = c("PLAYERS")
+  return(play_list)
+}
+
+#FILL IN METRIC POINTS IN A PLAYER DATA FRAME
+metric_points_players = function(df,beginning,end){
+  df2=subset(df, DATE >= as.Date(beginning) & DATE < as.Date(end))
+  #GET THE LIST OF THE DIFFERENT PLAYERS IN THE DATA
+  metric_df_players=generate_player_list(df2,beginning,end)
+  
+  metric_df_players$NB_APPEARANCES=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$TOTAL_NB_MATCHES=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$WINRATE_AVERAGE=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$WINRATE_95_MIN=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$WINRATE_95_MAX=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$TOTAL_POINTS=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$ARCHETYPE_NAMES=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$ARCHETYPE_COUNT=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$URL=rep(0,length(metric_df_players$PLAYERS))
+  for (i in 1:length(metric_df_players$PLAYERS)){
+    #POSITION OF THE CORRESPONDING EXACT OR SUPER ARCHETYPE IN THE DATA
+    play_identification=which(df2$PLAYER==metric_df_players$PLAYERS[i])
+    df3=df2[play_identification,]
+    #NUMBER OF APPEARANCES IN THE DATA OF THE CORRESPONDING ARCHETYPE
+    metric_df_players$NB_APPEARANCES[i]=length(play_identification)
+    #LIST OF DIFFERENT ARCHETYPES THAT PLAYER PLAYED
+    metric_df_players$ARCHETYPE_NAMES[i]=list(unique(df3$ARCHETYPE))
+      #paste(unique(df3$ARCHETYPE),collapse=",")
+    arch_count=c()
+    for(j in 1:length(metric_df_players$ARCHETYPE_NAMES[[i]])){
+      arch_count[j]=length(df3[df3$ARCHETYPE==metric_df_players$
+                                 ARCHETYPE_NAMES[[i]][[j]],]$URL)
+    }
+    metric_df_players$ARCHETYPE_COUNT[i]=list(arch_count)
+    
+    metric_df_players$URL[i]=list(unique(df3$URL))
+      #paste(df3$URL,collapse=",")
+    
+    #NUMBER OF MATCHES PLAYED BY THAT ARCHETYPE IN THE DATA
+    metric_df_players$TOTAL_NB_MATCHES[i]=sum(df3$NB_ROUNDS,
+                                      df3$TOP8_MATCHES)
+    #NUMBER OF WINS OF THAT ARCHETYPE
+    total_wins_arch=sum((df3$POINTS + df3$TOP8_PTS)/3)
+    #NUMBER OF MATCHES OF THAT ARCHETYPE
+    total_matches_arch=sum(df3$NB_ROUNDS + df3$TOP8_MATCHES)
+    metric_df_players$TOTAL_POINTS[i]=total_wins_arch*3
+    
+    #95% CONFIDENCE INTERVALS OF THE WINRATE
+    #EFFECTIVE WINRATE IN THE DATA
+    metric_df_players$WINRATE_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                            p=0.5,alternative="two.sided", 
+                                            conf.level=0.95)$estimate
+    #LOWER BORN OF THE "TRUE" WINRATE             
+    metric_df_players$WINRATE_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                           p=0.5,alternative="two.sided", 
+                                           conf.level=0.95)$conf.int[1]
+    #UPPER BORN OF THE "TRUE" WINRATE 
+    metric_df_players$WINRATE_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, 
+                                           p=0.5,alternative="two.sided", 
+                                           conf.level=0.95)$conf.int[2]
+  }
+  metric_df_players=arrange(metric_df_players,desc(TOTAL_POINTS))
+  
+  return(metric_df_players)
+}
+
+#GENERATE A DF CONTAINING TIERS LISTS DEPENDING ON VARIOUS METRICS
+generate_tiers_lists = function(arch_ranked){
+  #TIERS LIST BASED ON METRIC SCORE
+  arch_metric_score=arch_ranked[c("ARCHETYPES","METRIC_COMB")]
+  arch_metric_score=arrange(arch_metric_score,desc(METRIC_COMB))
+  head(arch_metric_score)
+  mmc=mean(arch_metric_score$METRIC_COMB)
+  sdmc=sd(arch_metric_score$METRIC_COMB)
+  arch_metric_score_tiers1=arch_metric_score[arch_metric_score$METRIC_COMB>mmc+sdmc,]
+  arch_metric_score_tiers1.5=arch_metric_score[arch_metric_score$METRIC_COMB>mmc &
+                                                 arch_metric_score$METRIC_COMB<=mmc+sdmc,]
+  arch_metric_score_tiers2=arch_metric_score[arch_metric_score$METRIC_COMB<=mmc &
+                                               arch_metric_score$METRIC_COMB>=mmc-sdmc,]
+  arch_metric_score_tiers2.5=arch_metric_score[arch_metric_score$METRIC_COMB<mmc-sdmc,]
+  arch_metric_score_tiers1
+  arch_metric_score_tiers1.5
+  arch_metric_score_tiers2
+  arch_metric_score_tiers2.5
+  
+  #TIERS LIST BASED ON VS META SCORE
+  arch_meta_score=arch_ranked[c("ARCHETYPES","VS_META_SCORE")]
+  arch_meta_score=arrange(arch_meta_score,VS_META_SCORE)
+  head(arch_meta_score)
+  mms=mean(arch_meta_score$VS_META_SCORE)
+  sdms=sd(arch_meta_score$VS_META_SCORE)
+  arch_meta_score_tiers2.5=arch_meta_score[arch_meta_score$VS_META_SCORE>mms+sdms,]
+  arch_meta_score_tiers2=arch_meta_score[arch_meta_score$VS_META_SCORE>mms &
+                                           arch_meta_score$VS_META_SCORE<=mms+sdms,]
+  arch_meta_score_tiers1.5=arch_meta_score[arch_meta_score$VS_META_SCORE<=mms &
+                                             arch_meta_score$VS_META_SCORE>=mms-sdms,]
+  arch_meta_score_tiers1=arch_meta_score[arch_meta_score$VS_META_SCORE<mms-sdms,]
+  arch_meta_score_tiers1
+  arch_meta_score_tiers1.5
+  arch_meta_score_tiers2
+  arch_meta_score_tiers2.5
+  
+  #TIERS LIST BASED ON PRESENCE
+  arch_presence_score=arch_ranked[c("ARCHETYPES","TOTAL_NB_MATCHES")]
+  arch_presence_score=arrange(arch_presence_score,desc(TOTAL_NB_MATCHES))
+  head(arch_presence_score)
+  mps=mean(arch_presence_score$TOTAL_NB_MATCHES)
+  sdps=sd(arch_presence_score$TOTAL_NB_MATCHES)
+  arch_presence_score_tiers1=arch_presence_score[arch_presence_score$TOTAL_NB_MATCHES>mps+sdps,]
+  arch_presence_score_tiers1.5=arch_presence_score[arch_presence_score$TOTAL_NB_MATCHES>mps &
+                                                     arch_presence_score$TOTAL_NB_MATCHES<=mps+sdps,]
+  arch_presence_score_tiers2=arch_presence_score[arch_presence_score$TOTAL_NB_MATCHES<=mps &
+                                                   arch_presence_score$TOTAL_NB_MATCHES>=mps-sdps,]
+  arch_presence_score_tiers2.5=arch_presence_score[arch_presence_score$TOTAL_NB_MATCHES<mps-sdps,]
+  arch_presence_score_tiers1
+  arch_presence_score_tiers1.5
+  arch_presence_score_tiers2
+  arch_presence_score_tiers2.5
+  
+  #TIERS LIST BASED ON AVERAGE WINRATE
+  arch_winrate_score=arch_ranked[c("ARCHETYPES","WINRATE_AVERAGE")]
+  arch_winrate_score=arrange(arch_winrate_score,desc(WINRATE_AVERAGE))
+  head(arch_winrate_score)
+  mws=mean(arch_winrate_score$WINRATE_AVERAGE)
+  sdws=sd(arch_winrate_score$WINRATE_AVERAGE)
+  arch_winrate_score_tiers1=arch_winrate_score[arch_winrate_score$WINRATE_AVERAGE>mws+sdws,]
+  arch_winrate_score_tiers1.5=arch_winrate_score[arch_winrate_score$WINRATE_AVERAGE>mws &
+                                                   arch_winrate_score$WINRATE_AVERAGE<=mws+sdws,]
+  arch_winrate_score_tiers2=arch_winrate_score[arch_winrate_score$WINRATE_AVERAGE<=mws &
+                                                 arch_winrate_score$WINRATE_AVERAGE>=mws-sdws,]
+  arch_winrate_score_tiers2.5=arch_winrate_score[arch_winrate_score$WINRATE_AVERAGE<mws-sdws,]
+  arch_winrate_score_tiers1
+  arch_winrate_score_tiers1.5
+  arch_winrate_score_tiers2
+  arch_winrate_score_tiers2.5
+  
+  #TIERS LIST BASED ON LOWER ESTIMATION OF WINRATE
+  arch_low_winrate_score=arch_ranked[c("ARCHETYPES","WINRATE_95_MIN")]
+  arch_low_winrate_score=arrange(arch_low_winrate_score,desc(WINRATE_95_MIN))
+  head(arch_low_winrate_score)
+  mlws=mean(arch_low_winrate_score$WINRATE_95_MIN)
+  sdlws=sd(arch_low_winrate_score$WINRATE_95_MIN)
+  arch_low_winrate_score_tiers1=arch_low_winrate_score[arch_low_winrate_score$WINRATE_95_MIN>mlws+sdlws,]
+  arch_low_winrate_score_tiers1.5=arch_low_winrate_score[arch_low_winrate_score$WINRATE_95_MIN>mlws &
+                                                           arch_low_winrate_score$WINRATE_95_MIN<=mlws+sdlws,]
+  arch_low_winrate_score_tiers2=arch_low_winrate_score[arch_low_winrate_score$WINRATE_95_MIN<=mlws &
+                                                         arch_low_winrate_score$WINRATE_95_MIN>=mlws-sdlws,]
+  arch_low_winrate_score_tiers2.5=arch_low_winrate_score[arch_low_winrate_score$WINRATE_95_MIN<mlws-sdlws,]
+  arch_low_winrate_score_tiers1
+  arch_low_winrate_score_tiers1.5
+  arch_low_winrate_score_tiers2
+  arch_low_winrate_score_tiers2.5
+  
+  #EXPORT ALL THE TIERS LISTS TO CSV
+  low_winrate_score_tiers_list=list(paste(arch_low_winrate_score_tiers1$ARCHETYPES,collapse=" - "),
+                                    paste(arch_low_winrate_score_tiers1.5$ARCHETYPES,collapse=" - "),
+                                    paste(arch_low_winrate_score_tiers2$ARCHETYPES,collapse=" - "),
+                                    paste(arch_low_winrate_score_tiers2.5$ARCHETYPES,collapse=" - "))
+  winrate_score_tiers_list=list(paste(arch_winrate_score_tiers1$ARCHETYPES,collapse=" - "),
+                                paste(arch_winrate_score_tiers1.5$ARCHETYPES,collapse=" - "),
+                                paste(arch_winrate_score_tiers2$ARCHETYPES,collapse=" - "),
+                                paste(arch_winrate_score_tiers2.5$ARCHETYPES,collapse=" - "))
+  presence_score_tiers_list=list(paste(arch_presence_score_tiers1$ARCHETYPES,collapse=" - "),
+                                 paste(arch_presence_score_tiers1.5$ARCHETYPES,collapse=" - "),
+                                 paste(arch_presence_score_tiers2$ARCHETYPES,collapse=" - "),
+                                 paste(arch_presence_score_tiers2.5$ARCHETYPES,collapse=" - "))
+  meta_score_tiers_list=list(paste(arch_meta_score_tiers1$ARCHETYPES,collapse=" - "),
+                             paste(arch_meta_score_tiers1.5$ARCHETYPES,collapse=" - "),
+                             paste(arch_meta_score_tiers2$ARCHETYPES,collapse=" - "),
+                             paste(arch_meta_score_tiers2.5$ARCHETYPES,collapse=" - "))
+  metric_score_tiers_list=list(paste(arch_metric_score_tiers1$ARCHETYPES,collapse=" - "),
+                               paste(arch_metric_score_tiers1.5$ARCHETYPES,collapse=" - "),
+                               paste(arch_metric_score_tiers2$ARCHETYPES,collapse=" - "),
+                               paste(arch_metric_score_tiers2.5$ARCHETYPES,collapse=" - "))
+  
+  df_tiers_list=data.frame(presence=I(presence_score_tiers_list),
+                           winrate=I(winrate_score_tiers_list),
+                           low_winrate=I(low_winrate_score_tiers_list),
+                           comb_presence_winrate=I(metric_score_tiers_list),
+                           meta_score=I(metric_score_tiers_list)
+  )
+  
+  rownames(df_tiers_list)=c("Tiers 1","Tiers 1.5","Tiers 2","Tiers 2.5")
+  
+  return(df_tiers_list)
 }

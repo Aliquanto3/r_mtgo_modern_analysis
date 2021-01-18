@@ -60,6 +60,9 @@ addCMC = function(df){
 }
 
 #IT CAN BE A BIT LONG TO EXECUTE, LEAVE IT A MINUTE OR TWO
+#TODO: REPAIR THE FUNCTION:
+# Error in if (df$MDCards[[i]][j] %in% cardDataSub$name) { : 
+#     l'argument est de longueur nulle
 df=addCMC(df)
 
 ####################################################
