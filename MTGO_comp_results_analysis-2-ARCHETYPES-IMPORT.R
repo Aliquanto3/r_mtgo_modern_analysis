@@ -267,12 +267,10 @@ add_super_archetypes = function(df){
        df$ARCHETYPE[i]=="UBRG Control"| 
        df$ARCHETYPE[i]=="Niv To Light"| 
        df$ARCHETYPE[i]=="Omnath Saheeli"| 
-       df$ARCHETYPE[i]=="Bant Blink"| 
        df$ARCHETYPE[i]=="Temur Control"| 
        df$ARCHETYPE[i]=="Sultai Control"| 
        df$ARCHETYPE[i]=="Bant Control"|
-       df$ARCHETYPE[i]=="Simic Control"|
-       df$ARCHETYPE[i]=="WURG Blink"){
+       df$ARCHETYPE[i]=="Simic Control"){
       
       df$SUPER_ARCH[i]="UGx Control"
       
@@ -293,8 +291,17 @@ add_super_archetypes = function(df){
       
     }
     
+    if(df$ARCHETYPE[i]=="Jeskai Blink" |
+       df$ARCHETYPE[i]=="Bant Blink"| 
+       df$ARCHETYPE[i]=="WURG Blink" |
+       df$ARCHETYPE[i]=="Abzan Blink"
+       ){
+      
+      df$SUPER_ARCH[i]="Blink"
+      
+    }
+    
     if(df$ARCHETYPE[i]=="Jeskai Control" |
-       df$ARCHETYPE[i]=="Jeskai Blink" |
        df$ARCHETYPE[i]=="Izzet Control"| 
        df$ARCHETYPE[i]=="Dimir Control"| 
        df$ARCHETYPE[i]=="Azorius Control"|
@@ -311,7 +318,8 @@ add_super_archetypes = function(df){
     if(df$ARCHETYPE[i]=="Amulet Titan" | 
        df$ARCHETYPE[i]=="KGC Amulet Titan"| 
        df$ARCHETYPE[i]=="Primeval Titan"| 
-       df$ARCHETYPE[i]=="Reclaimer Titan"){
+       df$ARCHETYPE[i]=="Reclaimer Titan"|
+       df$ARCHETYPE[i]=="Valakut Field"){
       
       df$SUPER_ARCH[i]="P.Titan"
       
@@ -339,13 +347,15 @@ add_super_archetypes = function(df){
     
     if(df$ARCHETYPE[i]=="Stoneforge Eldrazi" |
        df$ARCHETYPE[i]=="Obligator Eldrazi" |
-       df$ARCHETYPE[i]=="Eldrazi Tron"){
+       df$ARCHETYPE[i]=="Eldrazi Tron" |
+       df$ARCHETYPE[i]=="Green Eldrazi"){
       
       df$SUPER_ARCH[i]="Eldrazi"
       
     }
     
     if(df$ARCHETYPE[i]=="Azorius Taxes" |
+       df$ARCHETYPE[i]=="Esper Taxes" |
        df$ARCHETYPE[i]=="Abzan Taxes" |
        df$ARCHETYPE[i]=="Mono White Taxes"| 
        df$ARCHETYPE[i]=="Selenya Taxes"|
@@ -359,8 +369,9 @@ add_super_archetypes = function(df){
     }
     
     if(df$ARCHETYPE[i]=="Abzan Company" | 
-       df$ARCHETYPE[i]=="Selenya Midrange"|
-       df$ARCHETYPE[i]=="Naya Midrange"){
+       df$ARCHETYPE[i]=="Selesnya Midrange"|
+       df$ARCHETYPE[i]=="Naya Midrange"  |
+       df$ARCHETYPE[i]=="Badzan"){
       
       df$SUPER_ARCH[i]="GWx Midrange"
       
@@ -496,7 +507,9 @@ add_super_archetypes = function(df){
     
     if(df$ARCHETYPE[i]=="Thopter Urza" |
        df$ARCHETYPE[i]=="Uroza" |
-       df$ARCHETYPE[i]=="Grixis Whirza"){
+       df$ARCHETYPE[i]=="Grixis Whirza" |
+       df$ARCHETYPE[i]=="Paradoxical Urza" |
+       df$ARCHETYPE[i]=="Urza Oko"){
       
       df$SUPER_ARCH[i]="Urza"
       
