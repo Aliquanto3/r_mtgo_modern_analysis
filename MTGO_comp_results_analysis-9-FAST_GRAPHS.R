@@ -14,6 +14,7 @@ dir.create(file.path(paste(DirectoryFile,"Results_as_csv",sep="/"),
 EventType=eventList[1]
 
 df=generate_df(rawData,EventType)
+df=df[grep("Pauper",df$EVENT),]
 df=add_super_archetypes(df)
 
 #GRAPHIC ANALYSIS
@@ -29,11 +30,11 @@ dir.create(file.path(paste(DirectoryFile,"/Results_as_csv/",Beginning,
                            "_",End,sep=""), EventType))
 setwd(file.path(paste(DirectoryFile,"/Results_as_csv/",Beginning,"_",
                       End,sep=""), EventType))
-write.csv(metric_df,paste(Beginning,'-',End,'_DF_Archetypes_Results.csv',sep=''), 
-          row.names = TRUE)
+# write.csv(metric_df,paste(Beginning,'-',End,'_DF_Archetypes_Results.csv',sep=''), 
+#           row.names = TRUE)
 
 metric_df_play=metric_points_players(df,Beginning,End)
-metric_df_play_sub=metric_df_play[c("PLAYERS","NB_APPEARANCES","TOTAL_NB_MATCHES",
+metric_df_play_sub=metric_df_play[c("PLAYERS","NO_APPEARANCES","TOTAL_NB_MATCHES",
                                      "WINRATE_AVERAGE","WINRATE_95_MIN","WINRATE_95_MAX",
                                     "TOTAL_POINTS")]
 metric_df_play_sub[,"ARCHETYPE_NAMES"]=NA
@@ -44,7 +45,20 @@ for (i in 1:length(metric_df_play_sub$URL)){
   metric_df_play_sub$ARCHETYPE_COUNT[i]=paste(unlist(metric_df_play$ARCHETYPE_COUNT[i]),collapse = "; ")
   metric_df_play_sub$URL[i]=paste(unlist(metric_df_play$URL[i]),collapse = "; ")
 }
-write.csv(metric_df_play_sub,paste(Beginning,'-',End,'_DF_Players_Results.csv',sep=''), 
+write.csv(metric_df_play_sub,paste(Beginning,'-',End,'_DF_Players_Overall_Results.csv',sep=''), 
+          row.names = TRUE)
+
+top8_df_play=players_top8(df,Beginning,End)
+top8_df_play_cop=top8_df_play
+top8_df_play_cop[,"ARCHETYPE_NAMES"]=NA
+top8_df_play_cop[,"ARCHETYPE_COUNT"]=NA
+top8_df_play_cop[,"URL"]=NA
+for (i in 1:length(top8_df_play_cop$URL)){
+  top8_df_play_cop$ARCHETYPE_NAMES[i]=paste(unlist(top8_df_play$ARCHETYPE_NAMES[i]),collapse = "; ")
+  top8_df_play_cop$ARCHETYPE_COUNT[i]=paste(unlist(top8_df_play$ARCHETYPE_COUNT[i]),collapse = "; ")
+  top8_df_play_cop$URL[i]=paste(unlist(top8_df_play$URL[i]),collapse = "; ")
+}
+write.csv(top8_df_play_cop,paste(Beginning,'-',End,'_DF_Top8_Players_Pauper_Results.csv',sep=''), 
           row.names = TRUE)
 
 #WORKING DIRECTORY FOR THE GRAPHS
@@ -76,7 +90,7 @@ dev.off()
 
 jpeg(paste("Low winrate estimation in 0.95 CI between", Beginning, "and", End, 
            "in MTGO", EventType,".jpg"), width = 8000, height = 3000,res=400)
-lower_born_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
+lower_bound_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
 dev.off()
 
 jpeg(paste("Ratio of archetype winrates out of pilot winrates between", Beginning, 
@@ -110,6 +124,12 @@ arch_ranked=archetypes_ranking(metric_df_log_matches,Beginning,End)
 metric_df_log_matches_sub=metric_df_log_matches[metric_df_log_matches$TOTAL_NB_MATCHES>
                                         mean(metric_df_log_matches$TOTAL_NB_MATCHES),]
 arch_ranked_sub=archetypes_ranking(metric_df_log_matches_sub,Beginning,End)
+
+#RANKING THE DECKS BASED ON COMBINATION OF WINRATE AND LOG(PRESENCE)
+jpeg(paste("Deck score based on sum of winrate and log(presence) between", Beginning, "and", End, 
+           "in MTGO", EventType,".jpg"), width = 8000, height = 3000,res=400)
+log_comb_graph(df,arch_ranked_sub,Beginning,End,EventType)
+dev.off()
 
 df_tiers_list=generate_tiers_lists(arch_ranked_sub)
 

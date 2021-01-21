@@ -142,7 +142,7 @@ write.csv(subset(arch_ranked,select = c(ARCHETYPES,METRIC_COMB)),
 # IV.2.C - Compilation 3 : la borne inférieure de l’intervalle de confiance sur 
 #les winrates
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
-lower_born_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
+lower_bound_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
 
 ####################################################################
 #LET US EXPORT ALL THE ARCHETYPES RANKED BY LOWER WINRATE ESTIMATION

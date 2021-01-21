@@ -75,13 +75,13 @@ df_small_CI = df_small_CI[order(-df_small_CI$WINRATE_AVERAGE),]
 print(subset(df_small_CI[1:50,],select = c(CardNames,Presence,WINRATE_AVERAGE)), 
       row.names = TRUE)
 
-#INSTEAD WE TAKE THE LOWER BORN OF THE WINRATE CONFIDENCE INTERVAL NOW
+#INSTEAD WE TAKE THE LOWER BOUND OF THE WINRATE CONFIDENCE INTERVAL NOW
 CardResults = CardResults[order(-CardResults$WINRATE_95_MIN),]
-highestLowerWinrateBorn=subset(CardResults[1:50,],select = c(CardNames,Presence,
+highestLowerWinrateBound=subset(CardResults[1:50,],select = c(CardNames,Presence,
                                                              WINRATE_95_MIN))
-highestLowerWinrateBorn=arrange(highestLowerWinrateBorn,desc(WINRATE_95_MIN))
-print(highestLowerWinrateBorn, row.names = TRUE)
-write.csv(highestLowerWinrateBorn, paste('Results_as_CSV/',Beginning,'-',End,
+highestLowerWinrateBound=arrange(highestLowerWinrateBorn,desc(WINRATE_95_MIN))
+print(highestLowerWinrateBound, row.names = TRUE)
+write.csv(highestLowerWinrateBound, paste('Results_as_CSV/',Beginning,'-',End,
                                          '_DF_Highest_Lower_Winrate_Born_Cards.csv',
                                          sep=''),row.names = TRUE)
 

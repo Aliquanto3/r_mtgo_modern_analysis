@@ -398,11 +398,11 @@ metric_points_archetypes = function(df,beginning,end){
     metric_df$WINRATE_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, 
                                             p=0.5,alternative="two.sided", 
                                             conf.level=0.95)$estimate
-    #LOWER BORN OF THE "TRUE" WINRATE             
+    #LOWER BOUND OF THE "TRUE" WINRATE             
     metric_df$WINRATE_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, 
                                            p=0.5,alternative="two.sided", 
                                            conf.level=0.95)$conf.int[1]
-    #UPPER BORN OF THE "TRUE" WINRATE 
+    #UPPER BOUND OF THE "TRUE" WINRATE 
     metric_df$WINRATE_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, 
                                            p=0.5,alternative="two.sided", 
                                            conf.level=0.95)$conf.int[2]
@@ -493,7 +493,7 @@ winrates_graph = function(df,arch_ranked,presence,beginning,end,EventType){
     geom_text_repel(aes(label=format(round(WINRATE_AVERAGE*100,1), nsmall = 1)),
                     hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
     labs(x=NULL, y=y_label_winrate, title=graph_title_winrate,
-         subtitle="Red lines for the average of the borns of the CI
+         subtitle="Red lines for the average of the bounds of the CI
 Green line for the average of the computed winrate
 by Anael Yahi")+
     geom_errorbar(aes(ymax = WINRATE_95_MAX*100, ymin = WINRATE_95_MIN*100)) + 
@@ -584,7 +584,7 @@ by Anael Yahi")+
 #PLOT THE REPARTITION FOR THE LINEAR COMBINATION OF THE PRESENCE AND WINRATES
 #FOR THE MOST POPULAR ARCHETYPES
 #PRESENCE: NUMBER OF MATCHES
-lower_born_ci_winrate_graph = function(df,arch_ranked,beginning,end,EventType){
+lower_bound_ci_winrate_graph = function(df,arch_ranked,beginning,end,EventType){
   
   presence_min=HistShare/100*(sum(df$NB_ROUNDS)+sum(df$TOP8_MATCHES))
   arch_ranked_sub_2=arch_ranked[arch_ranked$TOTAL_NB_MATCHES>=presence_min,]
@@ -597,7 +597,7 @@ lower_born_ci_winrate_graph = function(df,arch_ranked,beginning,end,EventType){
   arch_ranked_sub_2$ARCHETYPES=reorder(arch_ranked_sub_2$ARCHETYPES,
                                        arch_ranked_sub_2$WINRATE_95_MIN)
   
-  titleLinearComb=paste("Lower born of the confidence intervals for the winrates of the most popular decks
+  titleLinearComb=paste("Lower bound of the confidence intervals for the winrates of the most popular decks
 At least ",HistShare,"% of presence
 Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight,   "
 Between ",beginning," and ",end," in MTGO ",EventType,sep="")
@@ -690,13 +690,14 @@ generate_player_list = function(df,beginning,end){
   return(play_list)
 }
 
+#EronRelentless AND Kanonenfutter ARE THE SAME PERSON
 #FILL IN METRIC POINTS IN A PLAYER DATA FRAME
 metric_points_players = function(df,beginning,end){
   df2=subset(df, DATE >= as.Date(beginning) & DATE < as.Date(end))
   #GET THE LIST OF THE DIFFERENT PLAYERS IN THE DATA
   metric_df_players=generate_player_list(df2,beginning,end)
   
-  metric_df_players$NB_APPEARANCES=rep(0,length(metric_df_players$PLAYERS))
+  metric_df_players$NO_APPEARANCES=rep(0,length(metric_df_players$PLAYERS))
   metric_df_players$TOTAL_NB_MATCHES=rep(0,length(metric_df_players$PLAYERS))
   metric_df_players$WINRATE_AVERAGE=rep(0,length(metric_df_players$PLAYERS))
   metric_df_players$WINRATE_95_MIN=rep(0,length(metric_df_players$PLAYERS))
@@ -710,7 +711,7 @@ metric_points_players = function(df,beginning,end){
     play_identification=which(df2$PLAYER==metric_df_players$PLAYERS[i])
     df3=df2[play_identification,]
     #NUMBER OF APPEARANCES IN THE DATA OF THE CORRESPONDING ARCHETYPE
-    metric_df_players$NB_APPEARANCES[i]=length(play_identification)
+    metric_df_players$NO_APPEARANCES[i]=length(play_identification)
     #LIST OF DIFFERENT ARCHETYPES THAT PLAYER PLAYED
     metric_df_players$ARCHETYPE_NAMES[i]=list(unique(df3$ARCHETYPE))
       #paste(unique(df3$ARCHETYPE),collapse=",")
@@ -738,11 +739,11 @@ metric_points_players = function(df,beginning,end){
     metric_df_players$WINRATE_AVERAGE[i]=binom.test(total_wins_arch, total_matches_arch, 
                                             p=0.5,alternative="two.sided", 
                                             conf.level=0.95)$estimate
-    #LOWER BORN OF THE "TRUE" WINRATE             
+    #LOWER BOUND OF THE MEASURED WINRATE             
     metric_df_players$WINRATE_95_MIN[i]=binom.test(total_wins_arch, total_matches_arch, 
                                            p=0.5,alternative="two.sided", 
                                            conf.level=0.95)$conf.int[1]
-    #UPPER BORN OF THE "TRUE" WINRATE 
+    #UPPER BOUND OF THE MEASURED WINRATE 
     metric_df_players$WINRATE_95_MAX[i]=binom.test(total_wins_arch, total_matches_arch, 
                                            p=0.5,alternative="two.sided", 
                                            conf.level=0.95)$conf.int[2]
@@ -871,4 +872,33 @@ generate_tiers_lists = function(arch_ranked){
   rownames(df_tiers_list)=c("Tiers 1","Tiers 1.5","Tiers 2","Tiers 2.5")
   
   return(df_tiers_list)
+}
+
+#COUNT THE NUMBER OF TOP8 FOR EACH PLAYER
+players_top8 = function(df,beginning,end) {
+  
+  #REMOVES ALL THE PLAYERS WHOSE RESULT 
+  top8results = c("1st Place","2nd Place", "3rd Place", "4th Place", "5th Place", 
+                  "6th Place", "7th Place", "8th Place")
+  dftop8=df[df$RESULT %in% top8results,]
+  top8players=generate_player_list(dftop8,beginning,end)
+  top8players$NO_APPEARANCES=rep(1,length(top8players$PLAYERS))
+  for (i in 1:length(top8players$NO_APPEARANCES)){
+    play_identification=which(dftop8$PLAYER==top8players$PLAYERS[i])
+    top8players_sub=dftop8[play_identification,]
+    #NUMBER OF APPEARANCES IN THE DATA OF THE CORRESPONDING ARCHETYPE
+    top8players$NO_APPEARANCES[i]=length(play_identification)
+    #LIST OF DIFFERENT ARCHETYPES THAT PLAYER PLAYED
+    top8players$ARCHETYPE_NAMES[i]=list(unique(top8players_sub$ARCHETYPE))
+    arch_count=c()
+    for(j in 1:length(top8players$ARCHETYPE_NAMES[[i]])){
+      arch_count[j]=length(top8players_sub[top8players_sub$ARCHETYPE==top8players$
+                                 ARCHETYPE_NAMES[[i]][[j]],]$URL)
+    }
+    top8players$ARCHETYPE_COUNT[i]=list(arch_count)
+    
+    top8players$URL[i]=list(unique(top8players_sub$URL))
+  }
+  top8players=arrange(top8players,desc(NO_APPEARANCES))
+  return(top8players)
 }

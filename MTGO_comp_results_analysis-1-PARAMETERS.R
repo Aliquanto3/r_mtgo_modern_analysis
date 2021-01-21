@@ -13,7 +13,7 @@ DirectoryFile="D:/MTG/Meta analysis/r_mtgo_modern_analysis/MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2021_01_17.csv"
+RawFile="mtgo_data_2021_01_19_all_formats.csv"
 
 #Path of the repertory containing the multiple subdirectories of the results
 #converted to JSON
@@ -23,7 +23,7 @@ MTGODataPath="D:/MTG/Meta analysis/MTGODecklistCache/Tournaments"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2019-12-13"
+Beginning=NA
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
 #after you executed the 2nd file paragraph
@@ -31,7 +31,7 @@ Beginning="2019-12-13"
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
 #End="2021-01-18"
-End="2021-01-17"
+End=NA
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
@@ -40,7 +40,7 @@ End="2021-01-17"
 #Event type - "Competitions" (All but Manatraders), "Preliminaries", 
 #"Challenges", "Events" (All) or "Manatraders"
 #Requires restarting Data Treatment if updated
-EventType="Competitions"
+EventType="Challenges"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
