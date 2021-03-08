@@ -1,0 +1,14 @@
+QUICK ANALYSIS OF THE DATA
+Beginning: 2020-01-01
+End: 2020-12-31
+Type of MTGO events: Competitions
+Number of decks in the data: 8002
+Number of different players in the data: 2005
+Number of different cards in the data: 1744
+Number of exact archetypes in the data: 167
+Number of super archetypes in the data: 112
+Number of rounds played in the data (with top8): 51252
+Average number of rounds in the data (w/o top8): 6.2
+Minimum number of rounds in the data (w/o top8): 5
+Maximum number of rounds in the data (w/o top8): 10
+Number of events in the data: 355
