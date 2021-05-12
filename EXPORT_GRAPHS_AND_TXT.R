@@ -317,7 +317,7 @@ for (i in 1:length(lastSetOCardsData2CSV$CardName)){
 }
 
 write.csv(lastSetOCardsData2CSV,paste(
-  Beginning,'-',End,'_',lastSetCode,'_cardData.csv',sep=''), row.names = FALSE)
+  Beginning,'-',End,'_',lastSetCode,'_MD_cardData.csv',sep=''), row.names = FALSE)
 
 
 # DATA OF THE CARDS FROM THE LAST SET IN SB
@@ -355,7 +355,7 @@ for (i in 1:length(lastSetOCardsData2CSV$CardName)){
 }
 
 write.csv(lastSetOCardsData2CSV,paste(
-  Beginning,'-',End,'_',lastSetCode,'_cardData.csv',sep=''), row.names = FALSE)
+  Beginning,'-',End,'_',lastSetCode,'_SB_cardData.csv',sep=''), row.names = FALSE)
 
 ################################################################################
 

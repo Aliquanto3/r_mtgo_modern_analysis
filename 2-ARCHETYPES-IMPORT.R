@@ -11,7 +11,7 @@
 #install.packages("jsonlite")
 library("jsonlite")
 #install.packages("readr")
-library(readr)
+library("readr")
 
 generate_League_Data = function(periodData) {
   
@@ -341,6 +341,8 @@ generate_df = function(EventType,mtgFormat,RawFile){
   #IMPORT DATA
   setwd(DirectoryFile)
   rawData=fromJSON(RawFile)[[1]]
+  #DOES IT REMOVE SERIES?
+  rawData=rawData[grep(pattern = MTGFormat,x=rawData$Tournament),]
   rawData$Date = as.Date(rawData$Date)
   rawData$Points = as.numeric(rawData$Points)
   # View(rawData)

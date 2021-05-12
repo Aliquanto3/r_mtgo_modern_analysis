@@ -1,4 +1,4 @@
-#5th file to execute
+#4th file to execute
 #Imports all the data for each existing card: name, color, sets, mana costs,
 #types...
 

@@ -42,6 +42,8 @@ library(gganimate)
 library(gifski)
 library(raster)
 library(conflicted)
+
+Sys.setenv(JAVA_HOME='C:\\Program Files (x86)\\Java\\jre1.8.0_181') 
 library(xlsx)
 
 #IF YOU WANT TO REMOVE THE conflicted PACKAGE TO USE "View(df)"
@@ -509,13 +511,15 @@ archetypes_ranking = function(metric_df,beginning,end){
   metric_df$NormalizedSum=metric_df$WinrateAverage
   for (i in 1:length(metric_df$NormalizedSum)){
     metric_df$NormalizedSum[i] = 
-      (Presence_Weight * (metric_df$TotalMatches[i]-
-                            min(metric_df$TotalMatches)) /
-         max(metric_df$TotalMatches) +
+      (Presence_Weight * (metric_df$TotalMatches[i]- 
+                            min(metric_df$TotalMatches)) / 
+         max(metric_df$TotalMatches)
+       +
          (PPR_Weight * metric_df$WinrateAverage[i]-
-            min(metric_df$WinrateAverage)) /
-         max(metric_df$WinrateAverage )) /
-      (Presence_Weight+PPR_Weight)
+            min(metric_df$WinrateAverage)) / 
+         max(metric_df$WinrateAverage )
+       
+      ) / (Presence_Weight+PPR_Weight)
   }
   
   metric_df = metric_df[order(-metric_df$NormalizedSum),]

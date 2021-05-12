@@ -338,7 +338,7 @@ for (i in 1:length(lastSetOCardsData2CSV$CardName)){
 }
 
 write.csv(lastSetOCardsData2CSV,paste(
-  Beginning,'-',End,'_',lastSetCode,'_cardData.csv',sep=''), row.names = FALSE)
+  Beginning,'-',End,'_',lastSetCode,'_MD_cardData.csv',sep=''), row.names = FALSE)
 
 
 # DATA OF THE CARDS FROM THE LAST SET IN SB
@@ -376,7 +376,7 @@ for (i in 1:length(lastSetOCardsData2CSV$CardName)){
 }
 
 write.csv(lastSetOCardsData2CSV,paste(
-  Beginning,'-',End,'_',lastSetCode,'_cardData.csv',sep=''), row.names = FALSE)
+  Beginning,'-',End,'_',lastSetCode,'_SB_cardData.csv',sep=''), row.names = FALSE)
 
 ################################################################################
 
@@ -386,63 +386,90 @@ setwd(file.path(paste(DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
 
 #PRESENCE
 PieShare=2
-# 1. Open jpeg file
+# 1. Open jpeg and svg file
+graph=metagame_pie_chart(df,"Copies",Beginning,End,EventType)
+ggsave(file=paste("Pieplot_Copies_Presence_",Beginning,"_",End,"_",EventType,".svg",
+                  sep=""), plot=graph, width=10, height=10)
 jpeg(paste("Pieplot_Copies_Presence_",Beginning,"_",End,"_",EventType,".jpg",
            sep=""), width = 3500, height = 3500,res=300)
-metagame_pie_chart(df,"Copies",Beginning,End,EventType)
+graph
 dev.off()
 
+graph=metagame_pie_chart(df,"Matches",Beginning,End,EventType)
+ggsave(file=paste("Pieplot_Matches_Presence_",Beginning,"_",End,"_",EventType,".svg",
+                  sep=""), plot=graph, width=10, height=10)
 jpeg(paste("Pieplot_Matches_Presence_",Beginning,"_",End,"_",EventType,".jpg",
            sep=""), width = 3500, height = 3500,res=300)
-metagame_pie_chart(df,"Matches",Beginning,End,EventType)
+graph
 dev.off()
 
+graph=metagame_pie_chart(df,"Players",Beginning,End,EventType)
+ggsave(file=paste("Pieplot_Players_Presence_",Beginning,"_",End,"_",EventType,".svg",
+                  sep=""), plot=graph, width=10, height=10)
 jpeg(paste("Pieplot_Players_Presence_",Beginning,"_",End,"_",EventType,".jpg",
            sep=""), width = 3500, height = 3500,res=300)
-metagame_pie_chart(df,"Players",Beginning,End,EventType)
+graph
 dev.off()
 
+graph=metagame_box_plot(df,"Matches",Beginning,End,EventType,0)
+ggsave(file=paste("Barplot_Matches_Presence_",Beginning,"_",End,"_",EventType,".svg",
+                  sep=""), plot=graph, width=10, height=10)
 jpeg(paste("Barplot_Matches_Presence_",Beginning,"_",End,"_",EventType,".jpg",
-           sep=""), width = 7000, height = 3500,res=300)
-metagame_box_plot(df,"Matches",Beginning,End,EventType,0)
+           sep=""), width = 3500, height = 3500,res=300)
+graph
 dev.off()
 
 #WINRATES
 arch_ranked=archetypes_ranking(metric_df,Beginning,End)
+
+graph=winrates_graph(df,arch_ranked,"Matches",Beginning,End,EventType)
+ggsave(file=paste("0.95 CI on winrate between", Beginning, "and", End, 
+                  "in MTGO", EventType,".svg"), plot=graph, width=24, height=9)
 jpeg(paste("0.95 CI on winrate between", Beginning, "and", End, 
            "in MTGO", EventType,".jpg"), width = 8000, height = 3000,res=400)
-winrates_graph(df,arch_ranked,"Matches",Beginning,End,EventType)
+graph
 dev.off()
 
+graph=winrates_graph(df,arch_ranked,"Matches",Beginning,End,EventType)
+ggsave(file=paste("Low winrate estimation in 0.95 CI between", Beginning, "and", End, 
+                  "in MTGO", EventType,".svg"), plot=graph, width=24, height=9)
 jpeg(paste("Low winrate estimation in 0.95 CI between", Beginning, "and", End, 
            "in MTGO", EventType,".jpg"), width = 8000, height = 3000,res=400)
-lower_bound_ci_winrate_graph(df,arch_ranked,Beginning,End,EventType)
+graph
 dev.off()
 
+graph=winrate_ratio_arch_out_player_graph(df,metric_df,Beginning,End,EventType)
+ggsave(file=paste("Ratio of archetype winrates out of pilot winrates between", Beginning, 
+                  "and", End, "in MTGO", EventType,".svg"), plot=graph, width=24, height=9)
 jpeg(paste("Ratio of archetype winrates out of pilot winrates between", Beginning, 
-           "and", End, "in MTGO", EventType,".jpg"), width = 8000, height = 3000, 
-     res=400)
-winrate_ratio_arch_out_player_graph(df,metric_df,Beginning,End,EventType)
+           "and", End, "in MTGO", EventType,".jpg"), width = 8000, height = 3000,res=400)
+graph
 dev.off()
 
 #presence AND diameters CAN BE EITHER "Copies", "Players" or "Matches"
 #tiers CAN BE EITHER "Win+Pres","Pres M+SD" or "Pres %"
 #function(metric_df,presence,diameters,diam_ratio,beginning,end,tiers,isLog,
 #only_best,EventType)
+graph=metric_graph(metric_df,"Matches","Players",1,Beginning,End,"Pres M+SD",TRUE,
+                   FALSE,EventType)
+ggsave(file=paste("Winrates and presence based on Matches between", Beginning, "and", 
+                  End,"in MTGO", EventType,".svg"), plot=graph, width=18, height=9)
 jpeg(paste("Winrates and presence based on Matches between", Beginning, "and", 
-           End,"in MTGO", EventType,".jpg"), width = 6000, height = 3000,
-     res=300)
-metric_graph(metric_df,"Matches","Players",1,Beginning,End,"Pres M+SD",TRUE,
-             FALSE,EventType)
+           End,"in MTGO", EventType,".jpg"), width = 6000, height = 3000, res=400)
+graph
 dev.off()
 
 #ARCHETYPE CLUSTERING
 #function (metric_df,k,iter,init,algo,beginning,end,count_wr,
 #only_best,EventType)
+graph=kmeans_arch(metric_df,4,30,50,"Hartigan-Wong",Beginning,End,TRUE,TRUE,EventType)
+ggsave(file=paste("Best archetypes clustering between", Beginning, "and", End,
+                  "in MTGO", EventType,".svg"), plot=graph, width=15, height=9)
 jpeg(paste("Best archetypes clustering between", Beginning, "and", End,
-           "in MTGO", EventType,".jpg"), width = 5000, height = 3000,res=300)
-kmeans_arch(metric_df,4,30,50,"Hartigan-Wong",Beginning,End,TRUE,TRUE,EventType)
+           "in MTGO", EventType,".jpg"), width = 5000, height = 3000, res=300)
+graph
 dev.off()
+
 
 #WITH LOGARITHM OF PRESENCE
 arch_ranked=archetypes_ranking(metric_df_log_matches,Beginning,End)
@@ -453,17 +480,21 @@ metric_df_log_matches_sub=metric_df_log_matches[
 arch_ranked_sub=archetypes_ranking(metric_df_log_matches_sub,Beginning,End)
 
 #RANKING THE DECKS BASED ON COMBINATION OF WINRATE AND LOG(PRESENCE)
+graph=log_comb_graph(df,arch_ranked_sub,Beginning,End,EventType)
+ggsave(file=paste("Deck score based on sum of winrate and log(presence) between", 
+                  Beginning, "and", End, "in MTGO", EventType,".svg"), plot=graph, width=24, height=9)
 jpeg(paste("Deck score based on sum of winrate and log(presence) between", 
-           Beginning, "and", End, "in MTGO", EventType,".jpg"), width = 8000, 
-     height = 3000,res=400)
-log_comb_graph(df,arch_ranked_sub,Beginning,End,EventType)
+           Beginning, "and", End, "in MTGO", EventType,".jpg"), width = 8000, height = 3000, res=400)
+graph
 dev.off()
 
 #RANKING THE DECKS BASED ON META SCORE OF WINRATE AND LOG(PRESENCE)
+graph=meta_score_graph(df,arch_ranked_sub,Beginning,End,EventType)
+ggsave(file=paste("Deck score based on VS Meta Score between", 
+                  Beginning, "and", End, "in MTGO", EventType,".svg"), plot=graph, width=24, height=9)
 jpeg(paste("Deck score based on VS Meta Score between", 
-           Beginning, "and", End, "in MTGO", EventType,".jpg"), width = 8000, 
-     height = 3000,res=400)
-meta_score_graph(df,arch_ranked_sub,Beginning,End,EventType)
+           Beginning, "and", End, "in MTGO", EventType,".jpg"), width = 8000, height = 3000, res=400)
+graph
 dev.off()
 
 df_tiers_list=generate_tiers_lists(arch_ranked_sub)

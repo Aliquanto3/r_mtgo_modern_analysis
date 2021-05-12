@@ -13,15 +13,15 @@ DirectoryFile="D:/MTG/Meta analysis/r_mtgo_modern_analysis/MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2021_03_07.json"
+RawFile="mtgo_data_2021_05_09.json"
 
 #Format of the wanted events: NA if all
-#NA,"Sealed","Standard","Pioneer","Modern","Legacy", "Vintage", "Pauper
+#NA,"Sealed","Standard","Pioneer","Modern","Legacy", "Vintage", "Pauper"
 MTGFormat="Modern"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2021-02-17"
+Beginning="2021-04-15"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,7 +29,7 @@ Beginning="2021-02-17"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2021-03-08"
+End="2021-05-10"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
@@ -48,7 +48,7 @@ End="2021-03-08"
 #"NRG Series" = NRG Series
 
 #Requires restarting Data Treatment if updated
-EventType="Major Events Top32"
+EventType="Official Competitions"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
@@ -67,6 +67,6 @@ Presence_Weight=1
 PPR_Weight=1
 
 #CODE OF THE LAST SET
-lastSetCode="KHM"
+lastSetCode="STX"
 
 ###############################################################################
