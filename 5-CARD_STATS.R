@@ -168,6 +168,70 @@ CardsStatsGetter = function(df,board){
   return(Cards)
 }
 
+#Get win rate and presence of each set
+setStatsGetter = function(CardResultsMD,CardResultsSB){
+  #Create the dataframe to contain the results
+  dfDataBySet=setNames(data.frame(matrix(
+    ncol = 3, nrow = length(unique(unlist(
+      CardResultsMD$FirstSet,CardResultsSB$FirstSet))))), 
+                       c("SetCode", "NoCopies", "Winrate"))
+  
+  #Get the list of different sets
+  dfDataBySet$SetCode=unique(unlist(CardResultsMD$FirstSet,CardResultsSB$FirstSet))
+  
+  #For each set, get the number of copies of each card it played and the average 
+  #win rate
+  for (i in 1:nrow(dfDataBySet)){
+    dfMDSeti=CardResultsMD[CardResultsMD$FirstSet==dfDataBySet$SetCode[i],]
+    dfSBSeti=CardResultsSB[CardResultsSB$FirstSet==dfDataBySet$SetCode[i],]
+    
+    #Number of copies: sum of all the copies of each card of the set in the data
+    dfDataBySet$NoCopies[i] = sum(dfMDSeti$CardCount) + sum(dfSBSeti$CardCount)
+    
+    #Win rate: get the number of wins of each card of the set divided by the
+    # number of matches cards of the set played
+    wri=(sum(dfMDSeti$WinCount) + sum(dfSBSeti$WinCount))/ 
+      (sum(dfMDSeti$MatchCount) + sum(dfSBSeti$MatchCount))
+    dfDataBySet$Winrate[i] = as.numeric(format(round(wri,3),  nsmall = 3))
+  }
+  
+  #Sort by number of copies
+  dfDataBySet=arrange(dfDataBySet,desc(NoCopies))
+  dfDataBySet
+}
+
+#Get win rate and presence of each set
+artistStatsGetter = function(CardResultsMD,CardResultsSB){
+  #Create the dataframe to contain the results
+  dfDataByArtist=setNames(data.frame(matrix(
+    ncol = 3, nrow = length(unique(unlist(
+      CardResultsMD$Artists,CardResultsSB$Artists))))), 
+    c("Artist", "NoCopies", "Winrate"))
+  
+  #Get the list of different sets
+  dfDataByArtist$Artist=unique(unlist(CardResultsMD$Artists,CardResultsSB$Artists))
+  
+  #For each set, get the number of copies of each card it played and the average 
+  #win rate
+  for (i in 1:nrow(dfDataByArtist)){
+    dfMDSeti=CardResultsMD[CardResultsMD$Artists==dfDataByArtist$Artist[i],]
+    dfSBSeti=CardResultsSB[CardResultsSB$Artists==dfDataByArtist$Artist[i],]
+    
+    #Number of copies: sum of all the copies of each card of the set in the data
+    dfDataByArtist$NoCopies[i] = sum(dfMDSeti$CardCount) + sum(dfSBSeti$CardCount)
+    
+    #Win rate: get the number of wins of each card of the set divided by the
+    # number of matches cards of the set played
+    wri=(sum(dfMDSeti$WinCount) + sum(dfSBSeti$WinCount))/ 
+      (sum(dfMDSeti$MatchCount) + sum(dfSBSeti$MatchCount))
+    dfDataByArtist$Winrate[i] = as.numeric(format(round(wri,3),  nsmall = 3))
+  }
+  
+  #Sort by number of copies
+  dfDataByArtist=arrange(dfDataByArtist,desc(NoCopies))
+  dfDataByArtist
+}
+
 #UNCOMMENT IF YOU EXECUTE THIS FILE ALONE
 # # #STATS OF CARDS OVERALL - TODO
 # # CardsStats=CardsStatsGetter(df,"All")

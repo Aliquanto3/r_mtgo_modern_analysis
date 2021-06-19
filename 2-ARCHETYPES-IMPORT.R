@@ -339,9 +339,9 @@ generate_NRG_Data = function(periodData) {
 generate_df = function(EventType,mtgFormat,RawFile){
   
   #IMPORT DATA
-  setwd(DirectoryFile)
-  rawData=fromJSON(RawFile)[[1]]
-  #DOES IT REMOVE SERIES?
+  # setwd(DirectoryFile)
+  # rawData=fromJSON(RawFile)[[1]]
+  rawData=fromJSON(paste(DirectoryFile,RawFile,sep="/"))[[1]]
   rawData=rawData[grep(pattern = MTGFormat,x=rawData$Tournament),]
   rawData$Date = as.Date(rawData$Date)
   rawData$Points = as.numeric(rawData$Points)
@@ -362,7 +362,8 @@ generate_df = function(EventType,mtgFormat,RawFile){
   
   #NAMES AND DATE DON'T ALLOW THE IDENTIFICATION OF AN EVENT, BUT THE COMBINATION
   #OF BOTH CAN, HENCE THE ADDITION OF ANOTHER COLUMN FOR THIS IDENTIFICATION
-  for (i in 1:length(periodData$Tournament)){
+  periodData$TournamentName=rep(NA,nrow(periodData))
+  for (i in 1:nrow(periodData)){
     periodData$TournamentName[i]=paste(periodData$Tournament[i],
                         as.character(periodData$Date[i]),sep=" ")
   }

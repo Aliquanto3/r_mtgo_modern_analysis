@@ -4,9 +4,9 @@
 
 getCardData = function(DirectoryFile){
   #DATA FROM: https://mtgjson.com/downloads/all-files/
-  setwd(DirectoryFile)
+  #setwd(DirectoryFile)
   #IMPORT ALL THE DATA FOR ALL THE CARDS IN THE GAME
-  cardData=read.csv("cards.csv",sep=",",header=T)
+  cardData=read.csv(paste(DirectoryFile,"cards.csv",sep="/"),sep=",",header=T)
   #KEEP ONLY RELEVANT INFORMATION AND REMOVE DUPLICATES - CARDS PRINTED 
   #MULTIPLE TIMES
   cardDataSub=unique(subset(cardData,select=c(

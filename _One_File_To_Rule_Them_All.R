@@ -1,8 +1,14 @@
-source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/1-PARAMETERS.R")
-source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/2-ARCHETYPES-IMPORT.R")
-source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/3-METAGAME_FUNCTIONS.R")
-source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/4-CARD_DATA-IMPORT.R")
-source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/5-CARD_STATS.R")
+library(rprojroot)
+
+setwd(rprojroot::find_rstudio_root_file())
+getwd()
+
+source(file.path(paste(rprojroot::find_rstudio_root_file(),"1-PARAMETERS.R",sep="/")))
+source(file.path(paste(rprojroot::find_rstudio_root_file(),"2-ARCHETYPES-IMPORT.R",sep="/")))
+source(file.path(paste(rprojroot::find_rstudio_root_file(),"3-METAGAME_FUNCTIONS.R",sep="/")))
+source(file.path(paste(rprojroot::find_rstudio_root_file(),"4-CARD_DATA-IMPORT.R",sep="/")))
+source(file.path(paste(rprojroot::find_rstudio_root_file(),"5-CARD_STATS.R",sep="/")))
+
 #TO BE USED LATER WITH A LOOP ON EACH ARCHETYPE?
 #WHAT IS THE DIFFERENCE BETWEEN BOTH? CAN THEY BE IN A SINGLE FILE?
 # source("D:/MTG/Meta analysis/r_mtgo_modern_analysis/6-DECKLISTS_ANALYSIS.R")
@@ -31,7 +37,6 @@ SBStats=CardsStatsGetter(df,"Sideboard")
 #CardResults=CardsStatsGetter(df,"Allboards")
 
 #CREATE THE DIRECTORY WHERE TO SAVE THE PICTURES
-setwd(DirectoryFile)
 dir.create(file.path(DirectoryFile,MTGFormat))
 dir.create(file.path(paste(DirectoryFile,MTGFormat,sep="/"), 
                      paste(Beginning,End,sep="_")))
@@ -54,7 +59,8 @@ metric_df_log_matches$TotalMatches=
 #################################################################################
 
 #WORKING DIRECTORY FOR THE CSV
-setwd(file.path(paste(DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
+setwd(file.path(paste(rprojroot::find_rstudio_root_file(),
+                      DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
                       EventType,sep="/"), "Results_as_csv"))
 
 # write.csv(metric_df,paste(Beginning,'-',End,'_DF_Archetypes_Results.csv',sep=''), 
@@ -159,114 +165,17 @@ write.csv(highestLowerWinrateBound, paste(
   Beginning,'-',End,'_DF_SB_Highest_Lower_Winrate_Bound_Cards.csv',sep=''),
   row.names = TRUE)
 
-#ARTIST RESULTS IN MD
-artistsList=unique(unlist(CardResultsMD$Artists))
-someZeros=rep(0,length(artistsList))
-artistsResults = setNames(data.frame(artistsList,someZeros,someZeros),
-                          c("ArtistName","Winrate","Presence"))
-
-for (i in 1:length(artistsList)){
-  artistsResults$Winrate[i]=sum((CardResultsMD[CardResultsMD$Artists==artistsResults$
-                                                 ArtistName[i],]$WINRATE_AVERAGE*
-                                   CardResultsMD[CardResultsMD$Artists==artistsResults$
-                                                   ArtistName[i],]$Presence))/
-    sum(CardResultsMD[CardResultsMD$Artists==artistsResults$ArtistName[i],]$Presence)
-  
-  artistsResults$Winrate[i]=as.numeric(format(round(artistsResults$Winrate[i],1), 
-                                              nsmall = 1))
-  
-  artistsResults$Presence[i]=sum(CardResultsMD[CardResultsMD$Artists==artistsResults$
-                                                 ArtistName[i],]$Presence)
-  artistsResults$Presence[i]=as.numeric(format(round(artistsResults$Presence[i],1), 
-                                               nsmall = 1))
-}
-
-artistsResults=arrange(artistsResults,desc(Winrate))
+#ARTIST RESULTS
+artistsResults=artistStatsGetter(CardResultsMD,CardResultsSB)
 
 write.csv(artistsResults, paste(
-  Beginning,'-',End,'_DF_MD_Artist_Results.csv',sep=''),row.names = TRUE)
+  Beginning,'-',End,'_DF_Artist_Results.csv',sep=''),row.names = TRUE)
 
-
-#ARTIST RESULTS IN SB
-artistsList=unique(unlist(CardResultsSB$Artists))
-someZeros=rep(0,length(artistsList))
-artistsResults = setNames(data.frame(artistsList,someZeros,someZeros),
-                          c("ArtistName","Winrate","Presence"))
-
-for (i in 1:length(artistsList)){
-  artistsResults$Winrate[i]=sum((CardResultsSB[CardResultsSB$Artists==artistsResults$
-                                                 ArtistName[i],]$WINRATE_AVERAGE*
-                                   CardResultsSB[CardResultsSB$Artists==artistsResults$
-                                                   ArtistName[i],]$Presence))/
-    sum(CardResultsSB[CardResultsSB$Artists==artistsResults$ArtistName[i],]$Presence)
-  
-  artistsResults$Winrate[i]=as.numeric(format(round(artistsResults$Winrate[i],1), 
-                                              nsmall = 1))
-  
-  artistsResults$Presence[i]=sum(CardResultsSB[CardResultsSB$Artists==artistsResults$
-                                                 ArtistName[i],]$Presence)
-  artistsResults$Presence[i]=as.numeric(format(round(artistsResults$Presence[i],1), 
-                                               nsmall = 1))
-}
-
-artistsResults=arrange(artistsResults,desc(Winrate))
-
-write.csv(artistsResults, paste(
-  Beginning,'-',End,'_DF_SB_Artist_Results.csv',sep=''),row.names = TRUE)
-
-#SET RESULTS IN MD
-setList=unique(unlist(CardResultsMD$FirstSet))
-someZeros=rep(0,length(setList))
-setResults = setNames(data.frame(setList,someZeros,someZeros),
-                      c("SetName","Winrate","Presence"))
-
-for (i in 1:length(setList)){
-  setResults$Winrate[i]=sum((CardResultsMD[
-    CardResultsMD$FirstSet==setResults$SetName[i],]$
-      WINRATE_AVERAGE*CardResultsMD[
-        CardResultsMD$FirstSet==setResults$SetName[i],]$Presence))/
-    sum(CardResultsMD[CardResultsMD$FirstSet==setResults$SetName[i],]$Presence)
-  
-  setResults$Winrate[i]=as.numeric(format(round(setResults$Winrate[i],1), 
-                                          nsmall = 1))
-  
-  setResults$Presence[i]=sum(CardResultsMD[CardResultsMD$FirstSet==setResults$
-                                             SetName[i],]$Presence)
-  setResults$Presence[i]=as.numeric(format(round(setResults$Presence[i],1), 
-                                           nsmall = 1))
-}
-
-setResults=arrange(setResults,desc(Winrate))
+#SET RESULTS
+setResults=setStatsGetter(CardResultsMD,CardResultsSB)
 
 write.csv(setResults, paste(
-  Beginning,'-',End,'_DF_MD_Set_Results.csv',sep=''),row.names = TRUE)
-
-#SET RESULTS IN SB
-setList=unique(unlist(CardResultsSB$FirstSet))
-someZeros=rep(0,length(setList))
-setResults = setNames(data.frame(setList,someZeros,someZeros),
-                      c("SetName","Winrate","Presence"))
-
-for (i in 1:length(setList)){
-  setResults$Winrate[i]=sum((CardResultsSB[
-    CardResultsSB$FirstSet==setResults$SetName[i],]$
-      WINRATE_AVERAGE*CardResultsSB[
-        CardResultsSB$FirstSet==setResults$SetName[i],]$Presence))/
-    sum(CardResultsSB[CardResultsSB$FirstSet==setResults$SetName[i],]$Presence)
-  
-  setResults$Winrate[i]=as.numeric(format(round(setResults$Winrate[i],1), 
-                                          nsmall = 1))
-  
-  setResults$Presence[i]=sum(CardResultsSB[CardResultsSB$FirstSet==setResults$
-                                             SetName[i],]$Presence)
-  setResults$Presence[i]=as.numeric(format(round(setResults$Presence[i],1), 
-                                           nsmall = 1))
-}
-
-setResults=arrange(setResults,desc(Winrate))
-
-write.csv(setResults, paste(
-  Beginning,'-',End,'_DF_SB_Set_Results.csv',sep=''),row.names = TRUE)
+  Beginning,'-',End,'_DF_Set_Results.csv',sep=''),row.names = TRUE)
 
 #GET THE DATA FOR ALL PLAYERS
 metric_df_play=metric_points_players(df,Beginning,End)
@@ -381,7 +290,8 @@ write.csv(lastSetOCardsData2CSV,paste(
 ################################################################################
 
 #WORKING DIRECTORY FOR THE GRAPHS
-setwd(file.path(paste(DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
+setwd(file.path(paste(rprojroot::find_rstudio_root_file(),
+                      DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
                       EventType,sep="/"), "Results_as_pictures"))
 
 #PRESENCE
@@ -501,7 +411,8 @@ df_tiers_list=generate_tiers_lists(arch_ranked_sub)
 
 #View(df_tiers_list)
 
-setwd(file.path(paste(DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
+setwd(file.path(paste(rprojroot::find_rstudio_root_file(),
+                      DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
                       EventType,sep="/"), "Results_as_csv"))
 write.csv(df_tiers_list,paste(Beginning,'-',End,'_DF_Tiers_Lists.csv',sep=''), 
           row.names = TRUE)
@@ -523,7 +434,8 @@ for(i in csvNames) {
 ################################################################################
 
 #EXPORT A QUICK ANALYSIS OF THE DATA IN .TXT
-setwd(file.path(paste(DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
+setwd(file.path(paste(rprojroot::find_rstudio_root_file(),
+                      DirectoryFile,MTGFormat,paste(Beginning,End,sep="_"),
                       EventType,sep="/"), "Results_as_txt"))
 
 nbDecks=length(df$AnchorUri)

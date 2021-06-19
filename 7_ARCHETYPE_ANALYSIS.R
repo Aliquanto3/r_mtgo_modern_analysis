@@ -1,5 +1,5 @@
 #EXPORT AN ANALYSIS OF AN ARCHETYPE
-archName="WURG Control"
+archName="Urza Oko"
 archNameFile=gsub('[[:punct:] ]+',' ',archName)
 archNameFile=chartr(" ", "_", archName)
 

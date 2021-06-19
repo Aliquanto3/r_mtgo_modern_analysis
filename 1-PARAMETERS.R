@@ -9,11 +9,11 @@
 
 #Directory of the file
 #Requires restarting Data Treatment if updated
-DirectoryFile="D:/MTG/Meta analysis/r_mtgo_modern_analysis/MTGO_Data"
+DirectoryFile="MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2021_05_09.json"
+RawFile="mtgo_data_2021_06_13.json"
 
 #Format of the wanted events: NA if all
 #NA,"Sealed","Standard","Pioneer","Modern","Legacy", "Vintage", "Pauper"
@@ -21,7 +21,7 @@ MTGFormat="Modern"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2021-04-15"
+Beginning="2021-06-02"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,7 +29,7 @@ Beginning="2021-04-15"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2021-05-10"
+End="2021-06-14"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
@@ -67,6 +67,6 @@ Presence_Weight=1
 PPR_Weight=1
 
 #CODE OF THE LAST SET
-lastSetCode="STX"
+lastSetCode="MH2"
 
 ###############################################################################

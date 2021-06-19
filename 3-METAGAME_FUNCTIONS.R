@@ -406,7 +406,9 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   
   metric_plot=metric_plot + coord_cartesian() + theme_bw() + 
     labs(x=x_label, y=y_label, title=graph_title, subtitle=graph_subtitle) + 
-    geom_text_repel(aes(label=Archetype),hjust=0, vjust=0,point.padding = NA) 
+    geom_text_repel(aes(label=Archetype),hjust=0, vjust=0,point.padding = NA,
+                    size = 2, nudge_x = 0.1, direction = "y",
+                    segment.size=0.2,segment.color="dark grey",segment.alpha=0.8) 
   
   #tiers CAN BE EITHER "Win+Pres","Pres M+SD" or "Pres %"
   if (tiers=="Win+Pres"){
@@ -429,45 +431,45 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
   }else if (tiers=="Pres M+SD"){
     #TIERS BASED ON MEAN + N * STANDARD DEVIATION OF PRESENCE, N={0,1,2,3}
     metric_plot=metric_plot + geom_vline(xintercept = avg_presence, linetype="dotted",
-                                         color = "purple", size=2) +
+                                         color = "purple", size=0.5) +
       geom_text(aes(x=avg_presence, label="Tiers 2.5\n", y=
-                      max(WinrateAverage*100)), colour="purple",
-                angle=0, size=8) +
+                      max(WinrateAverage*100)*0.99), colour="purple",
+                angle=0, size=3) +
       geom_text(aes(x=avg_presence, label="\nPresence mean", y=
-                      max(WinrateAverage*100)), colour="grey",
-                angle=0, size=4) +
+                      max(WinrateAverage*100)*0.99), colour="grey",
+                angle=0, size=2) +
       geom_vline(xintercept = avg_presence + std_presence, linetype="dotted",
-                 color = "blue", size=1.5) +
+                 color = "blue", size=0.5) +
       geom_text(aes(x=avg_presence + std_presence, label="Tiers 2\n",
-                    y=max(WinrateAverage*100)), colour="blue",
-                angle=0, size=8) +
+                    y=max(WinrateAverage*100)*0.98), colour="blue",
+                angle=0, size=3) +
       geom_text(aes(x=avg_presence + std_presence, label="\nMean + 1*sd",
-                    y=max(WinrateAverage*100)), colour="grey",
-                angle=0, size=4) +
+                    y=max(WinrateAverage*100)*0.98), colour="grey",
+                angle=0, size=2) +
       geom_vline(xintercept = avg_presence + 2*std_presence, linetype="dotted",
-                 color = "dark green", size=1.5) +
+                 color = "dark green", size=0.5) +
       geom_text(aes(x=avg_presence + 2*std_presence, label="Tiers 1.5\n",
-                    y=max(WinrateAverage*100)), colour="dark green",
-                angle=0, size=8) +
+                    y=max(WinrateAverage*100)*0.97), colour="dark green",
+                angle=0, size=3) +
       geom_text(aes(x=avg_presence + 2*std_presence, label="\nMean + 2*sd",
-                    y=max(WinrateAverage*100)), colour="grey",
-                angle=0, size=4) +
+                    y=max(WinrateAverage*100)*0.97), colour="grey",
+                angle=0, size=2) +
       geom_vline(xintercept = avg_presence + 3*std_presence, linetype="dotted",
-                 color = "orange", size=1.5) +
+                 color = "orange", size=0.5) +
       geom_text(aes(x=avg_presence + 3*std_presence, label="Tiers 1\n",
-                    y=max(WinrateAverage*100)), colour="orange",
-                angle=0, size=8) +
+                    y=max(WinrateAverage*100)*0.96), colour="orange",
+                angle=0, size=3) +
       geom_text(aes(x=avg_presence + 3*std_presence, label="\nMean + 3*sd",
-                    y=max(WinrateAverage*100)), colour="grey",
-                angle=0, size=4) +
+                    y=max(WinrateAverage*100)*0.96), colour="grey",
+                angle=0, size=2) +
       geom_vline(xintercept = avg_presence + 4*std_presence, linetype="dotted",
-                 color = "red", size=1.5) +
+                 color = "red", size=0.5) +
       geom_text(aes(x=avg_presence + 4*std_presence, label="Tiers 0\n",
-                    y=max(WinrateAverage*100)), colour="red",
-                angle=0, size=8) +
+                    y=max(WinrateAverage*100)*0.95), colour="red",
+                angle=0, size=3) +
       geom_text(aes(x=avg_presence + 4*std_presence, label="\nMean + 4*sd",
-                    y=max(WinrateAverage*100)), colour="grey",
-                angle=0, size=4)
+                    y=max(WinrateAverage*100)*0.95), colour="grey",
+                angle=0, size=2)
     
   }else if (tiers=="Pres %"){
     #TIERS BASED ON ARBITRARY % OF PRESENCE: 2,4,6,8,10
@@ -682,26 +684,51 @@ log_comb_graph = function(df,arch_ranked,beginning,end,EventType){
   meanMinusSd=meanData-sdData
   
   arch_ranked_sub_2$Archetype=reorder(arch_ranked_sub_2$Archetype,
-                                       arch_ranked_sub_2$NormalizedSum)
+                                      arch_ranked_sub_2$NormalizedSum)
   
   titleLinearComb=paste("Combination of the metrics for the most popular archetypes
-At least ",HistShare,"% of presence - Linear winrate, logarithmic presence
+Above the average presence - Linear winrate, logarithmic presence
 Presence Weight = ",Presence_Weight, " / Winrate weight = ",PPR_Weight,  "
 Between ",beginning," and ",end," in MTGO ",EventType,sep="")
   
   ggplot(arch_ranked_sub_2, aes(x=Archetype, y=NormalizedSum*100)) + 
-    theme_classic() + geom_point(size=2,color="blue") +  
+    theme_classic() + 
+    geom_point(aes(size=10),show.legend = FALSE,color="blue") +  
     geom_text_repel(aes(label=format(round(NormalizedSum*100,1), nsmall = 1)),
-                    hjust=-0.3, vjust=-0.3,point.padding = NA)+ 
+                    hjust=1, vjust=1.2,point.padding = NA,color="dark grey",
+                    size = 4, nudge_x = 0.1, direction = "y", show.legend = FALSE)+ 
     labs(x=NULL, y="Value of the linear combination metric", title=titleLinearComb,
-         subtitle="Green line for the average of the metrics linear combination
-Red lines for the average +/- a standard deviation
-by Anael Yahi")+
-    geom_hline(yintercept = meanData, color="green", linetype="dashed", size=0.5)+ 
-    geom_hline(yintercept = meanPlusSd, color="red", linetype="dashed", size=0.5)+ 
-    geom_hline(yintercept = meanMinusSd, color="red", linetype="dashed", size=0.5) + 
-    theme(axis.text.x  = element_text(size=12)) +
-    scale_x_discrete(guide = guide_axis(n.dodge=2))
+         subtitle="by Anael Yahi") +
+    
+    geom_hline(yintercept = meanData-3*sdData, color="#004CA3", linetype="dashed", size=1) +
+    geom_text(aes(x=0, y=meanData-3*sdData,label="Tier 3\n"), colour="#004CA3",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData-3*sdData-0.5,label="Mean - 3*SD"), colour="grey",angle=0, size=4) + 
+    
+    geom_hline(yintercept = meanData-2*sdData, color="#8A51A5", linetype="dashed", size=1) +
+    geom_text(aes(x=0, y=meanData-2*sdData,label="Tier 2.5\n"), colour="#8A51A5",angle=0, size=5) + 
+    geom_text(aes(x=0, y=meanData-2*sdData-0.5,label="Mean - 2*SD"), colour="grey",angle=0, size=4) +
+    
+    geom_hline(yintercept = meanData-sdData, color="#CB5E99", linetype="dashed", size=1) +
+    geom_text(aes(x=0, y=meanData-sdData,label="Tier 2\n"), colour="#CB5E99",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData-sdData-0.5,label="Mean - SD"), colour="grey",angle=0, size=4) +
+    
+    geom_hline(yintercept = meanData, color="#F47B89", linetype="dashed", size=1)+
+    geom_text(aes(x=0, y=meanData,label="Tier 1.5\n"), colour="#F47B89",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData-0.5,label="Mean"), colour="grey",angle=0, size=4) +
+    
+    geom_hline(yintercept = meanData+sdData, color="#FFA47E", linetype="dashed", size=1)+ 
+    geom_text(aes(x=0, y=meanData+sdData,label="Tier 1\n"), colour="#FFA47E",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData+sdData-0.5,label="Mean + SD"), colour="grey",angle=0, size=4) +
+    
+    geom_hline(yintercept = meanData+2*sdData, color="#FFD286", linetype="dashed", size=1)+ 
+    geom_text(aes(x=0, y=meanData+2*sdData,label="Tier 0.5\n"), colour="#FFD286",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData+2*sdData-0.5,label="Mean + 2*SD"), colour="grey",angle=0, size=4) +
+    
+    geom_hline(yintercept = meanData+3*sdData, color="green", linetype="dashed", size=1)+ 
+    geom_text(aes(x=0, y=meanData+3*sdData,label="Tier 0\n"), colour="green",angle=0, size=5) +
+    geom_text(aes(x=0, y=meanData+3*sdData-0.5,label="Mean + 3*SD"), colour="grey",angle=0, size=4) +
+    
+    theme_bw() + scale_x_discrete(guide = guide_axis(n.dodge=2), expand = c(0.15, 0))
   
 }
 
