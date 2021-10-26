@@ -1,0 +1,1513 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Abbot of Keral Keep",2,1,3,4,75,19.4,99.4," 1 Boros Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+","Deruchenko Alexander","R",2,"Creature","ORI",0.1,1,2
+"2","Abrade",30,15,50,60,83.3,71.5,91.7," 2 Gruul Midrange 
+ 13 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Jonas De Ro","R",2,"Instant","HOU",1.9,14.6,2
+"3","Aether Gust",51,24,77,96,80.2,70.8,87.6," 4 BTL Scapeshift 
+ 3 Dimir Control 
+ 2 Esper Control 
+ 4 Grinding Breach 
+ 3 Grixis Control 
+ 2 Izzet Control 
+ 1 Izzet Prowess 
+ 2 Omnath Saheeli 
+ 1 Polymorph 
+ 1 UBRG Shadow 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+","Tomasz Jedruszek","U",2,"Instant","M20",3.3,23.3,2.1
+"4","Alpine Moon",6,3,10,12,83.3,51.6,97.9," 3 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+","Alayna Danner","R",1,"Enchantment","M19",0.4,2.9,2
+"5","Ancient Grudge",5,3,10,12,83.3,51.6,97.9," 3 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Jim Nelson","R",2,"Instant","TSP",0.3,2.9,1.7
+"6","Anger of the Gods",18,10,32,40,80,64.4,90.9," 2 BTL Scapeshift 
+ 2 Izzet Control 
+ 3 Polymorph 
+ 1 Skelementals 
+ 1 Taking Turns 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+","Noah Bradley","R",3,"Sorcery","THS",1.2,9.7,1.8
+"7","Arasta of the Endless Web",1,1,3,4,75,19.4,99.4," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+","Sam Rowan","G",4,"Enchantment,Creature","THB",0.1,1,1
+"8","Arboreal Grazer",4,2,6,8,75,34.9,96.8," 2 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+","Jason Rainville","G",1,"Creature","WAR",0.3,1.9,2
+"9","Archon of Emeria",2,2,6,8,75,34.9,96.8," 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Ryan Pancoast","W",3,"Creature","ZNR",0.1,1.9,1
+"10","Ashiok, Dream Render",10,7,23,28,82.1,63.1,93.9," 1 Dimir Control 
+ 2 Izzet Control 
+ 2 Jund Midrange 
+ 1 Niv To Light 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Cynthia Sheppard","B,U",3,"Planeswalker","WAR",0.6,6.8,1.4
+"11","Assassin's Trophy",8,4,13,16,81.2,54.4,96," 1 Hardened Scales 
+ 1 Jund Shadow 
+ 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+","Seb McKinnon","B,G",2,"Instant","GRN",0.5,3.9,2
+"12","Auriok Champion",23,15,45,60,75,62.1,85.3," 1 Hammer Time 
+ 10 Heliod Combo 
+ 1 Humans 
+ 1 Mono White Taxes 
+ 1 Selesnya Taxes 
+ 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+","Michael Sutfin","W",2,"Creature","5DN",1.5,14.6,1.5
+"13","Baleful Mastery",3,2,6,8,75,34.9,96.8," 1 Mill 
+ 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Chris Cold","B",4,"Instant","STX",0.2,1.9,1.5
+"14","Basilisk Collar",1,1,4,4,100,39.8,100," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+","Howard Lyon","",1,"Artifact","WWK",0.1,1,1
+"15","Beast Within",3,2,6,8,75,34.9,96.8," 2 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Dave Allsop","G",3,"Instant","NPH",0.2,1.9,1.5
+"16","Bedlam Reveler",14,11,36,44,81.8,67.3,91.8," 11 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Jama Jurabaev","R",8,"Creature","EMN",0.9,10.7,1.3
+"17","Blast Zone",3,3,10,12,83.3,51.6,97.9," 3 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Chris Ostrowski","",0,"Land","WAR",0.2,2.9,1
+"18","Blightbeetle",1,1,3,4,75,19.4,99.4," 1 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+","Jason Kang","B",2,"Creature","M20",0.1,1,1
+"19","Blood Moon",10,4,12,16,75,47.6,92.7," 1 Heliod Combo 
+ 1 Izzet Control 
+ 1 Izzet Prowess 
+ 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+","Tom Wänerstrand","R",3,"Enchantment","DRK",0.6,3.9,2.5
+"20","Bloodchief's Thirst",2,1,3,4,75,19.4,99.4," 1 Dimir Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+","Jason Rainville","B",1,"Sorcery","ZNR",0.1,1,2
+"21","Boil",2,1,3,4,75,19.4,99.4," 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+","Jason Alexander Behnke","R",4,"Instant","TMP",0.1,1,2
+"22","Bojuka Bog",2,2,6,8,75,34.9,96.8," 2 BTL Scapeshift 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+","Howard Lyon","",0,"Land","WWK",0.1,1.9,1
+"23","Bonecrusher Giant",1,1,3,4,75,19.4,99.4," 1 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+","Victor Adame Minguez","R",3,"Creature","ELD",0.1,1,1
+"24","Brazen Borrower",2,2,6,8,75,34.9,96.8," 2 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+","Eric Deschamps","U",3,"Creature","ELD",0.1,1.9,1
+"25","Burrenton Forge-Tender",12,10,31,40,77.5,61.5,89.2," 1 Hammer Time 
+ 7 Heliod Combo 
+ 1 Selesnya Taxes 
+ 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+","Chuck Lukacs","W",1,"Creature","LRW",0.8,9.7,1.2
+"26","Cavern of Souls",2,2,6,8,75,34.9,96.8," 2 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Cliff Childs","",0,"Land","AVR",0.1,1.9,1
+"27","Celestial Purge",11,6,21,24,87.5,67.6,97.3," 1 Amulet Titan 
+ 3 BTL Scapeshift 
+ 1 Esper Control 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+","David Palumbo","W",2,"Instant","CON",0.7,5.8,1.8
+"28","Ceremonious Rejection",18,9,29,36,80.6,64,91.8," 1 Ascendancy Combo 
+ 1 Dimir Control 
+ 5 Grinding Breach 
+ 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+","Chris Rahn","U",1,"Instant","KLD",1.2,8.7,2
+"29","Chandra, Awakened Inferno",2,1,3,4,75,19.4,99.4," 1 Polymorph 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+","Chris Rahn","R",6,"Planeswalker","M20",0.1,1,2
+"30","Choke",1,1,3,4,75,19.4,99.4," 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+","Terese Nielsen","G",3,"Enchantment","TMP",0.1,1,1
+"31","Cinderclasm",1,1,4,4,100,39.8,100," 1 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+","Campbell White","R",2,"Instant","ZNR",0.1,1,1
+"32","Cleansing Wildfire",49,19,64,76,84.2,74,91.6," 3 BTL Scapeshift 
+ 2 Izzet Control 
+ 7 Izzet Prowess 
+ 1 Jund Midrange 
+ 1 Mardu Prowess 
+ 2 Omnath Saheeli 
+ 1 Polymorph 
+ 1 Taking Turns 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Mathias Kollros","R",2,"Sorcery","ZNR",3.2,18.4,2.6
+"33","Cling to Dust",1,1,3,4,75,19.4,99.4," 1 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+","Caio Monteiro","B",1,"Instant","THB",0.1,1,1
+"34","Collective Brutality",4,2,6,8,75,34.9,96.8," 2 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Johann Bodin","B",2,"Sorcery","EMN",0.3,1.9,2
+"35","Collector Ouphe",5,4,12,16,75,47.6,92.7," 1 Humans 
+ 1 Jund Midrange 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Filip Burburan","G",2,"Creature","MH1",0.3,3.9,1.2
+"36","Conflagrate",1,1,4,4,100,39.8,100," 1 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+","Warren Mahy","R",1,"Sorcery","TSP",0.1,1,1
+"37","Crash Through",1,1,4,4,100,39.8,100," 1 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+","Izzy","R",1,"Sorcery","HOU",0.1,1,1
+"38","Crucible of Worlds",1,1,3,4,75,19.4,99.4," 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+","Ron Spencer","",3,"Artifact","5DN",0.1,1,1
+"39","Crumble to Dust",3,3,10,12,83.3,51.6,97.9," 3 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+","James Paick","",4,"Sorcery","BFZ",0.2,2.9,1
+"40","Damnation",2,2,6,8,75,34.9,96.8," 1 Dimir Control 
+ 1 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+","Kev Walker","B",4,"Sorcery","PLC",0.1,1.9,1
+"41","Damping Sphere",61,18,56,72,77.8,66.4,86.7," 1 BTL Scapeshift 
+ 1 Hardened Scales 
+ 14 Heliod Combo 
+ 1 Jund Midrange 
+ 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Adam Paquette","",2,"Artifact","DOM",3.9,17.5,3.4
+"42","Darkblast",2,2,6,8,75,34.9,96.8," 2 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Randy Gallegos","B",1,"Instant","RAV",0.1,1.9,1
+"43","Deafening Silence",7,4,13,16,81.2,54.4,96," 1 Amulet Titan 
+ 2 Dredge 
+ 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Igor Kieryluk","W",1,"Enchantment","ELD",0.5,3.9,1.8
+"44","Defense Grid",5,2,6,8,75,34.9,96.8," 1 Grinding Breach 
+ 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+","Mark Tedin","",2,"Artifact","ULG",0.3,1.9,2.5
+"45","Deicide",14,13,42,52,80.8,67.5,90.4," 1 Amulet Titan 
+ 1 Dredge 
+ 9 Heliod Combo 
+ 2 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Jason Chan","W",2,"Instant","JOU",0.9,12.6,1.1
+"46","Disdainful Stroke",4,2,7,8,87.5,47.3,99.7," 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+","Svetlin Velinov","U",2,"Instant","KTK",0.3,1.9,2
+"47","Disenchant",2,1,3,4,75,19.4,99.4," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+","Amy Weber","W",2,"Instant","LEA",0.1,1,2
+"48","Dismember",13,6,18,24,75,53.3,90.2," 3 Amulet Titan 
+ 2 Green Tron 
+ 1 Humans 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+","Terese Nielsen","B",3,"Instant","NPH",0.8,5.8,2.2
+"49","Dispel",21,13,41,52,78.8,65.3,88.9," 2 Dimir Control 
+ 5 Grinding Breach 
+ 4 Izzet Prowess 
+ 1 Polymorph 
+ 1 Taking Turns 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Vance Kovacs","U",1,"Instant","WWK",1.4,12.6,1.6
+"50","Dovin's Veto",6,5,17,20,85,62.1,96.8," 2 Esper Control 
+ 2 Omnath Saheeli 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+","Izzy","U,W",2,"Instant","WAR",0.4,4.9,1.2
+"51","Dragon's Claw",13,7,24,28,85.7,67.3,96," 6 Izzet Prowess 
+ 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+","Alan Pollack","",2,"Artifact","DST",0.8,6.8,1.9
+"52","Eidolon of Rhetoric",1,1,3,4,75,19.4,99.4," 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+","Ryan Yee","W",3,"Enchantment,Creature","JOU",0.1,1,1
+"53","Elder Gargaroth",2,1,4,4,100,39.8,100," 1 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+","Nicholas Gregory","G",5,"Creature","M21",0.1,1,2
+"54","Eliminate",2,2,6,8,75,34.9,96.8," 2 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+","Chris Cold","B",2,"Instant","M21",0.1,1.9,1
+"55","Elixir of Immortality",2,2,7,8,87.5,47.3,99.7," 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+","Zoltan Boros & Gabor Szikszai","",1,"Artifact","M11",0.1,1.9,1
+"56","Emrakul, the Aeons Torn",3,3,9,12,75,42.8,94.5," 1 Amulet Titan 
+ 1 Green Tron 
+ 1 Taking Turns 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+","Mark Tedin","",15,"Creature","ROE",0.2,2.9,1
+"57","Engineered Explosives",29,20,62,80,77.5,66.8,86.1," 5 Amulet Titan 
+ 1 Dimir Control 
+ 1 Esper Control 
+ 3 Grixis Control 
+ 1 Gruul Midrange 
+ 2 Izzet Control 
+ 1 Jund Shadow 
+ 1 Mardu Prowess 
+ 1 Mill 
+ 1 Omnath Saheeli 
+ 2 Polymorph 
+ 1 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Ron Spears","",0,"Artifact","5DN",1.9,19.4,1.4
+"58","Ensnaring Bridge",12,12,39,48,81.2,67.4,91.1," 8 Eldrazi Tron 
+ 2 Green Tron 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Pete Venters","",3,"Artifact","STH",0.8,11.7,1
+"59","Entrancing Melody",2,2,6,8,75,34.9,96.8," 2 Izzet Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+","Winona Nelson","U",2,"Sorcery","XLN",0.1,1.9,1
+"60","Expansion // Explosion",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Deruchenko Alexander","U,R",6,"Instant","GRN",0.1,1,1
+"61","Expressive Iteration",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Anastasia Ovchinnikova","R,U",2,"Sorcery","STX",0.1,1,1
+"62","Extirpate",2,1,3,4,75,19.4,99.4," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Jon Foster","B",1,"Instant","PLC",0.1,1,2
+"63","Failure // Comply",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Jason A. Engle","U",3,"Instant","AKH",0.1,1,1
+"64","Fatal Push",18,7,22,28,78.6,59,91.7," 3 Grixis Control 
+ 1 Hardened Scales 
+ 3 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+","Eric Deschamps","B",1,"Instant","AER",1.2,6.8,2.6
+"65","Feed the Swarm",2,1,3,4,75,19.4,99.4," 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+","Andrey Kuzinskiy","B",2,"Sorcery","ZNR",0.1,1,2
+"66","Fiend Hunter",6,5,15,20,75,50.9,91.3," 5 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+","Wayne Reynolds","W",3,"Creature","ISD",0.4,4.9,1.2
+"67","Fiery Justice",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Melissa A. Benson","G,R,W",3,"Sorcery","ICE",0.1,1,1
+"68","Filigree Familiar",2,2,6,8,75,34.9,96.8," 2 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+","Izzy","",3,"Artifact,Creature","KLD",0.1,1.9,1
+"69","Flame Slash",4,2,7,8,87.5,47.3,99.7," 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+","Raymond Swanland","R",1,"Sorcery","ROE",0.3,1.9,2
+"70","Flesh // Blood",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Lucas Graciano","B,G",7,"Sorcery","DGM",0.1,1,1
+"71","Flusterstorm",2,2,6,8,75,34.9,96.8," 2 Izzet Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+","Erica Yang","U",1,"Instant","CMD",0.1,1.9,1
+"72","Force of Negation",7,7,22,28,78.6,59,91.7," 2 Dimir Control 
+ 2 Esper Control 
+ 3 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+","Paul Scott Canavan","U",3,"Instant","MH1",0.5,6.8,1
+"73","Force of Vigor",14,8,24,32,75,56.6,88.5," 4 Amulet Titan 
+ 1 Jund Midrange 
+ 3 Polymorph 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Randy Vargas","G",4,"Instant","MH1",0.9,7.8,1.8
+"74","Fracture",2,1,3,4,75,19.4,99.4," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+","Miranda Meeks","B,W",2,"Instant","STX",0.1,1,2
+"75","Gaddock Teeg",4,3,9,12,75,42.8,94.5," 1 Selesnya Taxes 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Greg Staples","G,W",2,"Creature","LRW",0.3,2.9,1.3
+"76","Gaea's Blessing",4,4,13,16,81.2,54.4,96," 1 Amulet Titan 
+ 1 BTL Scapeshift 
+ 1 Jund Midrange 
+ 1 Omnath Saheeli 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+","Rebecca Guay","G",2,"Sorcery","WTH",0.3,3.9,1
+"77","Gemrazer",2,1,3,4,75,19.4,99.4," 1 Hardened Scales 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+","Svetlin Velinov","G",4,"Creature","IKO",0.1,1,2
+"78","Gemstone Caverns",2,1,3,4,75,19.4,99.4," 1 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Martina Pilcerova","",0,"Land","TSP",0.1,1,2
+"79","Ghost Quarter",6,5,15,20,75,50.9,91.3," 1 Amulet Titan 
+ 2 Green Tron 
+ 1 Jund Midrange 
+ 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Heather Hudson","",0,"Land","DIS",0.4,4.9,1.2
+"80","Giant Killer",2,2,6,8,75,34.9,96.8," 2 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+","Jesper Ejsing","W",1,"Creature","ELD",0.1,1.9,1
+"81","Gideon, Ally of Zendikar",6,6,18,24,75,53.3,90.2," 5 Heliod Combo 
+ 1 Mono White Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+","Eric Deschamps","W",4,"Planeswalker","BFZ",0.4,5.8,1
+"82","Go for the Throat",3,3,9,12,75,42.8,94.5," 1 Dimir Control 
+ 1 Esper Control 
+ 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","David Rapoza","B",2,"Instant","MBS",0.2,2.9,1
+"83","Grafdigger's Cage",12,11,36,44,81.8,67.3,91.8," 1 Amulet Titan 
+ 7 Eldrazi Tron 
+ 1 Green Tron 
+ 1 Gruul Midrange 
+ 1 Hardened Scales 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Daniel Ljunggren","",1,"Artifact","DKA",0.8,10.7,1.1
+"84","Grim Lavamancer",1,1,3,4,75,19.4,99.4," 1 Jund Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+","Jim Nelson","R",1,"Creature","TOR",0.1,1,1
+"85","Hexdrinker",2,2,7,8,87.5,47.3,99.7," 2 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+","Forrest Imel","G",1,"Creature","MH1",0.1,1.9,1
+"86","Huntmaster of the Fells",1,1,3,4,75,19.4,99.4," 1 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Chris Rahn","G,R",4,"Creature","DKA",0.1,1,1
+"87","Isolate",2,1,4,4,100,39.8,100," 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+","Victor Adame Minguez","W",1,"Instant","M19",0.1,1,2
+"88","Jegantha, the Wellspring",5,5,17,20,85,62.1,96.8," 1 Ascendancy Combo 
+ 2 Green Tron 
+ 2 Omnath Saheeli 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+","Chris Rahn","G,R",5,"Creature","IKO",0.3,4.9,1
+"89","Jeskai Ascendancy",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Dan Scott","R,U,W",3,"Enchantment","KTK",0.1,1,1
+"90","Kalitas, Traitor of Ghet",2,2,7,8,87.5,47.3,99.7," 2 Dimir Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+","Todd Lockwood","B",4,"Creature","OGW",0.1,1.9,1
+"91","Kaya's Guile",3,2,6,8,75,34.9,96.8," 2 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+","Jason Rainville","B,W",3,"Instant","MH1",0.2,1.9,1.5
+"92","Klothys, God of Destiny",2,2,6,8,75,34.9,96.8," 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Magali Villeneuve","G,R",3,"Enchantment,Creature","THB",0.1,1.9,1
+"93","Knight of Autumn",3,3,10,12,83.3,51.6,97.9," 1 Omnath Saheeli 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Ryan Pancoast","G,W",3,"Creature","GRN",0.2,2.9,1
+"94","Kolaghan's Command",2,2,6,8,75,34.9,96.8," 2 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+","Daarken","B,R",3,"Instant","DTK",0.1,1.9,1
+"95","Kor Firewalker",16,6,20,24,83.3,62.6,95.3," 4 Boros Prowess 
+ 1 Heliod Combo 
+ 1 Mono White Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+","Matt Stewart","W",2,"Creature","WWK",1,5.8,2.7
+"96","Kozilek's Return",38,19,63,76,82.9,72.5,90.6," 1 Boros Prowess 
+ 11 Izzet Prowess 
+ 1 Jund Midrange 
+ 1 Mardu Prowess 
+ 1 Obosh Aggro 
+ 1 Omnath Saheeli 
+ 1 Skelementals 
+ 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Lius Lasahido","",3,"Instant","OGW",2.5,18.4,2
+"97","Kozilek, Butcher of Truth",6,6,19,24,79.2,57.8,92.9," 1 Amulet Titan 
+ 1 Dimir Control 
+ 3 Green Tron 
+ 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Michael Komarck","",10,"Creature","ROE",0.4,5.8,1
+"98","Kroxa, Titan of Death's Hunger",1,1,3,4,75,19.4,99.4," 1 Jund Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+","Vincent Proce","B,R",2,"Creature","THB",0.1,1,1
+"99","Legion's End",1,1,3,4,75,19.4,99.4," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","David Palumbo","B",2,"Sorcery","M20",0.1,1,1
+"100","Leyline of Punishment",2,1,4,4,100,39.8,100," 1 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+","Charles Urbach","R",4,"Enchantment","M11",0.1,1,2
+"101","Leyline of Sanctity",3,3,10,12,83.3,51.6,97.9," 3 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Ryan Pancoast","W",4,"Enchantment","M11",0.2,2.9,1
+"102","Leyline of the Void",3,3,10,12,83.3,51.6,97.9," 3 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Adam Rex","B",4,"Enchantment","GPT",0.2,2.9,1
+"103","Lightning Axe",9,3,10,12,83.3,51.6,97.9," 3 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+","Dan Scott","R",1,"Instant","TSP",0.6,2.9,3
+"104","Lightning Helix",18,7,22,28,78.6,59,91.7," 5 Grinding Breach 
+ 2 Omnath Saheeli 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+","Kev Walker","R,W",2,"Instant","RAV",1.2,6.8,2.6
+"105","Liliana's Triumph",2,1,4,4,100,39.8,100," 1 Mardu Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+","Kieran Yanner","B",2,"Instant","WAR",0.1,1,2
+"106","Liquimetal Coating",12,12,39,48,81.2,67.4,91.1," 8 Eldrazi Tron 
+ 2 Green Tron 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Johann Bodin","",2,"Artifact","SOM",0.8,11.7,1
+"107","Lurrus of the Dream-Den",15,15,48,60,80,67.7,89.2," 4 Boros Prowess 
+ 3 Grixis Control 
+ 2 Hammer Time 
+ 1 Hardened Scales 
+ 1 Jund Shadow 
+ 1 Mardu Prowess 
+ 1 Mill 
+ 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Slawomir Maniak","B,W",3,"Creature","IKO",1,14.6,1
+"108","Madcap Experiment",12,5,17,20,85,62.1,96.8," 4 BTL Scapeshift 
+ 1 Polymorph 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+","Joseph Meehan","R",4,"Sorcery","KLD",0.8,4.9,2.4
+"109","Magus of the Moon",5,2,7,8,87.5,47.3,99.7," 1 Heliod Combo 
+ 1 Humans 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+","Franz Vohwinkel","R",3,"Creature","FUT",0.3,1.9,2.5
+"110","Mirran Crusader",2,1,3,4,75,19.4,99.4," 1 Mono White Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+","Eric Deschamps","W",3,"Creature","MBS",0.1,1,2
+"111","Monastery Mentor",2,1,3,4,75,19.4,99.4," 1 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+","Magali Villeneuve","W",3,"Creature","FRF",0.1,1,2
+"112","Mystic Forge",1,1,3,4,75,19.4,99.4," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+","Titus Lunter","",4,"Artifact","M20",0.1,1,1
+"113","Mystic Repeal",1,1,4,4,100,39.8,100," 1 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+","Tyler Walpole","G",1,"Instant","THB",0.1,1,1
+"114","Mystical Dispute",28,14,44,56,78.6,65.6,88.4," 3 Dimir Control 
+ 2 Esper Control 
+ 5 Grinding Breach 
+ 2 Izzet Prowess 
+ 1 Polymorph 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+","Ekaterina Burmak","U",3,"Instant","ELD",1.8,13.6,2
+"115","Nature's Claim",9,4,13,16,81.2,54.4,96," 3 Dredge 
+ 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#rhianne_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kimchiman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kefka_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+","Daarken","G",1,"Instant","WWK",0.6,3.9,2.2
+"116","Necromentia",2,1,3,4,75,19.4,99.4," 1 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Mila Pesic","B",3,"Sorcery","M21",0.1,1,2
+"117","Negate",1,1,4,4,100,39.8,100," 1 BTL Scapeshift 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+","Jeremy Jarvis","U",2,"Instant","MOR",0.1,1,1
+"118","Nexus of Fate",1,1,3,4,75,19.4,99.4," 1 Dimir Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+","Mike Bierek","U",7,"Instant","M19",0.1,1,1
+"119","Nihil Spellbomb",5,3,9,12,75,42.8,94.5," 2 Jund Midrange 
+ 1 Jund Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Franz Vohwinkel","",1,"Artifact","SOM",0.3,2.9,1.7
+"120","Oblivion Stone",2,2,6,8,75,34.9,96.8," 2 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+","Sam Wood","",3,"Artifact","MRD",0.1,1.9,1
+"121","Obosh, the Preypiercer",1,1,3,4,75,19.4,99.4," 1 Obosh Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+","Daarken","B,R",5,"Creature","IKO",0.1,1,1
+"122","Obstinate Baloth",2,2,6,8,75,34.9,96.8," 2 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+","Chris Rahn","G",4,"Creature","M11",0.1,1.9,1
+"123","Pact of Negation",2,2,6,8,75,34.9,96.8," 2 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Jason Chan","U",0,"Instant","FUT",0.1,1.9,1
+"124","Path to Exile",87,25,79,100,79,69.7,86.5," 1 Amulet Titan 
+ 1 Ascendancy Combo 
+ 4 Boros Prowess 
+ 2 Hammer Time 
+ 15 Heliod Combo 
+ 1 Spirits 
+ 1 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Todd Lockwood","W",1,"Instant","CON",5.6,24.3,3.5
+"125","Phyrexian Revoker",6,2,6,8,75,34.9,96.8," 1 Mono White Taxes 
+ 1 Selesnya Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+","Kev Walker","",2,"Artifact,Creature","MBS",0.4,1.9,3
+"126","Pillage",4,1,3,4,75,19.4,99.4," 1 Obosh Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+","Richard Kane Ferguson","R",3,"Sorcery","ALL",0.3,1,4
+"127","Pithing Needle",16,14,45,56,80.4,67.6,89.8," 2 Dimir Control 
+ 8 Eldrazi Tron 
+ 1 Green Tron 
+ 2 Hammer Time 
+ 1 Hardened Scales 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Pete Venters","",1,"Artifact","SOK",1,13.6,1.1
+"128","Plague Engineer",5,3,9,12,75,42.8,94.5," 1 Humans 
+ 2 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Nicholas Gregory","B",3,"Creature","MH1",0.3,2.9,1.7
+"129","Platinum Emperion",6,5,17,20,85,62.1,96.8," 4 BTL Scapeshift 
+ 1 Polymorph 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+","Chris Rahn","",8,"Artifact,Creature","SOM",0.4,4.9,1.2
+"130","Prismari Command",2,1,3,4,75,19.4,99.4," 1 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+","Johannes Voss","R,U",3,"Instant","STX",0.1,1,2
+"131","Profane Memento",2,1,3,4,75,19.4,99.4," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Franz Vohwinkel","",1,"Artifact","M15",0.1,1,2
+"132","Pyrite Spellbomb",2,2,7,8,87.5,47.3,99.7," 1 Jund Shadow 
+ 1 Mardu Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+","Jim Nelson","",1,"Artifact","MRD",0.1,1.9,1
+"133","Radiant Fountain",4,3,9,12,75,42.8,94.5," 3 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+","Adam Paquette","",0,"Land","M15",0.3,2.9,1.3
+"134","Rakdos Charm",3,1,3,4,75,19.4,99.4," 1 Skelementals 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+","Zoltan Boros","B,R",2,"Instant","RTR",0.2,1,3
+"135","Rampaging Ferocidon",6,3,9,12,75,42.8,94.5," 1 Obosh Aggro 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Jonathan Kuo","R",3,"Creature","XLN",0.4,2.9,2
+"136","Ratchet Bomb",1,1,3,4,75,19.4,99.4," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Austin Hsu","",2,"Artifact","SOM",0.1,1,1
+"137","Reclamation Sage",9,6,18,24,75,53.3,90.2," 5 Amulet Titan 
+ 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+","Christopher Moeller","G",3,"Creature","M15",0.6,5.8,1.5
+"138","Reidane, God of the Worthy",2,1,3,4,75,19.4,99.4," 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+","Jason Rainville","W",3,"Creature","KHM",0.1,1,2
+"139","Relic of Progenitus",48,22,69,88,78.4,68.4,86.5," 8 Eldrazi Tron 
+ 2 Green Tron 
+ 1 Gruul Midrange 
+ 1 Hardened Scales 
+ 2 Izzet Control 
+ 7 Izzet Prowess 
+ 1 Obosh Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Jean-Sébastien Rossbach","",1,"Artifact","ALA",3.1,21.4,2.2
+"140","Rest in Peace",15,8,25,32,78.1,60,90.7," 1 Esper Control 
+ 4 Heliod Combo 
+ 1 Mono White Taxes 
+ 1 Polymorph 
+ 1 Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#smdster_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#remf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+","Terese Nielsen","W",2,"Enchantment","RTR",1,7.8,1.9
+"141","Rip Apart",19,9,29,36,80.6,64,91.8," 1 Ascendancy Combo 
+ 2 Boros Prowess 
+ 5 Grinding Breach 
+ 1 Mardu Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+","Anna Podedworna","R,W",2,"Sorcery","STX",1.2,8.7,2.1
+"142","Sands of Delirium",1,1,3,4,75,19.4,99.4," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+","Charles Urbach","",3,"Artifact","M13",0.1,1,1
+"143","Scavenging Ooze",5,3,9,12,75,42.8,94.5," 1 Selesnya Taxes 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Austin Hsu","G",2,"Creature","CMD",0.3,2.9,1.7
+"144","Seal of Primordium",1,1,3,4,75,19.4,99.4," 1 Hardened Scales 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#mrseri_- 
+","Christopher Moeller","G",2,"Enchantment","PLC",0.1,1,1
+"145","Search for Azcanta",1,1,3,4,75,19.4,99.4," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Magali Villeneuve","U",2,"Enchantment","XLN",0.1,1,1
+"146","Shadows' Verdict",3,3,10,12,83.3,51.6,97.9," 3 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+","Lius Lasahido","B",5,"Sorcery","ZNR",0.2,2.9,1
+"147","Shattering Spree",2,1,3,4,75,19.4,99.4," 1 Boros Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+","Pat Lee","R",1,"Sorcery","GPT",0.1,1,2
+"148","Shock",2,2,8,8,100,63.1,100," 2 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+","Randy Gallegos","R",1,"Instant","STH",0.1,1.9,1
+"149","Showdown of the Skalds",2,1,3,4,75,19.4,99.4," 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+","Steven Belledin","R,W",4,"Enchantment","KHM",0.1,1,2
+"150","Shrine of Burning Rage",4,2,7,8,87.5,47.3,99.7," 2 Boros Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+","Dave Kendall","",2,"Artifact","NPH",0.3,1.9,2
+"151","Silence",2,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Wayne Reynolds","W",1,"Instant","M10",0.1,1,2
+"152","Skyclave Apparition",7,3,9,12,75,42.8,94.5," 1 Humans 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Donato Giancola","W",3,"Creature","ZNR",0.5,2.9,2.3
+"153","Skysovereign, Consul Flagship",9,9,30,36,83.3,67.2,93.6," 7 Eldrazi Tron 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+","Jung Park","",5,"Artifact","KLD",0.6,8.7,1
+"154","Sorcerous Spyglass",7,7,23,28,82.1,63.1,93.9," 6 Eldrazi Tron 
+ 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Kieran Yanner","",2,"Artifact","XLN",0.5,6.8,1
+"155","Soul-Guide Lantern",31,16,55,64,85.9,75,93.4," 3 Boros Prowess 
+ 6 Izzet Prowess 
+ 1 Mardu Prowess 
+ 1 Mill 
+ 1 Obosh Aggro 
+ 2 Omnath Saheeli 
+ 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#hoveydw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#randomoctopus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Cliff Childs","",1,"Artifact","THB",2,15.5,1.9
+"156","Spatial Contortion",19,9,28,36,77.8,60.8,89.9," 7 Eldrazi Tron 
+ 2 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Daarken","",2,"Instant","OGW",1.2,8.7,2.1
+"157","Spell Pierce",29,14,47,56,83.9,71.7,92.4," 1 BTL Scapeshift 
+ 13 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Vance Kovacs","U",1,"Instant","ZEN",1.9,13.6,2.1
+"158","Stubborn Denial",2,2,7,8,87.5,47.3,99.7," 2 UBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+","James Ryman","U",1,"Instant","KTK",0.1,1.9,1
+"159","Sundering Titan",7,7,23,28,82.1,63.1,93.9," 6 Eldrazi Tron 
+ 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Jim Murray","",8,"Artifact,Creature","DST",0.5,6.8,1
+"160","Supreme Verdict",2,2,7,8,87.5,47.3,99.7," 1 BTL Scapeshift 
+ 1 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+","Sam Burley","U,W",4,"Sorcery","RTR",0.1,1.9,1
+"161","Surgical Extraction",8,6,19,24,79.2,57.8,92.9," 1 Boros Prowess 
+ 1 Dimir Control 
+ 2 Izzet Prowess 
+ 1 Mill 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#wordy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#tibalt_of_red_sub_- 
+","Steven Belledin","B",1,"Instant","NPH",0.5,5.8,1.3
+"162","Tale's End",10,5,16,20,80,56.3,94.3," 2 Dimir Control 
+ 3 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+","Randy Vargas","U",2,"Instant","M20",0.6,4.9,2
+"163","Teferi, Time Raveler",2,2,7,8,87.5,47.3,99.7," 1 Ascendancy Combo 
+ 1 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Chris Rallis","U,W",3,"Planeswalker","WAR",0.1,1.9,1
+"164","Temur Battle Rage",1,1,3,4,75,19.4,99.4," 1 Jund Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+","Jaime Jones","R",2,"Instant","FRF",0.1,1,1
+"165","Thought-Knot Seer",6,2,6,8,75,34.9,96.8," 2 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+","Svetlin Velinov","",4,"Creature","OGW",0.4,1.9,3
+"166","Thoughtseize",22,8,25,32,78.1,60,90.7," 1 Esper Control 
+ 3 Grixis Control 
+ 1 Hammer Time 
+ 3 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+","Aleksi Briclot","B",1,"Sorcery","LRW",1.4,7.8,2.8
+"167","Thragtusk",2,1,3,4,75,19.4,99.4," 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+","Nils Hamm","G",5,"Creature","M13",0.1,1,2
+"168","Threads of Disloyalty",4,2,7,8,87.5,47.3,99.7," 2 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+","Anthony S. Waters","U",3,"Enchantment","BOK",0.3,1.9,2
+"169","Timely Reinforcements",10,6,20,24,83.3,62.6,95.3," 1 Amulet Titan 
+ 1 BTL Scapeshift 
+ 1 Taking Turns 
+ 2 Winota 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Tomasz Jedruszek","W",3,"Sorcery","M12",0.6,5.8,1.7
+"170","Tireless Tracker",13,5,15,20,75,50.9,91.3," 4 Amulet Titan 
+ 1 Polymorph 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#binolino_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#ruin_- 
+","Eric Deschamps","G",3,"Creature","SOI",0.8,4.9,2.6
+"171","Tocatli Honor Guard",2,2,6,8,75,34.9,96.8," 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Sara Winters","W",2,"Creature","XLN",0.1,1.9,1
+"172","Tormod's Crypt",33,21,67,84,79.8,69.6,87.7," 8 Eldrazi Tron 
+ 1 Green Tron 
+ 5 Grinding Breach 
+ 2 Gruul Midrange 
+ 2 Hammer Time 
+ 3 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#chanzito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#alpinco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Christopher Rush","",0,"Artifact","DRK",2.1,20.4,1.6
+"173","Torpor Orb",7,7,23,28,82.1,63.1,93.9," 4 Eldrazi Tron 
+ 1 Green Tron 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+","Svetlin Velinov","",2,"Artifact","NPH",0.5,6.8,1
+"174","Toski, Bearer of Secrets",2,2,6,8,75,34.9,96.8," 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Jason Rainville","G",4,"Creature","KHM",0.1,1.9,1
+"175","Trinisphere",3,3,9,12,75,42.8,94.5," 1 Eldrazi Tron 
+ 1 Green Tron 
+ 1 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+","Tim Hildebrandt","",3,"Artifact","DST",0.2,2.9,1
+"176","Tumble Magnet",1,1,3,4,75,19.4,99.4," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Drew Baker","",3,"Artifact","SOM",0.1,1,1
+"177","Ulamog, the Infinite Gyre",1,1,3,4,75,19.4,99.4," 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+","Aleksi Briclot","",11,"Creature","ROE",0.1,1,1
+"178","Unearth",3,3,9,12,75,42.8,94.5," 3 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+","Don Hazeltine","B",1,"Sorcery","ULG",0.2,2.9,1
+"179","Unravel the Aether",2,1,3,4,75,19.4,99.4," 1 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+","Jung Park","G",2,"Instant","BNG",0.1,1,2
+"180","Vanishing Verse",1,1,3,4,75,19.4,99.4," 1 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+","Chris Seaman","B,W",2,"Instant","STX",0.1,1,1
+"181","Vapor Snag",9,7,24,28,85.7,67.3,96," 7 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+","Raymond Swanland","U",1,"Instant","NPH",0.6,6.8,1.3
+"182","Veil of Summer",98,37,119,148,80.4,73.1,86.5," 1 Amulet Titan 
+ 1 Ascendancy Combo 
+ 4 BTL Scapeshift 
+ 3 Green Tron 
+ 14 Heliod Combo 
+ 1 Jund Shadow 
+ 3 Niv To Light 
+ 2 Omnath Saheeli 
+ 3 Polymorph 
+ 2 UBRG Shadow 
+ 2 Winota 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#matiaskm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#drcheez_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#_neptune_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#capoeira_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#caleb_yetman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#good_game_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#chilledaded_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+","Lake Hurwitz","G",1,"Instant","M20",6.3,35.9,2.6
+"183","Vendilion Clique",4,3,9,12,75,42.8,94.5," 1 Dimir Control 
+ 2 Esper Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#tspjendrek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+","Michael Sutfin","U",3,"Creature","MOR",0.3,2.9,1.3
+"184","Walking Ballista",8,8,26,32,81.2,63.6,92.8," 8 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Daniel Ljunggren","",0,"Artifact,Creature","AER",0.5,7.8,1
+"185","Wear // Tear",6,5,16,20,80,56.3,94.3," 1 Boros Prowess 
+ 4 Grinding Breach 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#ouranos_- 
+","Ryan Pancoast","R",3,"Instant","DGM",0.4,4.9,1.2
+"186","Weather the Storm",13,7,21,28,75,55.1,89.3," 1 Green Tron 
+ 1 Gruul Midrange 
+ 1 Jund Midrange 
+ 3 Polymorph 
+ 1 Taking Turns 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#integralhdk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#idavew_- 
+","Magali Villeneuve","G",2,"Instant","MH1",0.8,6.8,1.9
+"187","Wheel of Sun and Moon",2,1,3,4,75,19.4,99.4," 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#ptartswin_- 
+","Zoltan Boros & Gabor Szikszai","G,W",2,"Enchantment","SHM",0.1,1,2
+"188","Wilt",8,4,12,16,75,47.6,92.7," 4 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#audio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#craigilicious_- 
+","Volkan Baǵa","G",2,"Instant","IKO",0.5,3.9,2
+"189","Winds of Abandon",5,2,6,8,75,34.9,96.8," 1 Mono White Taxes 
+ 1 Selesnya Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#penips_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+","Noah Bradley","W",2,"Sorcery","MH1",0.3,1.9,2.5
+"190","Witchbane Orb",1,1,4,4,100,39.8,100," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+","John Avon","",4,"Artifact","ISD",0.1,1,1
+"191","Worship",1,1,4,4,100,39.8,100," 1 Ascendancy Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#pablo_- 
+","Mark Zug","W",4,"Enchantment","USG",0.1,1,1
+"192","Wrath of God",2,1,3,4,75,19.4,99.4," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#crusherbotbg_- 
+","Quinton Hoover","W",4,"Sorcery","LEA",0.1,1,2
+"193","Wrenn and Six",2,2,7,8,87.5,47.3,99.7," 1 BTL Scapeshift 
+ 1 Heliod Combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+","Chase Stone","G,R",2,"Planeswalker","MH1",0.1,1.9,1
+"194","Wurmcoil Engine",12,12,39,48,81.2,67.4,91.1," 8 Eldrazi Tron 
+ 2 Green Tron 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#zhinonono_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-20#snapcaster-bolt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#vexingdevil_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#dreamsofashiok_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#ccm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#karn__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#typemoon_- 
+","Raymond Swanland","",6,"Artifact,Creature","SOM",0.8,11.7,1
+"195","Yixlid Jailer",13,5,16,20,80,56.3,94.3," 2 Dimir Control 
+ 3 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-16#bubbsei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#gazmon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#funkimunki_- 
+","Matt Cavotta","B",2,"Creature","FUT",0.8,4.9,2.6
+"196","Yorion, Sky Nomad",5,5,16,20,80,56.3,94.3," 3 Niv To Light 
+ 1 Selesnya Taxes 
+ 1 Taking Turns 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#xurikk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+","Steven Belledin","U,W",5,"Creature","IKO",0.3,4.9,1

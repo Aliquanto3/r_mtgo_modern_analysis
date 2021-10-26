@@ -1,0 +1,1544 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Abrade",36,20,81,128,63.3,54.3,71.6," 2 Grixis Murktide 
+ 11 Izzet Delver 
+ 1 Izzet Painter 
+ 5 Sneak  &  Show 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+","Jonas De Ro","R",2,"Instant","HOU",2.3,19,1.8
+"2","Abrupt Decay",9,5,23,36,63.9,46.2,79.2," 2 Elves 
+ 2 TES 
+ 1 Turbo   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+","Svetlin Velinov","B,G",2,"Instant","RTR",0.6,4.8,1.8
+"3","Aether Spellbomb",1,1,3,6,50,11.8,88.2," 1 Artifacts   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+","Jim Nelson","",1,"Artifact","MRD",0.1,1,1
+"4","Aetherflux Reservoir",1,1,6,7,85.7,42.1,99.6," 1 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+","Cliff Childs","",4,"Artifact","KLD",0.1,1,1
+"5","Alpine Moon",10,9,37,53,69.8,55.7,81.7," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Izzet Painter 
+ 1 Jeskai Delver 
+ 6 Jeskai Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Alayna Danner","R",1,"Enchantment","M19",0.6,8.6,1.1
+"6","Ancient Grudge",4,2,10,15,66.7,38.4,88.2," 1 Madness 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ellaone_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+","Jim Nelson","R",2,"Instant","TSP",0.3,1.9,2
+"7","Archetype of Endurance",3,3,15,21,71.4,47.8,88.7," 2 Tin   Fins   
+ 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+","Slawomir Maniak","G",8,"Enchantment,Creature","BNG",0.2,2.9,1
+"8","Archon of Cruelty",2,2,10,14,71.4,41.9,91.6," 2 Tin   Fins   
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+","Andrew Mar","B",8,"Creature","MH2",0.1,1.9,1
+"9","Armageddon",4,1,3,6,50,11.8,88.2," 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+","Jesper Myrfors","W",4,"Sorcery","LEA",0.3,1,4
+"10","Assassin's Trophy",5,5,18,32,56.2,37.7,73.6," 4 Elves 
+ 1 Turbo   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+","Seb McKinnon","B,G",2,"Instant","GRN",0.3,4.8,1
+"11","Aura Shards",1,1,4,6,66.7,22.3,95.7," 1 Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+","Ron Spencer","G,W",3,"Enchantment","INV",0.1,1,1
+"12","Back to Basics",7,4,16,24,66.7,44.7,84.4," 1 Bant Control 
+ 1 Dimir Ninjas 
+ 2 Jeskai Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Andrew Robinson","U",3,"Enchantment","USG",0.4,3.8,1.8
+"13","Batterskull",1,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Mark Zug","",5,"Artifact","NPH",0.1,1,1
+"14","Big Game Hunter",1,1,4,7,57.1,18.4,90.1," 1 Madness 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ellaone_th_place 
+","Carl Critchlow","B",3,"Creature","PLC",0.1,1,1
+"15","Blazing Volley",5,4,16,25,64,42.5,82," 2 Izzet Delver 
+ 1 Jeskai Delver 
+ 1 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+","Zezhou Chen","R",1,"Sorcery","AKH",0.3,3.8,1.2
+"16","Blood Moon",13,5,23,34,67.6,49.5,82.6," 1 Izzet Delver 
+ 2 Sneak  &  Show 
+ 2 Temur Rhinos 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#game_night_th_place 
+","Tom Wänerstrand","R",3,"Enchantment","DRK",0.8,4.8,2.6
+"17","Blue Elemental Blast",4,4,15,20,75,50.9,91.3," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Izzet Painter 
+ 1 Jeskai Tempo 
+ 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Richard Thomas","U",1,"Instant","LEA",0.3,3.8,1
+"18","Blue Sun's Zenith",1,1,3,6,50,11.8,88.2," 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Izzy","U",3,"Instant","MBS",0.1,1,1
+"19","Brain Freeze",1,1,3,6,50,11.8,88.2," 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Tim Hildebrandt","U",2,"Instant","SCG",0.1,1,1
+"20","Brazen Borrower",1,1,3,6,50,11.8,88.2," 1 Izzet Delver 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+","Eric Deschamps","U",3,"Creature","ELD",0.1,1,1
+"21","Carpet of Flowers",26,11,47,72,65.3,53.1,76.1," 1 4 C   Loam   Control 
+ 1 Bant Control 
+ 3 Mono Green Post 
+ 1 Simic Omnitell 
+ 1 Sneak  &  Show 
+ 4 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#truefuturism_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#into_play_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Rebecca Guay","G",1,"Enchantment","USG",1.7,10.5,2.4
+"22","Chain Lightning",1,1,3,6,50,11.8,88.2," 1 Birgi   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Sandra Everingham","R",1,"Sorcery","LEG",0.1,1,1
+"23","Chain of Vapor",2,2,8,12,66.7,34.9,90.1," 2 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+","Carl Critchlow","U",1,"Instant","ONS",0.1,1.9,1
+"24","Chalice of the Void",6,3,12,21,57.1,34,78.2," 2 Death  &  Taxes 
+ 1 Lands 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+","Mark Zug","",0,"Artifact","MRD",0.4,2.9,2
+"25","Choke",14,8,30,46,65.2,49.8,78.6," 3 Lands 
+ 5 Slow   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+","Terese Nielsen","G",3,"Enchantment","TMP",0.9,7.6,1.8
+"26","Coffin Purge",2,2,10,14,71.4,41.9,91.6," 2 Tin   Fins   
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+","Pete Venters","B",1,"Instant","ODY",0.1,1.9,1
+"27","Collector Ouphe",11,11,46,69,66.7,54.3,77.6," 1 4 C   Loam   Control 
+ 1 Bant Ephemerate 
+ 2 Elves 
+ 1 Mono Green Post 
+ 5 Slow   Depths 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#truefuturism_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+","Filip Burburan","G",2,"Creature","MH1",0.7,10.5,1
+"28","Containment Priest",17,15,60,92,65.2,54.6,74.9," 1 4 C   Loam   Control 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Death  &  Taxes 
+ 2 Jeskai Control 
+ 1 Jeskai Delver 
+ 7 Jeskai Tempo 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","John Stanko","W",2,"Creature","C14",1.1,14.3,1.1
+"29","Council's Judgment",3,3,12,20,60,36.1,80.9," 2 Death  &  Taxes 
+ 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+","Kev Walker","W",3,"Sorcery","CNS",0.2,2.9,1
+"30","Court of Cunning",4,4,13,23,56.5,34.5,76.8," 1 Grixis Murktide 
+ 3 Izzet Delver 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+","Yeong-Hao Han","U",3,"Enchantment","CMR",0.3,3.8,1
+"31","Court of Grace",2,2,9,13,69.2,38.6,90.9," 1 Bant Control 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+","Denman Rooke","W",4,"Enchantment","CMR",0.1,1.9,1
+"32","Crop Rotation",3,3,14,21,66.7,43,85.4," 2 Elves 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+","DiTerlizzi","G",1,"Instant","ULG",0.2,2.9,1
+"33","Crucible of Worlds",2,2,9,13,69.2,38.6,90.9," 1 4 C   Loam   Control 
+ 1 Jeskai Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#delthar_th_place 
+","Ron Spencer","",3,"Artifact","5DN",0.1,1.9,1
+"34","Curse of Silence",8,2,8,13,61.5,31.6,86.1," 2 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#byvci_th_place 
+","Irina Nordsol","W",1,"Enchantment","MID",0.5,1.9,4
+"35","Dakkon, Shadow Slayer",1,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Richard Kane Ferguson","B,U,W",3,"Planeswalker","MH2",0.1,1,1
+"36","Dead // Gone",14,5,27,37,73,55.9,86.2," 3 Mono Red Prison 
+ 2 Temur Rhinos 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+","Tomas Giorello","R",4,"Instant","PLC",0.9,4.8,2.8
+"37","Deafening Silence",30,11,45,67,67.2,54.6,78.2," 3 Death  &  Taxes 
+ 1 Jeskai Control 
+ 1 Madness 
+ 5 Slow   Depths 
+ 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ellaone_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Igor Kieryluk","W",1,"Enchantment","ELD",1.9,10.5,2.7
+"38","Defense Grid",12,7,30,48,62.5,47.4,76," 3 Doomsday 
+ 1 Simic Omnitell 
+ 3 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#game_night_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+","Mark Tedin","",2,"Artifact","ULG",0.8,6.7,1.7
+"39","Disenchant",2,1,4,6,66.7,22.3,95.7," 1 Azorius Affinity 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+","Amy Weber","W",2,"Instant","LEA",0.1,1,2
+"40","Dismember",7,3,9,16,56.2,29.9,80.2," 2 Artifacts   Blue 
+ 1 Mono Green Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Terese Nielsen","B",3,"Instant","NPH",0.4,2.9,2.3
+"41","Dress Down",12,6,25,39,64.1,47.2,78.8," 1 High   Tide 
+ 1 Jeskai Control 
+ 1 Simic Omnitell 
+ 3 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Iain McCaig","U",2,"Enchantment","MH2",0.8,5.7,2
+"42","Duress",2,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+","Lawrence Snelly","B",1,"Sorcery","USG",0.1,1,2
+"43","Echo of Eons",3,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Terese Nielsen","U",6,"Sorcery","MH1",0.2,2.9,1
+"44","Echoing Truth",5,4,16,27,59.3,38.8,77.6," 1 High   Tide 
+ 1 Simic Omnitell 
+ 1 Sneak  &  Show 
+ 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Greg Staples","U",2,"Instant","DST",0.3,3.8,1.2
+"45","Empty the Warrens",4,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Mark Brill","R",4,"Sorcery","TSP",0.3,2.9,1.3
+"46","Emrakul, the Aeons Torn",1,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+","Mark Tedin","",15,"Creature","ROE",0.1,1,1
+"47","Endurance",68,28,111,174,63.8,56.2,70.9," 2 4 C   Loam   Control 
+ 6 Elves 
+ 5 Lands 
+ 3 Mono Green Post 
+ 5 Slow   Depths 
+ 2 Temur Rhinos 
+ 1 Turbo   Depths 
+ 4 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#isthetim_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#truefuturism_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#into_play_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#delthar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#isthetim_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Anastasia Ovchinnikova","G",3,"Creature","MH2",4.3,26.7,2.4
+"48","Engineered Explosives",15,9,34,58,58.6,44.9,71.4," 2 Artifacts   Blue 
+ 1 Bant Control 
+ 1 Boros Painter 
+ 1 Jeskai Tempo 
+ 3 Sneak  &  Show 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+","Ron Spears","",0,"Artifact","5DN",1,8.6,1.7
+"49","Ensnaring Bridge",9,9,45,65,69.2,56.6,80.1," 1 Boros Painter 
+ 2 Curse   Stompy 
+ 2 Karn   Echoes 
+ 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Pete Venters","",3,"Artifact","STH",0.6,8.6,1
+"50","Ethersworn Canonist",22,14,57,91,62.6,51.9,72.6," 1 4 C   Loam   Control 
+ 1 Bant Control 
+ 1 Bant Ephemerate 
+ 1 Boros Painter 
+ 1 Death  &  Taxes 
+ 1 Jeskai Control 
+ 1 Jeskai Delver 
+ 2 Jeskai Tempo 
+ 5 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+","Izzy","W",2,"Artifact,Creature","ALA",1.4,13.3,1.6
+"51","Faerie Macabre",8,4,18,27,66.7,46,83.5," 1 Death  &  Taxes 
+ 1 Soldier   Stompy 
+ 2 Tin   Fins   
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+","rk post","B",3,"Creature","SHM",0.5,3.8,2
+"52","Fatal Push",12,4,16,26,61.5,40.6,79.8," 4 Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+","Eric Deschamps","B",1,"Instant","AER",0.8,3.8,3
+"53","Fateful Absence",1,1,4,7,57.1,18.4,90.1," 1 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","Eric Deschamps","W",2,"Instant","MID",0.1,1,1
+"54","Fiery Confluence",7,4,20,28,71.4,51.3,86.8," 3 Mono Red Prison 
+ 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#game_night_th_place 
+","Kieran Yanner","R",4,"Sorcery","C15",0.4,3.8,1.8
+"55","Firemind's Foresight",1,1,3,6,50,11.8,88.2," 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+","Dan Scott","R,U",7,"Instant","RTR",0.1,1,1
+"56","Firestorm",3,1,4,7,57.1,18.4,90.1," 1 Madness 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ellaone_th_place 
+","Jeff Miracola","R",1,"Instant","WTH",0.2,1,3
+"57","Flusterstorm",21,15,60,97,61.9,51.4,71.5," 2 4 C   Loam   Control 
+ 1 Artifacts   Blue 
+ 1 Bant Ephemerate 
+ 3 Doomsday 
+ 1 Izzet Painter 
+ 1 Simic Omnitell 
+ 4 Sneak  &  Show 
+ 2 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+","Erica Yang","U",1,"Instant","CMD",1.3,14.3,1.4
+"58","Force of Negation",66,40,173,268,64.6,58.5,70.3," 1 4 C   Loam   Control 
+ 1 Artifacts   Blue 
+ 1 Bant Ephemerate 
+ 1 Dimir Ninjas 
+ 5 Doomsday 
+ 2 Grixis Murktide 
+ 1 High   Tide 
+ 11 Izzet Delver 
+ 2 Izzet Murktide 
+ 1 Jeskai Delver 
+ 8 Jeskai Tempo 
+ 2 Temur Rhinos 
+ 1 Temur Tempo 
+ 3 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+","Paul Scott Canavan","U",3,"Instant","MH1",4.2,38.1,1.6
+"59","Force of Vigor",55,24,93,147,63.3,54.9,71.1," 3 4 C   Loam   Control 
+ 1 Bant Control 
+ 6 Lands 
+ 2 Mono Green Post 
+ 1 Naya Zoo 
+ 1 Simic Omnitell 
+ 5 Slow   Depths 
+ 2 Temur Rhinos 
+ 1 Turbo   Depths 
+ 2 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#isthetim_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#into_play_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#delthar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#isthetim_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Randy Vargas","G",4,"Instant","MH1",3.5,22.9,2.3
+"60","Fury",4,2,11,15,73.3,44.9,92.2," 2 Temur Rhinos 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#xpz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#xpz_rd_place 
+","Raoul Vitale","R",5,"Creature","MH2",0.3,1.9,2
+"61","Gaddock Teeg",6,6,25,35,71.4,53.7,85.4," 1 Bant Ephemerate 
+ 5 Slow   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+","Greg Staples","G,W",2,"Creature","LRW",0.4,5.7,1
+"62","Galvanic Relay",9,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Lucas Staniec","R",3,"Sorcery","MH2",0.6,2.9,3
+"63","Gamble",1,1,3,6,50,11.8,88.2," 1 Birgi   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Andrew Goldhawk","R",1,"Sorcery","USG",0.1,1,1
+"64","Gemrazer",2,1,5,7,71.4,29,96.3," 1 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+","Svetlin Velinov","G",4,"Creature","IKO",0.1,1,2
+"65","Grafdigger's Cage",25,20,83,129,64.3,55.4,72.6," 1 Artifacts   Blue 
+ 1 Azorius Affinity 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Death  &  Taxes 
+ 1 Grixis Murktide 
+ 1 High   Tide 
+ 1 Izzet Delver 
+ 2 Izzet Murktide 
+ 1 Izzet Painter 
+ 5 Jeskai Tempo 
+ 1 Simic Omnitell 
+ 3 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Daniel Ljunggren","",1,"Artifact","DKA",1.6,19,1.2
+"66","Grapeshot",3,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Pete Venters","R",2,"Sorcery","TSP",0.2,2.9,1
+"67","Grim Lavamancer",5,4,17,25,68,46.5,85.1," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Jeskai Tempo 
+ 1 Sneak  &  Show 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Jim Nelson","R",1,"Creature","TOR",0.3,3.8,1.2
+"68","Grindstone",1,1,4,6,66.7,22.3,95.7," 1 Boros Painter 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+","Greg Simanson","",1,"Artifact","TMP",0.1,1,1
+"69","Gut Shot",9,5,17,27,63,42.4,80.6," 3 Izzet Delver 
+ 1 Izzet Painter 
+ 1 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+","Greg Staples","R",1,"Instant","NPH",0.6,4.8,1.8
+"70","Helm of Obedience",2,2,9,15,60,32.3,83.7," 2 Curse   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+","Brian Snõddy","",4,"Artifact","ALL",0.1,1.9,1
+"71","Hullbreacher",1,1,3,6,50,11.8,88.2," 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+","Sidharth Chaturvedi","U",3,"Creature","CMR",0.1,1,1
+"72","Hurkyl's Recall",1,1,4,7,57.1,18.4,90.1," 1 Dimir Ninjas 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+","NéNé Thomas","U",2,"Instant","ATQ",0.1,1,1
+"73","Hydroblast",21,20,87,131,66.4,57.6,74.4," 1 4 C   Loam   Control 
+ 1 Dimir Ninjas 
+ 10 Izzet Delver 
+ 2 Izzet Murktide 
+ 1 Jeskai Control 
+ 1 Jeskai Tempo 
+ 1 Sneak  &  Show 
+ 3 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+","Kaja Foglio","U",1,"Instant","ICE",1.3,19,1
+"74","Intuition",1,1,3,6,50,11.8,88.2," 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+","April Lee","U",3,"Instant","TMP",0.1,1,1
+"75","Iona, Shield of Emeria",1,1,5,7,71.4,29,96.3," 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+","Jason Chan","W",9,"Creature","ZEN",0.1,1,1
+"76","Izzet Staticaster",13,10,42,63,66.7,53.7,78," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Jeskai Control 
+ 6 Jeskai Tempo 
+ 2 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Scott M. Fischer","R,U",3,"Creature","RTR",0.8,9.5,1.3
+"77","Jegantha, the Wellspring",2,2,8,13,61.5,31.6,86.1," 2 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#byvci_th_place 
+","Chris Rahn","G,R",5,"Creature","IKO",0.1,1.9,1
+"78","Karn, Scion of Urza",1,1,4,7,57.1,18.4,90.1," 1 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","Chase Stone","",4,"Planeswalker","DOM",0.1,1,1
+"79","Karn, the Great Creator",1,1,4,6,66.7,22.3,95.7," 1 Boros Painter 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+","Wisnu Tan","",4,"Planeswalker","WAR",0.1,1,1
+"80","Knight of Autumn",2,2,7,11,63.6,30.8,89.1," 1 Bant Ephemerate 
+ 1 Slow   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+","Ryan Pancoast","G,W",3,"Creature","GRN",0.1,1.9,1
+"81","Kozilek's Return",1,1,3,6,50,11.8,88.2," 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+","Lius Lasahido","",3,"Instant","OGW",0.1,1,1
+"82","Krosan Grip",5,2,7,10,70,34.8,93.3," 2 Mono Green Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#truefuturism_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Zoltan Boros & Gabor Szikszai","G",3,"Instant","TSP",0.3,1.9,2.5
+"83","Leonin Relic-Warder",1,1,4,7,57.1,18.4,90.1," 1 Death  &  Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+","Greg Staples","W",2,"Creature","MBS",0.1,1,1
+"84","Leyline of Sanctity",3,1,3,6,50,11.8,88.2," 1 Turbo   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+","Ryan Pancoast","W",4,"Enchantment","M11",0.2,1,3
+"85","Leyline of the Void",57,20,90,138,65.2,56.6,73.1," 3 Doomsday 
+ 6 Elves 
+ 4 Karn   Post 
+ 1 Lands 
+ 1 Madness 
+ 3 Mono Red Prison 
+ 2 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ellaone_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#byvci_th_place 
+","Adam Rex","B",4,"Enchantment","GPT",3.6,19,2.9
+"86","Lightning Bolt",5,2,9,14,64.3,35.1,87.2," 1 Boros Painter 
+ 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+","Christopher Rush","R",1,"Instant","LEA",0.3,1.9,2.5
+"87","Liliana, the Last Hope",1,1,4,7,57.1,18.4,90.1," 1 Dimir Ninjas 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+","Anna Steinbauer","B",3,"Planeswalker","EMN",0.1,1,1
+"88","Lion's Eye Diamond",2,2,10,14,71.4,41.9,91.6," 2 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","Margaret Organ-Kean","",0,"Artifact","MIR",0.1,1.9,1
+"89","Liquimetal Coating",8,8,41,59,69.5,56.1,80.8," 2 Curse   Stompy 
+ 2 Karn   Echoes 
+ 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Johann Bodin","",2,"Artifact","SOM",0.5,7.6,1
+"90","Magus of the Moon",18,8,35,54,64.8,50.6,77.3," 1 Boros Painter 
+ 3 Mono Red Prison 
+ 4 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+","Franz Vohwinkel","R",3,"Creature","FUT",1.1,7.6,2.2
+"91","Massacre",2,2,12,16,75,47.6,92.7," 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+","Pete Venters","B",4,"Sorcery","NEM",0.1,1.9,1
+"92","Meddling Mage",17,9,38,58,65.5,51.9,77.5," 2 4 C   Loam   Control 
+ 1 Bant Control 
+ 6 Jeskai Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+","Christopher Moeller","U,W",2,"Creature","PLS",1.1,8.6,1.9
+"93","Meltdown",15,15,60,95,63.2,52.6,72.8," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Grixis Murktide 
+ 11 Izzet Delver 
+ 1 Jeskai Delver 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Donato Giancola","R",1,"Sorcery","USG",1,14.3,1
+"94","Mesmeric Orb",2,2,10,14,71.4,41.9,91.6," 2 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","David Martin","",2,"Artifact","MRD",0.1,1.9,1
+"95","Meteor Golem",1,1,3,6,50,11.8,88.2," 1 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Lake Hurwitz","",7,"Artifact,Creature","M19",0.1,1,1
+"96","Mindbreak Trap",19,7,29,43,67.4,51.5,80.9," 2 Death  &  Taxes 
+ 1 Karn   Echoes 
+ 1 Karn   Post 
+ 3 Mono Green Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#truefuturism_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#into_play_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#desiccant_- 
+","Christopher Moeller","U",4,"Instant","ZEN",1.2,6.7,2.7
+"97","Monastery Mentor",4,2,7,13,53.8,25.1,80.8," 1 Bant Ephemerate 
+ 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Magali Villeneuve","W",3,"Creature","FRF",0.3,1.9,2
+"98","Mycosynth Lattice",8,8,41,59,69.5,56.1,80.8," 2 Curse   Stompy 
+ 2 Karn   Echoes 
+ 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Anthony S. Waters","",6,"Artifact","DST",0.5,7.6,1
+"99","Narset, Parter of Veils",10,9,34,56,60.7,46.8,73.5," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Grixis Murktide 
+ 3 Izzet Delver 
+ 1 Jeskai Delver 
+ 1 Temur Tempo 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Magali Villeneuve","U",3,"Planeswalker","WAR",0.6,8.6,1.1
+"100","Nature's Claim",1,1,4,7,57.1,18.4,90.1," 1 Bant Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+","Daarken","G",1,"Instant","WWK",0.1,1,1
+"101","Null Rod",16,16,64,98,65.3,55,74.6," 1 Bant Control 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Grixis Murktide 
+ 2 Izzet Delver 
+ 1 Jeskai Control 
+ 7 Jeskai Tempo 
+ 1 Simic Omnitell 
+ 2 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Anson Maddocks","",2,"Artifact","WTH",1,15.2,1
+"102","Omniscience",6,3,11,19,57.9,33.5,79.7," 3 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+","Jason Chan","U",10,"Enchantment","M13",0.4,2.9,2
+"103","Opposition Agent",2,1,4,7,57.1,18.4,90.1," 1 Curse   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+","Scott Murphy","B",3,"Creature","CMR",0.1,1,2
+"104","Pact of Negation",13,5,20,33,60.6,42.1,77.1," 4 Doomsday 
+ 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+","Jason Chan","U",0,"Instant","FUT",0.8,4.8,2.6
+"105","Palace Jailer",1,1,5,8,62.5,24.5,91.5," 1 Death  &  Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+","David Palumbo","W",4,"Creature","CN2",0.1,1,1
+"106","Path to Exile",5,2,9,15,60,32.3,83.7," 1 Bant Ephemerate 
+ 1 Death  &  Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+","Todd Lockwood","W",1,"Instant","CON",0.3,1.9,2.5
+"107","Peacekeeper",1,1,5,7,71.4,29,96.3," 1 Death  &  Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+","Donato Giancola","W",3,"Creature","WTH",0.1,1,1
+"108","Peer into the Abyss",3,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Izzy","B",7,"Sorcery","M21",0.2,2.9,1
+"109","Phyrexian Furnace",1,1,4,6,66.7,22.3,95.7," 1 4 C   Loam   Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+","George Pratt","",1,"Artifact","WTH",0.1,1,1
+"110","Pithing Needle",19,19,85,127,66.9,58,75," 1 4 C   Loam   Control 
+ 2 Artifacts   Blue 
+ 1 Azorius Affinity 
+ 1 Boros Painter 
+ 2 Curse   Stompy 
+ 1 Death  &  Taxes 
+ 2 Izzet Murktide 
+ 1 Izzet Painter 
+ 6 Jeskai Tempo 
+ 2 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+","Pete Venters","",1,"Artifact","SOK",1.2,18.1,1
+"111","Plague Engineer",14,5,20,35,57.1,39.4,73.7," 1 4 C   Loam   Control 
+ 2 Curse   Stompy 
+ 1 Dimir Ninjas 
+ 1 Grixis Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+","Nicholas Gregory","B",3,"Creature","MH1",0.9,4.8,2.8
+"112","Portable Hole",9,3,14,20,70,45.7,88.1," 1 Azorius Affinity 
+ 2 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","John Stanko","W",1,"Artifact","AFR",0.6,2.9,3
+"113","Prismatic Ending",29,20,87,126,69,60.2,77," 1 4 C   Loam   Control 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Doomsday 
+ 8 Jeskai Tempo 
+ 2 Karn   Echoes 
+ 5 Slow   Depths 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#martin_dominguez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#goodplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#dnsolver_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","John Stanko","W",1,"Sorcery","MH2",1.8,19,1.4
+"114","Progenitus",5,5,18,32,56.2,37.7,73.6," 5 Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+","Jaime Jones","B,G,R,U,W",10,"Creature","CON",0.3,4.8,1
+"115","Pyroblast",119,47,193,303,63.7,58,69.1," 1 4 C   Loam   Control 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Doomsday 
+ 2 Grixis Murktide 
+ 12 Izzet Delver 
+ 2 Izzet Murktide 
+ 2 Jeskai Control 
+ 1 Jeskai Delver 
+ 8 Jeskai Tempo 
+ 6 Lands 
+ 1 Naya Zoo 
+ 4 Sneak  &  Show 
+ 1 Temur Tempo 
+ 5 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#isthetim_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#delthar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#game_night_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#isthetim_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Kaja Foglio","R",1,"Instant","ICE",7.6,44.8,2.5
+"116","Pyroclasm",4,2,8,12,66.7,34.9,90.1," 1 Jeskai Tempo 
+ 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#game_night_th_place 
+","Pat Morrissey","R",2,"Sorcery","ICE",0.3,1.9,2
+"117","Ragavan, Nimble Pilferer",6,3,11,19,57.9,33.5,79.7," 3 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+","Simon Dominic","R",1,"Creature","MH2",0.4,2.9,2
+"118","Ratchet Bomb",6,3,19,24,79.2,57.8,92.9," 3 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+","Austin Hsu","",2,"Artifact","SOM",0.4,2.9,2
+"119","Red Elemental Blast",40,35,143,226,63.3,56.6,69.6," 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 1 Doomsday 
+ 1 Grixis Murktide 
+ 7 Izzet Delver 
+ 2 Izzet Murktide 
+ 1 Izzet Painter 
+ 1 Jeskai Control 
+ 1 Jeskai Delver 
+ 7 Jeskai Tempo 
+ 5 Lands 
+ 3 Sneak  &  Show 
+ 1 Temur Tempo 
+ 4 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#isthetim_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#anzid_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#melody__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#plusisfive_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#isthetim_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Richard Thomas","R",1,"Instant","LEA",2.5,33.3,1.1
+"120","Reforge the Soul",1,1,3,6,50,11.8,88.2," 1 Birgi   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Jaime Jones","R",5,"Sorcery","AVR",0.1,1,1
+"121","Rest in Peace",12,5,20,32,62.5,43.7,78.9," 3 Death  &  Taxes 
+ 1 Jeskai Control 
+ 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Terese Nielsen","W",2,"Enchantment","RTR",0.8,4.8,2.4
+"122","Retrofitter Foundry",1,1,7,9,77.8,40,97.2," 1 Izzet Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+","Dmitry Burmak","",1,"Artifact","C18",0.1,1,1
+"123","Return to Nature",1,1,5,8,62.5,24.5,91.5," 1 Simic Omnitell 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+","Alayna Danner","G",2,"Instant","WAR",0.1,1,1
+"124","Rite of Consumption",2,1,3,6,50,11.8,88.2," 1 Turbo   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+","Ron Spencer","B",2,"Sorcery","SHM",0.1,1,2
+"125","Run Afoul",3,2,8,14,57.1,28.9,82.3," 2 Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+","Cristi Balanescu","G",1,"Instant","M21",0.2,1.9,1.5
+"126","Sanctum Prelate",2,1,3,6,50,11.8,88.2," 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+","Winona Nelson","W",3,"Creature","CN2",0.1,1,2
+"127","Scavenging Ooze",1,1,4,7,57.1,18.4,90.1," 1 Bant Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+","Austin Hsu","G",2,"Creature","CMD",0.1,1,1
+"128","Selfless Squire",1,1,3,6,50,11.8,88.2," 1 Soldier   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#isolatedsystem_nd_place 
+","Tony Foti","W",4,"Creature","C16",0.1,1,1
+"129","Serenity",10,3,15,21,71.4,47.8,88.7," 2 Tin   Fins   
+ 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+","Cliff Nielsen","W",2,"Enchantment","WTH",0.6,2.9,3.3
+"130","Shared Summons",1,1,5,8,62.5,24.5,91.5," 1 Simic Omnitell 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+","Aaron Miller","G",5,"Instant","M20",0.1,1,1
+"131","Shattering Spree",1,1,3,6,50,11.8,88.2," 1 Birgi   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Pat Lee","R",1,"Sorcery","GPT",0.1,1,1
+"132","Shenanigans",3,3,15,21,71.4,47.8,88.7," 2 Tin   Fins   
+ 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+","Lindsey Look","R",2,"Sorcery","MH1",0.2,2.9,1
+"133","Show and Tell",2,1,5,7,71.4,29,96.3," 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+","Jeff Laubenstein","U",3,"Sorcery","USG",0.1,1,2
+"134","Silence",4,1,5,7,71.4,29,96.3," 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+","Wayne Reynolds","W",1,"Instant","M10",0.3,1,4
+"135","Snap",1,1,3,6,50,11.8,88.2," 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Mike Raabe","U",2,"Instant","ULG",0.1,1,1
+"136","Sorcerous Spyglass",7,4,22,30,73.3,54.1,87.7," 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Kieran Yanner","",2,"Artifact","XLN",0.4,3.8,1.8
+"137","Soul-Guide Lantern",5,5,22,34,64.7,46.5,80.3," 1 Artifacts   Blue 
+ 3 Jeskai Tempo 
+ 1 Temur Tempo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+","Cliff Childs","",1,"Artifact","THB",0.3,4.8,1
+"138","Spatial Contortion",6,3,19,24,79.2,57.8,92.9," 3 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+","Daarken","",2,"Instant","OGW",0.4,2.9,2
+"139","Spell Pierce",2,2,8,12,66.7,34.9,90.1," 1 4 C   Loam   Control 
+ 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+","Vance Kovacs","U",1,"Instant","ZEN",0.1,1.9,1
+"140","Sphere of Annihilation",2,2,9,15,60,32.3,83.7," 2 Curse   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+","Jason Felix","B",1,"Artifact","AFR",0.1,1.9,1
+"141","Sphere of Resistance",28,7,24,43,55.8,39.9,70.9," 1 4 C   Loam   Control 
+ 6 Lands 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#isthetim_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dgreen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#delthar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#isthetim_- 
+","Doug Chaffee","",2,"Artifact","EXO",1.8,6.7,4
+"142","Stoneforge Mystic",2,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Mike Bierek","W",2,"Creature","WWK",0.1,1,2
+"143","Sublime Epiphany",1,1,5,8,62.5,24.5,91.5," 1 Simic Omnitell 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+","Lindsey Look","U",6,"Instant","M21",0.1,1,1
+"144","Submerge",12,12,50,78,64.1,52.4,74.7," 2 Grixis Murktide 
+ 10 Izzet Delver 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+","Mark Romanoski","U",5,"Instant","NEM",0.8,11.4,1
+"145","Sudden Edict",1,1,3,6,50,11.8,88.2," 1 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Ryan Yee","B",2,"Instant","MH2",0.1,1,1
+"146","Sulfur Elemental",3,3,16,22,72.7,49.8,89.3," 3 Mono Red Prison 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+","Dave Kendall","R",3,"Creature","PLC",0.2,2.9,1
+"147","Surgical Extraction",64,33,131,207,63.3,56.3,69.9," 2 Artifacts   Blue 
+ 1 Azorius Affinity 
+ 1 Bant Ephemerate 
+ 1 Boros Painter 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Death  &  Taxes 
+ 1 Dimir Ninjas 
+ 2 Grixis Murktide 
+ 12 Izzet Delver 
+ 1 Izzet Painter 
+ 2 Jeskai Control 
+ 1 Jeskai Delver 
+ 2 Jeskai Tempo 
+ 1 Simic Omnitell 
+ 3 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#magic-michael_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ziggy_stardust_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#momsbasementstreams_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#billsive_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#dunkin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#jpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#castino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#azerate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#windy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Steven Belledin","B",1,"Instant","NPH",4.1,31.4,1.9
+"148","Swords to Plowshares",12,5,20,31,64.5,45.4,80.8," 1 Azorius Affinity 
+ 1 Doomsday 
+ 1 Elves 
+ 1 Jeskai Delver 
+ 1 Naya Zoo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#byvci_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fuz_th_place 
+","Jeff A. Menges","W",1,"Instant","LEA",0.8,4.8,2.4
+"149","Sylvan Library",4,4,16,26,61.5,40.6,79.8," 1 4 C   Loam   Control 
+ 1 Temur Tempo 
+ 1 Turbo   Depths 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#arkn_th_place 
+","Harold McNeill","G",2,"Enchantment","LEG",0.3,3.8,1
+"150","Teferi's Realm",2,1,3,6,50,11.8,88.2," 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Alan Rabinowitz","U",3,"Enchantment","VIS",0.1,1,2
+"151","Tendrils of Agony",3,3,15,22,68.2,45.1,86.1," 1 Birgi   Storm 
+ 2 TES 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#methekaptain_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#bryant_cook_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Pete Venters","B",4,"Sorcery","SCG",0.2,2.9,1
+"152","Terminus",6,4,16,26,61.5,40.6,79.8," 1 Bant Control 
+ 3 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#anzid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#mortrd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+","James Paick","W",6,"Sorcery","AVR",0.4,3.8,1.5
+"153","Thalia, Guardian of Thraben",1,1,3,4,75,19.4,99.4," 1 Slow   Depths 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#maxbv_- 
+","Jana Schirmer & Johannes Voss","W",2,"Creature","DKA",0.1,1,1
+"154","Thassa's Oracle",2,2,10,15,66.7,38.4,88.2," 2 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+","Jesper Ejsing","U",2,"Creature","THB",0.1,1.9,1
+"155","Thorn of Amethyst",5,2,8,13,61.5,31.6,86.1," 1 Azorius Affinity 
+ 1 Lands 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#musasabi_th_place 
+","Chuck Lukacs","",2,"Artifact","LRW",0.3,1.9,2.5
+"156","Thoughtseize",30,9,37,60,61.7,48.2,73.9," 1 Dimir Ninjas 
+ 6 Elves 
+ 2 Tin   Fins   
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#eronrelentless_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thehamburglar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#lollerstank_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#shoetech_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#runkor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#runkor_th_place 
+","Aleksi Briclot","B",1,"Sorcery","LRW",1.9,8.6,3.3
+"157","Thran Foundry",1,1,5,8,62.5,24.5,91.5," 1 Curse   Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+","John Zeleznik","",1,"Artifact","UDS",0.1,1,1
+"158","Tormod's Crypt",9,9,45,65,69.2,56.6,80.1," 1 Boros Painter 
+ 2 Curse   Stompy 
+ 2 Karn   Echoes 
+ 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#utley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Christopher Rush","",0,"Artifact","DRK",0.6,8.6,1
+"159","Torpor Orb",24,20,85,130,65.4,56.5,73.5," 1 Artifacts   Blue 
+ 1 Bant Control 
+ 1 Conflict(Jeskai Control,Jeskai Tempo) 
+ 2 Curse   Stompy 
+ 1 Izzet Delver 
+ 2 Izzet Murktide 
+ 1 Izzet Painter 
+ 1 Jeskai Delver 
+ 7 Jeskai Tempo 
+ 1 Karn   Post 
+ 2 Lands 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#bullwinkkle_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#mcguirecj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ayeitsnick_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#altniccolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#burrarun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#patxi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#minem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#ziggy_stardust_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kauffj_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ozymandias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#silviawataru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#onionlotus_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#joker_- 
+","Svetlin Velinov","",2,"Artifact","NPH",1.5,19,1.2
+"160","Trickbind",1,1,3,6,50,11.8,88.2," 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#snoopy-magic_nd_place 
+","John Zeleznik","U",2,"Instant","TSP",0.1,1,1
+"161","Trinisphere",3,3,16,22,72.7,49.8,89.3," 3 Mono Red Prison 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#supercow_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#swiftwarkite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#albertosd_th_place 
+","Tim Hildebrandt","",3,"Artifact","DST",0.2,2.9,1
+"162","True-Name Nemesis",14,7,32,47,68.1,52.9,80.9," 7 Izzet Delver 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#kentaro_hokori_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kiyoaggro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#kentaro_hokori_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#ornatepuzzles_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-09-25#triosk_- 
+","Zack Stella","U",3,"Creature","C13",0.9,6.7,2
+"163","Turnabout",1,1,3,6,50,11.8,88.2," 1 High   Tide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#iwouldliketorespond_th_place 
+","Heather Hudson","U",4,"Instant","USG",0.1,1,1
+"164","Ugin, the Ineffable",1,1,4,7,57.1,18.4,90.1," 1 Karn   Echoes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+","Daarken","",6,"Planeswalker","WAR",0.1,1,1
+"165","Unholy Heat",2,2,12,17,70.6,44,89.7," 1 Izzet Murktide 
+ 1 Sneak  &  Show 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#bullwinkkle_nd_place 
+","Kari Christensen","R",1,"Instant","MH2",0.1,1.9,1
+"166","Veil of Summer",10,6,25,40,62.5,45.8,77.3," 2 4 C   Loam   Control 
+ 1 Bant Control 
+ 1 Bant Ephemerate 
+ 1 Sneak  &  Show 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#paucr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#cooluser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+","Lake Hurwitz","G",1,"Instant","M20",0.6,5.7,1.7
+"167","Vendilion Clique",1,1,3,4,75,19.4,99.4," 1 Jeskai Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-preliminary-2021-10-12#townley_- 
+","Michael Sutfin","U",3,"Creature","MOR",0.1,1,1
+"168","Void Snare",2,1,3,6,50,11.8,88.2," 1 Birgi   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#tonyscapone_th_place 
+","Zack Stella","U",1,"Sorcery","M15",0.1,1,2
+"169","Walking Ballista",6,6,32,44,72.7,57.2,85," 2 Karn   Echoes 
+ 4 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Daniel Ljunggren","",0,"Artifact,Creature","AER",0.4,5.7,1
+"170","Warping Wail",3,3,19,24,79.2,57.8,92.9," 3 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#funnyman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#funnyman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#blj_nd_place 
+","Jason Felix","",2,"Instant","OGW",0.2,2.9,1
+"171","Wear // Tear",7,4,19,27,70.4,49.8,86.2," 1 Jeskai Control 
+ 2 Tin   Fins   
+ 1 WUBR Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#camus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wiky_th_place 
+","Ryan Pancoast","R",3,"Instant","DGM",0.4,3.8,1.8
+"172","Wipe Away",3,3,14,21,66.7,43,85.4," 3 Doomsday 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-04#wonderpreaux_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#wonderpreaux_th_place 
+","Jeff Miracola","U",3,"Instant","TSP",0.2,2.9,1
+"173","Wurmcoil Engine",1,1,3,6,50,11.8,88.2," 1 Karn   Post 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#fatto_th_place 
+","Raymond Swanland","",6,"Artifact,Creature","SOM",0.1,1,1
+"174","Yorion, Sky Nomad",4,4,15,26,57.7,36.9,76.6," 1 4 C   Loam   Control 
+ 1 Artifacts   Blue 
+ 2 Death  &  Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#yoshiwata_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-09-27#koko_lopez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#whitefaces_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/legacy-challenge-2021-10-11#kauffj_th_place 
+","Steven Belledin","U,W",5,"Creature","IKO",0.3,3.8,1

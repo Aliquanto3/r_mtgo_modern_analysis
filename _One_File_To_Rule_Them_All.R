@@ -31,7 +31,7 @@ df=generate_df(EventType,MTGFormat,RawFile)
 archetype_acc=getArchetypeAcc(Classification)
 #STILL HAS WARNINGS, WHERE DO THEY COME FROM? - NOT REALLY AN EMERGENCY
 cardDataSub=getCardData(DirectoryFile)
-df=addCMC(df)
+#df=addCMC(df) #Unnecessary atm and long to run
 MDStats=CardsStatsGetter(df,"Mainboard")
 SBStats=CardsStatsGetter(df,"Sideboard")
 #CardResults=CardsStatsGetter(df,"Allboards")
@@ -477,6 +477,7 @@ coveredEvents=setNames(data.frame(matrix(ncol=2, nrow=nbEvents)),
 coveredEvents$TournamentName=unique(df$TournamentName)
 for (i in 1:nbEvents){
   coveredEvents$URL[i]=df[df$TournamentName==coveredEvents$TournamentName[i],]$AnchorUri[1]
+  coveredEvents$URL[i]<-gsub("#.*","",coveredEvents$URL[i])
 }
 
 titleEventFile=paste("List of MTGO", EventType,"between",Beginning, "and", End, 

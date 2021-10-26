@@ -13,15 +13,15 @@ DirectoryFile="MTGO_Data"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="mtgo_data_2021_06_13.json"
+RawFile="Pauper_data.json"
 
 #Format of the wanted events: NA if all
 #NA,"Sealed","Standard","Pioneer","Modern","Legacy", "Vintage", "Pauper"
-MTGFormat="Modern"
+MTGFormat="Pauper"
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2021-06-02"
+Beginning="2021-08-20"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,7 +29,7 @@ Beginning="2021-06-02"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2021-06-14"
+End="2021-10-25"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
@@ -40,7 +40,7 @@ End="2021-06-14"
 #"All Events" = everything available including leagues
 #"Everything but Leagues" = Major Events, official or not, and Preliminaries
 #"Official Competitions" = Major Official Events + Preliminaries
-#"Major Official Events" = Challenge,Champ,Showcase,Premier,Qualifier,MOCS
+#"Major Official Events" = Challenge, Champ, Showcase, Premier, Qualifier, MOCS
 #"Major Events Top32" = Major Events, official or unofficial, only top32
 #"Challenges" = Challenges
 #"Preliminaries" = Preliminaries
@@ -67,6 +67,6 @@ Presence_Weight=1
 PPR_Weight=1
 
 #CODE OF THE LAST SET
-lastSetCode="MH2"
+lastSetCode="MID"
 
 ###############################################################################

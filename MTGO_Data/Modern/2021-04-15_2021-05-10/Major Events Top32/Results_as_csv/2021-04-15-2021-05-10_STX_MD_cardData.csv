@@ -1,0 +1,137 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Baleful Mastery",1,1,5,7,71.4,29,96.3," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#blitzlion_th_place 
+","Chris Cold","B",4,"Instant","STX",0,0.3,1
+"Clever Lumimancer",76,19,101,147,68.7,60.5,76.1," 18 Boros Prowess 
+ 1 Jeskai Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#unagieel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#dmwake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#_tia__nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#christiano_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#sharkcaster_mage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#frakom_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#cvxw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#brasatore_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#christiano_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#pbarrrgh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#mac_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#jositoshekel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#oosunq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#christiano_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#mac_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#mrichi_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#revenantkioku_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#darthkid_st_place 
+","Lie Setiawan","W",1,"Creature","STX",0.4,6.6,4
+"Elite Spellbinder",11,3,22,28,78.6,59,91.7," 2 Orzhov Blink 
+ 1 Orzhov Taxes 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#kiko_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#friskifraska_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#parrotlet_th_place 
+","Ryan Pancoast","W",3,"Creature","STX",0.1,1,3.7
+"Emergent Sequence",3,1,5,8,62.5,24.5,91.5," 1 Titan Shift 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#alphafrog_rd_place 
+","Andreas Zafiratos","G",2,"Sorcery","STX",0,0.3,3
+"Expressive Iteration",81,22,117,167,70.1,62.5,76.9," 1 Grixis Shadow 
+ 21 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#darthkid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#mariogomes_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#oinkmage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#fastfake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#starfall_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#forthosewhohaveheart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#maikage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#twistedwombat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#starfall_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#dignika_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#_stream_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#dmwake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#lilianaofthevess_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#e_kaminuma_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#alphafrog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#rastaf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#astralplane_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#nublkau_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#xwhale_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#_batutinha__th_place 
+","Anastasia Ovchinnikova","R,U",2,"Sorcery","STX",0.5,7.6,3.7
+"Field Trip",10,3,15,22,68.2,45.1,86.1," 3 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#biednarccio_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#kingcantona_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#donald_trump_th_place 
+","Piotr Dura","G",3,"Sorcery","STX",0.1,1,3.3
+"Leonin Lightscribe",24,10,50,74,67.6,55.7,78," 9 Boros Prowess 
+ 1 Jeskai Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#unagieel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#sharkcaster_mage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#frakom_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#cvxw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#brasatore_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#pbarrrgh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#oosunq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#mrichi_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#revenantkioku_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#darthkid_st_place 
+","Steven Belledin","W",2,"Creature","STX",0.1,3.5,2.4
+"Magma Opus",1,1,5,8,62.5,24.5,91.5," 1 Temur Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#stturnnegator_th_place 
+","Liiga Smilshkalne","R,U",8,"Instant","STX",0,0.3,1
+"Prismari Command",44,18,94,137,68.6,60.1,76.3," 5 Izzet Control 
+ 4 Jeskai Control 
+ 4 Niv To Light 
+ 1 Polymorph 
+ 2 Taking Turns 
+ 2 Temur Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#tiko_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#stturnnegator_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#bnlunt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#freakunasty_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#bnlunt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#twinlesstwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#yumad_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#stturnnegator_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#manacymbal_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#didoguidotti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#stturnnegator_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#benbot_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#didoguidotti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#caleb_yetman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#bnlunt_th_place 
+","Johannes Voss","R,U",3,"Instant","STX",0.3,6.2,2.4
+"Silverquill Silencer",2,1,5,8,62.5,24.5,91.5," 1 Humans 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#lacansa_st_place 
+","Zezhou Chen","B,W",2,"Creature","STX",0,0.3,2
+"Thrilling Discovery",40,10,57,81,70.4,59.2,80," 10 Dredge 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#xerk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#grindera_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#usama_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#foxantes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#jorgg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#sodeq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#xuxa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#rhianne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#rhianne_th_place 
+","Campbell White","R,W",2,"Sorcery","STX",0.2,3.5,4
+"Vanishing Verse",7,5,25,36,69.4,51.9,83.7," 3 Niv To Light 
+ 2 WBRG Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#benchsummer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#mchlpp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#nammersquats_th_place 
+","Chris Seaman","B,W",2,"Instant","STX",0,1.7,1.4
+"Velomachus Lorehold",6,3,16,22,72.7,49.8,89.3," 3 Taking Turns 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#ragingtiltmonster_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#freakunasty_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#manacymbal_th_place 
+","Raymond Swanland","R,W",7,"Creature","STX",0,1,2
+"Wandering Archaic",3,1,5,7,71.4,29,96.3," 1 Green Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#narca_th_place 
+","Wayne Reynolds","",5,"Creature","STX",0,0.3,3

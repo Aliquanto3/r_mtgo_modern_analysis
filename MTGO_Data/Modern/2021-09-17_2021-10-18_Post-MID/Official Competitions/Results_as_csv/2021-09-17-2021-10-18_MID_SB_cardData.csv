@@ -1,0 +1,119 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Arlinn, the Pack's Hope",1,1,4,7,57.1,18.4,90.1," 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#logansmith_th_place 
+","Anna Steinbauer","G,R",4,"Planeswalker","MID",0,0.2,1
+"Augur of Autumn",1,1,5,7,71.4,29,96.3," 1 Yawgmoth 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#moniz_th_place 
+","Billy Christian","G",3,"Creature","MID",0,0.2,1
+"Curse of Silence",6,4,14,22,63.6,40.7,82.8," 1 Boros Blink 
+ 1 Creativity Combo 
+ 2 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#parrotlet_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#crusherbotbg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-24#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-06#jpsn_- 
+","Irina Nordsol","W",1,"Enchantment","MID",0.1,0.8,1.5
+"Dennick, Pious Apprentice",3,2,17,19,89.5,66.9,98.7," 2 Jeskai Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#talisker_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#parrotlet_rd_place 
+","Chris Rallis","U,W",2,"Creature","MID",0,0.4,1.5
+"Fateful Absence",3,3,17,24,70.8,48.9,87.4," 2 Jeskai Control 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#billsive_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#contraego_th_place 
+","Eric Deschamps","W",2,"Instant","MID",0,0.6,1
+"Memory Deluge",2,2,6,8,75,34.9,96.8," 1 Azorius Control 
+ 1 Grixis Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-21#viktor_von_muerte_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-05#mei_- 
+","Lake Hurwitz","U",4,"Instant","MID",0,0.4,1
+"Outland Liberator",17,16,82,113,72.6,63.4,80.5," 2 Amulet Titan 
+ 1 Humans 
+ 13 Yawgmoth 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#mickeyplaysmagic_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#predicted_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#boucha_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#demonictutors_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#moniz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-22#mikeleee_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-25#boucha_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-29#boucha_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-09#leviathan_- 
+","Randy Vargas","G",2,"Creature","MID",0.2,3.4,1.1
+"Sunset Revelry",118,59,284,382,74.3,69.7,78.7," 33 Azorius Control 
+ 1 BTL Scapeshift 
+ 3 Creativity Combo 
+ 1 Elementals 
+ 9 Jeskai Control 
+ 2 Jeskai Midrange 
+ 2 Mardu Midrange 
+ 4 Reanimator 
+ 4 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#billsive_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#parrotlet_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#mrraeb_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#yprincipe_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#zyuryo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#kanymtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#amanatease_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#zyuryo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#barczek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#viktor_von_muerte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#koko_lopez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#tylamonster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#bgdan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#benni_r_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-10#kentaro_hokori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-10#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-10#mrcafouillette_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#ivc_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#zyuryo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#jeppeapan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#nammersquats_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#talisker_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#alanalana_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#parrotlet_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#lavaridge_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#koko_lopez_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-18#mordekaser_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-18#kihara_works_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-18#yashimoro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-23#parrotlet_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-23#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-25#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-25#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-25#white_tsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-28#gerardo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-28#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-28#dshiles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-29#lavaridge_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-30#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-06#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-06#gerardo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-07#samwise_geegee_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-07#nammersquats_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-07#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-08#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-09#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-13#usokui_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-14#nammersquats_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-14#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-14#billsive_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-14#gerardo_- 
+","Antonio José Manzanedo","W",2,"Sorcery","MID",1.7,12.4,2
