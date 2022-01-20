@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='1728.00pt' height='648.00pt' viewBox='0 0 1728.00 648.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw'>
+    <rect x='0.00' y='0.00' width='1728.00' height='648.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw)'>
+<rect x='0.00000000000013' y='0.00' width='1728.00' height='648.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpMzMuMTR8MTcyMi41Mnw2Mi42MXw2MjYuNDc='>
+    <rect x='33.14' y='62.61' width='1689.38' height='563.86' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMzMuMTR8MTcyMi41Mnw2Mi42MXw2MjYuNDc=)'>
+<rect x='33.14' y='62.61' width='1689.38' height='563.86' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='877.83' cy='337.74' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<line x1='867.77' y1='330.85' x2='877.16' y2='337.28' style='stroke-width: 1.07;' />
+<text x='855.57' y='329.05' style='font-size: 11.04px; font-family: Arial;' textLength='21.47px' lengthAdjust='spacingAndGlyphs'>81.1</text>
+<polyline points='244.31,88.24 1511.35,88.24 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='877.83,88.24 877.83,600.84 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='244.31,600.84 1511.35,600.84 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<line x1='33.14' y1='337.74' x2='1722.52' y2='337.74' style='stroke-width: 2.13; stroke: #00FF00; stroke-dasharray: 11.38,11.38; stroke-linecap: butt;' />
+<line x1='33.14' y1='600.84' x2='1722.52' y2='600.84' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
+<line x1='33.14' y1='88.24' x2='1722.52' y2='88.24' style='stroke-width: 1.07; stroke: #FF0000; stroke-dasharray: 5.69,5.69; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw)'>
+<polyline points='33.14,626.47 33.14,62.61 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='28.21' y='508.38' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='9.79px' lengthAdjust='spacingAndGlyphs'>80</text>
+<text x='28.21' y='361.79' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='9.79px' lengthAdjust='spacingAndGlyphs'>81</text>
+<text x='28.21' y='215.20' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='9.79px' lengthAdjust='spacingAndGlyphs'>82</text>
+<text x='28.21' y='68.60' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='9.79px' lengthAdjust='spacingAndGlyphs'>83</text>
+<polyline points='30.40,505.23 33.14,505.23 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='30.40,358.64 33.14,358.64 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='30.40,212.05 33.14,212.05 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='30.40,65.45 33.14,65.45 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='33.14,626.47 1722.52,626.47 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='877.83,629.21 877.83,626.47 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<text x='877.83' y='640.00' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='50.04px' lengthAdjust='spacingAndGlyphs'>Unknown</text>
+<text transform='translate(13.36,344.54) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Arial;' textLength='217.74px' lengthAdjust='spacingAndGlyphs'>Winrates of the most popular archetypes (%)</text>
+<text x='33.14' y='31.05' style='font-size: 11.00px; font-family: Arial;' textLength='237.38px' lengthAdjust='spacingAndGlyphs'>Red lines for the average of the bounds of the CI</text>
+<text x='33.14' y='42.93' style='font-size: 11.00px; font-family: Arial;' textLength='248.37px' lengthAdjust='spacingAndGlyphs'>Green line for the average of the computed winrate</text>
+<text x='33.14' y='54.81' style='font-size: 11.00px; font-family: Arial;' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>by Anael Yahi</text>
+<text x='33.14' y='14.93' style='font-size: 13.20px; font-family: Arial;' textLength='972.02px' lengthAdjust='spacingAndGlyphs'>Confidence intervals on the winrates of the most present archetypes ( at least 2% of the Matches) between 2021-01-01 and 2021-12-27 in MTGO Major Official Events</text>
+</g>
+</svg>

@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='720.00pt' height='720.00pt' viewBox='0 0 720.00 720.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='720.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNDcuMDl8NzE0LjUyfDUzLjExfDY4NS41NA=='>
+    <rect x='47.09' y='53.11' width='667.43' height='632.43' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDcuMDl8NzE0LjUyfDUzLjExfDY4NS41NA==)'>
+<polyline points='153.28,685.54 153.28,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='304.96,685.54 304.96,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='456.65,685.54 456.65,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='608.34,685.54 608.34,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='47.09,369.32 714.52,369.32 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='77.43,685.54 77.43,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='229.12,685.54 229.12,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='380.81,685.54 380.81,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='532.50,685.54 532.50,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='684.18,685.54 684.18,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='77.43' y='132.16' width='606.75' height='474.32' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #F8766D;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+<text x='42.16' y='372.47' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='36.68px' lengthAdjust='spacingAndGlyphs'>Unknown</text>
+<text x='77.43' y='699.07' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='6.67px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='229.12' y='699.07' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>25</text>
+<text x='380.81' y='699.07' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>50</text>
+<text x='532.50' y='699.07' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>75</text>
+<text x='684.18' y='699.07' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='20.02px' lengthAdjust='spacingAndGlyphs'>100</text>
+<text x='380.81' y='712.20' text-anchor='middle' style='font-size: 11.00px; font-family: Arial;' textLength='66.66px' lengthAdjust='spacingAndGlyphs'>Presence (%)</text>
+<text x='47.09' y='45.31' style='font-size: 11.00px; font-family: Arial;' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>by Anael Yahi</text>
+<text x='47.09' y='14.93' style='font-size: 13.20px; font-family: Arial;' textLength='415.45px' lengthAdjust='spacingAndGlyphs'>Proportion of Exact archetypes in MTGO Major Official Events between</text>
+<text x='47.09' y='29.18' style='font-size: 13.20px; font-family: Arial;' textLength='458.68px' lengthAdjust='spacingAndGlyphs'> 2021-01-01 and 2021-12-27 based on number of Matches - Other (each &lt;0%)</text>
+</g>
+</svg>

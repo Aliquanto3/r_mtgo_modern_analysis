@@ -32,8 +32,10 @@ archetype_acc=getArchetypeAcc(Classification)
 #STILL HAS WARNINGS, WHERE DO THEY COME FROM? - NOT REALLY AN EMERGENCY
 cardDataSub=getCardData(DirectoryFile)
 #df=addCMC(df) #Unnecessary atm and long to run
-MDStats=CardsStatsGetter(df,"Mainboard")
-SBStats=CardsStatsGetter(df,"Sideboard")
+if(!PlayerResultsOnly){
+  MDStats=CardsStatsGetter(df,"Mainboard")
+  SBStats=CardsStatsGetter(df,"Sideboard")
+}
 #CardResults=CardsStatsGetter(df,"Allboards")
 
 #CREATE THE DIRECTORY WHERE TO SAVE THE PICTURES
@@ -193,7 +195,7 @@ for (i in 1:length(metric_df_play_sub$URL)){
   metric_df_play_sub$URL[i]=paste(unlist(metric_df_play$URL[i]),collapse = "; ")
 }
 write.csv(metric_df_play_sub,paste(
-  Beginning,'-',End,'_DF_Players_Overall_Results.csv',sep=''), row.names = TRUE)
+  Beginning,'-',End,'_DF_Players_Overall',MTGFormat,'_Results.csv',sep=''), row.names = TRUE)
 
 #COUNT THE NUMBER OF TOP8 FOR EACH PLAYER
 top8_df_play=players_top8(df,Beginning,End)
@@ -491,3 +493,30 @@ write.table(coveredEvents, paste(Beginning,'-',End,'_List_of_',EventType,'.txt')
 #COUNT THE PROPORTION OF RED AND BLUE SPELLS IN THE DATA
 
 #COUNT THE PROPORTION OF DECKS PLAYING RED OR BLUE SPELLS
+
+dfChall=df[!grepl(pattern = "Showcase", df$TournamentName),]
+unique(dfChall$TournamentName)
+
+nrow(dfChall)
+
+dfComp=dfChall[!dfChall$Archetype$Companion=="",]
+dfWoComp=dfChall[dfChall$Archetype$Companion=="",]
+
+nrow(dfComp)
+nrow(dfWoComp)
+
+#3 points per win
+CompWins=sum(dfComp$Points + dfComp$T8Points)/3
+CompMatches=sum(dfComp$NRounds + dfComp$T8Matches)
+CompWR=CompWins/CompMatches*100
+
+#3 points per win
+woCompWins=sum(dfWoComp$Points + dfWoComp$T8Points)/3
+woCompMatches=sum(dfWoComp$NRounds + dfWoComp$T8Matches)
+woCompWR=woCompWins/woCompMatches*100
+
+print(paste("The win rate of decks with a companion is: ",round(CompWR,2),
+            "% between ",Beginning," and ",End," in Modern Challenges.",sep=""))
+print(paste("The win rate of decks without a companion is: ",round(woCompWR,2),
+            "% between ",Beginning," and ",End," in Modern Challenges.",sep=""))
+

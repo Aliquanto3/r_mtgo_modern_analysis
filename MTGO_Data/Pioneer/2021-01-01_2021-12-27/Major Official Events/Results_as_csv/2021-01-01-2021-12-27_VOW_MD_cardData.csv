@@ -1,0 +1,489 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Ancestral Anger",12,3,16,24,66.7,44.7,84.4," 2 Boros Heroic 
+ 1 Boros Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#stanku_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#_falcon__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#hamuda_nd_place 
+","Randy Vargas","R",1,"Sorcery","VOW",0,0.1,4
+"Avabruck Caretaker",23,11,48,75,64,52.1,74.8," 1 Devotion Walkers 
+ 10 Naya Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#optimis_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#lazerbeam_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#supremex_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#_marian__nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#chub_toad__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#riickitun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#riickitun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#knightsqueenvi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#tarmogoyf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#mogged_th_place 
+","Heonhwa Choe","G",6,"Creature","VOW",0,0.3,2.1
+"Blood Fountain",4,1,4,7,57.1,18.4,90.1," 1 Mono Black Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#tiemuuu_th_place 
+","Evyn Fong","B",1,"Artifact","VOW",0,0,4
+"Bloodtithe Harvester",31,9,39,62,62.9,49.7,74.8," 1 Pyromancer 
+ 8 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#cabezadebolo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#magicianmagico_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#laa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#egormaister_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#wrzobuseks_th_place 
+","Lucas Graciano","B,R",2,"Creature","VOW",0,0.3,3.4
+"Cemetery Gatekeeper",45,12,69,97,71.1,61,79.9," 12 Mono Red Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#deleon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#coly_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#finespoo_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#coly_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#coly_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#bcs_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#garruk__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#misstrigger_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#mcwinsauce_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#ld_th_place 
+","Tyler Jacobson","R",2,"Creature","VOW",0,0.4,3.8
+"Cemetery Illuminator",5,3,13,20,65,40.8,84.6," 3 Bant Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#ivan_draw_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#mafs_th_place 
+","Uriah Voth","U",3,"Creature","VOW",0,0.1,1.7
+"Cemetery Prowler",18,8,41,61,67.2,54,78.7," 4 Enigmatic Incarnation 
+ 3 Gruul Midrange 
+ 1 Gruul Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#mcwinsauce_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#mcwinsauce_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#ladon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#ladon_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#ladon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#waldo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#wrzobuseks_nd_place 
+","Daarken","G",3,"Creature","VOW",0,0.3,2.2
+"Chandra, Dressed to Kill",25,7,30,48,62.5,47.4,76," 6 Mono Red Burn 
+ 1 Mono Red Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#blj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#makusong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#joohyun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#tomoro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#joohyun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#mcwinsauce_th_place 
+","Viktor Titov","R",3,"Planeswalker","VOW",0,0.2,3.6
+"Cultivator Colossus",1,1,3,6,50,11.8,88.2," 1 Mono Green Big Mana 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#sgcyrus_th_place 
+","Antonio José Manzanedo","G",7,"Creature","VOW",0,0,1
+"Deathcap Glade",11,8,35,55,63.6,49.6,76.2," 2 Golgari Midrange 
+ 6 Jund Sacrifice 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#thestudygroup_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#yashimoro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#nick_fox_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#nick_fox_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#carton_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#jessy_samek_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#kasa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#melody__rd_place 
+","Sam Burley","",0,"Land","VOW",0,0.3,1.4
+"Dread Fugue",4,2,7,13,53.8,25.1,80.8," 1 Pyromancer 
+ 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#joker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#laa_th_place 
+","Rovina Cai","B",1,"Sorcery","VOW",0,0.1,2
+"Dreamroot Cascade",4,1,4,7,57.1,18.4,90.1," 1 Bant Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#karatedom_th_place 
+","Sam Burley","",0,"Land","VOW",0,0,4
+"Edgar, Charmed Groom",70,36,186,272,68.4,62.5,73.9," 36 Orzhov Vampires 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bonvoyyawg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#karnagekardsent_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#peanutbrittle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#nammersquats_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#tylamonster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#jiaohongchen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#nildo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#butakov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#hauterho_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#albertosd_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#mj__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#_against__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#ptartswin_th_place 
+","Volkan Baǵa","B,W",4,"Creature","VOW",0,1.1,1.9
+"Eruth, Tormented Prophet",1,1,3,6,50,11.8,88.2," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#mogged_st_place 
+","Ekaterina Burmak","R,U",3,"Creature","VOW",0,0,1
+"Fell Stinger",3,1,4,6,66.7,22.3,95.7," 1 Mono Black Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#claudioh_th_place 
+","Lars Grant-West","B",3,"Creature","VOW",0,0,3
+"Flame-Blessed Bolt",178,85,406,617,65.8,61.9,69.5," 1 Gruul Midrange 
+ 5 Izzet Control 
+ 68 Phoenix 
+ 7 Rakdos Midrange 
+ 1 Temur Midrange 
+ 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#gul_dukat_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#giovanimf_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#otakkun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#andyawkward_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#_iuriper__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#duke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#mateusf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#mzblazer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#azatoyellow_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#spicyleche_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#misplacedginger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#_falcon__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#_stream_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#lazerbeam_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#watchwolf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#azatoyellow_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#lilianaofthevess_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#giovanimf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#otakkun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#diemx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#otakkun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#misplacedginger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#venom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#seppuku_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bullwinkkle_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#mogged_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#marine_rush_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#ladon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#makusong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#canepis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#mikhathara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#_stream_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#diemx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#_batutinha__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#gul_dukat_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#gen_kie_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#victorcarvalho_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#diemx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#darius_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#-alfa-_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#mogged_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#stranger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#alphafrog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#_falcon__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#terribad_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#hcook_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#darius_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#twinlesstwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#victorcarvalho_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lavaridge_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#golphinus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lennny_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#melody__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#endmagnus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#marolanzi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lifeisrisk_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#twinlesstwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#teammentor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#ranranjintianchiwhat_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#laa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#snusnumrick_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#victorcarvalho_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#boland_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#ziofrancone_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#delicinha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#breal_th_place 
+","Andreas Zafiratos","R",1,"Instant","VOW",0.1,2.7,2.1
+"Geistlight Snare",16,4,17,28,60.7,40.6,78.5," 1 Dimir Spirits 
+ 3 Mono Blue Spirits 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#herotsukai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#herotsukai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#herotsukai_st_place 
+","Anato Finnstark","U",3,"Instant","VOW",0,0.1,4
+"Halana and Alena, Partners",1,1,3,6,50,11.8,88.2," 1 Gruul Bard  class 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#bonvoyyawg_th_place 
+","Jason Rainville","G,R",4,"Creature","VOW",0,0,1
+"Hamlet Vanguard",4,1,4,7,57.1,18.4,90.1," 1 Selesnya Humans 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#supercow_th_place 
+","PINDURSKI","G",3,"Creature","VOW",0,0,4
+"Headless Rider",3,1,4,6,66.7,22.3,95.7," 1 Mono Black Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#claudioh_th_place 
+","E. M. Gist","B",3,"Creature","VOW",0,0,3
+"Hullbreaker Horror",17,9,41,64,64.1,51.1,75.7," 3 Dimir Control 
+ 4 Izzet Control 
+ 1 Mono Blue Control 
+ 1 Omnath 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#dreamsofashiok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#canepis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bullwinkkle_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#canepis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#billsive_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#terribad_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#xerk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#thebuttermerchant_th_place 
+","Svetlin Velinov","U",7,"Creature","VOW",0,0.3,1.9
+"Katilda, Dawnhart Martyr",9,8,36,54,66.7,52.5,78.9," 7 Bant Spirits 
+ 1 Enigmatic Incarnation 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#mcwinsauce_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#ivan_draw_go_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#ivan_draw_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#ivan_draw_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#ivan_draw_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#ivan_draw_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#mafs_th_place 
+","Manuel Castañón","W",3,"Creature","VOW",0,0.3,1.1
+"Lantern of the Lost",4,1,4,7,57.1,18.4,90.1," 1 Mono Black Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#tiemuuu_th_place 
+","Chris Cold","",1,"Artifact","VOW",0,0,4
+"Radiant Grace",3,1,5,8,62.5,24.5,91.5," 1 Orzhov Auras 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#xfile_th_place 
+","Campbell White","W",1,"Enchantment","VOW",0,0,3
+"Reckless Impulse",12,3,10,19,52.6,28.9,75.6," 2 Mono Red Prowess 
+ 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#tomoro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#laa_th_place 
+","Mathias Kollros","R",2,"Sorcery","VOW",0,0.1,4
+"Sanguine Statuette",4,1,6,9,66.7,29.9,92.5," 1 Rakdos Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mp_th_place 
+","Izzy","R",2,"Artifact","VOW",0,0,4
+"Shattered Sanctum",13,5,20,32,62.5,43.7,78.9," 2 Orzhov Blink 
+ 1 Orzhov Control 
+ 2 Orzhov Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#laa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#manjyui_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#bonvoyyawg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#manjyui_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#laa_th_place 
+","Muhammad Firdaus","",0,"Land","VOW",0,0.2,2.6
+"Sorin the Mirthless",102,56,271,413,65.6,60.8,70.2," 9 Dimir Control 
+ 1 Orzhov Control 
+ 35 Orzhov Vampires 
+ 11 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#laa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#canepis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bonvoyyawg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#karnagekardsent_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#harry_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#peanutbrittle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#nammersquats_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#tylamonster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#hcook_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#ignotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#darius_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#twinlesstwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#jiaohongchen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lavaridge_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#nildo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#screenwriterny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#marolanzi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#hauterho_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#magicianmagico_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#albertosd_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#magicianmagico_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#nerdkneereape_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#martyr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#mj__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#_against__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#wrzobuseks_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#ignotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#ptartswin_th_place 
+","Martina Fackova","B",4,"Planeswalker","VOW",0.1,1.8,1.8
+"Stormcarved Coast",115,47,228,345,66.1,60.8,71.1," 2 Grixis Midrange 
+ 5 Izzet Control 
+ 1 Jeskai Creativity 
+ 36 Phoenix 
+ 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#gul_dukat_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#makusong_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#andyawkward_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#mzblazer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#azatoyellow_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#biz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#watchwolf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-premier-2021-11-21#lilianaofthevess_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#diemx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#seppuku_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bullwinkkle_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#mogged_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#marine_rush_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#makusong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#canepis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#mikhathara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#gul_dukat_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#gen_kie_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#mikhathara_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#diemx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#darius_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#mogged_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#stranger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#phill_hellmuth_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#alphafrog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#terribad_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lennny_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#melody__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#endmagnus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#lifeisrisk_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#ranranjintianchiwhat_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#snusnumrick_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#delicinha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#delicinha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#breal_th_place 
+","Sarah Finnigan","",0,"Land","VOW",0.1,1.5,2.4
+"Sundown Pass",2,1,9,10,90,55.5,99.7," 1 Jeskai Creativity 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#wookiewasabi_st_place 
+","Muhammad Firdaus","",0,"Land","VOW",0,0,2
+"Traveling Minister",2,1,4,7,57.1,18.4,90.1," 1 Selesnya Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#billsive_th_place 
+","Slawomir Maniak","W",1,"Creature","VOW",0,0,2
+"Vampire's Kiss",4,1,6,9,66.7,29.9,92.5," 1 Rakdos Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mp_th_place 
+","Ilse Gort","B",2,"Sorcery","VOW",0,0,4
+"Vampires' Vengeance",1,1,3,6,50,11.8,88.2," 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#laa_th_place 
+","Chris Cold","R",3,"Instant","VOW",0,0,1
+"Voice of the Blessed",8,2,10,15,66.7,38.4,88.2," 1 Selesnya Heliod 
+ 1 Selesnya Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-11-15#aardos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#billsive_th_place 
+","Anastasia Ovchinnikova","W",2,"Creature","VOW",0,0.1,4
+"Voldaren Bloodcaster",4,1,4,7,57.1,18.4,90.1," 1 Mono Black Vampires 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#momsbasementstreams_th_place 
+","Kim Sokol","B",2,"Creature","VOW",0,0,4
+"Voldaren Epicure",4,1,6,9,66.7,29.9,92.5," 1 Rakdos Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mp_th_place 
+","Martina Fackova","R",1,"Creature","VOW",0,0,4
+"Voldaren Estate",69,35,183,266,68.8,62.9,74.3," 35 Orzhov Vampires 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#bonvoyyawg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-28#karnagekardsent_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-29#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#onionlotus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#peanutbrittle_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#nammersquats_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#xfile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#tylamonster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#jiaohongchen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#nildo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#butakov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-showcase-challenge-2021-12-13#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#hauterho_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#albertosd_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-20#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#albertosd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-26#mj__st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#_against__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-27#ptartswin_th_place 
+","Richard Wright","",0,"Land","VOW",0,1.1,2
+"Wandering Mind",16,6,28,44,63.6,47.8,77.6," 1 Grixis Midrange 
+ 4 Niv To Light 
+ 1 Omnath 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-14#dreamsofashiok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-21#biz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-11-22#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-06#vipexx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-12#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#chryistiel_th_place 
+","Simon Dominic","R,U",3,"Creature","VOW",0,0.2,2.7
+"Welcoming Vampire",3,2,8,13,61.5,31.6,86.1," 1 Naya Winota 
+ 1 Selesnya Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-05#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2021-12-19#billsive_th_place 
+","Lorenzo Mastroianni","W",3,"Creature","VOW",0,0.1,1.5

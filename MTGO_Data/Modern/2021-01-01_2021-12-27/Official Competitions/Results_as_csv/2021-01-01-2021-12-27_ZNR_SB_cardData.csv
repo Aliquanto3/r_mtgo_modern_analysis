@@ -1,0 +1,929 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Archon of Emeria",22,19,89,121,73.6,64.8,81.2," 2 Boros Taxes 
+ 7 Heliod Combo 
+ 1 Jeskai Blink 
+ 2 Jeskai Taxes 
+ 1 Mono White Eldrazi Taxes 
+ 2 Mono White Taxes 
+ 1 Selesnya Taxes 
+ 1 Spirits 
+ 2 Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#fabee_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#deneblyrae_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#respectthecat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#chefen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#good_game_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#arcanisrestored_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#deneblyrae_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#miguelcaster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-21#miguelcaster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-18#miguelcaster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-07-26#cat_lear_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-21#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-27#e_kaminuma_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-26#chrislampa_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-13#carson_caruso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-15#carson_caruso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-20#mogged_- 
+","Ryan Pancoast","W",3,"Creature","ZNR",0,0.4,1.2
+"Bloodchief's Thirst",112,74,366,506,72.3,68.2,76.2," 1 BTL Valki 
+ 2 Dimir Control 
+ 1 Esper Control 
+ 1 Faeries 
+ 1 Golgari Midrange 
+ 1 Grixis Midrange 
+ 1 Grixis Shadow 
+ 2 Lantern 
+ 42 Mill 
+ 2 Rakdos Midrange 
+ 6 Reclamation 
+ 11 Sultai Control 
+ 2 Thopter Urza 
+ 1 UBRG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#oinkmage_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#smoran_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#marcobelacca_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#joker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#mussie_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#mark__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#childofalara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#oderus_urungus_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#indianpancake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#tibalt_of_red_sub_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#festifan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#tspjendrek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#childofalara_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#joker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#hemsley_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#festifan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-01#wolfie_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#archaeusdota_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#_shatun__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#idutra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#idutra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#chequeredmox_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#dodecahedron_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-01#bernastorres_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-01#joker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#brivenix_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#wingedhussar_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#fake-news_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#blitzlion_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#tspjendrek_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#trunks_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#sanpop_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#aooaaooa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-20#aooaaooa_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-12#reula_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-22#ale_ax_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-22#volrath_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-29#hlg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-06#wisnia_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-12#razdan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#wuduwuda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#wuduwuda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-31#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-11-14#kasa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-13#wisnia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-20#wisnia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-02#katuo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-06#scabs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-16#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-20#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-23#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#lacriaturabb_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#okodio_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-28#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-11#mzblazer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-11#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#yamakiller_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-06#dodecahedron_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-09#acekiller_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-15#eragon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#bolov_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-20#solace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-07#wingedhussar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-08#wingedhussar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-16#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-30#rexjak_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-02#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-06#rexjak_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-09#xifs_- 
+","Jason Rainville","B",1,"Sorcery","ZNR",0.1,1.4,1.5
+"Broken Wings",4,3,13,19,68.4,43.4,87.4," 3 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#biednarccio_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-08#nade_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-10#houseofmanamtg_- 
+","Ekaterina Burmak","G",3,"Instant","ZNR",0,0.1,1.3
+"Cinderclasm",1,1,4,4,100,39.8,100," 1 Izzet Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#armjr_- 
+","Campbell White","R",2,"Instant","ZNR",0,0,1
+"Cleansing Wildfire",667,296,1364,1858,73.4,71.3,75.4," 1 Boros Prowess 
+ 32 BTL Scapeshift 
+ 5 Creativity Combo 
+ 1 Grixis Control 
+ 1 Grixis Midrange 
+ 3 Grixis Shadow 
+ 4 Izzet Breach 
+ 2 Izzet Control 
+ 9 Izzet Kiki Jiki 
+ 92 Izzet Prowess 
+ 2 Jeskai Control 
+ 1 Jeskai Kiki Jiki 
+ 3 Jeskai Monkey 
+ 14 Jund Midrange 
+ 4 Jund Saga 
+ 15 Jund Shadow 
+ 3 Mardu Midrange 
+ 3 Mardu Prowess 
+ 1 Mardu Shadow 
+ 10 Niv To Light 
+ 5 Omnath Saheeli 
+ 1 Pyro Ascension 
+ 4 Rakdos Midrange 
+ 2 Rakdos Prowess 
+ 3 Reclamation 
+ 14 Shadow Prowess 
+ 2 Stoneblade 
+ 6 Taking Turns 
+ 2 Temur Control 
+ 1 Thopter Urza 
+ 1 UBRG Control 
+ 1 UBRG Midrange 
+ 1 Uroza 
+ 47 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#zyuryo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#bgoose_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#katoriarch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#maxmagicer_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#domswitch_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#nekomap_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#dm_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#zyuryo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#dm_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#zyuryo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#coldpier_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#domswitch_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#ghash_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#dolly_d_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#adincann_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#canadianninja_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#jaberwocki_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#taraaasyk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#rastaf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#usama_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#umekawaneiku_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#swordhunter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#bigbn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#dejoyofgaming_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#wuhsa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#karnesis_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#mazzu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#exoticherman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#talisker_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#runnrunnr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#ggoggles_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#katoriarch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-01#katoriarch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#underwaterbimbo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#kyuubioffate_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#underwaterbimbo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#moksha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#golphinus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#moksha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#svensveetersven_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#sanitoeter_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#domswitch_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-01#scipios_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-01#albert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#cordotwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#dmwake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-08#albert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-08#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-28#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-28#delicinha_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-28#povertyhugefan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#golgarburr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#delicinha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#joetru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#mcwinsauce_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#hoveydw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#sanitoeter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#the_nayr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#joetru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#rastaf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#delicinha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#ramp_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#sakeizumo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#granddrou_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-04-11#jessy_samek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-04-11#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-04-11#browning_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#sanitoeter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#juomaru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#bigbn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#tiko_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#drpp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#darthkid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#bobthedog_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#capriccioso_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#sanitoeter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#trunks_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#ragingtiltmonster_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#mgoetze_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#soulstrong_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#sanitoeter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#oinkmage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#olioolli_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#yumad_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#jedgi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#starfall_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#maikage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#manacymbal_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#starfall_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#soulstrong_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#dignika_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#sourceodin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#armjr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#alphafrog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#rastaf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#domswitch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#albert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#phill_hellmuth_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#hiyarako_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#zecarlonxo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#hardcorehenry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#chilledaded_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#sourceodin_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#simocr_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#bnlunt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#spiderspace_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#shadow_pt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#pedrogush_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#domswitch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#mxlzxk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#lukas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#nahuel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#simocr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#draccon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#rhetoryx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#bigbn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#dmwake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#superdan__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#justodeangelo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#antarctica_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#manacymbal_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#shadow_pt_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#weishengzhishabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#domswitch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#megophias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#joetru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#pedrogush_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#joetru_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#cvxw_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-13#thebigmoke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#gods_shadow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-21#spellvine_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-27#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-28#extraeasy_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-28#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-28#mrcafouillette_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-07-04#stturnnegator_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-07-04#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-26#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-15#simarisu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-12#simarisu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#mrraeb_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#simarisu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-24#vyncint_blankenship_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-25#tiemuuu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-26#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-02#archaeusdota_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-02#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-05#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-08#taruto_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-08#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-12#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-12#lavaridge_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-12#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-12#exoticherman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-13#patxi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-13#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-16#ghett_smart_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-19#_tia__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-19#wuhsa_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-19#kazuga_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-20#patxi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-20#evange__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#_batutinha__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#jaberwocki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-27#felo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-28#andrw_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-29#taraaasyk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-30#katuo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-05#tixis_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-06#patrick_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-18#moksha_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-20#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-23#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-25#pokerswizard_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-26#pokerswizard_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-03#duggie_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-03#trisky_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#homsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-06#felider_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-09#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-09#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-10#felider_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-25#killersuv_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-26#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-26#rastaf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-27#integralhdk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-30#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-30#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-01#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-01#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-02#albimtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-02#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-03#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-06#mrbigo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-09#wambocmad_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-09#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-13#nosonosan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-13#giaws_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-14#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-15#jessy_samek_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-15#paul-blart-mall-cop_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#albert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-21#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-22#bcs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-23#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-24#tiemuuu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-29#spiderspace_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-01#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#knaijin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-05#granddrou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-05#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-05#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-06#yumad_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-07#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-07#jmcp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-08#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-08#kohei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#samwise_geegee_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#funkimunki_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-13#patrick_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-13#mcleskey_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-13#domswitch_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-14#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-15#randomoctopus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#maicmaic_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#deftjad_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#dmwake_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#kohei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#sourceodin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#evange__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-20#rastaf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-20#connorm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-20#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-20#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-22#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-22#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-25#smann_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-25#connorm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-26#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-27#oxywithmoxy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-28#kthanakit_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-28#gyyby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-29#armjr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-29#oxywithmoxy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-03#folero_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-03#theo_jung_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-04#zonast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-05#jsteed_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-09#faunkeh_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-15#alanalana_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-15#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-17#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-22#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-22#toyokwsk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-24#turtsforhire_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-01#neravius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-22#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-10#magicofplayer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-11#azatoyellow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-14#triosk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-14#simarisu_- 
+","Mathias Kollros","R",2,"Sorcery","ZNR",0.8,5.5,2.3
+"Feed the Swarm",76,53,240,344,69.8,64.6,74.6," 2 Asmo Food 
+ 1 Aura Reanimator 
+ 1 Grixis Monkey 
+ 7 Grixis Shadow 
+ 7 Inverter Combo 
+ 5 Mardu Midrange 
+ 5 Mill 
+ 5 Rakdos Midrange 
+ 2 Rakdos Prowess 
+ 6 Shadow Prowess 
+ 3 Skelementals 
+ 2 Sultai Shadow 
+ 4 WUBR Monkey 
+ 3 WUBR Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#otherwhitestuff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#fgfonseca_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#otherwhitestuff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#fgfonseca_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#nekonekoneko_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#karnesis_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#brunister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#svensveetersven_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-08#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-28#hokunamatataa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#sprouts_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-03#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#ljex_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#asoen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#ljex_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-27#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-25#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-07-26#_tia__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-08-01#walaoumpa_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-08-01#benchsummer_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-08#walaoumpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-08#benchsummer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-15#walaoumpa_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-22#volrath_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-30#dragonfodder_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-05#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-29#magic_dan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-12-20#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-27#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-05#kokka_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-19#magic_dan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-27#felider_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-28#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-10#respectthecat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-18#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-13#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#dragonfodder_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-05#musasabi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-07#musasabi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#joker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#tyaburi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-08#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-10#vtcla_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-16#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-31#bradderskull_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-03#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-10#kisfor_- 
+","Andrey Kuzinskiy","B",2,"Sorcery","ZNR",0.1,1,1.4
+"Forsaken Monument",1,1,5,8,62.5,24.5,91.5," 1 Eldrazi Tron 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-28#haruhilmi_th_place 
+","Piotr Dura","",5,"Artifact","ZNR",0,0,1
+"Inscription of Abundance",3,1,3,4,75,19.4,99.4," 1 Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-27#nekonii_- 
+","Zoltan Boros","G",2,"Instant","ZNR",0,0,3
+"Lullmage's Domination",9,3,18,23,78.3,56.3,92.5," 3 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#fake-news_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#blitzlion_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-15#eragon_- 
+","Zezhou Chen","U",3,"Sorcery","ZNR",0,0.1,3
+"Omnath, Locus of Creation",2,2,10,15,66.7,38.4,88.2," 2 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-27#lannynyny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#thebigmoke_th_place 
+","Chris Rahn","G,R,U,W",4,"Creature","ZNR",0,0,1
+"Pelakka Predation",2,1,3,4,75,19.4,99.4," 1 Oops All Spells 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-11#ikashy_- 
+","Jokubas Uogintas","B",3,"Sorcery","ZNR",0,0,2
+"Roiling Vortex",581,212,982,1374,71.5,69,73.8," 209 Burn 
+ 1 Domain Zoo 
+ 2 Mono Red Prowess 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-03#sugarmountain_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#xame_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#fermtg_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#urbanpope_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#marolanzi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#_lsn__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#silvanelf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#warehousegames_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-24#clyde_the_glide_drexler_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#cubas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#giovanimf_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#_lsn__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#newhj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#boin_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#tugganaxos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#kthanakit_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#patheus__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-14#succulent_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#fingers_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#staffmat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-01#jjm_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#edel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#yamakiller_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#hdgamers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#dweebdog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#darkuna_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-25#mtgobazaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#jvidarte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-04#sandydogmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#sickworld_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#lord_beerus_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-05-17#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#mdvwin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-30#lord_beerus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#sickworld_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#justjack_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#tckegtapper_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#sickworld_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-26#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-08-01#oddlyuneven_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-08-01#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-02#-vidar-_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-02#lanmee_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-09#-vidar-_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-16#-vidar-_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-16#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-08-16#romerito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-22#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-23#ionalien_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-29#sickworld_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-29#lollopollo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-30#ulrikk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-05#frakom_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-05#rileydk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-05#sickworld_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-12#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-13#sickworld_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-19#artem_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#norrathdecay_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#misstrigger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#artem_go_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-20#hyeri_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#oddlyuneven_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#beenew_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#xxshuicunexx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-09-26#edel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#guiyote_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#endercreeper_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-27#handsomeppz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-03#hyeri_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#melody__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-04#endercreeper_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-10#frakom_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#kokysk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-11#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#basic_forrest_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#zonda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-16#_shatun__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-17#azax_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-18#oddlyuneven_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-18#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-premier-2021-10-18#toondoslav_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-25#_takeno__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-25#aliquanto_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-25#oddlyuneven_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-31#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-31#varal_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-10-31#second_sunrise_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-01#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-08#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-11-14#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-11-14#mcleskey_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-22#jamiiejr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-22#benjamin_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-28#supercow_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-29#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-29#benjamin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-06#xxshuicunexx_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-13#justjack_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-19#larougemtg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-20#justjack_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-12-20#quinniac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-12-20#romerito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-26#kpa_king_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-27#kpa_king_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-05#simonefierro_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-06#simonefierro_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-06#radmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-09#wadapusrex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-16#wadapusrex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-21#yamakiller_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-26#umekawaneiku_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-11#pootisgodsamongus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-25#chufal_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-04#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#josemasalteras_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-01#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-03#darbsoma_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-06#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-08#poorkid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-13#ursamajor_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-14#ursamajor_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-07#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-14#oosunq_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-15#scipios_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-15#bmac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-22#dgreen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-22#lain_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-22#_tia__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-25#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-28#sickworld_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-29#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-01#wizard__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-01#maxxattack_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-03#maxxattack_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-04#maxxattack_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-04#sickworld_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-09#kruse_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-10#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-11#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-12#oderus_urungus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-13#oderus_urungus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-17#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-18#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-19#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-20#xxshuicunexx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-24#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-08-25#ionalien_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-01#seitasan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-04#ionalien_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-09#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-17#boin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-18#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-23#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-23#jjm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-30#natebell_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-01#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-01#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-02#joaoclaudioms_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-05#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-07#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-08#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-13#coert_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-15#_shatun__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-16#quinniac_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-21#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-28#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-29#hopeof_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-30#fingers_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-06#cachorrowo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-11#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-16#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-16#epicwarfare_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-27#beenew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-04#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-09#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+","Campbell White","R",2,"Enchantment","ZNR",0.7,3.9,2.7
+"Scourge of the Skyclaves",7,4,22,30,73.3,54.1,87.7," 3 Mardu Midrange 
+ 1 WUBR Monkey 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-08-01#walaoumpa_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-22#edwardhands_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-29#edwardhands_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-09-07#mikogk_- 
+","Chase Stone","B",2,"Creature","ZNR",0,0.1,1.8
+"Shadows' Verdict",25,25,128,166,77.1,70,83.3," 25 Niv To Light 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-04#godofslaughter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-05#thebigmoke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#yusei_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#lilianaofthevess_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#rngspecialist_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-10#benbot_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-04-11#rngspecialist_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#stturnnegator_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-02#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-05-15#otakkun_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-16#flshtph_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-08-15#martin_dominguez_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#_batutinha__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-06#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-10#friskifraska_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-13#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-17#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-28#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-18#winterlong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#alemilan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-19#otakkun_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-03#nammersquats_- 
+","Lius Lasahido","B",5,"Sorcery","ZNR",0,0.5,1
+"Skyclave Apparition",149,96,474,653,72.6,69,76," 2 5 Color Turbo Tibalt 
+ 1 Boros Blink 
+ 1 Esper Midrange 
+ 5 Grinding Breach 
+ 50 Heliod Combo 
+ 32 Humans 
+ 1 Merfolk 
+ 1 Mono White Taxes 
+ 2 Winota 
+ 1 WURG Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#arrias_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-04#sommertroll_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-10#masongrode_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#maxmagicer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-21#pintogeddon_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#maxmagicer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-26#pintogeddon_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#nazart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-01-17#supercow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#oigachi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-18#ranklynx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#dmwake_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-01-19#kungpowpow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#nsroller_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-24#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#acg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#nazart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-25#deneblyrae_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#maxmagicer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#azax_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#wizard__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#chefow_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-01-31#wambocombo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#nammersquats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-01-31#mlgb_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-01#game_night_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#cavedan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#wambocombo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-07#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#kaktusowysmok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#daibloxsc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-08#cavedan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#billythekiddie_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-champ-qual-2021-02-15#remf_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#jujubean___nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#stompy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#adebevoise_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-21#luismj_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#mrraeb_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-02-22#paucr_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#coert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#chefow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#bernardocssa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-03-07#ajolot_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-08#stompy_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-08#kolbej_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-03-29#dhuuum_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2021-04-06#ilidiothebrabosl_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-12#granham_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-18#lacansa_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-19#pmk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-04-26#wizard__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-17#mei_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#xragedfurballx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#pmk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-13#adebevoise_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-14#xragedfurballx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-21#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-05#fluorspar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-12#fluorspar_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-19#fluorspar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-19#kevilynn_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-05#masontj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-07#elyallo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-09#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-14#jujubean___- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-14#pmk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-16#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-21#aplapp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-23#arrias_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-27#e_kaminuma_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-28#lbbl_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-01-30#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-04#wambocombo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-02-26#yamakiller_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-02#sknerusmckwacz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-05#nightknight_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-06#kolbej_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-10#sknerusmckwacz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-10#patxi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-23#manaproductins_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-03-27#acg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-01#jositoshekel_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-09#wizard__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-27#newspaper_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-04-30#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-04#marduscout_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-13#wizard__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-07-13#carson_caruso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-10-06#jpsn_- 
+","Donato Giancola","W",3,"Creature","ZNR",0.2,1.8,1.6
+"Thieving Skydiver",16,6,35,44,79.5,64.7,90.2," 4 Hammer Time 
+ 2 Merfolk 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2021-11-14#tulio_jaudy_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-11-21#mariogomes_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-26#mariogomes_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-12-27#mariogomes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-18#vitis_vinifera_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-11-23#mariogomes_- 
+","Kieran Yanner","U",2,"Creature","ZNR",0,0.1,2.7
+"Valakut Awakening",18,10,49,69,71,58.8,81.3," 5 Blue Living End 
+ 3 Living End 
+ 2 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-09#sodeq_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-05-10#sodeq_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#oxywithmoxy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#heibing_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-06#aspiringspike_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-07#oxywithmoxy_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-07-18#sodeq_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-05-11#fingers_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-06-04#heibing_- 
+","Campbell White","R",3,"Instant","ZNR",0,0.2,1.8
+"Yasharn, Implacable Earth",2,2,12,16,75,47.6,92.7," 1 Amulet Titan 
+ 1 Kiki Chord 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-06-13#musasabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2021-09-13#kurusu_th_place 
+","G-host Lee","G,W",4,"Creature","ZNR",0,0,1

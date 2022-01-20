@@ -1,0 +1,1220 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Abbot of Keral Keep",21,7,36,54,66.7,52.5,78.9,NA,NA,"Deruchenko Alexander","R",2,"Creature","ORI",0,0.3,3
+"2","Abiding Grace",7,2,9,15,60,32.3,83.7,NA,NA,"Ravenna Tran","W",3,"Enchantment","MH2",0,0.1,3.5
+"3","Abrade",23,21,112,163,68.7,61,75.7,NA,NA,"Jonas De Ro","R",2,"Instant","HOU",0,0.8,1.1
+"4","Abrupt Decay",130,77,437,615,71.1,67.3,74.6,NA,NA,"Svetlin Velinov","B,G",2,"Instant","RTR",0.1,3,1.7
+"5","Absorb",1,1,4,7,57.1,18.4,90.1,NA,NA,"Andrew Goldhawk","U,W",3,"Instant","INV",0,0,1
+"6","Abundant Growth",170,45,250,353,70.8,65.8,75.5,NA,NA,"Vincent Proce","G",1,"Enchantment","AVR",0.1,1.8,3.8
+"7","Abundant Harvest",61,20,114,163,69.9,62.3,76.9,NA,NA,"Iris Compiet","G",1,"Sorcery","MH2",0,0.8,3
+"8","Academy Manufactor",6,2,10,15,66.7,38.4,88.2,NA,NA,"Campbell White","",3,"Artifact,Creature","MH2",0,0.1,3
+"9","Academy Ruins",7,7,34,52,65.4,50.9,78,NA,NA,"Zoltan Boros & Gabor Szikszai","",0,"Land","TSP",0,0.3,1
+"10","Accorder's Shield",8,5,24,37,64.9,47.5,79.8,NA,NA,"Alan Pollack","",0,"Artifact","SOM",0,0.2,1.6
+"11","Acidic Slime",1,1,7,9,77.8,40,97.2,NA,NA,"Karl Kopinski","G",5,"Creature","M10",0,0,1
+"12","Ad Nauseam",77,28,159,222,71.6,65.2,77.5,NA,NA,"Jeremy Jarvis","B",5,"Instant","ALA",0.1,1.1,2.8
+"13","Adarkar Wastes",4,2,10,14,71.4,41.9,91.6,NA,NA,"Mike Raabe","",0,"Land","ICE",0,0.1,2
+"14","Adeline, Resplendent Cathar",7,3,16,23,69.6,47.1,86.8,NA,NA,"Bryan Sola","W",3,"Creature","MID",0,0.1,2.3
+"15","Adventurous Impulse",16,7,46,60,76.7,64,86.6,NA,NA,"Titus Lunter","G",1,"Sorcery","DOM",0,0.3,2.3
+"16","Aether Gust",15,14,72,107,67.3,57.5,76,NA,NA,"Tomasz Jedruszek","U",2,"Instant","M20",0,0.6,1.1
+"17","Aether Hub",12,3,13,21,61.9,38.4,81.9,NA,NA,"Sam Burley","",0,"Land","KLD",0,0.1,4
+"18","Aether Spellbomb",41,38,210,304,69.1,63.6,74.2,NA,NA,"Jim Nelson","",1,"Artifact","MRD",0,1.5,1.1
+"19","Aether Vial",540,136,738,1054,70,67.2,72.8,NA,NA,"Greg Hildebrandt","",1,"Artifact","DST",0.4,5.4,4
+"20","Agadeem's Awakening",45,18,97,142,68.3,60,75.9,NA,NA,"Dmitry Burmak","B",3,"Sorcery","ZNR",0,0.7,2.5
+"21","Ajani, Adversary of Tyrants",1,1,5,7,71.4,29,96.3,NA,NA,"Victor Adame Minguez","W",4,"Planeswalker","M19",0,0,1
+"22","All Is Dust",162,94,496,719,69,65.5,72.4,NA,NA,"Jason Felix","",7,"Tribal,Sorcery","ROE",0.1,3.7,1.7
+"23","All That Glitters",8,4,23,31,74.2,55.4,88.1,NA,NA,"Iain McCaig","W",2,"Enchantment","ELD",0,0.2,2
+"24","Altar of Dementia",4,2,11,15,73.3,44.9,92.2,NA,NA,"Brom","",2,"Artifact","TMP",0,0.1,2
+"25","Amulet of Vigor",312,78,449,628,71.5,67.8,75,NA,NA,"Warren Mahy","",1,"Artifact","WWK",0.2,3.1,4
+"26","Anafenza, the Foremost",2,1,5,8,62.5,24.5,91.5,NA,NA,"James Ryman","B,G,W",3,"Creature","KTK",0,0,2
+"27","Ancestral Vision",26,8,36,58,62.1,48.4,74.5,NA,NA,"Mark Poole","U",0,"Sorcery","TSP",0,0.3,3.2
+"28","Ancient Stirrings",339,88,469,675,69.5,65.9,72.9,NA,NA,"Vincent Proce","G",1,"Sorcery","ROE",0.2,3.5,3.9
+"29","Ancient Ziggurat",128,32,162,243,66.7,60.4,72.6,NA,NA,"John Avon","",0,"Land","CON",0.1,1.3,4
+"30","Angel's Grace",112,28,159,222,71.6,65.2,77.5,NA,NA,"Mark Zug","W",1,"Instant","TSP",0.1,1.1,4
+"31","Anger of the Gods",10,8,48,65,73.8,61.5,84,NA,NA,"Noah Bradley","R",3,"Sorcery","THS",0,0.3,1.2
+"32","Anguished Unmaking",1,1,4,7,57.1,18.4,90.1,NA,NA,"Wesley Burt","B,W",3,"Instant","SOI",0,0,1
+"33","Animation Module",13,11,65,89,73,62.6,81.9,NA,NA,"Aaron Miller","",1,"Artifact","KLD",0,0.4,1.2
+"34","Arasta of the Endless Web",1,1,4,7,57.1,18.4,90.1,NA,NA,"Sam Rowan","G",4,"Enchantment,Creature","THB",0,0,1
+"35","Arbor Elf",460,115,639,906,70.5,67.4,73.5,NA,NA,"rk post","G",1,"Creature","WWK",0.3,4.5,4
+"36","Arboreal Grazer",242,78,442,624,70.8,67.1,74.4,NA,NA,"Jason Rainville","G",1,"Creature","WAR",0.2,3.1,3.1
+"37","Arcane Flight",3,1,4,7,57.1,18.4,90.1,NA,NA,"Steve Prescott","U",1,"Enchantment","DOM",0,0,3
+"38","Arcbound Javelineer",3,1,5,7,71.4,29,96.3,NA,NA,"Eric Deschamps","W",1,"Artifact,Creature","MH2",0,0,3
+"39","Arcbound Mouser",3,1,5,7,71.4,29,96.3,NA,NA,"Campbell White","W",1,"Artifact,Creature","MH2",0,0,3
+"40","Arcbound Ravager",68,17,95,132,72,63.5,79.4,NA,NA,"Carl Critchlow","",2,"Artifact,Creature","DST",0,0.7,4
+"41","Arcbound Worker",48,15,85,118,72,63,79.9,NA,NA,"Darrell Riche","",1,"Artifact,Creature","DST",0,0.6,3.2
+"42","Archangel of Thune",14,8,53,69,76.8,65.1,86.1,NA,NA,"James Ryman","W",5,"Creature","M14",0,0.3,1.8
+"43","Architects of Will",246,64,359,507,70.8,66.6,74.7,NA,NA,"Matt Stewart","B,U",4,"Artifact,Creature","ARB",0.2,2.5,3.8
+"44","Archive Trap",176,44,261,357,73.1,68.2,77.6,NA,NA,"Jason Felix","U",5,"Instant","ZEN",0.1,1.7,4
+"45","Archmage's Charm",966,312,1700,2428,70,68.2,71.8,NA,NA,"Alayna Danner","U",3,"Instant","MH1",0.6,12.3,3.1
+"46","Archon of Cruelty",33,11,64,88,72.7,62.2,81.7,NA,NA,"Andrew Mar","B",8,"Creature","MH2",0,0.4,3
+"47","Archon of Emeria",96,33,176,256,68.8,62.7,74.4,NA,NA,"Ryan Pancoast","W",3,"Creature","ZNR",0.1,1.3,2.9
+"48","Arclight Phoenix",8,2,11,15,73.3,44.9,92.2,NA,NA,"Slawomir Maniak","R",4,"Creature","GRN",0,0.1,4
+"49","Ardent Plea",228,61,347,485,71.5,67.3,75.5,NA,NA,"Chippy","U,W",3,"Enchantment","ARB",0.1,2.4,3.7
+"50","Arid Mesa",912,388,2118,3042,69.6,68,71.3,NA,NA,"Raymond Swanland","",0,"Land","ZEN",0.6,15.3,2.4
+"51","As Foretold",46,14,71,106,67,57.2,75.8,NA,NA,"Tommy Arnold","U",3,"Enchantment","AKH",0,0.6,3.3
+"52","Ascendant Spirit",1,1,4,7,57.1,18.4,90.1,NA,NA,"Lie Setiawan","U",1,"Creature","KHM",0,0,1
+"53","Ashen Rider",4,4,22,31,71,52,85.8,NA,NA,"Chris Rahn","B,W",8,"Creature","THS",0,0.2,1
+"54","Ashiok, Dream Render",3,3,16,22,72.7,49.8,89.3,NA,NA,"Cynthia Sheppard","B,U",3,"Planeswalker","WAR",0,0.1,1
+"55","Asmoranomardicadaistinaculdacar",116,29,174,241,72.2,66.1,77.8,NA,NA,"Ryan Pancoast","B,R",0,"Creature","MH2",0.1,1.1,4
+"56","Assassin's Trophy",131,73,407,579,70.3,66.4,74,NA,NA,"Seb McKinnon","B,G",2,"Instant","GRN",0.1,2.9,1.8
+"57","Assault // Battery",4,1,6,8,75,34.9,96.8,NA,NA,"Ben Thompson","R",5,"Sorcery","INV",0,0,4
+"58","Assault Strobe",2,1,6,8,75,34.9,96.8,NA,NA,"Kev Walker","R",1,"Sorcery","SOM",0,0,2
+"59","Astral Cornucopia",4,1,4,7,57.1,18.4,90.1,NA,NA,"Aleksi Briclot","",0,"Artifact","BNG",0,0,4
+"60","Atarka's Command",4,1,5,7,71.4,29,96.3,NA,NA,"Chris Rahn","G,R",2,"Instant","DTK",0,0,4
+"61","Augur of Autumn",1,1,4,7,57.1,18.4,90.1,NA,NA,"Billy Christian","G",3,"Creature","MID",0,0,1
+"62","Augur of Bolas",1,1,5,7,71.4,29,96.3,NA,NA,"Slawomir Maniak","U",2,"Creature","M13",0,0,1
+"63","Auntie's Hovel",28,7,33,51,64.7,50.1,77.6,NA,NA,"Wayne Reynolds","",0,"Land","LRW",0,0.3,4
+"64","Auriok Champion",306,101,569,804,70.8,67.5,73.9,NA,NA,"Michael Sutfin","W",2,"Creature","5DN",0.2,4,3
+"65","Autochthon Wurm",4,1,4,7,57.1,18.4,90.1,NA,NA,"Michael Phillippi","G,W",15,"Creature","RAV",0,0,4
+"66","Avacyn's Pilgrim",1,1,4,7,57.1,18.4,90.1,NA,NA,"Jana Schirmer & Johannes Voss","G",1,"Creature","ISD",0,0,1
+"67","Avalanche Riders",5,2,11,16,68.8,41.3,89,NA,NA,"Edward P. Beard, Jr.","R",4,"Creature","ULG",0,0.1,2.5
+"68","Aven Mindcensor",5,3,15,21,71.4,47.8,88.7,NA,NA,"Rebecca Guay","W",3,"Creature","FUT",0,0.1,1.7
+"69","Azusa, Lost but Seeking",111,77,444,621,71.5,67.8,75,NA,NA,"Todd Lockwood","G",3,"Creature","CHK",0.1,3,1.4
+"70","Bala Ged Recovery",47,14,74,106,69.8,60.1,78.3,NA,NA,"Lucas Staniec","G",3,"Sorcery","ZNR",0,0.6,3.4
+"71","Baleful Mastery",3,2,9,14,64.3,35.1,87.2,NA,NA,"Chris Cold","B",4,"Instant","STX",0,0.1,1.5
+"72","Balustrade Spy",24,6,35,51,68.6,54.1,80.9,NA,NA,"Jaime Jones","B",4,"Creature","GTC",0,0.2,4
+"73","Banishing Light",2,2,10,15,66.7,38.4,88.2,NA,NA,"Willian Murai","W",3,"Enchantment","JOU",0,0.1,1
+"74","Baral, Chief of Compliance",36,9,44,66,66.7,54,77.8,NA,NA,"Wesley Burt","U",2,"Creature","AER",0,0.4,4
+"75","Barren Moor",9,9,51,72,70.8,58.9,81,NA,NA,"Heather Hudson","",0,"Land","ONS",0,0.4,1
+"76","Basilisk Collar",11,11,62,86,72.1,61.4,81.2,NA,NA,"Howard Lyon","",1,"Artifact","WWK",0,0.4,1
+"77","Batterskull",98,98,538,763,70.5,67.1,73.7,NA,NA,"Mark Zug","",5,"Artifact","NPH",0.1,3.9,1
+"78","Battle Mastery",1,1,6,8,75,34.9,96.8,NA,NA,"Zoltan Boros & Gabor Szikszai","W",3,"Enchantment","LRW",0,0,1
+"79","Battlefield Forge",8,4,22,32,68.8,50,83.9,NA,NA,"Darrell Riche","",0,"Land","APC",0,0.2,2
+"80","Beanstalk Giant",1,1,8,10,80,44.4,97.5,NA,NA,"Jason A. Engle","G",7,"Creature","ELD",0,0,1
+"81","Become Immense",25,23,118,172,68.6,61.1,75.5,NA,NA,"Jaime Jones","G",6,"Instant","KTK",0,0.9,1.1
+"82","Bedlam Reveler",44,36,204,288,70.8,65.2,76,NA,NA,"Jama Jurabaev","R",8,"Creature","EMN",0,1.4,1.2
+"83","Behold the Multiverse",16,11,67,92,72.8,62.6,81.6,NA,NA,"Magali Villeneuve","U",4,"Instant","KHM",0,0.4,1.5
+"84","Birds of Paradise",269,96,534,747,71.5,68.1,74.7,NA,NA,"Mark Poole","G",1,"Creature","LEA",0.2,3.8,2.8
+"85","Birgi, God of Storytelling",8,3,14,23,60.9,38.5,80.3,NA,NA,"Eric Deschamps","R",3,"Creature","KHM",0,0.1,2.7
+"86","Bitterblossom",7,2,8,14,57.1,28.9,82.3,NA,NA,"Rebecca Guay","B",2,"Tribal,Enchantment","MOR",0,0.1,3.5
+"87","Blackcleave Cliffs",546,170,945,1348,70.1,67.6,72.5,NA,NA,"Dave Kendall","",0,"Land","SOM",0.4,6.7,3.2
+"88","Blacksmith's Skill",1,1,5,7,71.4,29,96.3,NA,NA,"Jason A. Engle","W",1,"Instant","MH2",0,0,1
+"89","Blast Zone",312,206,1116,1597,69.9,67.6,72.1,NA,NA,"Chris Ostrowski","",0,"Land","WAR",0.2,8.1,1.5
+"90","Blighted Agent",84,21,107,156,68.6,60.7,75.8,NA,NA,"Anthony Francisco","U",2,"Creature","NPH",0.1,0.8,4
+"91","Blightstep Pathway",10,5,25,38,65.8,48.6,80.4,NA,NA,"Ravenna Tran","",0,"Land","KHM",0,0.2,2
+"92","Blinkmoth Infusion",2,1,4,7,57.1,18.4,90.1,NA,NA,"Alan Pollack","U",14,"Instant","5DN",0,0,2
+"93","Blinkmoth Nexus",28,22,117,172,68,60.5,74.9,NA,NA,"Brian Snõddy","",0,"Land","DST",0,0.9,1.3
+"94","Blistercoil Weird",5,5,30,39,76.9,60.7,88.9,NA,NA,"Dan Scott","R,U",1,"Creature","RTR",0,0.2,1
+"95","Blood Artist",27,27,144,205,70.2,63.5,76.4,NA,NA,"Johannes Voss","B",2,"Creature","AVR",0,1.1,1
+"96","Blood Crypt",805,389,2127,3055,69.6,68,71.3,NA,NA,"Rob Alexander","",0,"Land","DIS",0.5,15.4,2.1
+"97","Blood Moon",411,120,645,925,69.7,66.7,72.7,NA,NA,"Tom Wänerstrand","R",3,"Enchantment","DRK",0.3,4.7,3.4
+"98","Blood Sun",2,1,4,7,57.1,18.4,90.1,NA,NA,"Emrah Elmasli","R",3,"Enchantment","RIX",0,0,2
+"99","Bloodbraid Elf",200,56,303,433,70,65.4,74.3,NA,NA,"Dominick Domingo","G,R",4,"Creature","ARB",0.1,2.2,3.6
+"100","Bloodbraid Marauder",3,1,4,7,57.1,18.4,90.1,NA,NA,"Kari Christensen","R",2,"Creature","MH2",0,0,3
+"101","Bloodchief's Thirst",47,33,171,254,67.3,61.2,73.1,NA,NA,"Jason Rainville","B",1,"Sorcery","ZNR",0,1.3,1.4
+"102","Bloodghast",105,36,206,290,71,65.4,76.2,NA,NA,"Daarken","B",2,"Creature","ZEN",0.1,1.4,2.9
+"103","Bloodstained Mire",1738,582,3182,4562,69.8,68.4,71.1,NA,NA,"Rob Alexander","",0,"Land","ONS",1.1,23,3
+"104","Blooming Marsh",243,81,452,635,71.2,67.5,74.7,NA,NA,"Adam Paquette","",0,"Land","KLD",0.2,3.2,3
+"105","Blossoming Defense",81,24,122,178,68.5,61.2,75.3,NA,NA,"Anastasia Ovchinnikova","G",1,"Instant","KLD",0.1,0.9,3.4
+"106","Boggart Harbinger",23,6,28,43,65.1,49.1,79,NA,NA,"Steve Prescott","B",3,"Creature","LRW",0,0.2,3.8
+"107","Bojuka Bog",60,60,344,479,71.8,67.6,75.8,NA,NA,"Howard Lyon","",0,"Land","WWK",0,2.4,1
+"108","Bomat Courier",131,36,205,289,70.9,65.3,76.1,NA,NA,"Craig J Spearing","",1,"Artifact,Creature","KLD",0.1,1.4,3.6
+"109","Bonders' Enclave",1,1,5,7,71.4,29,96.3,NA,NA,"Cliff Childs","",0,"Land","IKO",0,0,1
+"110","Bone Shards",31,16,95,134,70.9,62.4,78.4,NA,NA,"Tommy Arnold","B",1,"Sorcery","MH2",0,0.6,1.9
+"111","Bonecrusher Giant",503,160,905,1269,71.3,68.7,73.8,NA,NA,"Victor Adame Minguez","R",3,"Creature","ELD",0.3,6.3,3.1
+"112","Boom // Bust",24,6,33,47,70.2,55.1,82.7,NA,NA,"John Avon","R",8,"Sorcery","PLC",0,0.2,4
+"113","Borborygmos Enraged",2,1,5,8,62.5,24.5,91.5,NA,NA,"Aleksi Briclot","G,R",8,"Creature","GTC",0,0,2
+"114","Boros Charm",519,136,713,1045,68.2,65.3,71,NA,NA,"Zoltan Boros","R,W",2,"Instant","GTC",0.3,5.4,3.8
+"115","Boros Garrison",61,61,357,492,72.6,68.4,76.5,NA,NA,"John Avon","",0,"Land","RAV",0,2.4,1
+"116","Boseiju, Who Shelters All",1,1,4,7,57.1,18.4,90.1,NA,NA,"Ralph Horsley","",0,"Land","CHK",0,0,1
+"117","Botanical Sanctum",314,106,592,834,71,67.8,74,NA,NA,"Christine Choi","",0,"Land","KLD",0.2,4.2,3
+"118","Brain Maggot",6,3,15,23,65.2,42.7,83.6,NA,NA,"Min Yum","B",2,"Enchantment,Creature","JOU",0,0.1,2
+"119","Brainstone",17,7,38,55,69.1,55.2,80.9,NA,NA,"Drew Tucker","",1,"Artifact","MH2",0,0.3,2.4
+"120","Branchloft Pathway",27,13,74,104,71.2,61.4,79.6,NA,NA,"Titus Lunter","",0,"Land","ZNR",0,0.5,2.1
+"121","Brazen Borrower",701,261,1441,2043,70.5,68.5,72.5,NA,NA,"Eric Deschamps","U",3,"Creature","ELD",0.5,10.3,2.7
+"122","Breeding Pool",752,581,3222,4561,70.6,69.3,72,NA,NA,"Rob Alexander","",0,"Land","DIS",0.5,23,1.3
+"123","Brightclimb Pathway",39,12,62,91,68.1,57.5,77.5,NA,NA,"Johannes Voss","",0,"Land","ZNR",0,0.5,3.2
+"124","Brilliant Ultimatum",8,2,9,14,64.3,35.1,87.2,NA,NA,"Anthony Francisco","B,U,W",7,"Sorcery","ALA",0,0.1,4
+"125","Bring to Light",310,83,462,652,70.9,67.2,74.3,NA,NA,"Jonas De Ro","G,U",5,"Sorcery","BFZ",0.2,3.3,3.7
+"126","Brought Back",8,2,9,14,64.3,35.1,87.2,NA,NA,"Mitchell Malloy","W",2,"Instant","M20",0,0.1,4
+"127","Brushfire Elemental",2,1,5,8,62.5,24.5,91.5,NA,NA,"Campbell White","G,R",2,"Creature","ZNR",0,0,2
+"128","Brushland",5,2,9,14,64.3,35.1,87.2,NA,NA,"Bryon Wackwitz","",0,"Land","ICE",0,0.1,2.5
+"129","Bump in the Night",23,6,33,48,68.8,53.7,81.3,NA,NA,"Kev Walker","B",1,"Sorcery","ISD",0,0.2,3.8
+"130","Buried Ruin",1,1,6,8,75,34.9,96.8,NA,NA,"Franz Vohwinkel","",0,"Land","M12",0,0,1
+"131","Burning-Tree Emissary",12,3,12,21,57.1,34,78.2,NA,NA,"Izzy","G,R",2,"Creature","GTC",0,0.1,4
+"132","Burning Inquiry",27,11,67,94,71.3,61,80.1,NA,NA,"Zoltan Boros & Gabor Szikszai","R",1,"Sorcery","M10",0,0.4,2.5
+"133","Burrenton Forge-Tender",1,1,6,8,75,34.9,96.8,NA,NA,"Chuck Lukacs","W",1,"Creature","LRW",0,0,1
+"134","Burst Lightning",102,55,311,439,70.8,66.3,75.1,NA,NA,"Vance Kovacs","R",1,"Instant","ZEN",0.1,2.2,1.9
+"135","Cabal Therapist",1,1,5,7,71.4,29,96.3,NA,NA,"Mitchell Malloy","B",1,"Creature","MH1",0,0,1
+"136","Calibrated Blast",4,1,4,7,57.1,18.4,90.1,NA,NA,"Evan Shipard","R",3,"Instant","MH2",0,0,4
+"137","Call of the Death-Dweller",1,1,6,8,75,34.9,96.8,NA,NA,"Vincent Proce","B",3,"Sorcery","IKO",0,0,1
+"138","Callous Bloodmage",4,2,8,14,57.1,28.9,82.3,NA,NA,"Jokubas Uogintas","B",3,"Creature","STX",0,0.1,2
+"139","Canyon Slough",1,1,4,7,57.1,18.4,90.1,NA,NA,"Titus Lunter","",0,"Land","AKH",0,0,1
+"140","Cascade Bluffs",54,23,118,172,68.6,61.1,75.5,NA,NA,"Brandon Kitkouski","",0,"Land","EVE",0,0.9,2.3
+"141","Cascading Cataracts",25,11,61,86,70.9,60.1,80.2,NA,NA,"Noah Bradley","",0,"Land","AKH",0,0.4,2.3
+"142","Cast Out",3,3,15,22,68.2,45.1,86.1,NA,NA,"Magali Villeneuve","W",4,"Enchantment","AKH",0,0.1,1
+"143","Castle Ardenvale",46,42,225,327,68.8,63.5,73.8,NA,NA,"Volkan Baǵa","",0,"Land","ELD",0,1.7,1.1
+"144","Castle Embereth",4,3,15,23,65.2,42.7,83.6,NA,NA,"Jaime Jones","",0,"Land","ELD",0,0.1,1.3
+"145","Castle Garenbrig",286,98,562,787,71.4,68.1,74.5,NA,NA,"Adam Paquette","",0,"Land","ELD",0.2,3.9,2.9
+"146","Castle Locthwain",16,15,81,118,68.6,59.5,76.9,NA,NA,"Titus Lunter","",0,"Land","ELD",0,0.6,1.1
+"147","Castle Vantress",227,124,674,958,70.4,67.4,73.2,NA,NA,"John Avon","",0,"Land","ELD",0.1,4.9,1.8
+"148","Cathartic Pyre",4,1,5,7,71.4,29,96.3,NA,NA,"Ryan Yee","R",2,"Instant","MID",0,0,4
+"149","Cathartic Reunion",148,37,208,296,70.3,64.7,75.4,NA,NA,"Howard Lyon","R",2,"Sorcery","KLD",0.1,1.5,4
+"150","Cauldron Familiar",24,7,41,56,73.2,59.7,84.2,NA,NA,"Milivoj Ćeran","B",1,"Creature","ELD",0,0.3,3.4
+"151","Cavalier of Night",6,6,31,45,68.9,53.4,81.8,NA,NA,"Viktor Titov","B",5,"Creature","M20",0,0.2,1
+"152","Cave of the Frost Dragon",9,5,29,41,70.7,54.5,83.9,NA,NA,"Johannes Voss","",0,"Land","AFR",0,0.2,1.8
+"153","Cavern of Souls",625,287,1607,2263,71,69.1,72.9,NA,NA,"Cliff Childs","",0,"Land","AVR",0.4,11.4,2.2
+"154","Caves of Koilos",3,3,18,24,75,53.3,90.2,NA,NA,"Jim Nelson","",0,"Land","APC",0,0.1,1
+"155","Celestial Colonnade",171,114,619,879,70.4,67.3,73.4,NA,NA,"Eric Deschamps","",0,"Land","WWK",0.1,4.5,1.5
+"156","Cephalid Constable",3,1,4,7,57.1,18.4,90.1,NA,NA,"Alan Pollack","U",3,"Creature","JUD",0,0,3
+"157","Cerulean Wisps",3,1,4,7,57.1,18.4,90.1,NA,NA,"Jim Nelson","U",1,"Instant","SHM",0,0,3
+"158","Chalice of the Void",474,148,814,1146,71,68.3,73.6,NA,NA,"Mark Zug","",0,"Artifact","MRD",0.3,5.9,3.2
+"159","Champion of the Parish",132,33,168,250,67.2,61,73,NA,NA,"Svetlin Velinov","W",1,"Creature","ISD",0.1,1.3,4
+"160","Chancellor of the Annex",4,1,5,7,71.4,29,96.3,NA,NA,"Min Yum","W",7,"Creature","NPH",0,0,4
+"161","Chancellor of the Forge",18,5,30,42,71.4,55.4,84.3,NA,NA,"Chippy","R",7,"Creature","NPH",0,0.2,3.6
+"162","Chandra, Acolyte of Flame",2,2,16,18,88.9,65.3,98.6,NA,NA,"Anna Steinbauer","R",3,"Planeswalker","M20",0,0.1,1
+"163","Chandra, Awakened Inferno",2,2,10,15,66.7,38.4,88.2,NA,NA,"Chris Rahn","R",6,"Planeswalker","M20",0,0.1,1
+"164","Chandra, Torch of Defiance",34,19,99,145,68.3,60,75.7,NA,NA,"Magali Villeneuve","R",4,"Planeswalker","KLD",0,0.8,1.8
+"165","Charge Through",1,1,5,7,71.4,29,96.3,NA,NA,"Craig J Spearing","G",1,"Instant","STX",0,0,1
+"166","Charming Prince",61,24,131,188,69.7,62.6,76.2,NA,NA,"Randy Vargas","W",2,"Creature","ELD",0,0.9,2.5
+"167","Chatterfang, Squirrel General",3,1,5,7,71.4,29,96.3,NA,NA,"Jason A. Engle","G",3,"Creature","MH2",0,0,3
+"168","Chord of Calling",220,55,310,430,72.1,67.6,76.3,NA,NA,"Heather Hudson","G",3,"Instant","RAV",0.1,2.2,4
+"169","Chromanticore",2,1,5,7,71.4,29,96.3,NA,NA,"Min Yum","B,G,R,U,W",5,"Enchantment,Creature","BNG",0,0,2
+"170","Chromatic Sphere",259,67,343,504,68.1,63.8,72.1,NA,NA,"Luca Zontini","",1,"Artifact","INV",0.2,2.7,3.9
+"171","Chromatic Star",310,84,433,635,68.2,64.4,71.8,NA,NA,"Alex Horley-Orlandelli","",1,"Artifact","TSP",0.2,3.3,3.7
+"172","Cinder Glade",21,8,49,67,73.1,60.9,83.2,NA,NA,"Adam Paquette","",0,"Land","BFZ",0,0.3,2.6
+"173","City of Brass",127,44,238,341,69.8,64.6,74.6,NA,NA,"Mark Tedin","",0,"Land","ARN",0.1,1.7,2.9
+"174","Claim // Fame",6,4,20,30,66.7,47.2,82.7,NA,NA,"Jason Rainville","B",3,"Sorcery","HOU",0,0.2,1.5
+"175","Cleansing Wildfire",23,11,65,90,72.2,61.8,81.1,NA,NA,"Mathias Kollros","R",2,"Sorcery","ZNR",0,0.4,2.1
+"176","Clearwater Pathway",72,32,183,256,71.5,65.5,76.9,NA,NA,"Daarken","",0,"Land","ZNR",0,1.3,2.2
+"177","Clever Lumimancer",76,19,98,145,67.6,59.3,75.1,NA,NA,"Lie Setiawan","W",1,"Creature","STX",0,0.8,4
+"178","Cling to Dust",62,47,236,351,67.2,62.1,72.1,NA,NA,"Caio Monteiro","B",1,"Instant","THB",0,1.9,1.3
+"179","Cloudform",2,1,7,9,77.8,40,97.2,NA,NA,"Noah Bradley","U",3,"Enchantment","FRF",0,0,2
+"180","Cloudshredder Sliver",10,3,16,22,72.7,49.8,89.3,NA,NA,"Filip Burburan","R,W",2,"Creature","MH1",0,0.1,3.3
+"181","Codex Shredder",12,3,16,23,69.6,47.1,86.8,NA,NA,"Jason Felix","",1,"Artifact","RTR",0,0.1,4
+"182","Coiling Oracle",8,2,10,14,71.4,41.9,91.6,NA,NA,"Mark Zug","G,U",2,"Creature","DIS",0,0.1,4
+"183","Collected Company",447,112,627,889,70.5,67.4,73.5,NA,NA,"Franz Vohwinkel","G",4,"Instant","DTK",0.3,4.4,4
+"184","Collective Brutality",16,9,47,67,70.1,57.7,80.7,NA,NA,"Johann Bodin","B",2,"Sorcery","EMN",0,0.4,1.8
+"185","Collective Defiance",1,1,7,10,70,34.8,93.3,NA,NA,"Kieran Yanner","R",3,"Sorcery","EMN",0,0,1
+"186","Collector Ouphe",2,1,6,8,75,34.9,96.8,NA,NA,"Filip Burburan","G",2,"Creature","MH1",0,0,2
+"187","Colossus Hammer",820,205,1135,1625,69.8,67.5,72.1,NA,NA,"Dmitry Burmak","",1,"Artifact","M20",0.5,8.1,4
+"188","Commandeer",40,15,82,115,71.3,62.1,79.4,NA,NA,"John Matson","U",7,"Instant","CSP",0,0.6,2.7
+"189","Concealed Courtyard",154,49,253,369,68.6,63.6,73.3,NA,NA,"Jung Park","",0,"Land","KLD",0.1,1.9,3.1
+"190","Conclave Mentor",349,92,521,734,71,67.5,74.2,NA,NA,"Raoul Vitale","G,W",2,"Creature","M21",0.2,3.6,3.8
+"191","Condemn",2,2,9,14,64.3,35.1,87.2,NA,NA,"Daren Bader","W",1,"Instant","DIS",0,0.1,1
+"192","Condescend",3,1,5,8,62.5,24.5,91.5,NA,NA,"Ron Spears","U",1,"Instant","5DN",0,0,3
+"193","Conduit of Ruin",4,2,11,15,73.3,44.9,92.2,NA,NA,"Slawomir Maniak","",6,"Creature","BFZ",0,0.1,2
+"194","Conflagrate",72,37,208,296,70.3,64.7,75.4,NA,NA,"Warren Mahy","R",1,"Sorcery","TSP",0,1.5,1.9
+"195","Consider",39,12,59,90,65.6,54.8,75.3,NA,NA,"Zezhou Chen","U",1,"Instant","MID",0,0.5,3.2
+"196","Conspicuous Snoop",24,6,28,43,65.1,49.1,79,NA,NA,"Zoltan Boros","R",2,"Creature","M21",0,0.2,4
+"197","Copperline Gorge",99,50,271,389,69.7,64.8,74.2,NA,NA,"Zoltan Boros & Gabor Szikszai","",0,"Land","SOM",0.1,2,2
+"198","Coretapper",4,1,4,7,57.1,18.4,90.1,NA,NA,"Dany Orizio","",2,"Artifact,Creature","DST",0,0,4
+"199","Cosima, God of the Voyage",4,3,13,21,61.9,38.4,81.9,NA,NA,"Micah Epstein","U",3,"Creature","KHM",0,0.1,1.3
+"200","Counterspell",891,253,1404,1992,70.5,68.4,72.5,NA,NA,"Mark Poole","U",2,"Instant","LEA",0.6,10,3.5
+"201","Courser of Kruphix",10,5,28,39,71.8,55.1,85,NA,NA,"Eric Deschamps","G",3,"Enchantment,Creature","BNG",0,0.2,2
+"202","Crackling Drake",4,4,20,30,66.7,47.2,82.7,NA,NA,"Victor Adame Minguez","R,U",4,"Creature","GRN",0,0.2,1
+"203","Cragcrown Pathway",40,10,62,81,76.5,65.8,85.2,NA,NA,"Andreas Rocha","",0,"Land","ZNR",0,0.4,4
+"204","Cragplate Baloth",1,1,5,7,71.4,29,96.3,NA,NA,"Jesper Ejsing","G",7,"Creature","ZNR",0,0,1
+"205","Cranial Plating",130,105,563,819,68.7,65.4,71.9,NA,NA,"Adam Rex","",2,"Artifact","5DN",0.1,4.2,1.2
+"206","Crash Through",81,24,121,181,66.9,59.5,73.7,NA,NA,"Izzy","R",1,"Sorcery","HOU",0.1,0.9,3.4
+"207","Crashing Footfalls",392,98,553,778,71.1,67.8,74.2,NA,NA,"Dan Scott","G",0,"Sorcery","MH1",0.3,3.9,4
+"208","Crawling Barrens",2,2,11,16,68.8,41.3,89,NA,NA,"Jonas De Ro","",0,"Land","ZNR",0,0.1,1
+"209","Creeping Chill",188,47,263,377,69.8,64.9,74.4,NA,NA,"Wisnu Tan","B",4,"Sorcery","GRN",0.1,1.9,4
+"210","Creeping Tar Pit",12,8,42,63,66.7,53.7,78,NA,NA,"Jason Felix","",0,"Land","WWK",0,0.3,1.5
+"211","Crime // Punishment",1,1,5,8,62.5,24.5,91.5,NA,NA,"Randy Gallegos","W,B",7,"Sorcery","DIS",0,0,1
+"212","Crumbling Vestige",63,63,362,505,71.7,67.5,75.6,NA,NA,"Zack Stella","",0,"Land","OGW",0,2.5,1
+"213","Crypt Incursion",57,34,205,281,73,67.4,78.1,NA,NA,"Svetlin Velinov","B",3,"Instant","DGM",0,1.3,1.7
+"214","Cryptic Command",644,262,1449,2060,70.3,68.3,72.3,NA,NA,"Wayne England","U",4,"Instant","LRW",0.4,10.4,2.5
+"215","Curator of Mysteries",412,103,576,811,71,67.8,74.1,NA,NA,"Christine Choi","U",4,"Creature","AKH",0.3,4.1,4
+"216","Curious Obsession",4,1,4,7,57.1,18.4,90.1,NA,NA,"Daniel Ljunggren","U",1,"Enchantment","RIX",0,0,4
+"217","Cursecatcher",8,3,16,23,69.6,47.1,86.8,NA,NA,"Warren Mahy","U",1,"Creature","SHM",0,0.1,2.7
+"218","Dakkon, Shadow Slayer",3,1,5,7,71.4,29,96.3,NA,NA,"Richard Kane Ferguson","B,U,W",3,"Planeswalker","MH2",0,0,3
+"219","Dakmor Salvage",10,10,56,80,70,58.7,79.7,NA,NA,"John Avon","",0,"Land","FUT",0,0.4,1
+"220","Damn",17,12,61,90,67.8,57.1,77.2,NA,NA,"Lucas Graciano","B",2,"Sorcery","MH2",0,0.5,1.4
+"221","Damnation",16,11,56,82,68.3,57.1,78.1,NA,NA,"Kev Walker","B",4,"Sorcery","PLC",0,0.4,1.5
+"222","Dark Confidant",85,32,174,247,70.4,64.3,76.1,NA,NA,"Ron Spears","B",2,"Creature","RAV",0.1,1.3,2.7
+"223","Darkblast",5,4,21,32,65.6,46.8,81.4,NA,NA,"Randy Gallegos","B",1,"Instant","RAV",0,0.2,1.2
+"224","Darkbore Pathway",31,14,80,111,72.1,62.8,80.2,NA,NA,"Johannes Voss","",0,"Land","KHM",0,0.6,2.2
+"225","Darkness",3,1,7,9,77.8,40,97.2,NA,NA,"Harold McNeill","B",1,"Instant","LEG",0,0,3
+"226","Darkslick Shores",260,101,577,809,71.3,68.1,74.4,NA,NA,"Charles Urbach","",0,"Land","SOM",0.2,4,2.6
+"227","Darksteel Citadel",28,12,63,90,70,59.4,79.2,NA,NA,"John Avon","",0,"Artifact,Land","DST",0,0.5,2.3
+"228","Dauthi Voidwalker",233,61,349,497,70.2,66,74.2,NA,NA,"Sidharth Chaturvedi","B",2,"Creature","MH2",0.2,2.4,3.8
+"229","Day of Judgment",1,1,5,7,71.4,29,96.3,NA,NA,"Vincent Proce","W",4,"Sorcery","ZEN",0,0,1
+"230","Daybreak Coronet",36,9,46,68,67.6,55.2,78.5,NA,NA,"Scott Hampton","W",2,"Enchantment","FUT",0,0.4,4
+"231","Dead // Gone",158,73,406,573,70.9,66.9,74.5,NA,NA,"Tomas Giorello","R",4,"Instant","PLC",0.1,2.9,2.2
+"232","Deadshot Minotaur",11,5,27,40,67.5,50.9,81.4,NA,NA,"Jason Chan","G,R",5,"Creature","ARB",0,0.2,2.2
+"233","Deafening Clarion",1,1,7,9,77.8,40,97.2,NA,NA,"Adam Paquette","R,W",3,"Sorcery","GRN",0,0,1
+"234","Death's Shadow",512,128,698,1003,69.6,66.6,72.4,NA,NA,"Howard Lyon","B",1,"Creature","WWK",0.3,5.1,4
+"235","Deceiver Exarch",10,4,20,30,66.7,47.2,82.7,NA,NA,"Izzy","U",3,"Creature","NPH",0,0.2,2.5
+"236","Deflecting Palm",8,8,41,62,66.1,53,77.7,NA,NA,"Eric Deschamps","R,W",2,"Instant","KTK",0,0.3,1
+"237","Delay",10,5,30,41,73.2,57.1,85.8,NA,NA,"Ron Spears","U",2,"Instant","FUT",0,0.2,2
+"238","Delver of Secrets",32,8,48,65,73.8,61.5,84,NA,NA,"Nils Hamm","U",1,"Creature","ISD",0,0.3,4
+"239","Demilich",4,1,6,8,75,34.9,96.8,NA,NA,"Daniel Zrom","U",4,"Creature","AFR",0,0,4
+"240","Demonic Dread",15,4,23,31,74.2,55.4,88.1,NA,NA,"Thomas M. Baxa","B,R",3,"Sorcery","ARB",0,0.2,3.8
+"241","Den of the Bugbear",19,8,41,62,66.1,53,77.7,NA,NA,"Johannes Voss","",0,"Land","AFR",0,0.3,2.4
+"242","Deprive",8,6,32,47,68.1,52.9,80.9,NA,NA,"Izzy","U",2,"Instant","ROE",0,0.2,1.3
+"243","Deputy of Detention",7,6,35,48,72.9,58.2,84.7,NA,NA,"G-host Lee","U,W",3,"Creature","RNA",0,0.2,1.2
+"244","Desert Cerodon",130,36,200,281,71.2,65.5,76.4,NA,NA,"Igor Kieryluk","R",6,"Creature","AKH",0.1,1.4,3.6
+"245","Desperate Ritual",94,24,123,180,68.3,61,75.1,NA,NA,"Darrell Riche","R",2,"Instant","CHK",0.1,0.9,3.9
+"246","Destiny Spinner",14,6,30,45,66.7,51,80,NA,NA,"Livia Prima","G",2,"Enchantment,Creature","THB",0,0.2,2.3
+"247","Detention Sphere",2,2,11,15,73.3,44.9,92.2,NA,NA,"Kev Walker","U,W",3,"Enchantment","RTR",0,0.1,1
+"248","Devastating Summons",2,2,8,14,57.1,28.9,82.3,NA,NA,"Jung Park","R",1,"Sorcery","ROE",0,0.1,1
+"249","Devoted Druid",12,3,15,22,68.2,45.1,86.1,NA,NA,"Darrell Riche","G",2,"Creature","SHM",0,0.1,4
+"250","Discerning Taste",1,1,4,7,57.1,18.4,90.1,NA,NA,"Aaron Miller","B",3,"Sorcery","MH2",0,0,1
+"251","Dismember",374,189,1020,1463,69.7,67.3,72.1,NA,NA,"Terese Nielsen","B",3,"Instant","NPH",0.2,7.5,2
+"252","Dispatch",6,2,8,14,57.1,28.9,82.3,NA,NA,"Erica Yang","W",1,"Instant","NPH",0,0.1,3
+"253","Disrupting Shoal",3,1,5,7,71.4,29,96.3,NA,NA,"Scott M. Fischer","U",2,"Instant","BOK",0,0,3
+"254","Distortion Strike",35,21,107,156,68.6,60.7,75.8,NA,NA,"Goran Josic","U",1,"Sorcery","ROE",0,0.8,1.7
+"255","Doom Blade",1,1,5,8,62.5,24.5,91.5,NA,NA,"Chippy","B",2,"Instant","M10",0,0,1
+"256","Doomskar",5,2,11,15,73.3,44.9,92.2,NA,NA,"Piotr Dura","W",5,"Sorcery","KHM",0,0.1,2.5
+"257","Dovescape",2,2,10,15,66.7,38.4,88.2,NA,NA,"Shishizaru","U,W",6,"Enchantment","DIS",0,0.1,1
+"258","Dovin's Veto",24,16,90,125,72,63.3,79.7,NA,NA,"Izzy","U,W",2,"Instant","WAR",0,0.6,1.5
+"259","Dragon's Rage Channeler",1226,307,1719,2438,70.5,68.7,72.3,NA,NA,"Martina Fackova","R",1,"Creature","MH2",0.8,12.1,4
+"260","Drannith Magistrate",6,5,29,40,72.5,56.1,85.4,NA,NA,"Kieran Yanner","W",2,"Creature","IKO",0,0.2,1.2
+"261","Dreadbore",51,36,193,278,69.4,63.6,74.8,NA,NA,"Wayne Reynolds","B,R",2,"Sorcery","RTR",0,1.4,1.4
+"262","Dreadhorde Arcanist",53,18,103,148,69.6,61.5,76.9,NA,NA,"G-host Lee","R",2,"Creature","WAR",0,0.7,2.9
+"263","Dream's Grip",20,5,27,39,69.2,52.4,83,NA,NA,"Jim Nelson","U",1,"Instant","MRD",0,0.2,4
+"264","Dregscape Sliver",5,3,16,22,72.7,49.8,89.3,NA,NA,"Zack Stella","B",2,"Creature","MH1",0,0.1,1.7
+"265","Dress Down",36,14,68,103,66,56,75.1,NA,NA,"Iain McCaig","U",2,"Enchantment","MH2",0,0.6,2.6
+"266","Drogskol Captain",104,26,152,208,73.1,66.5,79,NA,NA,"Peter Mohrbacher","U,W",3,"Creature","DKA",0.1,1,4
+"267","Drogskol Reaver",1,1,5,7,71.4,29,96.3,NA,NA,"Vincent Proce","U,W",7,"Creature","DKA",0,0,1
+"268","Dromoka's Command",3,1,4,7,57.1,18.4,90.1,NA,NA,"James Ryman","G,W",2,"Instant","DTK",0,0,3
+"269","Drown in the Loch",318,101,555,795,69.8,66.5,73,NA,NA,"John Stanko","B,U",2,"Instant","ELD",0.2,4,3.1
+"270","Drowned Catacomb",118,46,252,360,70,65,74.7,NA,NA,"Dave Kendall","",0,"Land","M10",0.1,1.8,2.6
+"271","Dryad Arbor",82,82,444,629,70.6,66.9,74.1,NA,NA,"Eric Fortune","G",0,"Land,Creature","FUT",0.1,3.2,1
+"272","Dryad of the Ilysian Grove",545,139,791,1111,71.2,68.4,73.8,NA,NA,"Scott Murphy","G",3,"Enchantment,Creature","THB",0.4,5.5,3.9
+"273","Duskwatch Recruiter",6,3,15,22,68.2,45.1,86.1,NA,NA,"Craig J Spearing","G",2,"Creature","SOI",0,0.1,2
+"274","Dwarven Mine",203,51,284,404,70.3,65.6,74.7,NA,NA,"Alexander Forssberg","",0,"Land","ELD",0.1,2,4
+"275","Dwynen's Elite",6,2,15,19,78.9,54.4,93.9,NA,NA,"Lius Lasahido","G",2,"Creature","ORI",0,0.1,3
+"276","Echoing Truth",6,5,27,39,69.2,52.4,83,NA,NA,"Greg Staples","U",2,"Instant","DST",0,0.2,1.2
+"277","Egon, God of Death",2,1,5,7,71.4,29,96.3,NA,NA,"Jason A. Engle","B",3,"Creature","KHM",0,0,2
+"278","Eidolon of Blossoms",4,1,5,7,71.4,29,96.3,NA,NA,"Min Yum","G",4,"Enchantment,Creature","JOU",0,0,4
+"279","Eidolon of Rhetoric",8,6,34,47,72.3,57.4,84.4,NA,NA,"Ryan Yee","W",3,"Enchantment,Creature","JOU",0,0.2,1.3
+"280","Eidolon of the Great Revel",459,118,627,914,68.6,65.5,71.6,NA,NA,"Cyril Van Der Haegen","R",2,"Enchantment,Creature","JOU",0.3,4.7,3.9
+"281","Eiganjo Castle",56,56,292,435,67.1,62.5,71.5,NA,NA,"Wayne England","",0,"Land","CHK",0,2.2,1
+"282","Eladamri's Call",151,61,347,486,71.4,67.2,75.4,NA,NA,"Kev Walker","G,W",2,"Instant","PLS",0.1,2.4,2.5
+"283","Elder Gargaroth",10,5,22,36,61.1,43.5,76.9,NA,NA,"Nicholas Gregory","G",5,"Creature","M21",0,0.2,2
+"284","Eldrazi Conscription",4,1,6,8,75,34.9,96.8,NA,NA,"Jaime Jones","",8,"Tribal,Enchantment","ROE",0,0,4
+"285","Eldrazi Displacer",8,2,12,17,70.6,44,89.7,NA,NA,"Daarken","",3,"Creature","OGW",0,0.1,4
+"286","Eldrazi Obligator",12,3,21,27,77.8,57.7,91.4,NA,NA,"Jason Felix","",3,"Creature","OGW",0,0.1,4
+"287","Eldrazi Temple",284,71,392,555,70.6,66.6,74.4,NA,NA,"James Paick","",0,"Land","ROE",0.2,2.8,4
+"288","Eldritch Evolution",206,54,299,419,71.4,66.8,75.6,NA,NA,"Jason Rainville","G",3,"Sorcery","EMN",0.1,2.1,3.8
+"289","Electrodominance",40,10,50,75,66.7,54.8,77.1,NA,NA,"Dmitry Burmak","R",2,"Instant","RNA",0,0.4,4
+"290","Electrolyze",11,6,33,48,68.8,53.7,81.3,NA,NA,"Zoltan Boros & Gabor Szikszai","R,U",3,"Instant","GPT",0,0.2,1.8
+"291","Eliminate",11,10,50,76,65.8,54,76.3,NA,NA,"Chris Cold","B",2,"Instant","M21",0,0.4,1.1
+"292","Elite Spellbinder",28,8,50,66,75.8,63.6,85.5,NA,NA,"Ryan Pancoast","W",3,"Creature","STX",0,0.3,3.5
+"293","Elixir of Immortality",2,2,14,18,77.8,52.4,93.6,NA,NA,"Zoltan Boros & Gabor Szikszai","",1,"Artifact","M11",0,0.1,1
+"294","Elspeth, Sun's Nemesis",1,1,4,7,57.1,18.4,90.1,NA,NA,"Livia Prima","W",4,"Planeswalker","THB",0,0,1
+"295","Elvish Archdruid",8,2,15,19,78.9,54.4,93.9,NA,NA,"Karl Kopinski","G",3,"Creature","M10",0,0.1,4
+"296","Elvish Mystic",11,3,19,26,73.1,52.2,88.4,NA,NA,"Wesley Burt","G",1,"Creature","M14",0,0.1,3.7
+"297","Elvish Reclaimer",112,28,158,224,70.5,64.1,76.4,NA,NA,"Victor Adame Minguez","G",1,"Creature","M20",0.1,1.1,4
+"298","Elvish Visionary",8,2,15,19,78.9,54.4,93.9,NA,NA,"D. Alexander Gregory","G",2,"Creature","ALA",0,0.1,4
+"299","Elvish Warmaster",8,2,15,19,78.9,54.4,93.9,NA,NA,"Alexander Mokhov","G",2,"Creature","KHM",0,0.1,4
+"300","Embercleave",3,3,14,22,63.6,40.7,82.8,NA,NA,"Joe Slucher","R",6,"Artifact","ELD",0,0.1,1
+"301","Emergent Sequence",3,1,5,8,62.5,24.5,91.5,NA,NA,"Andreas Zafiratos","G",2,"Sorcery","STX",0,0,3
+"302","Emeria's Call",71,21,116,167,69.5,61.9,76.3,NA,NA,"Matt Stewart","W",7,"Sorcery","ZNR",0,0.8,3.4
+"303","Emeria, the Sky Ruin",7,3,15,23,65.2,42.7,83.6,NA,NA,"Jaime Jones","",0,"Land","ZEN",0,0.1,2.3
+"304","Empty the Warrens",6,6,30,44,68.2,52.4,81.4,NA,NA,"Mark Brill","R",4,"Sorcery","TSP",0,0.2,1
+"305","Emrakul, the Aeons Torn",117,54,297,422,70.4,65.8,74.7,NA,NA,"Mark Tedin","",15,"Creature","ROE",0.1,2.1,2.2
+"306","Emrakul, the Promised End",13,12,66,94,70.2,59.9,79.2,NA,NA,"Jaime Jones","",13,"Creature","EMN",0,0.5,1.1
+"307","Emry, Lurker of the Loch",151,42,224,329,68.1,62.7,73.1,NA,NA,"Livia Prima","U",3,"Creature","ELD",0.1,1.7,3.6
+"308","Enchantress's Presence",27,7,35,52,67.3,52.9,79.7,NA,NA,"Rebecca Guay","G",3,"Enchantment","ONS",0,0.3,3.9
+"309","Endbringer",12,11,59,85,69.4,58.5,79,NA,NA,"Vincent Proce","",6,"Creature","OGW",0,0.4,1.1
+"310","Endurance",111,67,367,527,69.6,65.5,73.5,NA,NA,"Anastasia Ovchinnikova","G",3,"Creature","MH2",0.1,2.7,1.7
+"311","Enduring Ideal",8,2,10,15,66.7,38.4,88.2,NA,NA,"Daren Bader","W",7,"Sorcery","SOK",0,0.1,4
+"312","Engineered Explosives",128,93,507,728,69.6,66.2,73,NA,NA,"Ron Spears","",0,"Artifact","5DN",0.1,3.7,1.4
+"313","Ensnaring Bridge",20,9,51,71,71.8,59.9,81.9,NA,NA,"Pete Venters","",3,"Artifact","STH",0,0.4,2.2
+"314","Ephemerate",361,95,540,753,71.7,68.3,74.9,NA,NA,"Bastien L. Deharme","W",1,"Instant","MH1",0.2,3.8,3.8
+"315","Esper Charm",70,27,151,215,70.2,63.6,76.3,NA,NA,"Michael Bruinsma","B,U,W",3,"Instant","ALA",0,1.1,2.6
+"316","Esper Sentinel",611,157,853,1235,69.1,66.4,71.6,NA,NA,"Eric Deschamps","W",1,"Artifact,Creature","MH2",0.4,6.2,3.9
+"317","Essence Flux",2,1,6,8,75,34.9,96.8,NA,NA,"Seb McKinnon","U",1,"Instant","SOI",0,0,2
+"318","Essence Warden",21,21,122,170,71.8,64.4,78.4,NA,NA,"Terese Nielsen","G",1,"Creature","PLC",0,0.8,1
+"319","Etched Champion",3,1,4,7,57.1,18.4,90.1,NA,NA,"Matt Cavotta","",3,"Artifact,Creature","SOM",0,0,3
+"320","Eternal Witness",107,37,208,291,71.5,65.9,76.6,NA,NA,"Terese Nielsen","G",3,"Creature","5DN",0.1,1.5,2.9
+"321","Ethereal Armor",36,9,46,68,67.6,55.2,78.5,NA,NA,"Daarken","W",1,"Enchantment","RTR",0,0.4,4
+"322","Ethersworn Canonist",6,2,9,15,60,32.3,83.7,NA,NA,"Izzy","W",2,"Artifact,Creature","ALA",0,0.1,3
+"323","Everflowing Chalice",4,1,4,7,57.1,18.4,90.1,NA,NA,"Steve Argyle","",0,"Artifact","WWK",0,0,4
+"324","Executioner's Capsule",1,1,6,8,75,34.9,96.8,NA,NA,"Warren Mahy","B",1,"Artifact","ALA",0,0,1
+"325","Expedition Map",589,189,1011,1460,69.2,66.8,71.6,NA,NA,"Franz Vohwinkel","",1,"Artifact","ZEN",0.4,7.5,3.1
+"326","Explore",435,126,709,1005,70.5,67.6,73.4,NA,NA,"John Avon","G",2,"Sorcery","WWK",0.3,5,3.5
+"327","Expressive Iteration",928,245,1347,1924,70,67.9,72.1,NA,NA,"Anastasia Ovchinnikova","R,U",2,"Sorcery","STX",0.6,9.7,3.8
+"328","Extirpate",1,1,4,7,57.1,18.4,90.1,NA,NA,"Jon Foster","B",1,"Instant","PLC",0,0,1
+"329","Eye of Vecna",1,1,5,8,62.5,24.5,91.5,NA,NA,"Irina Nordsol","",2,"Artifact","AFR",0,0,1
+"330","Ezuri, Renegade Leader",4,2,15,19,78.9,54.4,93.9,NA,NA,"Karl Kopinski","G",3,"Creature","SOM",0,0.1,2
+"331","Fact or Fiction",65,34,188,265,70.9,65.1,76.3,NA,NA,"Terese Nielsen","U",4,"Instant","INV",0,1.3,1.9
+"332","Failure // Comply",8,3,15,22,68.2,45.1,86.1,NA,NA,"Jason A. Engle","U",3,"Instant","AKH",0,0.1,2.7
+"333","Faithful Mending",25,7,42,57,73.7,60.3,84.5,NA,NA,"Caroline Gariba","U,W",2,"Instant","MID",0,0.3,3.6
+"334","Faithless Salvaging",7,2,11,15,73.3,44.9,92.2,NA,NA,"Bud Cook","R",2,"Instant","MH2",0,0.1,3.5
+"335","Fallen Shinobi",2,1,4,7,57.1,18.4,90.1,NA,NA,"Tomasz Jedruszek","B,U",5,"Creature","MH1",0,0,2
+"336","Far // Away",14,7,39,55,70.9,57.1,82.4,NA,NA,"Greg Staples","U",5,"Instant","DGM",0,0.3,2
+"337","Farseek",30,10,57,81,70.4,59.2,80,NA,NA,"Martina Pilcerova","G",2,"Sorcery","RAV",0,0.4,3
+"338","Fatal Push",1046,320,1753,2513,69.8,67.9,71.5,NA,NA,"Eric Deschamps","B",1,"Instant","AER",0.7,12.7,3.3
+"339","Fateful Absence",1,1,4,7,57.1,18.4,90.1,NA,NA,"Eric Deschamps","W",2,"Instant","MID",0,0,1
+"340","Fatestitcher",2,1,4,7,57.1,18.4,90.1,NA,NA,"E. M. Gist","U",4,"Creature","ALA",0,0,2
+"341","Feasting Troll King",15,4,25,34,73.5,55.6,87.1,NA,NA,"Nicholas Gregory","G",6,"Creature","ELD",0,0.2,3.8
+"342","Felidar Guardian",43,14,68,104,65.4,55.4,74.4,NA,NA,"Jakub Kasper","W",4,"Creature","AER",0,0.6,3.1
+"343","Fetid Pools",2,2,10,15,66.7,38.4,88.2,NA,NA,"Jonas De Ro","",0,"Land","AKH",0,0.1,1
+"344","Field of Ruin",589,196,1091,1544,70.7,68.3,72.9,NA,NA,"Dimitar Marinski","",0,"Land","XLN",0.4,7.8,3
+"345","Field of the Dead",155,88,490,697,70.3,66.8,73.7,NA,NA,"Kev Walker","",0,"Land","M20",0.1,3.5,1.8
+"346","Field Trip",14,4,20,29,69,49.2,84.7,NA,NA,"Piotr Dura","G",3,"Sorcery","STX",0,0.2,3.5
+"347","Fiend Hunter",1,1,4,7,57.1,18.4,90.1,NA,NA,"Wayne Reynolds","W",3,"Creature","ISD",0,0,1
+"348","Fierce Empath",2,1,8,10,80,44.4,97.5,NA,NA,"Alan Pollack","G",3,"Creature","SCG",0,0,2
+"349","Fiery Islet",774,392,2140,3062,69.9,68.2,71.5,NA,NA,"Richard Wright","",0,"Land","MH1",0.5,15.5,2
+"350","Finale of Devastation",30,8,46,63,73,60.3,83.4,NA,NA,"Bayard Wu","G",2,"Sorcery","WAR",0,0.3,3.8
+"351","Finale of Promise",6,6,27,44,61.4,45.5,75.6,NA,NA,"Jaime Jones","R",2,"Sorcery","WAR",0,0.2,1
+"352","Fire-Lit Thicket",3,3,19,26,73.1,52.2,88.4,NA,NA,"Ralph Horsley","",0,"Land","SHM",0,0.1,1
+"353","Fire // Ice",491,140,774,1097,70.6,67.8,73.2,NA,NA,"David Martin","R",4,"Instant","APC",0.3,5.5,3.5
+"354","Fire Prophecy",4,3,19,26,73.1,52.2,88.4,NA,NA,"Kieran Yanner","R",2,"Instant","IKO",0,0.1,1.3
+"355","Firebolt",125,32,189,259,73,67.1,78.3,NA,NA,"Ron Spencer","R",1,"Sorcery","ODY",0.1,1.3,3.9
+"356","Fires of Invention",9,3,16,24,66.7,44.7,84.4,NA,NA,"Stanton Feng","R",4,"Enchantment","ELD",0,0.1,3
+"357","Firespout",6,4,21,30,70,50.6,85.3,NA,NA,"Jeff Miracola","G,R",3,"Sorcery","SHM",0,0.2,1.5
+"358","Flagstones of Trokair",141,37,206,294,70.1,64.5,75.2,NA,NA,"Rob Alexander","",0,"Land","TSP",0.1,1.5,3.8
+"359","Flame Rift",20,11,53,81,65.4,54,75.7,NA,NA,"Ben Thompson","R",2,"Sorcery","NEM",0,0.4,1.8
+"360","Flame Slash",106,44,246,346,71.1,66,75.8,NA,NA,"Raymond Swanland","R",1,"Sorcery","ROE",0.1,1.7,2.4
+"361","Flameblade Adept",4,1,5,8,62.5,24.5,91.5,NA,NA,"Tomasz Jedruszek","R",1,"Creature","AKH",0,0,4
+"362","Flamekin Harbinger",100,35,203,282,72,66.4,77.1,NA,NA,"Steve Prescott","R",1,"Creature","LRW",0.1,1.4,2.9
+"363","Flayer Husk",1,1,8,10,80,44.4,97.5,NA,NA,"Igor Kieryluk","",1,"Artifact","MBS",0,0,1
+"364","Flickerwisp",152,44,245,346,70.8,65.7,75.5,NA,NA,"Jeremy Enecio","W",3,"Creature","EVE",0.1,1.7,3.5
+"365","Flooded Grove",16,13,75,102,73.5,63.9,81.8,NA,NA,"Dave Kendall","",0,"Land","EVE",0,0.5,1.2
+"366","Flooded Strand",1893,649,3654,5131,71.2,70,72.5,NA,NA,"Rob Alexander","",0,"Land","ONS",1.2,25.7,2.9
+"367","Flusterstorm",15,13,61,95,64.2,53.7,73.8,NA,NA,"Erica Yang","U",1,"Instant","CMD",0,0.5,1.2
+"368","Force of Negation",1390,446,2507,3537,70.9,69.4,72.4,NA,NA,"Paul Scott Canavan","U",3,"Instant","MH1",0.9,17.6,3.1
+"369","Force of Rage",2,1,4,7,57.1,18.4,90.1,NA,NA,"Clint Cearley","R",3,"Instant","MH1",0,0,2
+"370","Force of Virtue",3,1,4,7,57.1,18.4,90.1,NA,NA,"Livia Prima","W",4,"Enchantment","MH1",0,0,3
+"371","Forest",1704,843,4667,6619,70.5,69.4,71.6,NA,NA,"Christopher Rush","",0,"Land","LEA",1.1,33.3,2
+"372","Forgotten Cave",71,49,282,401,70.3,65.6,74.8,NA,NA,"Tony Szczudlo","",0,"Land","ONS",0,1.9,1.4
+"373","Forked Bolt",2,2,12,17,70.6,44,89.7,NA,NA,"Tomasz Jedruszek","R",1,"Sorcery","ROE",0,0.1,1
+"374","Form of the Dragon",4,2,10,15,66.7,38.4,88.2,NA,NA,"Carl Critchlow","R",7,"Enchantment","SCG",0,0.1,2
+"375","Forsaken Monument",2,2,9,15,60,32.3,83.7,NA,NA,"Piotr Dura","",5,"Artifact","ZNR",0,0.1,1
+"376","Foundation Breaker",16,11,63,88,71.6,61,80.7,NA,NA,"Yeong-Hao Han","G",4,"Creature","MH2",0,0.4,1.5
+"377","Foundry Street Denizen",8,2,8,14,57.1,28.9,82.3,NA,NA,"Raoul Vitale","R",1,"Creature","GTC",0,0.1,4
+"378","Fractured Sanity",100,25,152,206,73.8,67.2,79.7,NA,NA,"Drew Tucker","U",3,"Sorcery","MH2",0.1,1,4
+"379","Frantic Inventory",8,2,10,15,66.7,38.4,88.2,NA,NA,"Aaron Miller","U",2,"Instant","M21",0,0.1,4
+"380","Fraying Sanity",2,1,7,8,87.5,47.3,99.7,NA,NA,"Ryan Alexander Lee","U",3,"Enchantment","HOU",0,0,2
+"381","Frenetic Sliver",6,2,11,15,73.3,44.9,92.2,NA,NA,"Luca Zontini","R,U",3,"Creature","PLC",0,0.1,3
+"382","Frogmite",12,3,18,23,78.3,56.3,92.5,NA,NA,"Terese Nielsen","",4,"Artifact,Creature","MRD",0,0.1,4
+"383","Fulminator Mage",15,6,27,44,61.4,45.5,75.6,NA,NA,"rk post","B,R",3,"Creature","SHM",0,0.2,2.5
+"384","Fury",532,148,827,1172,70.6,67.9,73.2,NA,NA,"Raoul Vitale","R",5,"Creature","MH2",0.3,5.9,3.6
+"385","Galerider Sliver",8,2,11,15,73.3,44.9,92.2,NA,NA,"James Zapata","U",1,"Creature","M14",0,0.1,4
+"386","Galvanic Blast",15,4,24,31,77.4,58.9,90.4,NA,NA,"Marc Simonetti","R",1,"Instant","SOM",0,0.2,3.8
+"387","Galvanic Relay",1,1,5,7,71.4,29,96.3,NA,NA,"Lucas Staniec","R",3,"Sorcery","MH2",0,0,1
+"388","Gather the Pack",8,2,10,14,71.4,41.9,91.6,NA,NA,"Igor Kieryluk","G",2,"Sorcery","ORI",0,0.1,4
+"389","Gavony Township",80,60,330,474,69.6,65.3,73.7,NA,NA,"Peter Mohrbacher","",0,"Land","ISD",0.1,2.4,1.3
+"390","Geier Reach Sanitarium",1,1,5,7,71.4,29,96.3,NA,NA,"Cliff Childs","",0,"Land","EMN",0,0,1
+"391","Geist of Saint Traft",12,5,21,35,60,42.1,76.1,NA,NA,"Igor Kieryluk","U,W",3,"Creature","ISD",0,0.2,2.4
+"392","Gemstone Caverns",289,133,754,1053,71.6,68.8,74.3,NA,NA,"Martina Pilcerova","",0,"Land","TSP",0.2,5.3,2.2
+"393","Gemstone Mine",188,86,481,682,70.5,66.9,73.9,NA,NA,"Brom","",0,"Land","WTH",0.1,3.4,2.2
+"394","General Ferrous Rokiric",24,10,53,76,69.7,58.1,79.8,NA,NA,"Matt Stewart","R,W",3,"Creature","MH2",0,0.4,2.4
+"395","General Kudro of Drannith",22,13,69,99,69.7,59.6,78.5,NA,NA,"Ryan Pancoast","B,W",3,"Creature","IKO",0,0.5,1.7
+"396","Geralf's Messenger",149,50,280,390,71.8,67,76.2,NA,NA,"Kev Walker","B",3,"Creature","DKA",0.1,2,3
+"397","Ghor-Clan Rampager",2,2,10,14,71.4,41.9,91.6,NA,NA,"Charles Urbach","G,R",4,"Creature","GTC",0,0.1,1
+"398","Ghost Quarter",231,127,705,995,70.9,67.9,73.7,NA,NA,"Heather Hudson","",0,"Land","DIS",0.2,5,1.8
+"399","Ghostly Prison",12,4,22,32,68.8,50,83.9,NA,NA,"Lars Grant-West","W",3,"Enchantment","CHK",0,0.2,3
+"400","Ghoulcaller's Bell",2,1,6,8,75,34.9,96.8,NA,NA,"Lars Grant-West","",1,"Artifact","ISD",0,0,2
+"401","Gideon's Intervention",1,1,5,7,71.4,29,96.3,NA,NA,"Daarken","W",4,"Enchantment","AKH",0,0,1
+"402","Gideon of the Trials",3,1,4,7,57.1,18.4,90.1,NA,NA,"Izzy","W",3,"Planeswalker","AKH",0,0,3
+"403","Gideon, Ally of Zendikar",1,1,5,7,71.4,29,96.3,NA,NA,"Eric Deschamps","W",4,"Planeswalker","BFZ",0,0,1
+"404","Gifts Ungiven",36,9,44,66,66.7,54,77.8,NA,NA,"D. Alexander Gregory","U",4,"Instant","CHK",0,0.4,4
+"405","Gilded Goose",77,40,222,313,70.9,65.6,75.9,NA,NA,"Lindsey Look","G",1,"Creature","ELD",0.1,1.6,1.9
+"406","Gilt-Leaf Palace",8,2,15,19,78.9,54.4,93.9,NA,NA,"Christopher Moeller","",0,"Land","LRW",0,0.1,4
+"407","Gingerbread Cabin",4,1,5,7,71.4,29,96.3,NA,NA,"Chris Ostrowski","",0,"Land","ELD",0,0,4
+"408","Gingerbrute",3,3,18,23,78.3,56.3,92.5,NA,NA,"Vincent Proce","",1,"Artifact,Creature","ELD",0,0.1,1
+"409","Giver of Runes",532,154,837,1206,69.4,66.7,72,NA,NA,"Seb McKinnon","W",1,"Creature","MH1",0.3,6.1,3.5
+"410","Glacial Floodplain",12,12,62,89,69.7,59,79,NA,NA,"Sarah Finnigan","",0,"Land","KHM",0,0.5,1
+"411","Glacial Fortress",235,112,629,881,71.4,68.3,74.4,NA,NA,"Franz Vohwinkel","",0,"Land","M10",0.2,4.4,2.1
+"412","Gladecover Scout",40,10,51,75,68,56.2,78.3,NA,NA,"Allen Williams","G",1,"Creature","M12",0,0.4,4
+"413","Glassdust Hulk",54,18,103,142,72.5,64.4,79.7,NA,NA,"Franz Vohwinkel","U,W",5,"Artifact,Creature","ARB",0,0.7,3
+"414","Glasspool Mimic",28,16,92,127,72.4,63.8,80,NA,NA,"Johan Grenier","U",3,"Creature","ZNR",0,0.6,1.8
+"415","Glimmervoid",16,5,30,40,75,58.8,87.3,NA,NA,"Lars Grant-West","",0,"Land","MRD",0,0.2,3.2
+"416","Glimpse of Tomorrow",16,5,30,42,71.4,55.4,84.3,NA,NA,"Jokubas Uogintas","R",0,"Sorcery","MH2",0,0.2,3.2
+"417","Glimpse the Unthinkable",73,19,111,153,72.5,64.8,79.4,NA,NA,"Brandon Kitkouski","B,U",2,"Sorcery","RAV",0,0.8,3.8
+"418","Glistener Elf",100,25,127,186,68.3,61.1,74.9,NA,NA,"Steve Argyle","G",1,"Creature","NPH",0.1,1,4
+"419","Glittering Wish",11,4,19,29,65.5,45.7,82.1,NA,NA,"John Donahue","G,W",2,"Sorcery","FUT",0,0.2,2.8
+"420","Glorybringer",16,9,50,72,69.4,57.5,79.8,NA,NA,"Sam Burley","R",5,"Creature","AKH",0,0.4,1.8
+"421","Go for the Throat",12,8,45,63,71.4,58.7,82.1,NA,NA,"David Rapoza","B",2,"Instant","MBS",0,0.3,1.5
+"422","Goblin Bombardment",14,5,26,37,70.3,53,84.1,NA,NA,"Brian Snõddy","R",2,"Enchantment","TMP",0,0.2,2.8
+"423","Goblin Bushwhacker",9,3,13,21,61.9,38.4,81.9,NA,NA,"Mark Tedin","R",1,"Creature","ZEN",0,0.1,3
+"424","Goblin Charbelcher",67,18,98,141,69.5,61.2,77,NA,NA,"Stephen Tappin","",4,"Artifact","MRD",0,0.7,3.7
+"425","Goblin Chieftain",5,4,20,28,71.4,51.3,86.8,NA,NA,"Sam Wood","R",3,"Creature","M10",0,0.2,1.2
+"426","Goblin Cratermaker",2,2,10,14,71.4,41.9,91.6,NA,NA,"Svetlin Velinov","R",2,"Creature","GRN",0,0.1,1
+"427","Goblin Dark-Dwellers",27,9,52,74,70.3,58.5,80.3,NA,NA,"Steven Belledin","R",5,"Creature","OGW",0,0.4,3
+"428","Goblin Electromancer",26,9,44,66,66.7,54,77.8,NA,NA,"Svetlin Velinov","R,U",2,"Creature","RTR",0,0.4,2.9
+"429","Goblin Engineer",8,2,13,17,76.5,50.1,93.2,NA,NA,"Jehan Choo","R",2,"Creature","MH1",0,0.1,4
+"430","Goblin Grenade",8,2,8,14,57.1,28.9,82.3,NA,NA,"Ron Spencer","R",1,"Sorcery","FEM",0,0.1,4
+"431","Goblin Guide",487,123,649,951,68.2,65.2,71.2,NA,NA,"Warren Mahy","R",1,"Creature","ZEN",0.3,4.9,4
+"432","Goblin Instigator",8,2,8,14,57.1,28.9,82.3,NA,NA,"Filip Burburan","R",2,"Creature","M19",0,0.1,4
+"433","Goblin Lore",4,1,5,8,62.5,24.5,91.5,NA,NA,"D. Alexander Gregory","R",2,"Sorcery","P02",0,0,4
+"434","Goblin Matron",28,7,33,51,64.7,50.1,77.6,NA,NA,"Daniel Gelon","R",3,"Creature","P02",0,0.3,4
+"435","Goblin Piledriver",1,1,5,8,62.5,24.5,91.5,NA,NA,"Matt Cavotta","R",2,"Creature","ONS",0,0,1
+"436","Goblin Ringleader",24,7,33,51,64.7,50.1,77.6,NA,NA,"Mark Romanoski","R",4,"Creature","APC",0,0.3,3.4
+"437","Goblin Warchief",6,3,15,22,68.2,45.1,86.1,NA,NA,"Greg Hildebrandt & Tim Hildebrandt","R",3,"Creature","SCG",0,0.1,2
+"438","Godless Shrine",219,165,916,1300,70.5,67.9,72.9,NA,NA,"Rob Alexander","",0,"Land","GPT",0.1,6.5,1.3
+"439","Goldmire Bridge",8,2,9,15,60,32.3,83.7,NA,NA,"Aaron Miller","",0,"Artifact,Land","MH2",0,0.1,4
+"440","Golgari Rot Farm",42,38,222,311,71.4,66,76.3,NA,NA,"John Avon","",0,"Land","RAV",0,1.5,1.1
+"441","Golgari Signet",1,1,5,8,62.5,24.5,91.5,NA,NA,"Greg Hildebrandt","",2,"Artifact","RAV",0,0,1
+"442","Golgari Thug",103,37,208,296,70.3,64.7,75.4,NA,NA,"Kev Walker","B",2,"Creature","RAV",0.1,1.5,2.8
+"443","Golos, Tireless Pilgrim",10,5,27,38,71.1,54.1,84.6,NA,NA,"Joseph Meehan","",5,"Artifact,Creature","M20",0,0.2,2
+"444","Gorilla Shaman",2,1,7,9,77.8,40,97.2,NA,NA,"Anthony S. Waters","R",1,"Creature","ALL",0,0,2
+"445","Goryo's Vengeance",8,2,11,16,68.8,41.3,89,NA,NA,"Ittoku","B",2,"Instant","BOK",0,0.1,4
+"446","Grafdigger's Cage",3,3,16,23,69.6,47.1,86.8,NA,NA,"Daniel Ljunggren","",1,"Artifact","DKA",0,0.1,1
+"447","Grapeshot",24,15,76,113,67.3,57.8,75.8,NA,NA,"Pete Venters","R",2,"Sorcery","TSP",0,0.6,1.6
+"448","Gravecrawler",13,4,20,30,66.7,47.2,82.7,NA,NA,"Steven Belledin","B",1,"Creature","DKA",0,0.2,3.2
+"449","Graven Cairns",44,27,152,219,69.4,62.8,75.4,NA,NA,"Anthony S. Waters","",0,"Land","FUT",0,1.1,1.6
+"450","Greater Auramancy",7,4,20,29,69,49.2,84.7,NA,NA,"Chuck Lukacs","W",2,"Enchantment","SHM",0,0.2,1.8
+"451","Greater Gargadon",15,5,23,37,62.2,44.8,77.5,NA,NA,"Rob Alexander","R",10,"Creature","TSP",0,0.2,3
+"452","Grief",302,76,419,596,70.3,66.5,73.9,NA,NA,"Nicholas Gregory","B",4,"Creature","MH2",0.2,3,4
+"453","Grim Flayer",6,2,10,15,66.7,38.4,88.2,NA,NA,"Mathias Kollros","B,G",2,"Creature","EMN",0,0.1,3
+"454","Grim Lavamancer",20,12,67,97,69.1,58.9,78.1,NA,NA,"Jim Nelson","R",1,"Creature","TOR",0,0.5,1.7
+"455","Grinding Station",56,16,78,118,66.1,56.8,74.6,NA,NA,"Greg Staples","",2,"Artifact","5DN",0,0.6,3.5
+"456","Griselbrand",7,2,11,16,68.8,41.3,89,NA,NA,"Igor Kieryluk","B",8,"Creature","AVR",0,0.1,3.5
+"457","Grisly Salvage",10,3,16,22,72.7,49.8,89.3,NA,NA,"Dave Kendall","B,G",2,"Instant","RTR",0,0.1,3.3
+"458","Grist, the Hunger Tide",118,53,291,411,70.8,66.1,75.2,NA,NA,"Yongjae Choi","B,G",3,"Planeswalker","MH2",0.1,2.1,2.2
+"459","Ground Rift",6,2,11,16,68.8,41.3,89,NA,NA,"Thomas M. Baxa","R",1,"Sorcery","TSP",0,0.1,3
+"460","Groundswell",39,20,105,151,69.5,61.5,76.8,NA,NA,"Chris Rahn","G",1,"Instant","WWK",0,0.8,2
+"461","Grove of the Burnwillows",18,6,31,44,70.5,54.8,83.2,NA,NA,"David Hudnut","",0,"Land","FUT",0,0.2,3
+"462","Growth Spiral",212,67,373,531,70.2,66.2,74.1,NA,NA,"Seb McKinnon","G,U",2,"Instant","RNA",0.1,2.7,3.2
+"463","Gruul Turf",114,72,412,580,71,67.2,74.7,NA,NA,"John Avon","",0,"Land","GPT",0.1,2.8,1.6
+"464","Gryff's Boon",26,7,36,53,67.9,53.7,80.1,NA,NA,"Svetlin Velinov","W",1,"Enchantment","SOI",0,0.3,3.7
+"465","Gurmag Angler",26,8,39,58,67.2,53.7,79,NA,NA,"YW Tang","B",7,"Creature","FRF",0,0.3,3.2
+"466","Gut Shot",138,70,385,549,70.1,66.1,73.9,NA,NA,"Greg Staples","R",1,"Instant","NPH",0.1,2.8,2
+"467","Hagra Mauling",6,2,10,15,66.7,38.4,88.2,NA,NA,"Victor Adame Minguez","B",4,"Instant","ZNR",0,0.1,3
+"468","Hall of Heliod's Generosity",5,5,24,37,64.9,47.5,79.8,NA,NA,"Daniel Ljunggren","",0,"Land","MH1",0,0.2,1
+"469","Hall of Storm Giants",48,38,198,285,69.5,63.8,74.8,NA,NA,"Johannes Voss","",0,"Land","AFR",0,1.5,1.3
+"470","Hallowed Fountain",620,431,2415,3391,71.2,69.7,72.7,NA,NA,"Rob Alexander","",0,"Land","DIS",0.4,17,1.4
+"471","Hallowed Moonlight",2,1,4,7,57.1,18.4,90.1,NA,NA,"Mike Bierek","W",2,"Instant","ORI",0,0,2
+"472","Hammer of Bogardan",8,2,8,14,57.1,28.9,82.3,NA,NA,"Ron Spencer","R",3,"Sorcery","MIR",0,0.1,4
+"473","Hangarback Walker",69,18,100,139,71.9,63.7,79.2,NA,NA,"Daarken","",0,"Artifact,Creature","ORI",0,0.7,3.8
+"474","Hanweir Battlements",18,18,97,143,67.8,59.5,75.4,NA,NA,"Vincent Proce","",0,"Land","EMN",0,0.7,1
+"475","Hapatra, Vizier of Poisons",30,30,177,241,73.4,67.4,78.9,NA,NA,"Tyler Jacobson","B,G",2,"Creature","AKH",0,1.2,1
+"476","Harbinger of the Tides",2,1,6,8,75,34.9,96.8,NA,NA,"Svetlin Velinov","U",2,"Creature","ORI",0,0,2
+"477","Hard Evidence",102,29,162,232,69.8,63.5,75.7,NA,NA,"Yeong-Hao Han","U",1,"Sorcery","MH2",0.1,1.1,3.5
+"478","Hardened Scales",68,17,95,132,72,63.5,79.4,NA,NA,"Mark Winters","G",1,"Enchantment","KTK",0,0.7,4
+"479","Harmonic Sliver",1,1,5,7,71.4,29,96.3,NA,NA,"Luca Zontini","G,W",3,"Creature","TSP",0,0,1
+"480","Hazoret the Fervent",8,7,32,50,64,49.2,77.1,NA,NA,"Chase Stone","R",4,"Creature","AKH",0,0.3,1.1
+"481","Hedron Crab",196,49,287,395,72.7,68,77,NA,NA,"Jesper Ejsing","U",1,"Creature","ZEN",0.1,1.9,4
+"482","Heliod, Sun-Crowned",384,96,542,765,70.8,67.5,74,NA,NA,"Lius Lasahido","W",3,"Enchantment,Creature","THB",0.3,3.8,4
+"483","Helix Pinnacle",1,1,5,7,71.4,29,96.3,NA,NA,"Dan Scott","G",1,"Enchantment","EVE",0,0,1
+"484","Hengegate Pathway",19,7,41,57,71.9,58.5,83,NA,NA,"Yeong-Hao Han","",0,"Land","KHM",0,0.3,2.7
+"485","Heritage Druid",8,2,15,19,78.9,54.4,93.9,NA,NA,"Larry MacDougall","G",1,"Creature","MOR",0,0.1,4
+"486","Hex Parasite",1,1,4,7,57.1,18.4,90.1,NA,NA,"Raymond Swanland","",1,"Artifact,Creature","NPH",0,0,1
+"487","Hexdrinker",144,42,229,329,69.6,64.3,74.5,NA,NA,"Forrest Imel","G",1,"Creature","MH1",0.1,1.7,3.4
+"488","Hieroglyphic Illumination",6,3,15,23,65.2,42.7,83.6,NA,NA,"Raoul Vitale","U",4,"Instant","AKH",0,0.1,2
+"489","Highland Forest",2,1,4,7,57.1,18.4,90.1,NA,NA,"Alayna Danner","",0,"Land","KHM",0,0,2
+"490","Hinterland Harbor",18,18,99,140,70.7,62.4,78.1,NA,NA,"Karl Kopinski","",0,"Land","ISD",0,0.7,1
+"491","Hollow One",4,1,5,8,62.5,24.5,91.5,NA,NA,"Anthony Palumbo","",5,"Artifact,Creature","HOU",0,0,4
+"492","Holy Day",2,1,5,7,71.4,29,96.3,NA,NA,"Justin Hampton","W",1,"Instant","LEG",0,0,2
+"493","Horde of Notions",6,4,22,31,71,52,85.8,NA,NA,"Adam Rex","B,G,R,U,W",5,"Creature","LRW",0,0.2,1.5
+"494","Horizon Canopy",586,225,1237,1769,69.9,67.7,72.1,NA,NA,"Michael Komarck","",0,"Land","FUT",0.4,8.9,2.6
+"495","Hour of Promise",45,37,211,300,70.3,64.8,75.4,NA,NA,"Jonas De Ro","G",5,"Sorcery","HOU",0,1.5,1.2
+"496","Hunting Wilds",1,1,5,7,71.4,29,96.3,NA,NA,"Steve Ellis","G",4,"Sorcery","PLC",0,0,1
+"497","Huntmaster of the Fells",1,1,5,8,62.5,24.5,91.5,NA,NA,"Chris Rahn","G,R",4,"Creature","DKA",0,0,1
+"498","Hydroid Krasis",4,1,5,7,71.4,29,96.3,NA,NA,"Jason Felix","G,U",2,"Creature","RNA",0,0,4
+"499","Hyena Umbra",24,9,46,68,67.6,55.2,78.5,NA,NA,"Howard Lyon","W",1,"Enchantment","ROE",0,0.4,2.7
+"500","Ice-Fang Coatl",170,46,241,351,68.7,63.5,73.5,NA,NA,"Filip Burburan","G,U",2,"Creature","MH1",0.1,1.8,3.7
+"501","Ice Tunnel",2,2,9,15,60,32.3,83.7,NA,NA,"Johannes Voss","",0,"Land","KHM",0,0.1,1
+"502","Icehide Golem",2,1,4,7,57.1,18.4,90.1,NA,NA,"Paul Scott Canavan","",1,"Artifact,Creature","MH1",0,0,2
+"503","Ideas Unbound",8,2,13,17,76.5,50.1,93.2,NA,NA,"Mark Tedin","U",2,"Sorcery","SOK",0,0.1,4
+"504","Idyllic Grange",9,7,37,53,69.8,55.7,81.7,NA,NA,"Howard Lyon","",0,"Land","ELD",0,0.3,1.3
+"505","Ignoble Hierarch",220,57,303,440,68.9,64.3,73.2,NA,NA,"Mark Zug","G",1,"Creature","MH2",0.1,2.3,3.9
+"506","Imperial Recruiter",70,22,109,166,65.7,57.9,72.8,NA,NA,"Mitsuaki Sagiri","R",3,"Creature","PTK",0,0.9,3.2
+"507","Imperious Perfect",1,1,9,11,81.8,48.2,97.7,NA,NA,"Scott M. Fischer","G",3,"Creature","LRW",0,0,1
+"508","Imposing Vantasaur",2,2,12,17,70.6,44,89.7,NA,NA,"Jonathan Kuo","W",6,"Creature","IKO",0,0.1,1
+"509","In Search of Greatness",4,1,4,7,57.1,18.4,90.1,NA,NA,"Ilse Gort","G",2,"Enchantment","KHM",0,0,4
+"510","Indatha Triome",51,51,284,401,70.8,66.1,75.2,NA,NA,"Noah Bradley","",0,"Land","IKO",0,2,1
+"511","Indomitable Creativity",195,49,272,388,70.1,65.3,74.6,NA,NA,"Deruchenko Alexander","R",3,"Sorcery","AER",0.1,1.9,4
+"512","Infernal Plunge",9,9,49,68,72.1,59.9,82.3,NA,NA,"Daarken","R",1,"Sorcery","ISD",0,0.4,1
+"513","Ingenious Smith",212,68,371,536,69.2,65.1,73.1,NA,NA,"Nicholas Elias","W",2,"Creature","AFR",0.1,2.7,3.1
+"514","Inkmoth Nexus",952,249,1366,1958,69.8,67.7,71.8,NA,NA,"Jung Park","",0,"Land","MBS",0.6,9.8,3.8
+"515","Inquisition of Kozilek",1020,316,1722,2478,69.5,67.6,71.3,NA,NA,"Tomasz Jedruszek","B",1,"Sorcery","ROE",0.7,12.5,3.2
+"516","Insolent Neonate",6,2,9,15,60,32.3,83.7,NA,NA,"Deruchenko Alexander","R",1,"Creature","SOI",0,0.1,3
+"517","Inspiring Vantage",647,176,942,1367,68.9,66.4,71.4,NA,NA,"Jonas De Ro","",0,"Land","KLD",0.4,7,3.7
+"518","Intangible Virtue",4,1,4,7,57.1,18.4,90.1,NA,NA,"Clint Cearley","W",2,"Enchantment","ISD",0,0,4
+"519","Into the North",4,1,4,7,57.1,18.4,90.1,NA,NA,"Richard Sardinha","G",2,"Sorcery","CSP",0,0,4
+"520","Into the Story",12,10,59,80,73.8,62.7,83,NA,NA,"Jason Rainville","U",7,"Instant","ELD",0,0.4,1.2
+"521","Invasion of the Giants",15,4,21,31,67.7,48.6,83.3,NA,NA,"Jason Felix","R,U",2,"Enchantment","KHM",0,0.2,3.8
+"522","Inventors' Fair",7,5,23,37,62.2,44.8,77.5,NA,NA,"Jonas De Ro","",0,"Land","KLD",0,0.2,1.4
+"523","Inverter of Truth",20,5,26,38,68.4,51.3,82.5,NA,NA,"Chase Stone","",4,"Creature","OGW",0,0.2,4
+"524","Iona, Shield of Emeria",1,1,5,7,71.4,29,96.3,NA,NA,"Jason Chan","W",9,"Creature","ZEN",0,0,1
+"525","Ipnu Rivulet",3,3,15,21,71.4,47.8,88.7,NA,NA,"James Paick","",0,"Land","HOU",0,0.1,1
+"526","Irencrag Feat",52,14,74,106,69.8,60.1,78.3,NA,NA,"Yongjae Choi","R",4,"Sorcery","ELD",0,0.6,3.7
+"527","Irrigated Farmland",2,2,9,15,60,32.3,83.7,NA,NA,"Jonas De Ro","",0,"Land","AKH",0,0.1,1
+"528","Island",1972,859,4748,6737,70.5,69.4,71.6,NA,NA,"Mark Poole","",0,"Land","LEA",1.3,34,2.3
+"529","Isolated Chapel",1,1,4,7,57.1,18.4,90.1,NA,NA,"Cliff Childs","",0,"Land","ISD",0,0,1
+"530","Ivy Lane Denizen",7,7,36,52,69.2,54.9,81.3,NA,NA,"Winona Nelson","G",4,"Creature","GTC",0,0.3,1
+"531","Izzet Charm",11,7,37,54,68.5,54.4,80.5,NA,NA,"Zoltan Boros","R,U",2,"Instant","RTR",0,0.3,1.6
+"532","Izzet Signet",1,1,5,7,71.4,29,96.3,NA,NA,"Greg Hildebrandt","",2,"Artifact","GPT",0,0,1
+"533","Jace, the Mind Sculptor",310,194,1087,1537,70.7,68.4,73,NA,NA,"Jason Chan","U",4,"Planeswalker","WWK",0.2,7.7,1.6
+"534","Jace, Vryn's Prodigy",13,7,37,55,67.3,53.3,79.3,NA,NA,"Jaime Jones","U",2,"Creature","ORI",0,0.3,1.9
+"535","Jace, Wielder of Mysteries",14,5,26,38,68.4,51.3,82.5,NA,NA,"Anna Steinbauer","U",4,"Planeswalker","WAR",0,0.2,2.8
+"536","Jeskai Ascendancy",3,1,4,7,57.1,18.4,90.1,NA,NA,"Dan Scott","R,U,W",3,"Enchantment","KTK",0,0,3
+"537","Journey to Nowhere",1,1,4,7,57.1,18.4,90.1,NA,NA,"Warren Mahy","W",2,"Enchantment","ZEN",0,0,1
+"538","Judith, the Scourge Diva",4,2,9,14,64.3,35.1,87.2,NA,NA,"Wesley Burt","B,R",3,"Creature","RNA",0,0.1,2
+"539","Justice Strike",1,1,4,7,57.1,18.4,90.1,NA,NA,"Clint Cearley","R,W",2,"Instant","GRN",0,0,1
+"540","Jwari Disruption",1,1,4,7,57.1,18.4,90.1,NA,NA,"Cliff Childs","U",2,"Instant","ZNR",0,0,1
+"541","Kabira Crossroads",2,2,12,16,75,47.6,92.7,NA,NA,"James Paick","",0,"Land","ZEN",0,0.1,1
+"542","Kaldra Compleat",38,38,207,295,70.2,64.6,75.3,NA,NA,"Vincent Proce","",7,"Artifact","MH2",0,1.5,1
+"543","Kami of False Hope",1,1,5,8,62.5,24.5,91.5,NA,NA,"Daren Bader","W",1,"Creature","BOK",0,0,1
+"544","Karn Liberated",258,66,335,496,67.5,63.2,71.6,NA,NA,"Jason Chan","",7,"Planeswalker","NPH",0.2,2.6,3.9
+"545","Karn, Scion of Urza",2,1,4,7,57.1,18.4,90.1,NA,NA,"Chase Stone","",4,"Planeswalker","DOM",0,0,2
+"546","Karn, the Great Creator",640,161,858,1236,69.4,66.8,72,NA,NA,"Wisnu Tan","",4,"Planeswalker","WAR",0.4,6.4,4
+"547","Karplusan Forest",4,2,10,14,71.4,41.9,91.6,NA,NA,"Nicola Leonard","",0,"Land","ICE",0,0.1,2
+"548","Kaya's Guile",234,85,470,670,70.1,66.5,73.6,NA,NA,"Jason Rainville","B,W",3,"Instant","MH1",0.2,3.4,2.8
+"549","Kaya, Orzhov Usurper",6,5,22,36,61.1,43.5,76.9,NA,NA,"Yongjae Choi","B,W",3,"Planeswalker","RNA",0,0.2,1.2
+"550","Kazandu Mammoth",3,1,4,7,57.1,18.4,90.1,NA,NA,"Grzegorz Rutkowski","G",3,"Creature","ZNR",0,0,3
+"551","Kessig Wolf Run",1,1,4,7,57.1,18.4,90.1,NA,NA,"Eytan Zana","",0,"Land","ISD",0,0,1
+"552","Ketria Triome",375,306,1709,2420,70.6,68.8,72.4,NA,NA,"Sam Burley","",0,"Land","IKO",0.2,12.1,1.2
+"553","Khalni Garden",94,78,446,616,72.4,68.7,75.9,NA,NA,"Ryan Pancoast","",0,"Land","WWK",0.1,3.1,1.2
+"554","Khalni Heart Expedition",1,1,7,8,87.5,47.3,99.7,NA,NA,"Jason Chan","G",2,"Enchantment","ZEN",0,0,1
+"555","Kiki-Jiki, Mirror Breaker",33,21,109,159,68.6,60.7,75.7,NA,NA,"Pete Venters","R",5,"Creature","CHK",0,0.8,1.6
+"556","Kiln Fiend",17,6,28,43,65.1,49.1,79,NA,NA,"Adi Granov","R",2,"Creature","ROE",0,0.2,2.8
+"557","Kinnan, Bonder Prodigy",8,2,11,16,68.8,41.3,89,NA,NA,"Jason Rainville","G,U",2,"Creature","IKO",0,0.1,4
+"558","Kitesail Freebooter",99,30,154,229,67.2,60.8,73.3,NA,NA,"Dan Scott","B",2,"Creature","XLN",0.1,1.2,3.3
+"559","Klothys, God of Destiny",71,36,191,274,69.7,63.9,75.1,NA,NA,"Magali Villeneuve","G,R",3,"Enchantment,Creature","THB",0,1.4,2
+"560","Knight of Autumn",12,12,65,91,71.4,61,80.4,NA,NA,"Ryan Pancoast","G,W",3,"Creature","GRN",0,0.5,1
+"561","Knight of the Ebon Legion",12,4,17,29,58.6,38.9,76.5,NA,NA,"Alex Konstad","B",1,"Creature","M20",0,0.2,3
+"562","Knight of the Reliquary",7,2,11,16,68.8,41.3,89,NA,NA,"Michael Komarck","G,W",3,"Creature","CON",0,0.1,3.5
+"563","Knight of the White Orchid",4,2,12,17,70.6,44,89.7,NA,NA,"Mark Zug","W",2,"Creature","ALA",0,0.1,2
+"564","Kolaghan's Command",339,185,1048,1487,70.5,68.1,72.8,NA,NA,"Daarken","B,R",3,"Instant","DTK",0.2,7.3,1.8
+"565","Kor Outfitter",8,4,20,31,64.5,45.4,80.8,NA,NA,"Kieran Yanner","W",2,"Creature","ZEN",0,0.2,2
+"566","Kor Spiritdancer",28,7,35,52,67.3,52.9,79.7,NA,NA,"Scott Chou","W",2,"Creature","ROE",0,0.3,4
+"567","Kozilek, Butcher of Truth",23,15,76,113,67.3,57.8,75.8,NA,NA,"Michael Komarck","",10,"Creature","ROE",0,0.6,1.5
+"568","Krenko, Mob Boss",1,1,5,7,71.4,29,96.3,NA,NA,"Karl Kopinski","R",4,"Creature","M13",0,0,1
+"569","Kroxa, Titan of Death's Hunger",349,169,933,1338,69.7,67.2,72.2,NA,NA,"Vincent Proce","B,R",2,"Creature","THB",0.2,6.7,2.1
+"570","Kruphix's Insight",4,1,4,7,57.1,18.4,90.1,NA,NA,"Igor Kieryluk","G",3,"Sorcery","JOU",0,0,4
+"571","Kumena's Speaker",8,2,11,15,73.3,44.9,92.2,NA,NA,"Johann Bodin","G",1,"Creature","XLN",0,0.1,4
+"572","Lair of the Hydra",2,2,12,16,75,47.6,92.7,NA,NA,"Johannes Voss","",0,"Land","AFR",0,0.1,1
+"573","Lantern of Insight",12,3,16,23,69.6,47.1,86.8,NA,NA,"Tim Hildebrandt","",1,"Artifact","5DN",0,0.1,4
+"574","Lava Dart",699,177,978,1387,70.5,68,72.9,NA,NA,"Darrell Riche","R",1,"Instant","JUD",0.5,7,3.9
+"575","Lava Spike",506,127,666,979,68,65,70.9,NA,NA,"Mark Tedin","R",1,"Sorcery","CHK",0.3,5,4
+"576","Lavinia, Azorius Renegade",6,2,12,16,75,47.6,92.7,NA,NA,"Steven Belledin","U,W",2,"Creature","RNA",0,0.1,3
+"577","Leeching Sliver",8,2,11,15,73.3,44.9,92.2,NA,NA,"Svetlin Velinov","B",2,"Creature","M15",0,0.1,4
+"578","Legion's End",1,1,4,7,57.1,18.4,90.1,NA,NA,"David Palumbo","B",2,"Sorcery","M20",0,0,1
+"579","Legion Loyalist",8,2,8,14,57.1,28.9,82.3,NA,NA,"Eric Deschamps","R",1,"Creature","GTC",0,0.1,4
+"580","Leonin Arbiter",124,31,167,240,69.6,63.3,75.3,NA,NA,"Shelly Wan","W",2,"Creature","SOM",0.1,1.2,4
+"581","Leonin Lightscribe",24,10,50,74,67.6,55.7,78,NA,NA,"Steven Belledin","W",2,"Creature","STX",0,0.4,2.4
+"582","Leyline of Abundance",4,1,4,7,57.1,18.4,90.1,NA,NA,"Noah Bradley","G",4,"Enchantment","M20",0,0,4
+"583","Leyline of Sanctity",24,7,34,52,65.4,50.9,78,NA,NA,"Ryan Pancoast","W",4,"Enchantment","M11",0,0.3,3.4
+"584","Life from the Loam",139,46,260,368,70.7,65.7,75.3,NA,NA,"Terese Nielsen","G",2,"Sorcery","RAV",0.1,1.8,3
+"585","Light Up the Stage",408,124,690,981,70.3,67.4,73.2,NA,NA,"Dmitry Burmak","R",3,"Sorcery","RNA",0.3,4.9,3.3
+"586","Lightning Axe",8,4,25,34,73.5,55.6,87.1,NA,NA,"Dan Scott","R",1,"Instant","TSP",0,0.2,2
+"587","Lightning Bolt",3512,976,5367,7682,69.9,68.8,70.9,NA,NA,"Christopher Rush","R",1,"Instant","LEA",2.3,38.6,3.6
+"588","Lightning Helix",457,172,915,1329,68.8,66.3,71.3,NA,NA,"Kev Walker","R,W",2,"Instant","RAV",0.3,6.8,2.7
+"589","Lightning Skelemental",34,11,60,87,69,58.1,78.5,NA,NA,"Nicholas Gregory","B,R",3,"Creature","MH1",0,0.4,3.1
+"590","Lightning Storm",11,11,71,94,75.5,65.6,83.8,NA,NA,"Luca Zontini","R",3,"Instant","CSP",0,0.4,1
+"591","Liliana of the Veil",168,51,261,387,67.4,62.5,72.1,NA,NA,"Steve Argyle","B",3,"Planeswalker","ISD",0.1,2,3.3
+"592","Liliana, Dreadhorde General",1,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rallis","B",6,"Planeswalker","WAR",0,0,1
+"593","Liliana, the Last Hope",1,1,6,8,75,34.9,96.8,NA,NA,"Anna Steinbauer","B",3,"Planeswalker","EMN",0,0,1
+"594","Lingering Souls",38,13,66,98,67.3,57.1,76.5,NA,NA,"Bud Cook","W",3,"Sorcery","DKA",0,0.5,2.9
+"595","Linvala, Keeper of Silence",8,3,19,25,76,54.9,90.6,NA,NA,"Igor Kieryluk","W",4,"Creature","ROE",0,0.1,2.7
+"596","Liquimetal Coating",3,1,7,9,77.8,40,97.2,NA,NA,"Johann Bodin","",2,"Artifact","SOM",0,0,3
+"597","Living End",323,102,572,804,71.1,67.9,74.3,NA,NA,"Greg Staples","B",0,"Sorcery","TSP",0.2,4,3.2
+"598","Llanowar Elves",7,2,10,15,66.7,38.4,88.2,NA,NA,"Anson Maddocks","G",1,"Creature","LEA",0,0.1,3.5
+"599","Llanowar Reborn",34,15,85,118,72,63,79.9,NA,NA,"Philip Straub","",0,"Land","FUT",0,0.6,2.3
+"600","Llanowar Visionary",4,1,4,7,57.1,18.4,90.1,NA,NA,"Cristi Balanescu","G",3,"Creature","M21",0,0,4
+"601","Llanowar Wastes",4,1,4,7,57.1,18.4,90.1,NA,NA,"Rob Alexander","",0,"Land","APC",0,0,4
+"602","Logic Knot",47,38,210,300,70,64.5,75.1,NA,NA,"Glen Angus","U",2,"Instant","FUT",0,1.5,1.2
+"603","Lonely Sandbar",23,17,82,126,65.1,56.1,73.4,NA,NA,"Heather Hudson","",0,"Land","ONS",0,0.7,1.4
+"604","Lonis, Cryptozoologist",3,1,5,7,71.4,29,96.3,NA,NA,"Andrew Mar","G,U",2,"Creature","MH2",0,0,3
+"605","Lord of Atlantis",20,5,27,38,71.1,54.1,84.6,NA,NA,"Melissa A. Benson","U",2,"Creature","LEA",0,0.2,4
+"606","Lose Focus",2,1,4,7,57.1,18.4,90.1,NA,NA,"Martina Fackova","U",2,"Instant","MH2",0,0,2
+"607","Lotleth Troll",10,4,23,31,74.2,55.4,88.1,NA,NA,"Vincent Proce","B,G",2,"Creature","RTR",0,0.2,2.5
+"608","Lotus Bloom",119,30,169,237,71.3,65.1,77,NA,NA,"Mark Zug","",0,"Artifact","TSP",0.1,1.2,4
+"609","Lotus Field",20,5,27,39,69.2,52.4,83,NA,NA,"John Avon","",0,"Land","M20",0,0.2,4
+"610","Loxodon Smiter",2,1,4,7,57.1,18.4,90.1,NA,NA,"Ryan Barger","G,W",3,"Creature","RTR",0,0,2
+"611","Lukka, Coppercoat Outcast",12,3,19,24,79.2,57.8,92.9,NA,NA,"Chris Rallis","R",5,"Planeswalker","IKO",0,0.1,4
+"612","Luminarch Aspirant",31,10,50,75,66.7,54.8,77.1,NA,NA,"Mads Ahm","W",2,"Creature","ZNR",0,0.4,3.1
+"613","Lurrus of the Dream-Den",31,17,86,128,67.2,58.3,75.2,NA,NA,"Slawomir Maniak","B,W",3,"Creature","IKO",0,0.7,1.8
+"614","Madcap Experiment",1,1,5,7,71.4,29,96.3,NA,NA,"Joseph Meehan","R",4,"Sorcery","KLD",0,0,1
+"615","Maddening Cacophony",49,17,99,135,73.3,65,80.6,NA,NA,"Magali Villeneuve","U",2,"Sorcery","ZNR",0,0.7,2.9
+"616","Maelstrom Pulse",22,20,122,166,73.5,66.1,80,NA,NA,"Anthony Francisco","B,G",3,"Sorcery","ARB",0,0.8,1.1
+"617","Magma Opus",1,1,5,8,62.5,24.5,91.5,NA,NA,"Liiga Smilshkalne","R,U",8,"Instant","STX",0,0,1
+"618","Magmatic Channeler",55,14,65,100,65,54.8,74.3,NA,NA,"Bryan Sola","R",2,"Creature","ZNR",0,0.6,3.9
+"619","Magmatic Sinkhole",11,8,38,60,63.3,49.9,75.4,NA,NA,"Mark Behm","R",6,"Instant","MH1",0,0.3,1.4
+"620","Magnetic Theft",15,8,42,63,66.7,53.7,78,NA,NA,"Dave Dorman","R",1,"Instant","5DN",0,0.3,1.9
+"621","Magus of the Moon",57,29,163,228,71.5,65.2,77.3,NA,NA,"Franz Vohwinkel","R",3,"Creature","FUT",0,1.1,2
+"622","Magus of the Tabernacle",8,4,22,32,68.8,50,83.9,NA,NA,"Randy Gallegos","W",4,"Creature","PLC",0,0.2,2
+"623","Malakir Rebirth",37,12,58,88,65.9,55,75.7,NA,NA,"Marta Nael","B",1,"Instant","ZNR",0,0.5,3.1
+"624","Mana Bloom",2,2,11,15,73.3,44.9,92.2,NA,NA,"Mike Bierek","G",1,"Enchantment","RTR",0,0.1,1
+"625","Mana Confluence",64,45,243,346,70.2,65.1,75,NA,NA,"Richard Wright","",0,"Land","JOU",0,1.8,1.4
+"626","Mana Leak",360,151,828,1182,70.1,67.3,72.7,NA,NA,"Christopher Rush","U",2,"Instant","STH",0.2,6,2.4
+"627","Mana Tithe",35,10,54,78,69.2,57.8,79.2,NA,NA,"Martina Pilcerova","W",1,"Instant","PLC",0,0.4,3.5
+"628","Manamorphose",678,172,931,1333,69.8,67.3,72.3,NA,NA,"Jeff Miracola","G,R",2,"Instant","SHM",0.4,6.8,3.9
+"629","Manic Scribe",3,1,4,7,57.1,18.4,90.1,NA,NA,"Matt Stewart","U",2,"Creature","SOI",0,0,3
+"630","Mantis Rider",139,36,182,272,66.9,61,72.5,NA,NA,"Johann Bodin","R,U,W",3,"Creature","KTK",0.1,1.4,3.9
+"631","Marsh Flats",500,168,925,1320,70.1,67.5,72.5,NA,NA,"Izzy","",0,"Land","ZEN",0.3,6.6,3
+"632","Martyr of Sands",8,2,9,15,60,32.3,83.7,NA,NA,"Randy Gallegos","W",1,"Creature","CSP",0,0.1,4
+"633","Master of the Pearl Trident",20,5,27,38,71.1,54.1,84.6,NA,NA,"Ryan Pancoast","U",2,"Creature","M13",0,0.2,4
+"634","Matter Reshaper",268,67,372,524,71,66.9,74.8,NA,NA,"Chris Rahn","",3,"Creature","OGW",0.2,2.7,4
+"635","Maul of the Skyclaves",40,40,217,312,69.6,64.1,74.6,NA,NA,"Joseph Meehan","W",3,"Artifact","ZNR",0,1.6,1
+"636","Mausoleum Wanderer",104,26,152,208,73.1,66.5,79,NA,NA,"Kieran Yanner","U",1,"Creature","EMN",0.1,1,4
+"637","Mayhem Devil",12,3,14,21,66.7,43,85.4,NA,NA,"Dmitry Burmak","B,R",3,"Creature","WAR",0,0.1,4
+"638","Mazemind Tome",38,19,100,143,69.9,61.7,77.3,NA,NA,"Randy Gallegos","",2,"Artifact","M21",0,0.8,2
+"639","Meddling Mage",150,40,212,308,68.8,63.3,74,NA,NA,"Christopher Moeller","U,W",2,"Creature","PLS",0.1,1.6,3.8
+"640","Memnite",771,207,1147,1640,69.9,67.7,72.2,NA,NA,"Svetlin Velinov","",0,"Artifact,Creature","SOM",0.5,8.2,3.7
+"641","Memory Deluge",96,41,209,304,68.8,63.2,73.9,NA,NA,"Lake Hurwitz","U",4,"Instant","MID",0.1,1.6,2.3
+"642","Merchant of the Vale",34,13,70,101,69.3,59.3,78.1,NA,NA,"David Gaillet","R",3,"Creature","ELD",0,0.5,2.6
+"643","Merchant Scroll",4,2,13,17,76.5,50.1,93.2,NA,NA,"Liz Danforth","U",2,"Sorcery","HML",0,0.1,2
+"644","Merfolk Mistbinder",8,2,11,15,73.3,44.9,92.2,NA,NA,"Clint Cearley","G,U",2,"Creature","RIX",0,0.1,4
+"645","Merfolk Secretkeeper",16,4,20,30,66.7,47.2,82.7,NA,NA,"Jana Schirmer","U",1,"Creature","ELD",0,0.2,4
+"646","Merfolk Trickster",15,4,22,30,73.3,54.1,87.7,NA,NA,"Jesper Ejsing","U",2,"Creature","DOM",0,0.2,3.8
+"647","Merrow Reejerey",11,3,16,23,69.6,47.1,86.8,NA,NA,"Greg Staples","U",3,"Creature","LRW",0,0.1,3.7
+"648","Mesmeric Orb",83,24,137,191,71.7,64.8,78,NA,NA,"David Martin","",2,"Artifact","MRD",0.1,0.9,3.5
+"649","Metallic Mimic",1,1,4,7,57.1,18.4,90.1,NA,NA,"Zack Stella","",2,"Artifact,Creature","AER",0,0,1
+"650","Metallic Rebuke",92,32,170,251,67.7,61.6,73.5,NA,NA,"Eric Deschamps","U",3,"Instant","AER",0.1,1.3,2.9
+"651","Might of Old Krosa",100,25,127,186,68.3,61.1,74.9,NA,NA,"Una Fricker","G",1,"Instant","TSP",0.1,1,4
+"652","Mikokoro, Center of the Sea",5,5,29,40,72.5,56.1,85.4,NA,NA,"John Avon","",0,"Land","SOK",0,0.2,1
+"653","Militia Bugler",10,7,36,54,66.7,52.5,78.9,NA,NA,"David Gaillet","W",3,"Creature","M19",0,0.3,1.4
+"654","Minamo, School at Water's Edge",17,17,86,129,66.7,57.8,74.7,NA,NA,"Jeremy Jarvis","",0,"Land","CHK",0,0.7,1
+"655","Mind Funeral",2,2,10,14,71.4,41.9,91.6,NA,NA,"rk post","B,U",3,"Sorcery","ARB",0,0.1,1
+"656","Mind Stone",40,36,195,277,70.4,64.6,75.7,NA,NA,"Adam Rex","",2,"Artifact","WTH",0,1.4,1.1
+"657","Mindslaver",1,1,5,8,62.5,24.5,91.5,NA,NA,"Glen Angus","",6,"Artifact","MRD",0,0,1
+"658","Mirran Crusader",2,1,7,9,77.8,40,97.2,NA,NA,"Eric Deschamps","W",3,"Creature","MBS",0,0,2
+"659","Mishra's Bauble",2391,620,3435,4900,70.1,68.8,71.4,NA,NA,"Chippy","",0,"Artifact","CSP",1.6,24.5,3.9
+"660","Mishra's Factory",6,2,9,15,60,32.3,83.7,NA,NA,"Kaja Foglio & Phil Foglio","",0,"Land","ATQ",0,0.1,3
+"661","Mistveil Plains",6,4,19,30,63.3,43.9,80.1,NA,NA,"Rob Alexander","",0,"Land","SHM",0,0.2,1.5
+"662","Misty Rainforest",2214,783,4369,6182,70.7,69.5,71.8,NA,NA,"Shelly Wan","",0,"Land","ZEN",1.4,31,2.8
+"663","Mogg War Marshal",32,9,41,65,63.1,50.2,74.7,NA,NA,"Wayne England","R",2,"Creature","TSP",0,0.4,3.6
+"664","Molten Rain",16,4,22,32,68.8,50,83.9,NA,NA,"Hugh Jamieson","R",3,"Sorcery","MRD",0,0.2,4
+"665","Monastery Mentor",13,5,25,36,69.4,51.9,83.7,NA,NA,"Magali Villeneuve","W",3,"Creature","FRF",0,0.2,2.6
+"666","Monastery Swiftspear",1369,346,1900,2713,70,68.3,71.8,NA,NA,"Steve Argyle","R",1,"Creature","KTK",0.9,13.7,4
+"667","Monstrous Carabid",23,19,104,150,69.3,61.3,76.6,NA,NA,"Pete Venters","B,R",5,"Creature","ARB",0,0.8,1.2
+"668","Moorland Haunt",34,26,152,208,73.1,66.5,79,NA,NA,"James Paick","",0,"Land","ISD",0,1,1.3
+"669","Morophon, the Boundless",4,1,5,7,71.4,29,96.3,NA,NA,"Victor Adame Minguez","",7,"Creature","MH1",0,0,4
+"670","Mountain",2039,811,4449,6362,69.9,68.8,71.1,NA,NA,"Douglas Shuler","",0,"Land","LEA",1.3,32.1,2.5
+"671","Mox Amber",84,32,168,247,68,61.8,73.8,NA,NA,"Steven Belledin","",0,"Artifact","DOM",0.1,1.3,2.6
+"672","Mulldrifter",60,27,158,219,72.1,65.7,78,NA,NA,"Eric Fortune","U",5,"Creature","LRW",0,1.1,2.2
+"673","Munitions Expert",26,7,33,51,64.7,50.1,77.6,NA,NA,"Jesper Ejsing","B,R",2,"Creature","MH1",0,0.3,3.7
+"674","Murderous Cut",7,7,40,57,70.2,56.6,81.6,NA,NA,"Yohann Schepacz","B",5,"Instant","KTK",0,0.3,1
+"675","Murderous Rider",3,2,10,14,71.4,41.9,91.6,NA,NA,"Josh Hass","B",3,"Creature","ELD",0,0.1,1.5
+"676","Murktide Regent",497,142,793,1125,70.5,67.7,73.1,NA,NA,"Lucas Graciano","U",7,"Creature","MH2",0.3,5.6,3.5
+"677","Murmuring Bosk",1,1,5,7,71.4,29,96.3,NA,NA,"John Avon","",0,"Land","MOR",0,0,1
+"678","Mutagenic Growth",483,159,866,1234,70.2,67.5,72.7,NA,NA,"Dave Kendall","G",1,"Instant","NPH",0.3,6.3,3
+"679","Mutavault",27,10,54,76,71.1,59.5,80.9,NA,NA,"Fred Fields","",0,"Land","MOR",0,0.4,2.7
+"680","Myr Enforcer",6,3,18,23,78.3,56.3,92.5,NA,NA,"Greg Staples","",7,"Artifact,Creature","MRD",0,0.1,2
+"681","Mystic Forge",4,1,5,8,62.5,24.5,91.5,NA,NA,"Titus Lunter","",4,"Artifact","M20",0,0,4
+"682","Mystic Gate",218,91,491,697,70.4,66.9,73.8,NA,NA,"Fred Fields","",0,"Land","SHM",0.1,3.6,2.4
+"683","Mystic Sanctuary",191,95,522,750,69.6,66.2,72.9,NA,NA,"Randy Vargas","",0,"Land","ELD",0.1,3.8,2
+"684","Mystical Dispute",21,14,74,106,69.8,60.1,78.3,NA,NA,"Ekaterina Burmak","U",3,"Instant","ELD",0,0.6,1.5
+"685","Mystifying Maze",1,1,4,7,57.1,18.4,90.1,NA,NA,"Robh Ruppel","",0,"Land","M11",0,0,1
+"686","Myth Realized",7,2,9,14,64.3,35.1,87.2,NA,NA,"Jason Rainville","W",1,"Enchantment","DTK",0,0.1,3.5
+"687","Nahiri, the Harbinger",78,36,210,290,72.4,66.9,77.5,NA,NA,"Aleksi Briclot","R,W",4,"Planeswalker","SOI",0.1,1.4,2.2
+"688","Narcomoeba",164,47,263,377,69.8,64.9,74.4,NA,NA,"Matt Stewart","U",2,"Creature","FUT",0.1,1.9,3.5
+"689","Narset, Parter of Veils",4,1,5,7,71.4,29,96.3,NA,NA,"Magali Villeneuve","U",3,"Planeswalker","WAR",0,0,4
+"690","Nature's Claim",4,2,11,16,68.8,41.3,89,NA,NA,"Daarken","G",1,"Instant","WWK",0,0.1,2
+"691","Needle Spires",2,1,5,7,71.4,29,96.3,NA,NA,"Jonas De Ro","",0,"Land","OGW",0,0,2
+"692","Needleverge Pathway",20,8,41,62,66.1,53,77.7,NA,NA,"Piotr Dura","",0,"Land","ZNR",0,0.3,2.5
+"693","Negate",3,3,14,22,63.6,40.7,82.8,NA,NA,"Jeremy Jarvis","U",2,"Instant","MOR",0,0.1,1
+"694","Neoform",1,1,7,9,77.8,40,97.2,NA,NA,"Bram Sels","G,U",2,"Sorcery","WAR",0,0,1
+"695","Nettle Sentinel",7,2,15,19,78.9,54.4,93.9,NA,NA,"Kev Walker","G",1,"Creature","EVE",0,0.1,3.5
+"696","Nettlecyst",22,12,61,91,67,56.4,76.5,NA,NA,"Vincent Proce","",3,"Artifact","MH2",0,0.5,1.8
+"697","Nexus of Fate",16,16,86,128,67.2,58.3,75.2,NA,NA,"Mike Bierek","U",7,"Instant","M19",0,0.6,1
+"698","Niambi, Esteemed Speaker",1,1,7,9,77.8,40,97.2,NA,NA,"Eric Deschamps","U,W",2,"Creature","M21",0,0,1
+"699","Night's Whisper",42,25,141,199,70.9,64,77.1,NA,NA,"David Martin","B",2,"Sorcery","5DN",0,1,1.7
+"700","Nihil Spellbomb",90,76,412,589,69.9,66.1,73.6,NA,NA,"Franz Vohwinkel","",1,"Artifact","SOM",0.1,3,1.2
+"701","Nimbus Maze",1,1,5,7,71.4,29,96.3,NA,NA,"Jason Chan","",0,"Land","FUT",0,0,1
+"702","Nine Lives",7,3,15,23,65.2,42.7,83.6,NA,NA,"Paul Scott Canavan","W",3,"Enchantment","M21",0,0.1,2.3
+"703","Nissa, Who Shakes the World",4,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rallis","G",5,"Planeswalker","WAR",0,0,4
+"704","Niv-Mizzet Reborn",99,33,184,260,70.8,64.8,76.2,NA,NA,"Raymond Swanland","B,G,R,U,W",5,"Creature","WAR",0.1,1.3,3
+"705","Nivmagus Elemental",8,2,11,16,68.8,41.3,89,NA,NA,"Mike Bierek","R,U",1,"Creature","RTR",0,0.1,4
+"706","Noble Hierarch",420,149,801,1150,69.7,66.9,72.3,NA,NA,"Mark Zug","G",1,"Creature","CON",0.3,5.9,2.8
+"707","Nourishing Shoal",4,1,5,8,62.5,24.5,91.5,NA,NA,"Greg Staples","G",2,"Instant","BOK",0,0,4
+"708","Noxious Revival",1,1,5,8,62.5,24.5,91.5,NA,NA,"Matt Stewart","G",1,"Instant","NPH",0,0,1
+"709","Nurturing Peatland",302,186,1035,1466,70.6,68.2,72.9,NA,NA,"Noah Bradley","",0,"Land","MH1",0.2,7.4,1.6
+"710","Nykthos, Shrine to Nyx",10,3,14,22,63.6,40.7,82.8,NA,NA,"Jung Park","",0,"Land","THS",0,0.1,3.3
+"711","Oath of Kaya",1,1,6,8,75,34.9,96.8,NA,NA,"Wesley Burt","B,W",3,"Enchantment","WAR",0,0,1
+"712","Oath of Nissa",47,13,66,97,68,57.8,77.1,NA,NA,"Wesley Burt","G",1,"Enchantment","OGW",0,0.5,3.6
+"713","Ob Nixilis Reignited",2,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rahn","B",5,"Planeswalker","BFZ",0,0,2
+"714","Oblivion Ring",1,1,5,8,62.5,24.5,91.5,NA,NA,"Wayne England","W",3,"Enchantment","LRW",0,0,1
+"715","Oblivion Sower",4,2,12,16,75,47.6,92.7,NA,NA,"Jaime Jones","",6,"Creature","BFZ",0,0.1,2
+"716","Oblivion Stone",118,51,260,382,68.1,63.1,72.7,NA,NA,"Sam Wood","",3,"Artifact","MRD",0.1,2,2.3
+"717","Oboro, Palace in the Clouds",55,55,312,437,71.4,66.9,75.6,NA,NA,"Rob Alexander","",0,"Land","SOK",0,2.2,1
+"718","Obsidian Charmaw",4,2,12,17,70.6,44,89.7,NA,NA,"Lucas Graciano","R",5,"Creature","MH2",0,0.1,2
+"719","Obstinate Baloth",1,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rahn","G",4,"Creature","M11",0,0,1
+"720","Ojutai's Command",1,1,4,7,57.1,18.4,90.1,NA,NA,"Willian Murai","U,W",4,"Instant","DTK",0,0,1
+"721","Omen of the Sea",31,9,50,69,72.5,60.4,82.5,NA,NA,"Piotr Dura","U",2,"Enchantment","THB",0,0.4,3.4
+"722","Omnath, Locus of Creation",598,204,1142,1615,70.7,68.4,72.9,NA,NA,"Chris Rahn","G,R,U,W",4,"Creature","ZNR",0.4,8.1,2.9
+"723","Omnath, Locus of the Roil",7,7,49,64,76.6,64.3,86.2,NA,NA,"Lius Lasahido","G,R,U",4,"Creature","M20",0,0.3,1
+"724","Omniscience",12,3,13,21,61.9,38.4,81.9,NA,NA,"Jason Chan","U",10,"Enchantment","M13",0,0.1,4
+"725","On Thin Ice",53,15,74,111,66.7,57.1,75.3,NA,NA,"Lucas Graciano","W",1,"Enchantment","MH1",0,0.6,3.5
+"726","Opt",613,172,917,1328,69.1,66.5,71.5,NA,NA,"John Howe","U",1,"Instant","INV",0.4,6.8,3.6
+"727","Oran-Rief Hydra",1,1,9,11,81.8,48.2,97.7,NA,NA,"Chris Rahn","G",6,"Creature","BFZ",0,0,1
+"728","Ornithopter",830,208,1153,1648,70,67.7,72.2,NA,NA,"Amy Weber","",0,"Artifact,Creature","ATQ",0.5,8.2,4
+"729","Otherworldly Gaze",4,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Cold","U",1,"Instant","MID",0,0,4
+"730","Oust",36,21,117,166,70.5,62.9,77.3,NA,NA,"Mike Bierek","W",1,"Sorcery","ROE",0,0.8,1.7
+"731","Outland Liberator",5,5,31,42,73.8,58,86.1,NA,NA,"Randy Vargas","G",2,"Creature","MID",0,0.2,1
+"732","Ovalchase Daredevil",110,29,174,241,72.2,66.1,77.8,NA,NA,"Winona Nelson","B",4,"Creature","KLD",0.1,1.1,3.8
+"733","Overgrown Tomb",438,301,1658,2358,70.3,68.4,72.2,NA,NA,"Rob Alexander","",0,"Land","RAV",0.3,11.9,1.5
+"734","Overwhelming Splendor",1,1,5,7,71.4,29,96.3,NA,NA,"Richard Wright","W",8,"Enchantment","HOU",0,0,1
+"735","Ox of Agonas",100,38,213,304,70.1,64.6,75.2,NA,NA,"Lie Setiawan","R",5,"Creature","THB",0.1,1.5,2.6
+"736","Pact of Negation",125,49,271,385,70.4,65.6,74.9,NA,NA,"Jason Chan","U",0,"Instant","FUT",0.1,1.9,2.6
+"737","Pact of the Titan",9,9,49,68,72.1,59.9,82.3,NA,NA,"Raymond Swanland","R",0,"Instant","FUT",0,0.4,1
+"738","Paradise Mantle",121,67,365,528,69.1,65,73,NA,NA,"Greg Hildebrandt","",0,"Artifact","5DN",0.1,2.7,1.8
+"739","Paradox Engine",3,2,11,16,68.8,41.3,89,NA,NA,"Christine Choi","",5,"Artifact","AER",0,0.1,1.5
+"740","Pashalik Mons",5,5,25,36,69.4,51.9,83.7,NA,NA,"Even Amundsen","R",3,"Creature","MH1",0,0.2,1
+"741","Past in Flames",22,11,57,83,68.7,57.6,78.4,NA,NA,"Anthony Jones","R",4,"Sorcery","ISD",0,0.4,2
+"742","Path to Exile",669,223,1233,1762,70,67.8,72.1,NA,NA,"Todd Lockwood","W",1,"Instant","CON",0.4,8.8,3
+"743","Patriarch's Bidding",2,1,5,8,62.5,24.5,91.5,NA,NA,"Ben Thompson","B",5,"Sorcery","ONS",0,0,2
+"744","Peek",2,1,5,8,62.5,24.5,91.5,NA,NA,"Adam Rex","U",1,"Instant","ODY",0,0,2
+"745","Peer Through Depths",8,2,13,17,76.5,50.1,93.2,NA,NA,"Anthony S. Waters","U",2,"Instant","CHK",0,0.1,4
+"746","Pelakka Predation",15,5,29,43,67.4,51.5,80.9,NA,NA,"Jokubas Uogintas","B",3,"Sorcery","ZNR",0,0.2,3
+"747","Pendelhaven",123,103,574,808,71,67.8,74.1,NA,NA,"Bryon Wackwitz","",0,"Land","LEG",0.1,4.1,1.2
+"748","Pentad Prism",135,37,208,296,70.3,64.7,75.4,NA,NA,"David Martin","",2,"Artifact","5DN",0.1,1.5,3.6
+"749","Perilous Voyage",1,1,4,7,57.1,18.4,90.1,NA,NA,"Wesley Burt","U",2,"Instant","XLN",0,0,1
+"750","Persist",52,15,80,115,69.6,60.3,77.8,NA,NA,"Milivoj Ćeran","B",2,"Sorcery","MH2",0,0.6,3.5
+"751","Phantasmagorian",6,6,35,51,68.6,54.1,80.9,NA,NA,"Steve Ellis","B",7,"Creature","PLC",0,0.2,1
+"752","Phantasmal Image",114,40,209,306,68.3,62.8,73.5,NA,NA,"Nils Hamm","U",2,"Creature","M12",0.1,1.6,2.9
+"753","Phyrexia's Core",5,4,26,35,74.3,56.7,87.5,NA,NA,"Franz Vohwinkel","",0,"Land","NPH",0,0.2,1.2
+"754","Phyrexian Crusader",16,4,20,30,66.7,47.2,82.7,NA,NA,"Eric Deschamps","B",3,"Creature","MBS",0,0.2,4
+"755","Phyrexian Revoker",2,1,5,8,62.5,24.5,91.5,NA,NA,"Kev Walker","",2,"Artifact,Creature","MBS",0,0,2
+"756","Phyrexian Unlife",114,31,174,245,71,64.9,76.6,NA,NA,"Jason Chan","W",3,"Enchantment","NPH",0.1,1.2,3.7
+"757","Pieces of the Puzzle",1,1,4,7,57.1,18.4,90.1,NA,NA,"Magali Villeneuve","U",3,"Sorcery","SOI",0,0,1
+"758","Pillage",116,32,172,246,69.9,63.8,75.6,NA,NA,"Richard Kane Ferguson","R",3,"Sorcery","ALL",0.1,1.3,3.6
+"759","Pillar of the Paruns",72,25,137,196,69.9,63,76.2,NA,NA,"Dany Orizio","",0,"Land","DIS",0,1,2.9
+"760","Pithing Needle",87,82,474,664,71.4,67.8,74.8,NA,NA,"Pete Venters","",1,"Artifact","SOK",0.1,3.2,1.1
+"761","Plague Engineer",2,2,8,14,57.1,28.9,82.3,NA,NA,"Nicholas Gregory","B",3,"Creature","MH1",0,0.1,1
+"762","Plague Stinger",16,4,20,30,66.7,47.2,82.7,NA,NA,"Ryan Pancoast","B",2,"Creature","SOM",0,0.2,4
+"763","Plains",1813,692,3824,5430,70.4,69.2,71.6,NA,NA,"Jesper Myrfors","",0,"Land","LEA",1.2,27.4,2.6
+"764","Platinum Angel",2,1,5,7,71.4,29,96.3,NA,NA,"Brom","",7,"Artifact,Creature","MRD",0,0,2
+"765","Platinum Emperion",1,1,5,7,71.4,29,96.3,NA,NA,"Chris Rahn","",8,"Artifact,Creature","SOM",0,0,1
+"766","Polluted Delta",1241,443,2421,3457,70,68.5,71.6,NA,NA,"Rob Alexander","",0,"Land","ONS",0.8,17.5,2.8
+"767","Polymorph",6,2,12,16,75,47.6,92.7,NA,NA,"Robert Bliss","U",4,"Sorcery","MIR",0,0.1,3
+"768","Portable Hole",24,7,38,55,69.1,55.2,80.9,NA,NA,"John Stanko","W",1,"Artifact","AFR",0,0.3,3.4
+"769","Postmortem Lunge",12,3,15,22,68.2,45.1,86.1,NA,NA,"Daarken","B",1,"Sorcery","NPH",0,0.1,4
+"770","Power Conduit",2,2,14,17,82.4,56.6,96.2,NA,NA,"Todd Lockwood","",2,"Artifact","MRD",0,0.1,1
+"771","Power Depot",16,7,46,59,78,65.3,87.7,NA,NA,"James Paick","",0,"Artifact,Land","MH2",0,0.3,2.3
+"772","Prairie Stream",7,7,37,53,69.8,55.7,81.7,NA,NA,"Adam Paquette","",0,"Land","BFZ",0,0.3,1
+"773","Predatory Sliver",8,2,11,15,73.3,44.9,92.2,NA,NA,"Mathias Kollros","G",2,"Creature","M14",0,0.1,4
+"774","Priest of Fell Rites",20,6,32,45,71.1,55.7,83.6,NA,NA,"Pauline Voss","B,W",2,"Creature","MH2",0,0.2,3.3
+"775","Primal Beyond",15,4,21,31,67.7,48.6,83.3,NA,NA,"Mark Tedin","",0,"Land","MOR",0,0.2,3.8
+"776","Primal Command",2,2,9,14,64.3,35.1,87.2,NA,NA,"Wayne England","G",5,"Sorcery","LRW",0,0.1,1
+"777","Primeval Titan",424,111,640,894,71.6,68.5,74.5,NA,NA,"Aleksi Briclot","G",6,"Creature","M11",0.3,4.4,3.8
+"778","Prismari Command",351,130,711,1018,69.8,66.9,72.7,NA,NA,"Johannes Voss","R,U",3,"Instant","STX",0.2,5.1,2.7
+"779","Prismatic Ending",961,276,1552,2177,71.3,69.3,73.2,NA,NA,"John Stanko","W",1,"Sorcery","MH2",0.6,10.9,3.5
+"780","Prismatic Omen",1,1,6,8,75,34.9,96.8,NA,NA,"John Avon","G",2,"Enchantment","SHM",0,0,1
+"781","Prismatic Vista",361,161,891,1265,70.4,67.8,72.9,NA,NA,"Sam Burley","",0,"Land","MH1",0.2,6.4,2.2
+"782","Prized Amalgam",159,41,228,326,69.9,64.6,74.9,NA,NA,"Karl Kopinski","B,U",3,"Creature","SOI",0.1,1.6,3.9
+"783","Prodigious Growth",2,1,6,8,75,34.9,96.8,NA,NA,"Svetlin Velinov","G",6,"Enchantment","M19",0,0,2
+"784","Profane Tutor",52,13,65,97,67,56.7,76.2,NA,NA,"Richard Kane Ferguson","B",0,"Sorcery","MH2",0,0.5,4
+"785","Prophetic Prism",1,1,5,7,71.4,29,96.3,NA,NA,"John Avon","",2,"Artifact","ROE",0,0,1
+"786","Prosperous Innkeeper",11,9,57,73,78.1,66.9,86.9,NA,NA,"Eric Deschamps","G",2,"Creature","AFR",0,0.4,1.2
+"787","Psychic Puppetry",8,2,13,17,76.5,50.1,93.2,NA,NA,"Joel Thomas","U",2,"Instant","CHK",0,0.1,4
+"788","Pull from Tomorrow",1,1,4,7,57.1,18.4,90.1,NA,NA,"Sara Winters","U",2,"Instant","AKH",0,0,1
+"789","Puresteel Paladin",820,205,1135,1625,69.8,67.5,72.1,NA,NA,"Jason Chan","W",2,"Creature","NPH",0.5,8.1,4
+"790","Pyre of Heroes",4,2,10,14,71.4,41.9,91.6,NA,NA,"Piotr Dura","",2,"Artifact","KHM",0,0.1,2
+"791","Pyretic Ritual",92,23,118,172,68.6,61.1,75.5,NA,NA,"James Paick","R",2,"Instant","M11",0.1,0.9,4
+"792","Pyrite Spellbomb",68,62,337,479,70.4,66,74.4,NA,NA,"Jim Nelson","",1,"Artifact","MRD",0,2.5,1.1
+"793","Pyromancer Ascension",11,4,19,29,65.5,45.7,82.1,NA,NA,"Kev Walker","R",2,"Enchantment","ZEN",0,0.2,2.8
+"794","Pyxis of Pandemonium",6,3,16,23,69.6,47.1,86.8,NA,NA,"David Palumbo","",1,"Artifact","THS",0,0.1,2
+"795","Questing Beast",2,2,10,14,71.4,41.9,91.6,NA,NA,"Igor Kieryluk","G",4,"Creature","ELD",0,0.1,1
+"796","Quirion Ranger",1,1,5,7,71.4,29,96.3,NA,NA,"Tom Kyffin","G",1,"Creature","VIS",0,0,1
+"797","Radiant Fountain",126,118,654,927,70.6,67.5,73.5,NA,NA,"Adam Paquette","",0,"Land","M15",0.1,4.7,1.1
+"798","Ragavan, Nimble Pilferer",1205,319,1778,2532,70.2,68.4,72,NA,NA,"Simon Dominic","R",1,"Creature","MH2",0.8,12.6,3.8
+"799","Raging Ravine",31,21,118,166,71.1,63.6,77.8,NA,NA,"Todd Lockwood","",0,"Land","WWK",0,0.8,1.5
+"800","Ral, Izzet Viceroy",9,9,47,69,68.1,55.8,78.8,NA,NA,"Kieran Yanner","R,U",5,"Planeswalker","GRN",0,0.4,1
+"801","Ramunap Excavator",2,1,6,8,75,34.9,96.8,NA,NA,"Mark Behm","G",3,"Creature","HOU",0,0,2
+"802","Ramunap Ruins",17,5,30,41,73.2,57.1,85.8,NA,NA,"Florian de Gesincourt","",0,"Land","HOU",0,0.2,3.4
+"803","Rancor",42,12,63,91,69.2,58.7,78.5,NA,NA,"Kev Walker","G",1,"Enchantment","ULG",0,0.5,3.5
+"804","Ranger-Captain of Eos",395,100,561,795,70.6,67.3,73.7,NA,NA,"Ryan Pancoast","W",3,"Creature","MH1",0.3,4,4
+"805","Ranger Class",1,1,5,8,62.5,24.5,91.5,NA,NA,"Suzanne Helmigh","G",2,"Enchantment","AFR",0,0,1
+"806","Rankle, Master of Pranks",7,4,20,29,69,49.2,84.7,NA,NA,"Dmitry Burmak","B",4,"Creature","ELD",0,0.2,1.8
+"807","Ratchet Bomb",4,1,5,8,62.5,24.5,91.5,NA,NA,"Austin Hsu","",2,"Artifact","SOM",0,0,4
+"808","Rattlechains",97,26,152,208,73.1,66.5,79,NA,NA,"Lius Lasahido","U",2,"Creature","SOI",0.1,1,3.7
+"809","Raugrin Triome",397,344,1930,2718,71,69.3,72.7,NA,NA,"Jonas De Ro","",0,"Land","IKO",0.3,13.6,1.2
+"810","Raven's Crime",1,1,7,10,70,34.8,93.3,NA,NA,"Warren Mahy","B",1,"Sorcery","EVE",0,0,1
+"811","Razortide Bridge",6,3,14,22,63.6,40.7,82.8,NA,NA,"Rob Alexander","",0,"Artifact,Land","MH2",0,0.1,2
+"812","Razorverge Thicket",99,30,166,236,70.3,64.1,76.1,NA,NA,"James Paick","",0,"Land","SOM",0.1,1.2,3.3
+"813","Reach Through Mists",8,2,13,17,76.5,50.1,93.2,NA,NA,"Anthony S. Waters","U",1,"Instant","CHK",0,0.1,4
+"814","Reality Smasher",276,69,380,538,70.6,66.6,74.5,NA,NA,"Jason Rainville","",5,"Creature","OGW",0.2,2.7,4
+"815","Realmwalker",11,5,31,41,75.6,59.7,87.6,NA,NA,"Zack Stella","G",3,"Creature","KHM",0,0.2,2.2
+"816","Reckless Bushwhacker",8,2,8,14,57.1,28.9,82.3,NA,NA,"Kieran Yanner","R",3,"Creature","OGW",0,0.1,4
+"817","Reclamation Sage",3,3,21,26,80.8,60.6,93.4,NA,NA,"Christopher Moeller","G",3,"Creature","M15",0,0.1,1
+"818","Recross the Paths",56,14,74,106,69.8,60.1,78.3,NA,NA,"Greg Hildebrandt","G",3,"Sorcery","MOR",0,0.6,4
+"819","Reflecting Pool",76,47,252,363,69.4,64.4,74.1,NA,NA,"Adam Rex","",0,"Land","TMP",0,1.9,1.6
+"820","Reflector Mage",117,33,168,250,67.2,61,73,NA,NA,"Willian Murai","U,W",3,"Creature","OGW",0.1,1.3,3.5
+"821","Reforge the Soul",22,14,74,106,69.8,60.1,78.3,NA,NA,"Jaime Jones","R",5,"Sorcery","AVR",0,0.6,1.6
+"822","Reidane, God of the Worthy",3,1,4,7,57.1,18.4,90.1,NA,NA,"Jason Rainville","W",3,"Creature","KHM",0,0,3
+"823","Release to the Wind",1,1,5,7,71.4,29,96.3,NA,NA,"Joseph Meehan","U",3,"Instant","RIX",0,0,1
+"824","Relic of Progenitus",123,68,359,524,68.5,64.3,72.5,NA,NA,"Jean-Sébastien Rossbach","",1,"Artifact","ALA",0.1,2.7,1.8
+"825","Remand",401,126,677,973,69.6,66.6,72.5,NA,NA,"Mark A. Nelson","U",2,"Instant","RAV",0.3,5,3.2
+"826","Remorseful Cleric",12,8,48,63,76.2,63.8,86,NA,NA,"Grzegorz Rutkowski","W",2,"Creature","M19",0,0.3,1.5
+"827","Renegade Rallier",8,3,15,22,68.2,45.1,86.1,NA,NA,"Kieran Yanner","G,W",3,"Creature","AER",0,0.1,2.7
+"828","Repeal",21,16,78,118,66.1,56.8,74.6,NA,NA,"Dan Scott","U",1,"Instant","GPT",0,0.6,1.3
+"829","Rest in Peace",18,10,57,78,73.1,61.8,82.5,NA,NA,"Terese Nielsen","W",2,"Enchantment","RTR",0,0.4,1.8
+"830","Restoration Angel",58,22,118,169,69.8,62.3,76.6,NA,NA,"Johannes Voss","W",4,"Creature","AVR",0,0.9,2.6
+"831","Restore Balance",20,5,23,37,62.2,44.8,77.5,NA,NA,"Mark Poole","W",0,"Sorcery","TSP",0,0.2,4
+"832","Reveillark",6,6,34,48,70.8,55.9,83,NA,NA,"Jim Murray","W",5,"Creature","MOR",0,0.2,1
+"833","Rift Bolt",391,107,566,826,68.5,65.2,71.7,NA,NA,"Michael Sutfin","R",3,"Sorcery","TSP",0.3,4.2,3.7
+"834","Rift Sower",8,2,10,15,66.7,38.4,88.2,NA,NA,"Cristi Balanescu","G",3,"Creature","MH2",0,0.1,4
+"835","Rimewood Falls",6,6,32,45,71.1,55.7,83.6,NA,NA,"Piotr Dura","",0,"Land","KHM",0,0.2,1
+"836","Rip Apart",7,4,21,31,67.7,48.6,83.3,NA,NA,"Anna Podedworna","R,W",2,"Sorcery","STX",0,0.2,1.8
+"837","Rise // Fall",1,1,5,8,62.5,24.5,91.5,NA,NA,"Pete Venters","U,B",4,"Sorcery","DIS",0,0,1
+"838","Risen Reef",164,41,240,331,72.5,67.4,77.2,NA,NA,"Johan Grenier","G,U",3,"Creature","M20",0.1,1.6,4
+"839","River of Tears",28,23,127,183,69.4,62.2,76,NA,NA,"Chris J. Anderson","",0,"Land","FUT",0,0.9,1.2
+"840","Riverglide Pathway",66,22,115,167,68.9,61.2,75.8,NA,NA,"Kieran Yanner","",0,"Land","ZNR",0,0.9,3
+"841","Robber of the Rich",4,1,5,7,71.4,29,96.3,NA,NA,"Paul Scott Canavan","R",2,"Creature","ELD",0,0,4
+"842","Roiling Vortex",15,8,43,64,67.2,54.3,78.4,NA,NA,"Campbell White","R",2,"Enchantment","ZNR",0,0.3,1.9
+"843","Rugged Prairie",9,5,26,40,65,48.3,79.4,NA,NA,"Fred Fields","",0,"Land","EVE",0,0.2,1.8
+"844","Ruin Crab",176,44,261,357,73.1,68.2,77.6,NA,NA,"Simon Dominic","U",1,"Creature","ZNR",0.1,1.7,4
+"845","Sacred Foundry",664,445,2429,3484,69.7,68.2,71.2,NA,NA,"Rob Alexander","",0,"Land","RAV",0.4,17.6,1.5
+"846","Saheeli Rai",39,10,47,72,65.3,53.1,76.1,NA,NA,"Willian Murai","R,U",3,"Planeswalker","KLD",0,0.4,3.9
+"847","Sai, Master Thopterist",7,5,25,38,65.8,48.6,80.4,NA,NA,"Adam Paquette","U",3,"Creature","M19",0,0.2,1.4
+"848","Sakura-Tribe Elder",23,6,37,51,72.5,58.3,84.1,NA,NA,"Carl Critchlow","G",2,"Creature","CHK",0,0.2,3.8
+"849","Sakura-Tribe Scout",60,17,98,136,72.1,63.7,79.4,NA,NA,"Darrell Riche","G",1,"Creature","SOK",0,0.7,3.5
+"850","Salvage Titan",6,6,35,51,68.6,54.1,80.9,NA,NA,"Anthony Francisco","B",6,"Artifact,Creature","ALA",0,0.2,1
+"851","Samut, Voice of Dissent",6,2,10,14,71.4,41.9,91.6,NA,NA,"Aleksi Briclot","G,R",5,"Creature","AKH",0,0.1,3
+"852","Sanctifier en-Vec",40,21,116,167,69.5,61.9,76.3,NA,NA,"Michael C. Hayes","W",2,"Creature","MH2",0,0.8,1.9
+"853","Sanctum of Ugin",66,66,335,496,67.5,63.2,71.6,NA,NA,"James Paick","",0,"Land","BFZ",0,2.6,1
+"854","Sanctum Prelate",16,9,42,67,62.7,50,74.2,NA,NA,"Winona Nelson","W",3,"Creature","CN2",0,0.4,1.8
+"855","Sanctum Weaver",27,8,39,59,66.1,52.6,77.9,NA,NA,"Kimonas Theodossiou","G",2,"Enchantment,Creature","MH2",0,0.3,3.4
+"856","Savai Triome",64,64,341,494,69,64.7,73.1,NA,NA,"Titus Lunter","",0,"Land","IKO",0,2.5,1
+"857","Savor the Moment",82,21,114,163,69.9,62.3,76.9,NA,NA,"Warren Mahy","U",3,"Sorcery","SHM",0.1,0.8,3.9
+"858","Scalding Tarn",2305,807,4449,6341,70.2,69,71.3,NA,NA,"Philip Straub","",0,"Land","ZEN",1.5,31.9,2.9
+"859","Scale Up",98,25,127,186,68.3,61.1,74.9,NA,NA,"Suzanne Helmigh","G",1,"Sorcery","MH1",0.1,1,3.9
+"860","Scapeshift",81,52,291,411,70.8,66.1,75.2,NA,NA,"Fred Fields","G",4,"Sorcery","MOR",0.1,2.1,1.6
+"861","Scattered Groves",3,3,16,24,66.7,44.7,84.4,NA,NA,"Christine Choi","",0,"Land","AKH",0,0.1,1
+"862","Scavenger Grounds",53,53,273,397,68.8,64,73.3,NA,NA,"Steven Belledin","",0,"Land","HOU",0,2.1,1
+"863","Scavenging Ooze",97,57,309,443,69.8,65.2,74,NA,NA,"Austin Hsu","G",2,"Creature","CMD",0.1,2.3,1.7
+"864","Scion of Draco",20,5,22,36,61.1,43.5,76.9,NA,NA,"Greg Staples","",12,"Artifact,Creature","MH2",0,0.2,4
+"865","Scourge of the Skyclaves",436,120,667,950,70.2,67.2,73.1,NA,NA,"Chase Stone","B",2,"Creature","ZNR",0.3,4.7,3.6
+"866","Scrapyard Recombiner",2,1,5,8,62.5,24.5,91.5,NA,NA,"Simon Dominic","",3,"Artifact,Creature","MH1",0,0,2
+"867","Scurry Oak",7,7,36,52,69.2,54.9,81.3,NA,NA,"Mark Zug","G",3,"Creature","MH2",0,0.3,1
+"868","Sea Gate Restoration",79,34,198,277,71.5,65.8,76.7,NA,NA,"Adam Paquette","U",7,"Sorcery","ZNR",0.1,1.3,2.3
+"869","Sea Gate Wreckage",3,3,16,24,66.7,44.7,84.4,NA,NA,"Zack Stella","",0,"Land","OGW",0,0.1,1
+"870","Seachrome Coast",234,88,501,695,72.1,68.6,75.4,NA,NA,"Lars Grant-West","",0,"Land","SOM",0.2,3.5,2.7
+"871","Seal of Fire",96,72,419,589,71.1,67.3,74.8,NA,NA,"Christopher Moeller","R",1,"Enchantment","NEM",0.1,2.8,1.3
+"872","Seal of Removal",17,13,70,103,68,58,76.8,NA,NA,"Christopher Moeller","U",1,"Enchantment","NEM",0,0.5,1.3
+"873","Search for Azcanta",5,5,24,39,61.5,44.6,76.6,NA,NA,"Magali Villeneuve","U",2,"Enchantment","XLN",0,0.2,1
+"874","Search for Glory",2,1,5,7,71.4,29,96.3,NA,NA,"Kieran Yanner","W",3,"Sorcery","KHM",0,0,2
+"875","Search for Tomorrow",36,10,58,81,71.6,60.5,81.1,NA,NA,"Randy Gallegos","G",3,"Sorcery","TSP",0,0.4,3.6
+"876","Searing Blaze",441,119,630,921,68.4,65.3,71.4,NA,NA,"James Paick","R",2,"Instant","WWK",0.3,4.7,3.7
+"877","Searing Blood",4,1,6,8,75,34.9,96.8,NA,NA,"Daniel Ljunggren","R",2,"Instant","BNG",0,0,4
+"878","Seasoned Pyromancer",506,146,791,1130,70,67.2,72.7,NA,NA,"Cynthia Sheppard","R",3,"Creature","MH1",0.3,5.8,3.5
+"879","See the Truth",2,1,4,7,57.1,18.4,90.1,NA,NA,"Ekaterina Burmak","U",2,"Sorcery","M21",0,0,2
+"880","Selesnya Sanctuary",179,74,424,592,71.6,67.8,75.2,NA,NA,"John Avon","",0,"Land","RAV",0.1,2.9,2.4
+"881","Selfless Savior",2,1,4,7,57.1,18.4,90.1,NA,NA,"Ralph Horsley","W",1,"Creature","M21",0,0,2
+"882","Selfless Spirit",76,26,152,208,73.1,66.5,79,NA,NA,"Seb McKinnon","W",2,"Creature","EMN",0,1,2.9
+"883","Sentinel's Eyes",4,1,4,7,57.1,18.4,90.1,NA,NA,"Wisnu Tan","W",1,"Enchantment","THB",0,0,4
+"884","Serra's Emissary",15,15,78,115,67.8,58.5,76.2,NA,NA,"Nils Hamm","W",7,"Creature","MH2",0,0.6,1
+"885","Serra Ascendant",6,2,9,15,60,32.3,83.7,NA,NA,"Anthony Palumbo","W",1,"Creature","M11",0,0.1,3
+"886","Serum Powder",4,1,5,8,62.5,24.5,91.5,NA,NA,"Matt Thompson","",3,"Artifact","DST",0,0,4
+"887","Serum Visions",775,235,1300,1840,70.7,68.5,72.7,NA,NA,"Ben Thompson","U",1,"Sorcery","5DN",0.5,9.3,3.3
+"888","Shacklegeist",70,21,125,170,73.5,66.2,80,NA,NA,"Igor Kieryluk","U",2,"Creature","M21",0,0.8,3.3
+"889","Shadow of Doubt",1,1,6,8,75,34.9,96.8,NA,NA,"Greg Staples","B,U",2,"Instant","RAV",0,0,1
+"890","Shadowspear",302,302,1660,2382,69.7,67.8,71.5,NA,NA,"Yeong-Hao Han","",1,"Artifact","THB",0.2,11.9,1
+"891","Shalai, Voice of Plenty",3,1,8,10,80,44.4,97.5,NA,NA,"Victor Adame Minguez","W",4,"Creature","DOM",0,0,3
+"892","Shaman of the Pack",8,2,15,19,78.9,54.4,93.9,NA,NA,"Dan Scott","B,G",3,"Creature","ORI",0,0.1,4
+"893","Shambling Vent",19,9,46,66,69.7,57.1,80.4,NA,NA,"Jung Park","",0,"Land","BFZ",0,0.4,2.1
+"894","Shard Volley",18,18,102,145,70.3,62.2,77.6,NA,NA,"Franz Vohwinkel","R",1,"Instant","MOR",0,0.7,1
+"895","Shardless Agent",721,181,1021,1437,71.1,68.6,73.4,NA,NA,"Izzy","G,U",3,"Artifact,Creature","PC2",0.5,7.2,4
+"896","Shark Typhoon",223,86,463,664,69.7,66.1,73.2,NA,NA,"Caio Monteiro","U",6,"Enchantment","IKO",0.1,3.4,2.6
+"897","Shatterskull Smashing",84,26,151,209,72.2,65.7,78.2,NA,NA,"Adam Paquette","R",2,"Sorcery","ZNR",0.1,1,3.2
+"898","Shefet Dunes",8,2,12,17,70.6,44,89.7,NA,NA,"Yeong-Hao Han","",0,"Land","HOU",0,0.1,4
+"899","Shelldock Isle",53,23,134,184,72.8,65.8,79.1,NA,NA,"Mark Tedin","",0,"Land","LRW",0,0.9,2.3
+"900","Sheltered Thicket",4,4,24,33,72.7,54.5,86.7,NA,NA,"Sung Choi","",0,"Land","AKH",0,0.2,1
+"901","Shimmer of Possibility",2,1,5,7,71.4,29,96.3,NA,NA,"Volkan Baǵa","U",2,"Sorcery","RNA",0,0,2
+"902","Shinka, the Bloodsoaked Keep",21,21,121,173,69.9,62.5,76.7,NA,NA,"Thomas M. Baxa","",0,"Land","CHK",0,0.8,1
+"903","Shivan Reef",26,9,44,66,66.7,54,77.8,NA,NA,"Rob Alexander","",0,"Land","APC",0,0.4,2.9
+"904","Shizo, Death's Storehouse",22,22,129,183,70.5,63.3,77,NA,NA,"John Matson","",0,"Land","CHK",0,0.9,1
+"905","Showdown of the Skalds",2,1,5,7,71.4,29,96.3,NA,NA,"Steven Belledin","R,W",4,"Enchantment","KHM",0,0,2
+"906","Shriekhorn",145,37,208,296,70.3,64.7,75.4,NA,NA,"Erica Yang","",1,"Artifact","MBS",0.1,1.5,3.9
+"907","Shriekmaw",4,4,17,28,60.7,40.6,78.5,NA,NA,"Steve Prescott","B",5,"Creature","LRW",0,0.2,1
+"908","Sidewinder Sliver",4,2,11,15,73.3,44.9,92.2,NA,NA,"Ron Spencer","W",1,"Creature","TSP",0,0.1,2
+"909","Sigarda's Aid",820,205,1135,1625,69.8,67.5,72.1,NA,NA,"Howard Lyon","W",1,"Enchantment","EMN",0.5,8.1,4
+"910","Sigil of the Empty Throne",7,6,30,45,66.7,51,80,NA,NA,"Cyril Van Der Haegen","W",5,"Enchantment","CON",0,0.2,1.2
+"911","Signal Pest",12,3,18,23,78.3,56.3,92.5,NA,NA,"Mark Zug","",1,"Artifact,Creature","MBS",0,0.1,4
+"912","Silence",10,4,19,29,65.5,45.7,82.1,NA,NA,"Wayne Reynolds","W",1,"Instant","M10",0,0.2,2.5
+"913","Silent Clearing",822,268,1469,2108,69.7,67.7,71.6,NA,NA,"Seb McKinnon","",0,"Land","MH1",0.5,10.6,3.1
+"914","Silhana Ledgewalker",2,1,7,9,77.8,40,97.2,NA,NA,"James Wong","G",2,"Creature","GPT",0,0,2
+"915","Silundi Vision",21,14,75,105,71.4,61.8,79.8,NA,NA,"Randy Vargas","U",3,"Instant","ZNR",0,0.6,1.5
+"916","Silverbluff Bridge",11,4,27,33,81.8,64.5,93,NA,NA,"Joseph Meehan","",0,"Artifact,Land","MH2",0,0.2,2.8
+"917","Silvergill Adept",19,5,27,38,71.1,54.1,84.6,NA,NA,"Matt Cavotta","U",2,"Creature","LRW",0,0.2,3.8
+"918","Silverquill Silencer",2,1,5,8,62.5,24.5,91.5,NA,NA,"Zezhou Chen","B,W",2,"Creature","STX",0,0,2
+"919","Silversmote Ghoul",20,7,34,52,65.4,50.9,78,NA,NA,"Bryan Sola","B",3,"Creature","M21",0,0.3,2.9
+"920","Simian Spirit Guide",227,57,321,450,71.3,66.9,75.5,NA,NA,"Dave DeVries","R",3,"Creature","PLC",0.1,2.3,4
+"921","Simic Growth Chamber",314,81,464,649,71.5,67.9,74.9,NA,NA,"John Avon","",0,"Land","DIS",0.2,3.2,3.9
+"922","Simic Signet",1,1,5,7,71.4,29,96.3,NA,NA,"Greg Hildebrandt","",2,"Artifact","DIS",0,0,1
+"923","Sinew Sliver",8,2,11,15,73.3,44.9,92.2,NA,NA,"Steven Belledin","W",2,"Creature","PLC",0,0.1,4
+"924","Sisay, Weatherlight Captain",2,1,5,7,71.4,29,96.3,NA,NA,"Anna Steinbauer","W",3,"Creature","MH1",0,0,2
+"925","Skaab Ruinator",1,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rahn","U",3,"Creature","ISD",0,0,1
+"926","Skewer the Critics",413,109,586,852,68.8,65.5,71.9,NA,NA,"Heonhwa Choe","R",3,"Sorcery","RNA",0.3,4.3,3.8
+"927","Skirk Prospector",17,7,33,51,64.7,50.1,77.6,NA,NA,"Doug Chaffee","R",1,"Creature","ONS",0,0.3,2.4
+"928","Skullcrack",229,98,525,766,68.5,65.1,71.8,NA,NA,"Dave Kendall","R",2,"Instant","GTC",0.1,3.9,2.3
+"929","Skyclave Apparition",753,222,1229,1745,70.4,68.2,72.6,NA,NA,"Donato Giancola","W",3,"Creature","ZNR",0.5,8.8,3.4
+"930","Slayers' Stronghold",60,60,352,485,72.6,68.4,76.5,NA,NA,"Karl Kopinski","",0,"Land","AVR",0,2.4,1
+"931","Sleight of Hand",98,44,257,357,72,67,76.6,NA,NA,"Phil Foglio","U",1,"Sorcery","P02",0.1,1.7,2.2
+"932","Sling-Gang Lieutenant",15,7,33,51,64.7,50.1,77.6,NA,NA,"Craig J Spearing","B",4,"Creature","MH1",0,0.3,2.1
+"933","Slippery Bogle",36,9,46,68,67.6,55.2,78.5,NA,NA,"Dave Allsop","G,U",1,"Creature","EVE",0,0.4,4
+"934","Sliver Hive",8,2,11,15,73.3,44.9,92.2,NA,NA,"Igor Kieryluk","",0,"Land","M15",0,0.1,4
+"935","Sliver Hivelord",1,1,5,7,71.4,29,96.3,NA,NA,"Aleksi Briclot","B,G,R,U,W",5,"Creature","M15",0,0,1
+"936","Sliver Legion",2,1,5,7,71.4,29,96.3,NA,NA,"Ron Spears","B,G,R,U,W",5,"Creature","FUT",0,0,2
+"937","Smokebraider",12,3,13,21,61.9,38.4,81.9,NA,NA,"Anthony S. Waters","R",2,"Creature","LRW",0,0.1,4
+"938","Snakeskin Veil",20,15,77,111,69.4,59.9,77.8,NA,NA,"Matt Stewart","G",1,"Instant","KHM",0,0.6,1.3
+"939","Snapcaster Mage",625,232,1275,1826,69.8,67.7,71.9,NA,NA,"Volkan Baǵa","U",2,"Creature","ISD",0.4,9.2,2.7
+"940","Snow-Covered Forest",338,213,1172,1674,70,67.8,72.2,NA,NA,"Pat Morrissey","",0,"Land","ICE",0.2,8.4,1.6
+"941","Snow-Covered Island",573,279,1545,2196,70.4,68.4,72.3,NA,NA,"Anson Maddocks","",0,"Land","ICE",0.4,11,2.1
+"942","Snow-Covered Mountain",229,155,848,1216,69.7,67.1,72.3,NA,NA,"Tom Wänerstrand","",0,"Land","ICE",0.1,6.1,1.5
+"943","Snow-Covered Plains",1153,290,1589,2275,69.8,67.9,71.7,NA,NA,"Christopher Rush","",0,"Land","ICE",0.8,11.5,4
+"944","Snow-Covered Swamp",133,101,566,804,70.4,67.1,73.5,NA,NA,"Douglas Shuler","",0,"Land","ICE",0.1,4,1.3
+"945","Soaring Thought-Thief",8,2,9,14,64.3,35.1,87.2,NA,NA,"Lie Setiawan","B,U",2,"Creature","ZNR",0,0.1,4
+"946","Sojourner's Companion",12,3,18,23,78.3,56.3,92.5,NA,NA,"Lius Lasahido","",7,"Artifact,Creature","MH2",0,0.1,4
+"947","Solemnity",9,3,15,23,65.2,42.7,83.6,NA,NA,"Greg Opalinski","W",3,"Enchantment","HOU",0,0.1,3
+"948","Solitary Confinement",19,6,30,44,68.2,52.4,81.4,NA,NA,"Scott M. Fischer","W",3,"Enchantment","JUD",0,0.2,3.2
+"949","Solitude",576,170,937,1323,70.8,68.3,73.3,NA,NA,"Evan Shipard","W",5,"Creature","MH2",0.4,6.7,3.4
+"950","Song-Mad Treachery",9,9,49,68,72.1,59.9,82.3,NA,NA,"Zoltan Boros","R",5,"Sorcery","ZNR",0,0.4,1
+"951","Sorcerous Spyglass",1,1,5,8,62.5,24.5,91.5,NA,NA,"Kieran Yanner","",2,"Artifact","XLN",0,0,1
+"952","Sorin, Imperious Bloodlord",4,1,5,7,71.4,29,96.3,NA,NA,"Chase Stone","B",3,"Planeswalker","M20",0,0,4
+"953","Sorin, Solemn Visitor",1,1,4,7,57.1,18.4,90.1,NA,NA,"Cynthia Sheppard","B,W",4,"Planeswalker","KTK",0,0,1
+"954","Soul-Guide Lantern",63,52,287,413,69.5,64.8,73.9,NA,NA,"Cliff Childs","",1,"Artifact","THB",0,2.1,1.2
+"955","Soul-Scar Mage",704,178,985,1396,70.6,68.1,72.9,NA,NA,"Steve Argyle","R",1,"Creature","AKH",0.5,7,4
+"956","Soulflayer",8,2,10,14,71.4,41.9,91.6,NA,NA,"Seb McKinnon","B",6,"Creature","FRF",0,0.1,4
+"957","Soulherder",13,8,46,63,73,60.3,83.4,NA,NA,"Seb McKinnon","U,W",3,"Creature","MH1",0,0.3,1.6
+"958","Spatial Contortion",14,8,41,60,68.3,55,79.7,NA,NA,"Daarken","",2,"Instant","OGW",0,0.3,1.8
+"959","Speaker of the Heavens",1,1,5,8,62.5,24.5,91.5,NA,NA,"Randy Vargas","W",1,"Creature","M21",0,0,1
+"960","Spectral Procession",4,1,4,7,57.1,18.4,90.1,NA,NA,"Jeremy Enecio","W",6,"Sorcery","SHM",0,0,4
+"961","Spectral Sailor",44,19,114,154,74,66.4,80.8,NA,NA,"Cristi Balanescu","U",1,"Creature","M20",0,0.8,2.3
+"962","Spell Pierce",139,95,519,743,69.9,66.4,73.1,NA,NA,"Vance Kovacs","U",1,"Instant","ZEN",0.1,3.8,1.5
+"963","Spell Queller",179,49,270,378,71.4,66.6,75.9,NA,NA,"Adam Paquette","U,W",3,"Creature","EMN",0.1,1.9,3.7
+"964","Spell Snare",105,82,453,647,70,66.3,73.5,NA,NA,"Hideaki Takamura","U",1,"Instant","DIS",0.1,3.2,1.3
+"965","Spellskite",56,34,173,254,68.1,62,73.8,NA,NA,"Chippy","",2,"Artifact,Creature","NPH",0,1.3,1.6
+"966","Spellstutter Sprite",8,2,8,14,57.1,28.9,82.3,NA,NA,"Rebecca Guay","U",2,"Creature","LRW",0,0.1,4
+"967","Sphere of Safety",1,1,5,8,62.5,24.5,91.5,NA,NA,"Slawomir Maniak","W",5,"Enchantment","RTR",0,0,1
+"968","Sphere of the Suns",5,2,10,15,66.7,38.4,88.2,NA,NA,"Jana Schirmer & Johannes Voss","",2,"Artifact","MBS",0,0.1,2.5
+"969","Spider Umbra",34,9,46,68,67.6,55.2,78.5,NA,NA,"Christopher Moeller","G",1,"Enchantment","ROE",0,0.4,3.8
+"970","Spike Feeder",364,91,515,726,70.9,67.5,74.2,NA,NA,"Heather Hudson","G",3,"Creature","STH",0.2,3.6,4
+"971","Spikefield Hazard",70,18,95,137,69.3,60.9,76.9,NA,NA,"Tomasz Jedruszek","R",1,"Instant","ZNR",0,0.7,3.9
+"972","Spire of Industry",20,9,53,70,75.7,64,85.2,NA,NA,"John Avon","",0,"Land","AER",0,0.4,2.2
+"973","Spirebluff Canal",1415,404,2256,3191,70.7,69.1,72.3,NA,NA,"Adam Paquette","",0,"Land","KLD",0.9,16,3.5
+"974","Spirit Link",6,4,20,30,66.7,47.2,82.7,NA,NA,"Kaja Foglio","W",1,"Enchantment","LEG",0,0.2,1.5
+"975","Spirit Mantle",4,2,10,15,66.7,38.4,88.2,NA,NA,"Izzy","W",2,"Enchantment","M12",0,0.1,2
+"976","Spitebellows",4,2,15,19,78.9,54.4,93.9,NA,NA,"Larry MacDougall","R",6,"Creature","MOR",0,0.1,2
+"977","Spoils of the Vault",112,28,159,222,71.6,65.2,77.5,NA,NA,"Thomas M. Baxa","B",1,"Instant","MRD",0.1,1.1,4
+"978","Spreading Seas",220,76,412,581,70.9,67,74.6,NA,NA,"Jung Park","U",2,"Enchantment","ZEN",0.1,3,2.9
+"979","Springbloom Druid",3,3,18,26,69.2,48.2,85.7,NA,NA,"Randy Gallegos","G",3,"Creature","MH1",0,0.1,1
+"980","Springleaf Drum",624,211,1163,1668,69.7,67.5,71.9,NA,NA,"Cyril Van Der Haegen","",1,"Artifact","LRW",0.4,8.3,3
+"981","Sprite Dragon",455,119,653,925,70.6,67.5,73.5,NA,NA,"Gabor Szikszai","R,U",2,"Creature","IKO",0.3,4.7,3.8
+"982","Squadron Hawk",8,2,9,15,60,32.3,83.7,NA,NA,"Rob Alexander","W",2,"Creature","M11",0,0.1,4
+"983","Staggering Insight",4,1,4,7,57.1,18.4,90.1,NA,NA,"Dmitry Burmak","U,W",2,"Enchantment","THB",0,0,4
+"984","Steam Vents",1556,854,4739,6720,70.5,69.4,71.6,NA,NA,"Rob Alexander","",0,"Land","GPT",1,33.8,1.8
+"985","Steel Overseer",6,4,19,29,65.5,45.7,82.1,NA,NA,"Chris Rahn","",2,"Artifact,Creature","M11",0,0.2,1.5
+"986","Steelshaper's Gift",390,145,811,1156,70.2,67.4,72.8,NA,NA,"Greg Hildebrandt","W",1,"Sorcery","5DN",0.3,5.7,2.7
+"987","Sterling Grove",29,8,39,59,66.1,52.6,77.9,NA,NA,"Jeff Miracola","G,W",2,"Enchantment","INV",0,0.3,3.6
+"988","Stern Dismissal",4,2,11,15,73.3,44.9,92.2,NA,NA,"Lie Setiawan","U",1,"Instant","THB",0,0.1,2
+"989","Stinkweed Imp",149,38,214,304,70.4,64.9,75.5,NA,NA,"Edward P. Beard, Jr.","B",3,"Creature","RAV",0.1,1.5,3.9
+"990","Stirring Wildwood",3,2,15,19,78.9,54.4,93.9,NA,NA,"Eric Deschamps","",0,"Land","WWK",0,0.1,1.5
+"991","Stitcher's Supplier",19,5,24,37,64.9,47.5,79.8,NA,NA,"Chris Seaman","B",1,"Creature","M19",0,0.2,3.8
+"992","Stoke the Flames",8,2,8,14,57.1,28.9,82.3,NA,NA,"Ryan Barger","R",4,"Instant","M15",0,0.1,4
+"993","Stomping Ground",772,577,3208,4552,70.5,69.1,71.8,NA,NA,"Rob Alexander","",0,"Land","GPT",0.5,22.8,1.3
+"994","Stone Rain",20,5,28,40,70,53.5,83.4,NA,NA,"Daniel Gelon","R",3,"Sorcery","LEA",0,0.2,4
+"995","Stoneforge Mystic",1225,308,1695,2424,69.9,68.1,71.7,NA,NA,"Mike Bierek","W",2,"Creature","WWK",0.8,12.2,4
+"996","Stonehorn Dignitary",4,4,25,32,78.1,60,90.7,NA,NA,"Dave Kendall","W",4,"Creature","M12",0,0.2,1
+"997","Storm's Wrath",1,1,6,8,75,34.9,96.8,NA,NA,"Yeong-Hao Han","R",4,"Sorcery","THB",0,0,1
+"998","Storm Herald",4,1,6,8,75,34.9,96.8,NA,NA,"Aleksi Briclot","R",3,"Creature","THB",0,0,4
+"999","Stormwing Entity",456,115,640,902,71,67.9,73.9,NA,NA,"Caroline Gariba","U",5,"Creature","M21",0.3,4.5,4
+"1000","Strangleroot Geist",200,50,280,390,71.8,67,76.2,NA,NA,"Jason Chan","G",2,"Creature","DKA",0.1,2,4
+"1001","Street Wraith",532,137,771,1085,71.1,68.3,73.7,NA,NA,"Cyril Van Der Haegen","B",5,"Creature","FUT",0.3,5.4,3.9
+"1002","Strike It Rich",38,11,58,83,69.9,58.8,79.5,NA,NA,"Volkan Baǵa","R",1,"Sorcery","MH2",0,0.4,3.5
+"1003","Striking Sliver",6,2,11,15,73.3,44.9,92.2,NA,NA,"Maciej Kuciara","R",1,"Creature","M14",0,0.1,3
+"1004","Striped Riverwinder",408,102,572,804,71.1,67.9,74.3,NA,NA,"Craig J Spearing","U",7,"Creature","HOU",0.3,4,4
+"1005","Stubborn Denial",58,21,106,154,68.8,60.9,76,NA,NA,"James Ryman","U",1,"Instant","KTK",0,0.8,2.8
+"1006","Subtlety",167,59,350,485,72.2,67.9,76.1,NA,NA,"Anastasia Ovchinnikova","U",4,"Creature","MH2",0.1,2.3,2.8
+"1007","Sulfur Falls",70,58,310,447,69.4,64.8,73.6,NA,NA,"Cliff Childs","",0,"Land","ISD",0,2.3,1.2
+"1008","Summoner's Pact",330,86,499,696,71.7,68.2,75,NA,NA,"Chippy","G",0,"Instant","FUT",0.2,3.4,3.8
+"1009","Sunbaked Canyon",804,271,1473,2124,69.4,67.3,71.3,NA,NA,"Yeong-Hao Han","",0,"Land","MH1",0.5,10.7,3
+"1010","Sundering Titan",3,2,9,15,60,32.3,83.7,NA,NA,"Jim Murray","",8,"Artifact,Creature","DST",0,0.1,1.5
+"1011","Sundial of the Infinite",1,1,5,7,71.4,29,96.3,NA,NA,"Vincent Proce","",2,"Artifact","M12",0,0,1
+"1012","Sunhome, Fortress of the Legion",61,61,357,492,72.6,68.4,76.5,NA,NA,"Martina Pilcerova","",0,"Land","RAV",0,2.4,1
+"1013","Sunken Hollow",10,10,51,74,68.9,57.1,79.2,NA,NA,"Adam Paquette","",0,"Land","BFZ",0,0.4,1
+"1014","Sunken Ruins",93,80,444,627,70.8,67.1,74.3,NA,NA,"Warren Mahy","",0,"Land","SHM",0.1,3.2,1.2
+"1015","Sunpetal Grove",2,2,9,15,60,32.3,83.7,NA,NA,"Jason Chan","",0,"Land","M10",0,0.1,1
+"1016","Sunscorched Desert",4,1,4,7,57.1,18.4,90.1,NA,NA,"Min Yum","",0,"Land","AKH",0,0,4
+"1017","Sunset Revelry",7,6,32,45,71.1,55.7,83.6,NA,NA,"Antonio José Manzanedo","W",2,"Sorcery","MID",0,0.2,1.2
+"1018","Suppression Field",12,4,22,32,68.8,50,83.9,NA,NA,"John Avon","W",2,"Enchantment","RAV",0,0.2,3
+"1019","Supreme Phantom",104,26,152,208,73.1,66.5,79,NA,NA,"Robbie Trevino","U",2,"Creature","M19",0.1,1,4
+"1020","Supreme Verdict",411,215,1184,1679,70.5,68.3,72.7,NA,NA,"Sam Burley","U,W",4,"Sorcery","RTR",0.3,8.5,1.9
+"1021","Surge Node",4,1,4,7,57.1,18.4,90.1,NA,NA,"Lars Grant-West","",1,"Artifact","NPH",0,0,4
+"1022","Surgical Extraction",157,52,305,420,72.6,68.1,76.8,NA,NA,"Steven Belledin","B",1,"Instant","NPH",0.1,2.1,3
+"1023","Suspend",3,2,9,14,64.3,35.1,87.2,NA,NA,"Lake Hurwitz","U",1,"Instant","MH2",0,0.1,1.5
+"1024","Svyelun of Sea and Sky",8,2,11,16,68.8,41.3,89,NA,NA,"Seb McKinnon","U",3,"Creature","MH2",0,0.1,4
+"1025","Swamp",719,499,2711,3893,69.6,68.2,71.1,NA,NA,"Dan Frazier","",0,"Land","LEA",0.5,19.7,1.4
+"1026","Sweltering Suns",4,3,18,26,69.2,48.2,85.7,NA,NA,"Raymond Swanland","R",3,"Sorcery","AKH",0,0.1,1.3
+"1027","Swiftfoot Boots",27,27,154,217,71,64.4,76.9,NA,NA,"Svetlin Velinov","",2,"Artifact","M12",0,1.1,1
+"1028","Sword of Feast and Famine",38,38,205,290,70.7,65.1,75.9,NA,NA,"Chris Rahn","",3,"Artifact","MBS",0,1.5,1
+"1029","Sword of Fire and Ice",80,80,437,623,70.1,66.4,73.7,NA,NA,"Mark Zug","",3,"Artifact","DST",0.1,3.2,1
+"1030","Sword of Light and Shadow",5,5,22,36,61.1,43.5,76.9,NA,NA,"Mark Zug","",3,"Artifact","DST",0,0.2,1
+"1031","Sword of the Meek",32,13,72,105,68.6,58.8,77.3,NA,NA,"Franz Vohwinkel","",2,"Artifact","FUT",0,0.5,2.5
+"1032","Sword of Truth and Justice",1,1,4,7,57.1,18.4,90.1,NA,NA,"Chris Rahn","",3,"Artifact","MH1",0,0,1
+"1033","Sylvan Caryatid",11,3,14,21,66.7,43,85.4,NA,NA,"Chase Stone","G",2,"Creature","THS",0,0.1,3.7
+"1034","Sylvan Scrying",256,64,326,481,67.8,63.4,71.9,NA,NA,"Scott M. Fischer","G",2,"Sorcery","MRD",0.2,2.5,4
+"1035","Sythis, Harvest's Hand",26,7,35,52,67.3,52.9,79.7,NA,NA,"Ryan Yee","G,W",2,"Enchantment,Creature","MH2",0,0.3,3.7
+"1036","Talisman of Dominance",4,3,13,22,59.1,36.4,79.3,NA,NA,"Mike Dringenberg","",2,"Artifact","MRD",0,0.1,1.3
+"1037","Talisman of Indulgence",1,1,5,7,71.4,29,96.3,NA,NA,"Mike Dringenberg","",2,"Artifact","MRD",0,0,1
+"1038","Talisman of Progress",9,3,19,25,76,54.9,90.6,NA,NA,"Mike Dringenberg","",2,"Artifact","MRD",0,0.1,3
+"1039","Talisman of Resilience",24,6,35,51,68.6,54.1,80.9,NA,NA,"Lindsey Look","",2,"Artifact","MH1",0,0.2,4
+"1040","Tamiyo, Collector of Tales",12,8,45,65,69.2,56.6,80.1,NA,NA,"Chase Stone","G,U",4,"Planeswalker","WAR",0,0.3,1.5
+"1041","Tangled Florahedron",14,14,81,114,71.1,61.8,79.2,NA,NA,"Randy Vargas","G",2,"Creature","ZNR",0,0.6,1
+"1042","Tarfire",17,15,88,124,71,62.1,78.8,NA,NA,"Omar Rayyan","R",1,"Tribal,Instant","LRW",0,0.6,1.1
+"1043","Tarmogoyf",675,169,926,1323,70,67.4,72.5,NA,NA,"Justin Murray","G",2,"Creature","FUT",0.4,6.7,4
+"1044","Tasha's Hideous Laughter",92,23,138,188,73.4,66.5,79.6,NA,NA,"Ilse Gort","U",3,"Sorcery","AFR",0.1,0.9,4
+"1045","Tasigur, the Golden Fang",9,4,20,29,69,49.2,84.7,NA,NA,"Chris Rahn","B",6,"Creature","FRF",0,0.2,2.2
+"1046","Tectonic Edge",45,33,171,249,68.7,62.5,74.4,NA,NA,"Vincent Proce","",0,"Land","WWK",0,1.3,1.4
+"1047","Teferi, Hero of Dominaria",309,170,941,1334,70.5,68,73,NA,NA,"Chris Rallis","U,W",5,"Planeswalker","DOM",0.2,6.7,1.8
+"1048","Teferi, Mage of Zhalfir",1,1,5,7,71.4,29,96.3,NA,NA,"D. Alexander Gregory & Jeremy Jarvis","U",5,"Creature","TSP",0,0,1
+"1049","Teferi, Master of Time",1,1,4,7,57.1,18.4,90.1,NA,NA,"Yongjae Choi","U",4,"Planeswalker","M21",0,0,1
+"1050","Teferi, Time Raveler",1378,430,2386,3370,70.8,69.2,72.3,NA,NA,"Chris Rallis","U,W",3,"Planeswalker","WAR",0.9,17,3.2
+"1051","Temple Garden",748,399,2213,3139,70.5,68.9,72.1,NA,NA,"Rob Alexander","",0,"Land","RAV",0.5,15.8,1.9
+"1052","Temple of Deceit",40,17,106,141,75.2,67.2,82.1,NA,NA,"Raymond Swanland","",0,"Land","THS",0,0.7,2.4
+"1053","Temple of Enlightenment",27,15,90,121,74.4,65.6,81.9,NA,NA,"Svetlin Velinov","",0,"Land","BNG",0,0.6,1.8
+"1054","Temple of Epiphany",8,4,21,30,70,50.6,85.3,NA,NA,"Noah Bradley","",0,"Land","JOU",0,0.2,2
+"1055","Temple of Malice",4,1,5,8,62.5,24.5,91.5,NA,NA,"Sam Burley","",0,"Land","BNG",0,0,4
+"1056","Temple of Triumph",2,1,5,8,62.5,24.5,91.5,NA,NA,"Jason Felix","",0,"Land","THS",0,0,2
+"1057","Temporal Mastery",4,1,4,7,57.1,18.4,90.1,NA,NA,"Franz Vohwinkel","U",7,"Sorcery","AVR",0,0,4
+"1058","Temur Battle Rage",197,96,527,755,69.8,66.4,73.1,NA,NA,"Jaime Jones","R",2,"Instant","FRF",0.1,3.8,2.1
+"1059","Terastodon",2,2,9,14,64.3,35.1,87.2,NA,NA,"Lars Grant-West","G",8,"Creature","WWK",0,0.1,1
+"1060","Terminate",97,53,297,425,69.9,65.3,74.2,NA,NA,"DiTerlizzi","B,R",2,"Instant","PLS",0.1,2.1,1.8
+"1061","Terminus",14,4,22,32,68.8,50,83.9,NA,NA,"James Paick","W",6,"Sorcery","AVR",0,0.2,3.5
+"1062","Territorial Kavu",48,12,60,89,67.4,56.7,77,NA,NA,"E. M. Gist","G,R",2,"Creature","MH2",0,0.5,4
+"1063","Tezzeret, Agent of Bolas",2,2,11,15,73.3,44.9,92.2,NA,NA,"Aleksi Briclot","B,U",4,"Planeswalker","MBS",0,0.1,1
+"1064","Thalia's Lieutenant",132,33,168,250,67.2,61,73,NA,NA,"Johannes Voss","W",2,"Creature","SOI",0.1,1.3,4
+"1065","Thalia, Guardian of Thraben",252,72,384,557,68.9,64.9,72.8,NA,NA,"Jana Schirmer & Johannes Voss","W",2,"Creature","DKA",0.2,2.8,3.5
+"1066","Thassa's Oracle",133,49,263,378,69.6,64.7,74.2,NA,NA,"Jesper Ejsing","U",2,"Creature","THB",0.1,1.9,2.7
+"1067","Thassa, Deep-Dwelling",4,4,25,32,78.1,60,90.7,NA,NA,"Zack Stella","U",4,"Enchantment,Creature","THB",0,0.2,1
+"1068","The First Sliver",4,1,5,7,71.4,29,96.3,NA,NA,"Svetlin Velinov","B,G,R,U,W",5,"Creature","MH1",0,0,4
+"1069","The Ozolith",52,17,95,132,72,63.5,79.4,NA,NA,"Sam Burley","",1,"Artifact","IKO",0,0.7,3.1
+"1070","The Royal Scions",7,4,17,29,58.6,38.9,76.5,NA,NA,"Paul Scott Canavan","R,U",3,"Planeswalker","ELD",0,0.2,1.8
+"1071","The Underworld Cookbook",128,36,210,294,71.4,65.9,76.5,NA,NA,"Joe Slucher","",1,"Artifact","MH2",0.1,1.4,3.6
+"1072","Thieves' Guild Enforcer",12,3,14,21,66.7,43,85.4,NA,NA,"Evyn Fong","B",1,"Creature","M21",0,0.1,4
+"1073","Thing in the Ice",17,5,24,36,66.7,49,81.4,NA,NA,"Svetlin Velinov","U",2,"Creature","SOI",0,0.2,3.4
+"1074","Thirst for Knowledge",4,1,5,8,62.5,24.5,91.5,NA,NA,"Ben Thompson","U",3,"Instant","MRD",0,0,4
+"1075","Thopter Foundry",27,7,37,54,68.5,54.4,80.5,NA,NA,"Ralph Horsley","B,U,W",2,"Artifact","ARB",0,0.3,3.9
+"1076","Thought-Knot Seer",294,76,416,591,70.4,66.5,74,NA,NA,"Svetlin Velinov","",4,"Creature","OGW",0.2,3,3.9
+"1077","Thought Monitor",93,25,145,204,71.1,64.3,77.2,NA,NA,"Martina Pilcerova","U",7,"Artifact,Creature","MH2",0.1,1,3.7
+"1078","Thought Scour",550,141,782,1115,70.1,67.4,72.8,NA,NA,"David Rapoza","U",1,"Instant","DKA",0.4,5.6,3.9
+"1079","Thoughtcast",2,2,11,16,68.8,41.3,89,NA,NA,"Greg Hildebrandt","U",5,"Sorcery","MRD",0,0.1,1
+"1080","Thoughtseize",1157,362,1973,2835,69.6,67.9,71.3,NA,NA,"Aleksi Briclot","B",1,"Sorcery","LRW",0.8,14.3,3.2
+"1081","Thraben Inspector",16,6,33,48,68.8,53.7,81.3,NA,NA,"Matt Stewart","W",1,"Creature","SOI",0,0.2,2.7
+"1082","Thragtusk",77,34,169,252,67.1,60.9,72.8,NA,NA,"Nils Hamm","G",5,"Creature","M13",0.1,1.3,2.3
+"1083","Thrilling Discovery",68,17,93,135,68.9,60.4,76.6,NA,NA,"Campbell White","R,W",2,"Sorcery","STX",0,0.7,4
+"1084","Throes of Chaos",2,1,4,7,57.1,18.4,90.1,NA,NA,"Igor Kieryluk","R",4,"Sorcery","MH1",0,0,2
+"1085","Throne of Geth",16,11,65,90,72.2,61.8,81.1,NA,NA,"Jana Schirmer & Johannes Voss","",2,"Artifact","SOM",0,0.4,1.5
+"1086","Through the Breach",65,18,98,139,70.5,62.2,77.9,NA,NA,"Hugh Jamieson","R",5,"Instant","CHK",0,0.7,3.6
+"1087","Thunderkin Awakener",25,7,42,58,72.4,59.1,83.3,NA,NA,"Yongjae Choi","R",2,"Creature","M20",0,0.3,3.6
+"1088","Tibalt's Trickery",14,5,23,35,65.7,47.8,80.9,NA,NA,"Anna Podedworna","R",2,"Instant","KHM",0,0.2,2.8
+"1089","Tide Shaper",8,2,11,16,68.8,41.3,89,NA,NA,"Lie Setiawan","U",1,"Creature","MH2",0,0.1,4
+"1090","Tidehollow Sculler",67,17,96,135,71.1,62.7,78.6,NA,NA,"rk post","B,W",2,"Artifact,Creature","ALA",0,0.7,3.9
+"1091","Time Warp",155,50,282,396,71.2,66.5,75.6,NA,NA,"Pete Venters","U",5,"Sorcery","TMP",0.1,2,3.1
+"1092","Timeless Dragon",5,5,27,39,69.2,52.4,83,NA,NA,"Anastasia Ovchinnikova","W",5,"Creature","MH2",0,0.2,1
+"1093","Timely Reinforcements",27,26,141,203,69.5,62.6,75.7,NA,NA,"Tomasz Jedruszek","W",3,"Sorcery","M12",0,1,1
+"1094","Tireless Provisioner",15,4,24,34,70.6,52.5,84.9,NA,NA,"Josu Hernaiz","G",3,"Creature","MH2",0,0.2,3.8
+"1095","Tireless Tracker",24,13,77,106,72.6,63.1,80.9,NA,NA,"Eric Deschamps","G",3,"Creature","SOI",0,0.5,1.8
+"1096","Titania, Protector of Argoth",11,7,39,57,68.4,54.8,80.1,NA,NA,"Magali Villeneuve","G",5,"Creature","C14",0,0.3,1.6
+"1097","Titanoth Rex",12,4,23,33,69.7,51.3,84.4,NA,NA,"Svetlin Velinov","G",9,"Creature","IKO",0,0.2,3
+"1098","Tolaria West",171,85,485,680,71.3,67.8,74.7,NA,NA,"Khang Le","",0,"Land","FUT",0.1,3.4,2
+"1099","Tome Scour",3,3,14,22,63.6,40.7,82.8,NA,NA,"Steven Belledin","U",1,"Sorcery","M10",0,0.1,1
+"1100","Tormod's Crypt",3,3,14,22,63.6,40.7,82.8,NA,NA,"Christopher Rush","",0,"Artifact","DRK",0,0.1,1
+"1101","Torrential Gearhulk",2,2,10,15,66.7,38.4,88.2,NA,NA,"Svetlin Velinov","U",6,"Artifact,Creature","KLD",0,0.1,1
+"1102","Toski, Bearer of Secrets",17,8,37,57,64.9,51.1,77.1,NA,NA,"Jason Rainville","G",4,"Creature","KHM",0,0.3,2.1
+"1103","Tourach, Dread Cantor",52,30,172,247,69.6,63.5,75.3,NA,NA,"Greg Staples","B",2,"Creature","MH2",0,1.2,1.7
+"1104","Trail of Crumbs",14,5,28,39,71.8,55.1,85,NA,NA,"Daarken","G",2,"Enchantment","ELD",0,0.2,2.8
+"1105","Tranquil Thicket",21,19,99,146,67.8,59.6,75.3,NA,NA,"Heather Hudson","",0,"Land","ONS",0,0.8,1.1
+"1106","Transmogrify",14,5,28,40,70,53.5,83.4,NA,NA,"Craig J Spearing","R",4,"Sorcery","M21",0,0.2,2.8
+"1107","Traverse the Ulvenwald",46,15,80,116,69,59.7,77.2,NA,NA,"Vincent Proce","G",1,"Sorcery","SOI",0,0.6,3.1
+"1108","Treasure Hunt",3,1,5,8,62.5,24.5,91.5,NA,NA,"Daren Bader","U",2,"Sorcery","WWK",0,0,3
+"1109","Treasure Map",4,2,10,15,66.7,38.4,88.2,NA,NA,"Cliff Childs","",2,"Artifact","XLN",0,0.1,2
+"1110","Treasure Vault",13,4,22,30,73.3,54.1,87.7,NA,NA,"Johannes Voss","",0,"Artifact,Land","AFR",0,0.2,3.2
+"1111","Treetop Village",12,6,34,48,70.8,55.9,83,NA,NA,"Anthony S. Waters","",0,"Land","ULG",0,0.2,2
+"1112","Tribal Flames",40,10,51,74,68.9,57.1,79.2,NA,NA,"Tony Szczudlo","R",2,"Sorcery","INV",0,0.4,4
+"1113","Trinisphere",2,1,7,9,77.8,40,97.2,NA,NA,"Tim Hildebrandt","",3,"Artifact","DST",0,0,2
+"1114","Turntimber Symbiosis",119,42,239,339,70.5,65.3,75.3,NA,NA,"Randy Vargas","G",7,"Sorcery","ZNR",0.1,1.7,2.8
+"1115","Twiddle",17,5,27,39,69.2,52.4,83,NA,NA,"Rob Alexander","U",1,"Instant","LEA",0,0.2,3.4
+"1116","Twilight Mire",168,51,285,397,71.8,67.1,76.2,NA,NA,"Rob Alexander","",0,"Land","EVE",0.1,2,3.3
+"1117","Tyrant's Scorn",2,2,9,14,64.3,35.1,87.2,NA,NA,"Svetlin Velinov","B,U",2,"Instant","WAR",0,0.1,1
+"1118","Ugin, the Ineffable",112,62,325,472,68.9,64.5,73,NA,NA,"Daarken","",6,"Planeswalker","WAR",0.1,2.5,1.8
+"1119","Ugin, the Spirit Dragon",129,65,331,489,67.7,63.3,71.8,NA,NA,"Raymond Swanland","",8,"Planeswalker","FRF",0.1,2.6,2
+"1120","Ulamog, the Ceaseless Hunger",166,103,528,775,68.1,64.7,71.4,NA,NA,"Michael Komarck","",10,"Creature","BFZ",0.1,4.1,1.6
+"1121","Ulamog, the Infinite Gyre",16,4,18,28,64.3,44.1,81.4,NA,NA,"Aleksi Briclot","",11,"Creature","ROE",0,0.2,4
+"1122","Unbridled Growth",3,1,5,7,71.4,29,96.3,NA,NA,"Ryan Pancoast","G",1,"Enchantment","AER",0,0,3
+"1123","Unburial Rites",11,10,59,80,73.8,62.7,83,NA,NA,"Ryan Pancoast","B",5,"Sorcery","ISD",0,0.4,1.1
+"1124","Unclaimed Territory",149,42,215,321,67,61.5,72.1,NA,NA,"Dimitar Marinski","",0,"Land","XLN",0.1,1.7,3.5
+"1125","Undercity Informer",24,6,35,51,68.6,54.1,80.9,NA,NA,"Raymond Swanland","B",3,"Creature","GTC",0,0.2,4
+"1126","Underworld Breach",86,25,124,187,66.3,59.1,73,NA,NA,"Lie Setiawan","R",2,"Enchantment","THB",0.1,1,3.4
+"1127","Undying Evil",22,6,26,42,61.9,45.6,76.4,NA,NA,"Kev Walker","B",1,"Instant","DKA",0,0.2,3.7
+"1128","Unearth",73,40,218,316,69,63.6,74,NA,NA,"Don Hazeltine","B",1,"Sorcery","ULG",0,1.6,1.8
+"1129","Unholy Heat",883,267,1502,2136,70.3,68.3,72.3,NA,NA,"Kari Christensen","R",1,"Instant","MH2",0.6,10.6,3.3
+"1130","Unmarked Grave",34,9,53,71,74.6,62.9,84.2,NA,NA,"James Paick","B",2,"Sorcery","MH2",0,0.4,3.8
+"1131","Unmoored Ego",26,26,148,207,71.5,64.8,77.5,NA,NA,"Volkan Baǵa","B,U",3,"Sorcery","GRN",0,1,1
+"1132","Unsettled Mariner",87,29,167,227,73.6,67.3,79.2,NA,NA,"John Stanko","U,W",2,"Creature","MH1",0.1,1.1,3
+"1133","Upheaval",3,2,9,14,64.3,35.1,87.2,NA,NA,"Kev Walker","U",6,"Sorcery","ODY",0,0.1,1.5
+"1134","Urborg, Tomb of Yawgmoth",90,89,500,700,71.4,67.9,74.8,NA,NA,"John Avon","",0,"Land","PLC",0.1,3.5,1
+"1135","Uro, Titan of Nature's Wrath",306,91,503,717,70.2,66.7,73.5,NA,NA,"Vincent Proce","G,U",3,"Creature","THB",0.2,3.6,3.4
+"1136","Urza's Factory",2,2,13,17,76.5,50.1,93.2,NA,NA,"Mark Tedin","",0,"Land","TSP",0,0.1,1
+"1137","Urza's Mine",532,133,700,1015,69,66,71.8,NA,NA,"Anson Maddocks","",0,"Land","ATQ",0.3,5.3,4
+"1138","Urza's Power Plant",532,133,700,1015,69,66,71.8,NA,NA,"Mark Tedin","",0,"Land","ATQ",0.3,5.3,4
+"1139","Urza's Saga",1247,321,1787,2542,70.3,68.5,72.1,NA,NA,"Titus Lunter","",0,"Enchantment,Land","MH2",0.8,12.7,3.9
+"1140","Urza's Tower",532,133,700,1015,69,66,71.8,NA,NA,"Mark Poole","",0,"Land","ATQ",0.3,5.3,4
+"1141","Urza, Lord High Artificer",107,33,184,265,69.4,63.5,74.9,NA,NA,"Grzegorz Rutkowski","U",4,"Creature","MH1",0.1,1.3,3.2
+"1142","Utopia Sprawl",771,194,1077,1525,70.6,68.3,72.9,NA,NA,"Ron Spears","G",1,"Enchantment","DIS",0.5,7.7,4
+"1143","Valakut Awakening",137,66,352,508,69.3,65.1,73.3,NA,NA,"Campbell White","R",3,"Instant","ZNR",0.1,2.6,2.1
+"1144","Valakut, the Molten Pinnacle",381,153,868,1219,71.2,68.6,73.7,NA,NA,"Kieran Yanner","",0,"Land","ZEN",0.2,6.1,2.5
+"1145","Valki, God of Lies",204,103,573,806,71.1,67.8,74.2,NA,NA,"Yongjae Choi","B",2,"Creature","KHM",0.1,4.1,2
+"1146","Vanishing Verse",19,15,76,111,68.5,59,77,NA,NA,"Chris Seaman","B,W",2,"Instant","STX",0,0.6,1.3
+"1147","Vapor Snag",89,46,252,357,70.6,65.6,75.3,NA,NA,"Raymond Swanland","U",1,"Instant","NPH",0.1,1.8,1.9
+"1148","Veil of Summer",3,2,9,14,64.3,35.1,87.2,NA,NA,"Lake Hurwitz","G",1,"Instant","M20",0,0.1,1.5
+"1149","Velomachus Lorehold",49,29,166,232,71.6,65.3,77.3,NA,NA,"Raymond Swanland","R,W",7,"Creature","STX",0,1.1,1.7
+"1150","Vendilion Clique",27,21,118,168,70.2,62.7,77,NA,NA,"Michael Sutfin","U",3,"Creature","MOR",0,0.8,1.3
+"1151","Vengeful Pharaoh",1,1,4,7,57.1,18.4,90.1,NA,NA,"Igor Kieryluk","B",5,"Creature","M12",0,0,1
+"1152","Vengevine",40,10,55,81,67.9,56.6,77.8,NA,NA,"Raymond Swanland","G",4,"Creature","ROE",0,0.4,4
+"1153","Venser, Shaper Savant",6,6,35,47,74.5,59.7,86.1,NA,NA,"Aleksi Briclot","U",4,"Creature","FUT",0,0.2,1
+"1154","Verdant Catacombs",1087,388,2149,3051,70.4,68.8,72.1,NA,NA,"Vance Kovacs","",0,"Land","ZEN",0.7,15.3,2.8
+"1155","Vesperlark",6,3,20,26,76.9,56.4,91,NA,NA,"Raoul Vitale","W",3,"Creature","MH1",0,0.1,2
+"1156","Vesuva",92,92,522,734,71.1,67.7,74.4,NA,NA,"Zoltan Boros & Gabor Szikszai","",0,"Land","TSP",0.1,3.6,1
+"1157","Village Rites",4,1,4,7,57.1,18.4,90.1,NA,NA,"Bud Cook","B",1,"Instant","M21",0,0,4
+"1158","Vindicate",41,18,92,137,67.2,58.6,74.9,NA,NA,"Brian Snõddy","B,W",3,"Sorcery","APC",0,0.7,2.3
+"1159","Vines of Vastwood",96,26,132,194,68,61,74.5,NA,NA,"Christopher Moeller","G",1,"Instant","ZEN",0.1,1,3.7
+"1160","Violent Outburst",899,225,1270,1779,71.4,69.2,73.5,NA,NA,"Richard Whitters","G,R",3,"Instant","ARB",0.6,8.9,4
+"1161","Visions of Beyond",169,43,256,350,73.1,68.2,77.7,NA,NA,"Terese Nielsen","U",1,"Instant","M12",0.1,1.7,3.9
+"1162","Vizier of Remedies",12,3,15,22,68.2,45.1,86.1,NA,NA,"Randy Gallegos","W",2,"Creature","AKH",0,0.1,4
+"1163","Voice of Resurgence",37,12,73,101,72.3,62.5,80.7,NA,NA,"Winona Nelson","G,W",2,"Creature","DGM",0,0.5,3.1
+"1164","Waker of Waves",217,73,412,577,71.4,67.5,75.1,NA,NA,"Svetlin Velinov","U",7,"Creature","M21",0.1,2.9,3
+"1165","Walking Ballista",486,214,1169,1667,70.1,67.9,72.3,NA,NA,"Daniel Ljunggren","",0,"Artifact,Creature","AER",0.3,8.5,2.3
+"1166","Wall of Blossoms",30,8,44,61,72.1,59.2,82.9,NA,NA,"Heather Hudson","G",2,"Creature","STH",0,0.3,3.8
+"1167","Wall of Omens",122,45,259,357,72.5,67.6,77.1,NA,NA,"James Paick","W",2,"Creature","ROE",0.1,1.8,2.7
+"1168","Wall of Roots",191,50,280,390,71.8,67,76.2,NA,NA,"John Matson","G",2,"Creature","MIR",0.1,2,3.8
+"1169","Wandering Archaic",9,3,14,22,63.6,40.7,82.8,NA,NA,"Wayne Reynolds","",5,"Creature","STX",0,0.1,3
+"1170","Wandering Fumarole",5,5,27,38,71.1,54.1,84.6,NA,NA,"Florian de Gesincourt","",0,"Land","OGW",0,0.2,1
+"1171","Wanderwine Hub",8,2,11,15,73.3,44.9,92.2,NA,NA,"Warren Mahy","",0,"Land","LRW",0,0.1,4
+"1172","Warping Wail",148,71,376,545,69,64.9,72.9,NA,NA,"Jason Felix","",2,"Instant","OGW",0.1,2.8,2.1
+"1173","Warrant // Warden",13,7,36,52,69.2,54.9,81.3,NA,NA,"Matt Stewart","W,U",7,"Instant","RNA",0,0.3,1.9
+"1174","Waste Not",4,1,7,10,70,34.8,93.3,NA,NA,"Matt Stewart","B",2,"Enchantment","M15",0,0,4
+"1175","Wasteland Strangler",19,6,37,50,74,59.7,85.4,NA,NA,"Jack Wang","",3,"Creature","BFZ",0,0.2,3.2
+"1176","Wastes",145,69,380,538,70.6,66.6,74.5,NA,NA,"Jason Felix","",0,"Land","OGW",0.1,2.7,2.1
+"1177","Watcher for Tomorrow",27,7,41,55,74.5,61,85.3,NA,NA,"Tommy Arnold","U",2,"Creature","MH1",0,0.3,3.9
+"1178","Waterlogged Grove",133,83,436,634,68.8,65,72.4,NA,NA,"John Avon","",0,"Land","MH1",0.1,3.3,1.6
+"1179","Watery Grave",461,253,1379,1975,69.8,67.7,71.8,NA,NA,"Rob Alexander","",0,"Land","RAV",0.3,10,1.8
+"1180","Wavesifter",20,5,30,42,71.4,55.4,84.3,NA,NA,"Nils Hamm","G,U",5,"Creature","MH2",0,0.2,4
+"1181","Wayward Guide-Beast",7,2,9,14,64.3,35.1,87.2,NA,NA,"Filip Burburan","R",1,"Creature","ZNR",0,0.1,3.5
+"1182","Welding Jar",68,43,238,336,70.8,65.7,75.6,NA,NA,"Mark Brill","",0,"Artifact","MRD",0,1.7,1.6
+"1183","Wheel of Sun and Moon",3,3,15,23,65.2,42.7,83.6,NA,NA,"Zoltan Boros & Gabor Szikszai","G,W",2,"Enchantment","SHM",0,0.1,1
+"1184","Whir of Invention",16,5,27,39,69.2,52.4,83,NA,NA,"Christine Choi","U",3,"Instant","AER",0,0.2,3.2
+"1185","Wild Nacatl",29,8,41,59,69.5,56.1,80.8,NA,NA,"Wayne Reynolds","G",1,"Creature","ALA",0,0.3,3.6
+"1186","Wild Shape",3,1,5,8,62.5,24.5,91.5,NA,NA,"Sam Guay","G",1,"Instant","AFR",0,0,3
+"1187","Wild Slash",62,35,176,258,68.2,62.2,73.9,NA,NA,"Raymond Swanland","R",1,"Instant","FRF",0,1.4,1.8
+"1188","Wilderness Reclamation",22,10,51,77,66.2,54.6,76.6,NA,NA,"Tyler Walpole","G",4,"Enchantment","RNA",0,0.4,2.2
+"1189","Wildfield Borderpost",1,1,5,8,62.5,24.5,91.5,NA,NA,"Zoltan Boros & Gabor Szikszai","G,W",3,"Artifact","ARB",0,0,1
+"1190","Wilt",1,1,4,7,57.1,18.4,90.1,NA,NA,"Volkan Baǵa","G",2,"Instant","IKO",0,0,1
+"1191","Windbrisk Heights",3,1,4,7,57.1,18.4,90.1,NA,NA,"Omar Rayyan","",0,"Land","LRW",0,0,3
+"1192","Windcaller Aven",171,48,266,374,71.1,66.2,75.7,NA,NA,"Uriah Voth","U",6,"Creature","MH1",0.1,1.9,3.6
+"1193","Winds of Abandon",19,13,76,106,71.7,62.1,80,NA,NA,"Noah Bradley","W",2,"Sorcery","MH1",0,0.5,1.5
+"1194","Winds of Rebuke",1,1,6,8,75,34.9,96.8,NA,NA,"Mathias Kollros","U",2,"Instant","AKH",0,0,1
+"1195","Windswept Heath",1456,457,2526,3586,70.4,68.9,71.9,NA,NA,"Anthony S. Waters","",0,"Land","ONS",0.9,18.1,3.2
+"1196","Wish",19,6,30,45,66.7,51,80,NA,NA,"Ekaterina Burmak","R",3,"Sorcery","AFR",0,0.2,3.2
+"1197","Wishclaw Talisman",16,5,27,39,69.2,52.4,83,NA,NA,"Daarken","B",2,"Artifact","ELD",0,0.2,3.2
+"1198","Witch's Oven",25,10,56,77,72.7,61.4,82.3,NA,NA,"Alexander Forssberg","",1,"Artifact","ELD",0,0.4,2.5
+"1199","Witching Well",4,3,17,24,70.8,48.9,87.4,NA,NA,"John Avon","U",1,"Artifact","ELD",0,0.1,1.3
+"1200","Wood Elves",2,1,9,10,90,55.5,99.7,NA,NA,"Rebecca Guay","G",3,"Creature","POR",0,0,2
+"1201","Wooded Bastion",1,1,5,7,71.4,29,96.3,NA,NA,"Christopher Moeller","",0,"Land","SHM",0,0,1
+"1202","Wooded Foothills",1918,808,4465,6367,70.1,69,71.2,NA,NA,"Rob Alexander","",0,"Land","ONS",1.3,32,2.4
+"1203","World Breaker",4,4,21,31,67.7,48.6,83.3,NA,NA,"Jaime Jones","",7,"Creature","OGW",0,0.2,1
+"1204","Worldspine Wurm",4,1,5,8,62.5,24.5,91.5,NA,NA,"Richard Wright","G",11,"Creature","RTR",0,0,4
+"1205","Wrath of God",2,1,5,7,71.4,29,96.3,NA,NA,"Quinton Hoover","W",4,"Sorcery","LEA",0,0,2
+"1206","Wrenn and Seven",2,1,6,9,66.7,29.9,92.5,NA,NA,"Heonhwa Choe","G",5,"Planeswalker","MID",0,0,2
+"1207","Wrenn and Six",1095,332,1823,2605,70,68.2,71.7,NA,NA,"Chase Stone","G,R",2,"Planeswalker","MH1",0.7,13.1,3.3
+"1208","Wurmcoil Engine",184,65,331,489,67.7,63.3,71.8,NA,NA,"Raymond Swanland","",6,"Artifact,Creature","SOM",0.1,2.6,2.8
+"1209","Yavimaya, Cradle of Growth",83,83,456,647,70.5,66.8,74,NA,NA,"Sarah Finnigan","",0,"Land","MH2",0.1,3.3,1
+"1210","Yawgmoth, Thran Physician",200,50,280,390,71.8,67,76.2,NA,NA,"Mark Winters","B",4,"Creature","MH1",0.1,2,4
+"1211","Yidaro, Wandering Monster",1,1,4,7,57.1,18.4,90.1,NA,NA,"Jesper Ejsing","R",7,"Creature","IKO",0,0,1
+"1212","Yorion, Sky Nomad",5,3,15,22,68.2,45.1,86.1,NA,NA,"Steven Belledin","U,W",5,"Creature","IKO",0,0.1,1.7
+"1213","Young Pyromancer",2,1,5,7,71.4,29,96.3,NA,NA,"Cynthia Sheppard","R",2,"Creature","M14",0,0,2
+"1214","Young Wolf",200,50,280,390,71.8,67,76.2,NA,NA,"Ryan Pancoast","G",1,"Creature","DKA",0.1,2,4
+"1215","Zabaz, the Glimmerwasp",60,15,86,117,73.5,64.5,81.2,NA,NA,"Jason Felix","",1,"Artifact,Creature","MH2",0,0.6,4
+"1216","Zagoth Triome",42,42,228,327,69.7,64.4,74.7,NA,NA,"Eytan Zana","",0,"Land","IKO",0,1.7,1
+"1217","Zetalpa, Primal Dawn",5,2,10,14,71.4,41.9,91.6,NA,NA,"Chris Rallis","W",8,"Creature","RIX",0,0.1,2.5
+"1218","Zulaport Cutthroat",23,23,136,185,73.5,66.5,79.7,NA,NA,"Jason Rainville","B",2,"Creature","BFZ",0,0.9,1
+"1219","Zuran Orb",4,4,19,30,63.3,43.9,80.1,NA,NA,"Sandra Everingham","",0,"Artifact","ICE",0,0.2,1

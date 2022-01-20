@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='1728.00pt' height='648.00pt' viewBox='0 0 1728.00 648.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: #FFFFFF;'/>
+<defs>
+  <clipPath id='cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw'>
+    <rect x='0.00' y='0.00' width='1728.00' height='648.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw)'>
+<rect x='0.00' y='0.00' width='1728.00' height='648.00' style='stroke-width: 1.07; stroke: #FFFFFF; fill: #FFFFFF;' />
+</g>
+<defs>
+  <clipPath id='cpNDAuNDh8MTcyMi41Mnw5MS4xMnw2MTMuMTY='>
+    <rect x='40.48' y='91.12' width='1682.04' height='522.04' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNDAuNDh8MTcyMi41Mnw5MS4xMnw2MTMuMTY=)'>
+<rect x='40.48' y='91.12' width='1682.04' height='522.04' style='stroke-width: 1.07; stroke: none; fill: #FFFFFF;' />
+<circle cx='881.50' cy='193.90' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='1204.97' cy='177.12' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='234.56' cy='589.43' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='1528.44' cy='114.85' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<circle cx='558.03' cy='262.93' r='2.49' style='stroke-width: 0.71; stroke: #0000FF; fill: #0000FF;' />
+<line x1='871.28' y1='187.01' x2='880.87' y2='193.47' style='stroke-width: 1.07;' />
+<line x1='1194.74' y1='170.23' x2='1204.33' y2='176.69' style='stroke-width: 1.07;' />
+<line x1='224.34' y1='582.55' x2='233.93' y2='589.01' style='stroke-width: 1.07;' />
+<line x1='1518.21' y1='107.96' x2='1527.80' y2='114.42' style='stroke-width: 1.07;' />
+<line x1='547.81' y1='256.04' x2='557.40' y2='262.50' style='stroke-width: 1.07;' />
+<text x='856.18' y='185.21' style='font-size: 11.04px; font-family: Arial;' textLength='27.60px' lengthAdjust='spacingAndGlyphs'>1.009</text>
+<text x='1180.06' y='168.43' style='font-size: 11.04px; font-family: Arial;' textLength='26.78px' lengthAdjust='spacingAndGlyphs'>1.011</text>
+<text x='209.24' y='580.75' style='font-size: 11.04px; font-family: Arial;' textLength='27.60px' lengthAdjust='spacingAndGlyphs'>0.950</text>
+<text x='1503.12' y='106.16' style='font-size: 11.04px; font-family: Arial;' textLength='27.60px' lengthAdjust='spacingAndGlyphs'>1.020</text>
+<text x='532.71' y='254.24' style='font-size: 11.04px; font-family: Arial;' textLength='27.60px' lengthAdjust='spacingAndGlyphs'>0.998</text>
+<line x1='40.48' y1='251.94' x2='1722.52' y2='251.94' style='stroke-width: 2.13; stroke: #00FF00; stroke-dasharray: 2.85,8.54; stroke-linecap: butt;' />
+</g>
+<g clip-path='url(#cpMC4wMHwxNzI4LjAwfDAuMDB8NjQ4LjAw)'>
+<polyline points='40.48,613.16 40.48,91.12 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<text x='35.55' y='525.29' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>0.96</text>
+<text x='35.55' y='390.19' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>0.98</text>
+<text x='35.55' y='255.09' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>1.00</text>
+<text x='35.55' y='119.99' text-anchor='end' style='font-size: 8.80px; fill: #4D4D4D; font-family: Arial;' textLength='17.14px' lengthAdjust='spacingAndGlyphs'>1.02</text>
+<polyline points='37.74,522.14 40.48,522.14 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='37.74,387.04 40.48,387.04 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='37.74,251.94 40.48,251.94 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='37.74,116.84 40.48,116.84 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='40.48,613.16 1722.52,613.16 ' style='stroke-width: 1.07; stroke-linecap: butt;' />
+<polyline points='234.56,615.90 234.56,613.16 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='558.03,615.90 558.03,613.16 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='881.50,615.90 881.50,613.16 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='1204.97,615.90 1204.97,613.16 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<polyline points='1528.44,615.90 1528.44,613.16 ' style='stroke-width: 1.07; stroke: #333333; stroke-linecap: butt;' />
+<text x='234.56' y='626.69' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='68.68px' lengthAdjust='spacingAndGlyphs'>UW   Control</text>
+<text x='881.50' y='626.69' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='50.04px' lengthAdjust='spacingAndGlyphs'>Unknown</text>
+<text x='1528.44' y='626.69' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='57.38px' lengthAdjust='spacingAndGlyphs'>Doomsday</text>
+<text x='558.03' y='640.00' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='73.17px' lengthAdjust='spacingAndGlyphs'>Jeskai Tempo</text>
+<text x='1204.97' y='640.00' text-anchor='middle' style='font-size: 12.00px; fill: #4D4D4D; font-family: Arial;' textLength='48.71px' lengthAdjust='spacingAndGlyphs'>Madness</text>
+<text transform='translate(13.36,352.14) rotate(-90)' text-anchor='middle' style='font-size: 11.00px; font-family: Arial;' textLength='25.68px' lengthAdjust='spacingAndGlyphs'>Ratio</text>
+<text x='40.48' y='59.57' style='font-size: 11.00px; font-family: Arial;' textLength='322.91px' lengthAdjust='spacingAndGlyphs'>Ratio&gt;1 means that the archetype winrate is over its pilots' winrate</text>
+<text x='40.48' y='71.45' style='font-size: 11.00px; font-family: Arial;' textLength='27.54px' lengthAdjust='spacingAndGlyphs'>         </text>
+<text x='40.48' y='83.33' style='font-size: 11.00px; font-family: Arial;' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>by Anael Yahi</text>
+<text x='40.48' y='14.93' style='font-size: 13.20px; font-family: Arial;' textLength='568.27px' lengthAdjust='spacingAndGlyphs'>Ratio of the winrate of the archetypes out of the winrate of their pilotes for the most popular decks</text>
+<text x='40.48' y='29.18' style='font-size: 13.20px; font-family: Arial;' textLength='139.32px' lengthAdjust='spacingAndGlyphs'>At least 2% of presence</text>
+<text x='40.48' y='43.44' style='font-size: 13.20px; font-family: Arial;' textLength='400.84px' lengthAdjust='spacingAndGlyphs'>Between 2021-01-01 and 2021-12-28 in MTGO Major Official Events</text>
+</g>
+</svg>

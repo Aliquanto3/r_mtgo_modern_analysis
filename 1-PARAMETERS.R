@@ -11,17 +11,17 @@
 #Requires restarting Data Treatment if updated
 DirectoryFile="MTGO_Data"
 
+#Format of the wanted events: NA if all
+#"All_Formats,"Sealed","Standard","Pioneer","Modern","Legacy","Vintage","Pauper"
+MTGFormat="Modern"
+
 #Name of the file
 #Requires restarting Data Treatment if updated
-RawFile="Pauper_data.json"
-
-#Format of the wanted events: NA if all
-#NA,"Sealed","Standard","Pioneer","Modern","Legacy", "Vintage", "Pauper"
-MTGFormat="Pauper"
+RawFile=paste(MTGFormat,"data.json",sep="_")
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2021-08-20"
+Beginning="2021-02-17"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,7 +29,7 @@ Beginning="2021-08-20"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2021-10-25"
+End="2022-01-19"
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
@@ -48,7 +48,7 @@ End="2021-10-25"
 #"NRG Series" = NRG Series
 
 #Requires restarting Data Treatment if updated
-EventType="Official Competitions"
+EventType="Challenges"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
@@ -67,6 +67,10 @@ Presence_Weight=1
 PPR_Weight=1
 
 #CODE OF THE LAST SET
-lastSetCode="MID"
+lastSetCode="MH2"
+
+#TRUE IF YOU WANT TO GET ONLY THE PLAYER DATA, SAVES A LOT OF TIME BY 
+#REMOVING THE COMPUTATION OF THE CARD DATA
+PlayerResultsOnly=T
 
 ###############################################################################

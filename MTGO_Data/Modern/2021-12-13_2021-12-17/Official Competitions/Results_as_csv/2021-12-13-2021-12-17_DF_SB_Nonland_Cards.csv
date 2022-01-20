@@ -1,0 +1,892 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Abrade",1,1,5,5,100,47.8,100," 1 Izzet Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+","Jonas De Ro","R",2,"Instant","HOU",0.1,1.7,1
+"2","Abrupt Decay",1,1,4,5,80,28.4,99.5," 1 Jund Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+","Svetlin Velinov","B,G",2,"Instant","RTR",0.1,1.7,1
+"3","Aether Gust",21,10,34,48,70.8,55.9,83," 2 Azorius Control 
+ 1 Grixis Shadow 
+ 7 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+","Tomasz Jedruszek","U",2,"Instant","M20",2.4,17.2,2.1
+"4","Alpine Moon",40,23,81,106,76.4,67.2,84.1," 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 7 Grixis Shadow 
+ 1 Izzet Murktide 
+ 2 Jund Saga 
+ 1 Mardu Midrange 
+ 1 Naya Saga 
+ 1 Rakdos Midrange 
+ 2 Rakdos Saga 
+ 6 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Alayna Danner","R",1,"Enchantment","M19",4.6,39.7,1.7
+"5","Ancient Grudge",5,3,9,13,69.2,38.6,90.9," 2 Gruul Midrange 
+ 1 Jund Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Jim Nelson","R",2,"Instant","TSP",0.6,5.2,1.7
+"6","Archmage's Charm",1,1,5,5,100,47.8,100," 1 Izzet Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+","Alayna Danner","U",3,"Instant","MH1",0.1,1.7,1
+"7","Ashiok, Dream Render",1,1,3,5,60,14.7,94.7," 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+","Cynthia Sheppard","B,U",3,"Planeswalker","WAR",0.1,1.7,1
+"8","Assassin's Trophy",3,1,3,5,60,14.7,94.7," 1 Jund Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+","Seb McKinnon","B,G",2,"Instant","GRN",0.3,1.7,3
+"9","Baleful Mastery",1,1,4,5,80,28.4,99.5," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+","Chris Cold","B",4,"Instant","STX",0.1,1.7,1
+"10","Blood Moon",10,4,13,19,68.4,43.4,87.4," 1 Hollowvine 
+ 2 Izzet Murktide 
+ 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Tom Wänerstrand","R",3,"Enchantment","DRK",1.1,6.9,2.5
+"11","Blossoming Calm",3,2,6,10,60,26.2,87.8," 1 Naya Saga 
+ 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+","Michael C. Hayes","W",1,"Instant","MH2",0.3,3.4,1.5
+"12","Cathar Commando",6,3,11,13,84.6,54.6,98.1," 3 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Evyn Fong","W",2,"Creature","MID",0.7,5.2,2
+"13","Celestial Purge",2,2,7,10,70,34.8,93.3," 2 Azorius Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+","David Palumbo","W",2,"Instant","CON",0.2,3.4,1
+"14","Chalice of the Void",9,7,22,31,71,52,85.8," 2 Azorius Control 
+ 2 Gruul Midrange 
+ 1 Rakdos Midrange 
+ 2 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Mark Zug","",0,"Artifact","MRD",1,12.1,1.3
+"15","Collective Brutality",6,3,9,13,69.2,38.6,90.9," 1 Grixis Shadow 
+ 1 Jund Saga 
+ 1 Mardu Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+","Johann Bodin","B",2,"Sorcery","EMN",0.7,5.2,2
+"16","Collector Ouphe",1,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+","Filip Burburan","G",2,"Creature","MH1",0.1,1.7,1
+"17","Cultivator Colossus",1,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+","Antonio José Manzanedo","G",7,"Creature","VOW",0.1,1.7,1
+"18","Damnation",1,1,4,5,80,28.4,99.5," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+","Kev Walker","B",4,"Sorcery","PLC",0.1,1.7,1
+"19","Damping Sphere",6,3,10,15,66.7,38.4,88.2," 1 Artifact Pod 
+ 1 Rakdos Saga 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+","Adam Paquette","",2,"Artifact","DOM",0.7,5.2,2
+"20","Dark Confidant",3,1,5,5,100,47.8,100," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+","Ron Spears","B",2,"Creature","RAV",0.3,1.7,3
+"21","Dauthi Voidwalker",3,2,6,9,66.7,29.9,92.5," 1 Grixis Midrange 
+ 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+","Sidharth Chaturvedi","B",2,"Creature","MH2",0.3,3.4,1.5
+"22","Dead // Gone",1,1,3,4,75,19.4,99.4," 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gigy_- 
+","Tomas Giorello","R",4,"Instant","PLC",0.1,1.7,1
+"23","Defense Grid",3,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+","Mark Tedin","",2,"Artifact","ULG",0.3,1.7,3
+"24","Deflecting Palm",9,3,9,15,60,32.3,83.7," 3 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+","Eric Deschamps","R,W",2,"Instant","KTK",1,5.2,3
+"25","Dismember",2,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+","Terese Nielsen","B",3,"Instant","NPH",0.2,1.7,2
+"26","Dispatch",6,2,7,10,70,34.8,93.3," 1 Artifact Pod 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Erica Yang","W",1,"Instant","NPH",0.7,3.4,3
+"27","Doom Blade",1,1,3,4,75,19.4,99.4," 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+","Chippy","B",2,"Instant","M10",0.1,1.7,1
+"28","Dovin's Veto",15,8,30,39,76.9,60.7,88.9," 3 Azorius Control 
+ 5 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Izzy","U,W",2,"Instant","WAR",1.7,13.8,1.9
+"29","Drannith Magistrate",2,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+","Kieran Yanner","W",2,"Creature","IKO",0.2,1.7,2
+"30","Dreadbore",1,1,3,5,60,14.7,94.7," 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+","Wayne Reynolds","B,R",2,"Sorcery","RTR",0.1,1.7,1
+"31","Dress Down",15,11,35,50,70,55.4,82.1," 1 Azorius Control 
+ 1 Grixis Monkey 
+ 6 Grixis Shadow 
+ 2 Izzet Murktide 
+ 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Iain McCaig","U",2,"Enchantment","MH2",1.7,19,1.4
+"32","Duress",1,1,5,5,100,47.8,100," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+","Lawrence Snelly","B",1,"Sorcery","USG",0.1,1.7,1
+"33","Echoing Truth",1,1,4,5,80,28.4,99.5," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+","Greg Staples","U",2,"Instant","DST",0.1,1.7,1
+"34","Elixir of Immortality",3,3,9,13,69.2,38.6,90.9," 2 Gruul Midrange 
+ 1 Naya Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Zoltan Boros & Gabor Szikszai","",1,"Artifact","M11",0.3,5.2,1
+"35","Emrakul, the Aeons Torn",3,3,10,15,66.7,38.4,88.2," 3 Azorius Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+","Mark Tedin","",15,"Creature","ROE",0.3,5.2,1
+"36","Emrakul, the Promised End",10,10,37,46,80.4,66.1,90.6," 2 Amulet Titan 
+ 1 Azorius Control 
+ 7 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Jaime Jones","",13,"Creature","EMN",1.1,17.2,1
+"37","Endurance",34,19,64,89,71.9,61.4,80.9," 6 Amulet Titan 
+ 2 Gruul Midrange 
+ 3 Temur Footfalls 
+ 8 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sharkcaster_mage_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#snusnumrick_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Anastasia Ovchinnikova","G",3,"Creature","MH2",3.9,32.8,1.8
+"38","Engineered Explosives",54,30,100,140,71.4,63.2,78.7," 6 Amulet Titan 
+ 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 3 Grixis Shadow 
+ 2 Gruul Midrange 
+ 3 Izzet Murktide 
+ 2 Jund Saga 
+ 1 Mardu Midrange 
+ 1 Mill 
+ 1 Naya Saga 
+ 1 Rakdos Midrange 
+ 2 Rakdos Saga 
+ 1 Thopter Urza 
+ 5 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sharkcaster_mage_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Ron Spears","",0,"Artifact","5DN",6.2,51.7,1.8
+"39","Ensnaring Bridge",2,2,6,8,75,34.9,96.8," 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Pete Venters","",3,"Artifact","STH",0.2,3.4,1
+"40","Ethersworn Canonist",1,1,3,5,60,14.7,94.7," 1 Artifact Pod 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Izzy","W",2,"Artifact,Creature","ALA",0.1,1.7,1
+"41","Extirpate",3,1,4,5,80,28.4,99.5," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+","Jon Foster","B",1,"Instant","PLC",0.3,1.7,3
+"42","Fatal Push",2,2,6,9,66.7,29.9,92.5," 1 Grixis Shadow 
+ 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+","Eric Deschamps","B",1,"Instant","AER",0.2,3.4,1
+"43","Flusterstorm",8,6,22,28,78.6,59,91.7," 3 Izzet Murktide 
+ 3 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Erica Yang","U",1,"Instant","CMD",0.9,10.3,1.3
+"44","Force of Negation",7,5,18,23,78.3,56.3,92.5," 2 Izzet Murktide 
+ 3 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+","Paul Scott Canavan","U",3,"Instant","MH1",0.8,8.6,1.4
+"45","Force of Vigor",33,13,42,61,68.9,55.7,80.1," 6 Amulet Titan 
+ 3 Temur Footfalls 
+ 4 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sharkcaster_mage_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#snusnumrick_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Randy Vargas","G",4,"Instant","MH1",3.8,22.4,2.5
+"46","Foundation Breaker",4,3,11,15,73.3,44.9,92.2," 2 Amulet Titan 
+ 1 Hollowvine 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sharkcaster_mage_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+","Yeong-Hao Han","G",4,"Creature","MH2",0.5,5.2,1.3
+"47","Gaddock Teeg",2,1,3,5,60,14.7,94.7," 1 Naya Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+","Greg Staples","G,W",2,"Creature","LRW",0.2,1.7,2
+"48","Gaea's Blessing",1,1,4,4,100,39.8,100," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+","Rebecca Guay","G",2,"Sorcery","WTH",0.1,1.7,1
+"49","Grafdigger's Cage",3,3,9,13,69.2,38.6,90.9," 1 Artifact Pod 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Daniel Ljunggren","",1,"Artifact","DKA",0.3,5.2,1
+"50","Gut Shot",4,4,13,18,72.2,46.5,90.3," 4 Grixis Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+","Greg Staples","R",1,"Instant","NPH",0.5,6.9,1
+"51","Hushbringer",6,3,10,15,66.7,38.4,88.2," 2 Hammer Time 
+ 1 Naya Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+","Bastien L. Deharme","W",2,"Creature","ELD",0.7,5.2,2
+"52","Ingot Chewer",2,1,4,5,80,28.4,99.5," 1 Hollowvine 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+","Kev Walker","R",5,"Creature","LRW",0.2,1.7,2
+"53","Jace, the Mind Sculptor",5,3,11,14,78.6,49.2,95.3," 3 Izzet Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Jason Chan","U",4,"Planeswalker","WWK",0.6,5.2,1.7
+"54","Jegantha, the Wellspring",1,1,3,5,60,14.7,94.7," 1 Artifact Pod 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Chris Rahn","G,R",5,"Creature","IKO",0.1,1.7,1
+"55","Kaheera, the Orphanguard",3,3,10,15,66.7,38.4,88.2," 3 Azorius Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+","Ryan Pancoast","G,W",3,"Creature","IKO",0.3,5.2,1
+"56","Kaya's Guile",1,1,3,4,75,19.4,99.4," 1 Mardu Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+","Jason Rainville","B,W",3,"Instant","MH1",0.1,1.7,1
+"57","Knight of Autumn",2,1,3,5,60,14.7,94.7," 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+","Ryan Pancoast","G,W",3,"Creature","GRN",0.2,1.7,2
+"58","Kolaghan's Command",16,10,34,46,73.9,58.9,85.7," 1 Grixis Midrange 
+ 7 Grixis Shadow 
+ 1 Jund Saga 
+ 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+","Daarken","B,R",3,"Instant","DTK",1.8,17.2,1.6
+"59","Kor Firewalker",4,2,6,10,60,26.2,87.8," 2 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+","Matt Stewart","W",2,"Creature","WWK",0.5,3.4,2
+"60","Kozilek's Return",1,1,4,5,80,28.4,99.5," 1 Grixis Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+","Lius Lasahido","",3,"Instant","OGW",0.1,1.7,1
+"61","Kozilek, Butcher of Truth",1,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+","Michael Komarck","",10,"Creature","ROE",0.1,1.7,1
+"62","Kroxa, Titan of Death's Hunger",2,2,7,10,70,34.8,93.3," 1 Jund Saga 
+ 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+","Vincent Proce","B,R",2,"Creature","THB",0.2,3.4,1
+"63","Legion's End",1,1,3,5,60,14.7,94.7," 1 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+","David Palumbo","B",2,"Sorcery","M20",0.1,1.7,1
+"64","Leyline of Sanctity",4,1,3,4,75,19.4,99.4," 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gigy_- 
+","Ryan Pancoast","W",4,"Enchantment","M11",0.5,1.7,4
+"65","Leyline of the Void",8,2,7,10,70,34.8,93.3," 1 Hollowvine 
+ 1 Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+","Adam Rex","B",4,"Enchantment","GPT",0.9,3.4,4
+"66","Lightning Axe",1,1,4,5,80,28.4,99.5," 1 Hollowvine 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+","Dan Scott","R",1,"Instant","TSP",0.1,1.7,1
+"67","Lightning Bolt",4,2,8,10,80,44.4,97.5," 1 Hollowvine 
+ 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+","Christopher Rush","R",1,"Instant","LEA",0.5,3.4,2
+"68","Lightning Helix",17,9,34,42,81,65.9,91.4," 9 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Kev Walker","R,W",2,"Instant","RAV",2,15.5,1.9
+"69","Liquimetal Coating",3,3,9,13,69.2,38.6,90.9," 1 Amulet Titan 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Johann Bodin","",2,"Artifact","SOM",0.3,5.2,1
+"70","Lurrus of the Dream-Den",25,25,84,116,72.4,63.3,80.3," 3 Burn 
+ 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 7 Grixis Shadow 
+ 5 Hammer Time 
+ 2 Jund Saga 
+ 1 Mardu Midrange 
+ 1 Mill 
+ 1 Naya Saga 
+ 1 Rakdos Midrange 
+ 2 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Slawomir Maniak","B,W",3,"Creature","IKO",2.9,43.1,1
+"71","Manriki-Gusari",4,4,14,20,70,45.7,88.1," 1 Artifact Pod 
+ 2 Hammer Time 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+","Thomas Gianni","",2,"Artifact","SOK",0.5,6.9,1
+"72","Mulldrifter",3,1,3,5,60,14.7,94.7," 1 Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+","Eric Fortune","U",5,"Creature","LRW",0.3,1.7,3
+"73","Mystical Dispute",22,9,31,43,72.1,56.3,84.7," 3 Azorius Control 
+ 3 Izzet Murktide 
+ 3 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#snusnumrick_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Ekaterina Burmak","U",3,"Instant","ELD",2.5,15.5,2.4
+"74","Nature's Claim",1,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+","Daarken","G",1,"Instant","WWK",0.1,1.7,1
+"75","Nihil Spellbomb",16,11,37,52,71.2,56.9,82.9," 1 Grixis Midrange 
+ 7 Grixis Shadow 
+ 1 Hammer Time 
+ 2 Jund Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+","Franz Vohwinkel","",1,"Artifact","SOM",1.8,19,1.5
+"76","Obsidian Charmaw",5,2,7,10,70,34.8,93.3," 2 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+","Lucas Graciano","R",5,"Creature","MH2",0.6,3.4,2.5
+"77","On Thin Ice",3,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+","Lucas Graciano","W",1,"Enchantment","MH1",0.3,1.7,3
+"78","Outland Liberator",4,4,12,19,63.2,38.4,83.7," 4 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+","Randy Vargas","G",2,"Creature","MID",0.5,6.9,1
+"79","Path to Exile",19,9,29,41,70.7,54.5,83.9," 3 Burn 
+ 3 Hammer Time 
+ 1 Mardu Midrange 
+ 1 Naya Saga 
+ 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Todd Lockwood","W",1,"Instant","CON",2.2,15.5,2.1
+"80","Phyrexian Revoker",1,1,3,5,60,14.7,94.7," 1 Artifact Pod 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Kev Walker","",2,"Artifact,Creature","MBS",0.1,1.7,1
+"81","Pithing Needle",16,16,55,74,74.3,62.8,83.8," 2 Amulet Titan 
+ 2 Gruul Midrange 
+ 5 Hammer Time 
+ 2 Jund Saga 
+ 1 Naya Saga 
+ 1 Rakdos Midrange 
+ 2 Rakdos Saga 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Pete Venters","",1,"Artifact","SOK",1.8,27.6,1
+"82","Prismari Command",1,1,4,5,80,28.4,99.5," 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#snusnumrick_- 
+","Johannes Voss","R,U",3,"Instant","STX",0.1,1.7,1
+"83","Prismatic Ending",10,5,18,23,78.3,56.3,92.5," 4 Hammer Time 
+ 1 Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","John Stanko","W",1,"Sorcery","MH2",1.1,8.6,2
+"84","Pyrite Spellbomb",2,1,3,4,75,19.4,99.4," 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+","Jim Nelson","",1,"Artifact","MRD",0.2,1.7,2
+"85","Ratchet Bomb",1,1,3,5,60,14.7,94.7," 1 Artifact Pod 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Austin Hsu","",2,"Artifact","SOM",0.1,1.7,1
+"86","Relic of Progenitus",27,16,55,75,73.3,61.9,82.9," 5 Amulet Titan 
+ 1 Grixis Monkey 
+ 2 Gruul Midrange 
+ 1 Hammer Time 
+ 3 Izzet Murktide 
+ 4 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sharkcaster_mage_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Jean-Sébastien Rossbach","",1,"Artifact","ALA",3.1,27.6,1.7
+"87","Rest in Peace",9,5,18,25,72,50.6,87.9," 3 Azorius Control 
+ 2 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+","Terese Nielsen","W",2,"Enchantment","RTR",1,8.6,1.8
+"88","Roiling Vortex",9,3,9,15,60,32.3,83.7," 3 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+","Campbell White","R",2,"Enchantment","ZNR",1,5.2,3
+"89","Sanctifier en-Vec",10,5,18,24,75,53.3,90.2," 1 Burn 
+ 4 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Michael C. Hayes","W",2,"Creature","MH2",1.1,8.6,2
+"90","Seal of Cleansing",2,1,3,5,60,14.7,94.7," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+","Christopher Moeller","W",2,"Enchantment","NEM",0.2,1.7,2
+"91","Search for Azcanta",1,1,4,5,80,28.4,99.5," 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+","Magali Villeneuve","U",2,"Enchantment","XLN",0.1,1.7,1
+"92","Shadowspear",3,3,9,14,64.3,35.1,87.2," 1 Amulet Titan 
+ 2 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#manavonrx_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+","Yeong-Hao Han","",1,"Artifact","THB",0.3,5.2,1
+"93","Shark Typhoon",7,3,10,15,66.7,38.4,88.2," 3 Azorius Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+","Caio Monteiro","U",6,"Enchantment","IKO",0.8,5.2,2.3
+"94","Silence",3,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+","Wayne Reynolds","W",1,"Instant","M10",0.3,1.7,3
+"95","Smash to Smithereens",9,3,9,15,60,32.3,83.7," 3 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#romerito_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#pacoelflaco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#frakom_- 
+","Pete Venters","R",2,"Instant","SHM",1,5.2,3
+"96","Soul-Guide Lantern",12,9,31,42,73.8,58,86.1," 1 Artifact Pod 
+ 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 3 Grixis Shadow 
+ 1 Hammer Time 
+ 1 Mill 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+","Cliff Childs","",1,"Artifact","THB",1.4,15.5,1.3
+"97","Spell Pierce",15,10,35,46,76.1,61.2,87.4," 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 7 Grixis Shadow 
+ 1 Izzet Murktide 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+","Vance Kovacs","U",1,"Instant","ZEN",1.7,17.2,1.5
+"98","Spreading Seas",3,3,11,15,73.3,44.9,92.2," 2 Azorius Control 
+ 1 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#bsk_hercules_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+","Jung Park","U",2,"Enchantment","ZEN",0.3,5.2,1
+"99","Stony Silence",2,1,3,5,60,14.7,94.7," 1 Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+","Wayne England","W",2,"Enchantment","ISD",0.2,1.7,2
+"100","Subtlety",3,3,9,14,64.3,35.1,87.2," 1 Azorius Control 
+ 1 Izzet Murktide 
+ 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#jv__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+","Anastasia Ovchinnikova","U",4,"Creature","MH2",0.3,5.2,1
+"101","Supreme Verdict",2,2,6,10,60,26.2,87.8," 2 Azorius Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#benni_r_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#watoo_- 
+","Sam Burley","U,W",4,"Sorcery","RTR",0.2,3.4,1
+"102","Sword of Feast and Famine",1,1,3,5,60,14.7,94.7," 1 Artifact Pod 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+","Chris Rahn","",3,"Artifact","MBS",0.1,1.7,1
+"103","Sword of Sinew and Steel",1,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+","Chris Rahn","",3,"Artifact","MH1",0.1,1.7,1
+"104","Sword of War and Peace",1,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#crusherbotbg_- 
+","Chris Rahn","",3,"Artifact","NPH",0.1,1.7,1
+"105","Teferi, Time Raveler",2,2,7,10,70,34.8,93.3," 1 Reanimator 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+","Chris Rallis","U,W",3,"Planeswalker","WAR",0.2,3.4,1
+"106","Terminate",20,11,37,50,74,59.7,85.4," 1 Grixis Midrange 
+ 1 Grixis Monkey 
+ 7 Grixis Shadow 
+ 1 Jund Saga 
+ 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+","DiTerlizzi","B,R",2,"Instant","PLS",2.3,19,1.8
+"107","Test of Talents",1,1,3,4,75,19.4,99.4," 1 Grixis Monkey 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#micancona_- 
+","Lie Setiawan","U",2,"Instant","STX",0.1,1.7,1
+"108","Thalia, Guardian of Thraben",1,1,4,5,80,28.4,99.5," 1 Hammer Time 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#flxex_- 
+","Jana Schirmer & Johannes Voss","W",2,"Creature","DKA",0.1,1.7,1
+"109","Thoughtseize",14,8,26,38,68.4,51.3,82.5," 1 Grixis Midrange 
+ 2 Hammer Time 
+ 1 Jund Saga 
+ 1 Mardu Midrange 
+ 2 Rakdos Saga 
+ 1 Reanimator 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#icteridae_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rixxen_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+","Aleksi Briclot","B",1,"Sorcery","LRW",1.6,13.8,1.8
+"110","Thrun, the Last Troll",2,1,4,5,80,28.4,99.5," 1 Temur Footfalls 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#snusnumrick_- 
+","Jason Chan","G",4,"Creature","MBS",0.2,1.7,2
+"111","Tormod's Crypt",4,4,13,18,72.2,46.5,90.3," 1 Amulet Titan 
+ 2 Gruul Midrange 
+ 1 Mill 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#tibalt_of_red_sub_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Christopher Rush","",0,"Artifact","DRK",0.5,6.9,1
+"112","Torpor Orb",14,9,31,40,77.5,61.5,89.2," 1 Artifact Pod 
+ 2 Hammer Time 
+ 2 Izzet Murktide 
+ 1 Jund Saga 
+ 1 Mardu Midrange 
+ 2 Rakdos Saga 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#o_danielakos_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#cdegan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#avocadotoast_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#iloveyou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Svetlin Velinov","",2,"Artifact","NPH",1.6,15.5,1.6
+"113","Tourach, Dread Cantor",14,7,24,32,75,56.6,88.5," 7 Grixis Shadow 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#oscar_franco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#soulstrong_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#ilsecco_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#boland_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#masonboy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bryzem_- 
+","Greg Staples","B",2,"Creature","MH2",1.6,12.1,2
+"114","Unearth",2,1,3,4,75,19.4,99.4," 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#mafs_- 
+","Don Hazeltine","B",1,"Sorcery","ULG",0.2,1.7,2
+"115","Veil of Summer",54,18,62,82,75.6,64.9,84.4," 3 Amulet Titan 
+ 2 Gruul Midrange 
+ 2 Hammer Time 
+ 11 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#gul_dukat_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#blj_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#tobyr_- 
+","Lake Hurwitz","G",1,"Instant","M20",6.2,31,3
+"116","Void Mirror",10,7,25,34,73.5,55.6,87.1," 1 Artifact Pod 
+ 1 Grixis Midrange 
+ 1 Hammer Time 
+ 1 Hollowvine 
+ 2 Jund Saga 
+ 1 Mardu Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jbtwist_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#toondoslav_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#jedgi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#larkblue_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hnmagician_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#bomberboss_- 
+","Colin Boyer","",2,"Artifact","MH2",1.1,12.1,1.4
+"117","Walking Ballista",3,3,9,13,69.2,38.6,90.9," 1 Amulet Titan 
+ 2 Gruul Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#ornatepuzzles_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#ornatepuzzles_- 
+","Daniel Ljunggren","",0,"Artifact,Creature","AER",0.3,5.2,1
+"118","Wear // Tear",4,2,7,10,70,34.8,93.3," 1 Naya Saga 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#mrjaceone_- 
+","Ryan Pancoast","R",3,"Instant","DGM",0.5,3.4,2
+"119","Wurmcoil Engine",1,1,3,5,60,14.7,94.7," 1 Amulet Titan 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#capriccioso_- 
+","Raymond Swanland","",6,"Artifact,Creature","SOM",0.1,1.7,1
+"120","Yorion, Sky Nomad",12,12,44,57,77.2,64.2,87.3," 1 Thopter Urza 
+ 11 WURG Blink 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#swff_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#c_el_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#martinezdp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-14#sneakymisato_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#rulleboren_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#idea_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#ryanwu_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#discovern_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-15#hiyarako_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-16#nathansteuer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#leviathan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2021-12-17#beenew_- 
+","Steven Belledin","U,W",5,"Creature","IKO",1.4,20.7,1

@@ -42,6 +42,8 @@ library(gganimate)
 library(gifski)
 library(raster)
 library(conflicted)
+library(viridis) 
+library(paletteer)
 
 Sys.setenv(JAVA_HOME='C:\\Program Files (x86)\\Java\\jre1.8.0_181') 
 library(xlsx)
@@ -167,6 +169,36 @@ metagame_pie_chart = function(df,presence,beginning,end,EventType){
           legend.text = element_text(size = 17))
   
 }
+
+
+# # TODO
+# metagame_pie_chart_dark = function(df,presence,beginning,end,EventType){
+#   
+#   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
+#   df_gen=generate_metagame_data(df,PieShare,presence,beginning,end)
+#   
+#   ggplot(df_gen, aes(x="", -Share, fill = Archetype)) + 
+#     geom_bar(width = 1, size = 1, color = "#152238", stat = "identity") + 
+#     coord_polar("y", start=0) + 
+#     geom_text(aes(label = paste0(Share, "%")), colour = "white",
+#               position = position_stack(vjust = 0.5)) +
+#     labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anael Yahi",
+#          title = generate_metagame_graph_title(
+#            presence,beginning,end,EventType)) + 
+#     guides(color = FALSE, size = FALSE) +
+#     scale_fill_paletteer_d("pals::glasbey") +
+#     theme(axis.line = element_blank(),
+#           axis.text = element_blank(),
+#           axis.ticks = element_blank(),
+#           plot.title = element_text(hjust = 0.5, colour = "lightgrey",size = 20),
+#           plot.subtitle = element_text(hjust = 0.5,size = 18, colour = "lightgrey"),
+#           legend.text = element_text(size = 17, colour = "lightgrey"),
+#           panel.background = element_rect(fill = "#152238"),
+#           plot.background = element_rect(fill = "#152238"),
+#           legend.background = element_rect(fill = "#152238")
+#           )
+#   
+# }
 
 #GENERATE A BOX PLOT BASED ON DATA IN DF
 #presence CAN BE EITHER "Copies", "Players" or "Matches"

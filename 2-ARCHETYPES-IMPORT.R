@@ -336,18 +336,18 @@ generate_NRG_Data = function(periodData) {
 #"ManaTraders Series" = ManaTraders Series
 #"NRG Series" = NRG Series
 #"Major Official Events" = Challenge,Champ,Showcase,Premier,Qualifier,MOCS
-generate_df = function(EventType,mtgFormat,RawFile){
+generate_df = function(EventType,MTGFormat,RawFile){
   
   #IMPORT DATA
   # setwd(DirectoryFile)
   # rawData=fromJSON(RawFile)[[1]]
   rawData=fromJSON(paste(DirectoryFile,RawFile,sep="/"))[[1]]
-  rawData=rawData[grep(pattern = MTGFormat,x=rawData$Tournament),]
+  if (!MTGFormat=="All_Formats"){
+    rawData=rawData[grep(pattern = MTGFormat,x=rawData$Tournament),]
+  }
   rawData$Date = as.Date(rawData$Date)
   rawData$Points = as.numeric(rawData$Points)
   # View(rawData)
-  # rawData[1,]$Mainboard[[1]][1]
-  # rawData[1,]$Mainboard[[1]][2]
   
   if(is.na(Beginning)){
     Beginning=min(rawData$Date)
@@ -358,15 +358,16 @@ generate_df = function(EventType,mtgFormat,RawFile){
   
   #SELECT DATA FOR A SPECIFIC PERIOD
   periodData=subset(rawData, Date >= as.Date(Beginning) & Date < as.Date(End))
-  periodData=periodData[grep(MTGFormat,periodData$Tournament),]
+  # if (!MTGFormat=="All_Formats"){
+  #   periodData=periodData[grep(MTGFormat,periodData$Tournament),]
+  # }
+  
   
   #NAMES AND DATE DON'T ALLOW THE IDENTIFICATION OF AN EVENT, BUT THE COMBINATION
   #OF BOTH CAN, HENCE THE ADDITION OF ANOTHER COLUMN FOR THIS IDENTIFICATION
   periodData$TournamentName=rep(NA,nrow(periodData))
-  for (i in 1:nrow(periodData)){
-    periodData$TournamentName[i]=paste(periodData$Tournament[i],
-                        as.character(periodData$Date[i]),sep=" ")
-  }
+  periodData$TournamentName=paste(periodData$Tournament,
+                                     as.character(periodData$Date),sep=" ")
   #View(periodData) 
   
   
@@ -473,352 +474,352 @@ generate_df = function(EventType,mtgFormat,RawFile){
 add_super_archetypes = function(df){
   
   df$Archetype$SuperArchetype=df$Archetype$Archetype
-  for (i in 1:length(df$Archetype$Archetype)){
-    if(df$Archetype$Archetype[i]=="WURG Control" |
-       df$Archetype$Archetype[i]=="WUBG Control" |
-       df$Archetype$Archetype[i]=="Bant Midrange"| 
-       df$Archetype$Archetype[i]=="Scapeshift"| 
-       df$Archetype$Archetype[i]=="UBRG Control"| 
-       df$Archetype$Archetype[i]=="Niv To Light"| 
-       df$Archetype$Archetype[i]=="Omnath Saheeli"| 
-       df$Archetype$Archetype[i]=="Temur Control"| 
-       df$Archetype$Archetype[i]=="Sultai Control"| 
-       df$Archetype$Archetype[i]=="Bant Control"|
-       df$Archetype$Archetype[i]=="Simic Control"){
-      
-      df$Archetype$SuperArchetype[i]="UGx Control"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Jund Prowess" |
-       df$Archetype$Archetype[i]=="Gruul Prowess" |
-       df$Archetype$Archetype[i]=="Izzet Prowess"| 
-       df$Archetype$Archetype[i]=="Boros Prowess"|
-       df$Archetype$Archetype[i]=="Mardu Prowess"|
-       df$Archetype$Archetype[i]=="Obosh Aggro"| 
-       df$Archetype$Archetype[i]=="Mono Red Prowess"| 
-       df$Archetype$Archetype[i]=="Rakdos Prowess"| 
-       df$Archetype$Archetype[i]=="Jeskai Prowess"| 
-       df$Archetype$Archetype[i]=="Naya Prowess"){
-      
-      df$Archetype$SuperArchetype[i]="Rx Prowess"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Jeskai Blink" |
-       df$Archetype$Archetype[i]=="Bant Blink"| 
-       df$Archetype$Archetype[i]=="WURG Blink" |
-       df$Archetype$Archetype[i]=="Abzan Blink"
-       ){
-      
-      df$Archetype$SuperArchetype[i]="Blink"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Jeskai Control" |
-       df$Archetype$Archetype[i]=="Izzet Control"| 
-       df$Archetype$Archetype[i]=="Dimir Control"| 
-       df$Archetype$Archetype[i]=="Azorius Control"|
-       df$Archetype$Archetype[i]=="Azorius Midrange"|
-       df$Archetype$Archetype[i]=="Esper Control"| 
-       df$Archetype$Archetype[i]=="Grixis Control"|
-       df$Archetype$Archetype[i]=="UW Miracles"|
-       df$Archetype$Archetype[i]=="UR Kiki Boilproof"){
-      
-      df$Archetype$SuperArchetype[i]="Non UGx Control"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Amulet Titan" | 
-       df$Archetype$Archetype[i]=="KGC Amulet Titan"| 
-       df$Archetype$Archetype[i]=="Primeval Titan"| 
-       df$Archetype$Archetype[i]=="Reclaimer Titan"|
-       df$Archetype$Archetype[i]=="Valakut Field"){
-      
-      df$Archetype$SuperArchetype[i]="P.Titan"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="UBRG Shadow" | 
-       df$Archetype$Archetype[i]=="Grixis Shadow"|
-       df$Archetype$Archetype[i]=="Shadow Prowess"|
-       df$Archetype$Archetype[i]=="BR Shadow Prowess"|
-       df$Archetype$Archetype[i]=="WBR Shadow Prowess"| 
-       df$Archetype$Archetype[i]=="BRG Shadow Prowess"|
-       df$Archetype$Archetype[i]=="Jund Shadow"|
-       df$Archetype$Archetype[i]=="Rakdos Shadow"|
-       df$Archetype$Archetype[i]=="Sultai Shadow"|
-       df$Archetype$Archetype[i]=="Esper Shadow"|
-       df$Archetype$Archetype[i]=="Orzhov Shadow"|
-       df$Archetype$Archetype[i]=="Dimir Shadow"|
-       df$Archetype$Archetype[i]=="Mardu Shadow"|
-       df$Archetype$Archetype[i]=="RB Shadow Lurrus"|
-       df$Archetype$Archetype[i]=="Mardu Shadow Lurrus"){
-      
-      df$Archetype$SuperArchetype[i]="Shadow"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Stoneforge Eldrazi" |
-       df$Archetype$Archetype[i]=="Obligator Eldrazi" |
-       df$Archetype$Archetype[i]=="Eldrazi Tron" |
-       df$Archetype$Archetype[i]=="Green Eldrazi"){
-      
-      df$Archetype$SuperArchetype[i]="Eldrazi"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Azorius Taxes" |
-       df$Archetype$Archetype[i]=="Esper Taxes" |
-       df$Archetype$Archetype[i]=="Abzan Taxes" |
-       df$Archetype$Archetype[i]=="Mono White Taxes"| 
-       df$Archetype$Archetype[i]=="Selenya Taxes"|
-       df$Archetype$Archetype[i]=="Boros Taxes"|
-       df$Archetype$Archetype[i]=="Orzhov Taxes"|
-       df$Archetype$Archetype[i]=="Jeskai Taxes"|
-       df$Archetype$Archetype[i]=="BW Eldrazi & Taxes"){
-      
-      df$Archetype$SuperArchetype[i]="D&T"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Abzan Company" | 
-       df$Archetype$Archetype[i]=="Selesnya Midrange"|
-       df$Archetype$Archetype[i]=="Naya Midrange"  |
-       df$Archetype$Archetype[i]=="Badzan"){
-      
-      df$Archetype$SuperArchetype[i]="GWx Midrange"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Mardu Midrange" | 
-       df$Archetype$Archetype[i]=="Rakdos Midrange"){
-      
-      df$Archetype$SuperArchetype[i]="RBx Midrange"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Bant Spirits" | 
-       df$Archetype$Archetype[i]=="Spirits"){
-      
-      df$Archetype$SuperArchetype[i]="Spirits"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Belcher"|
-       df$Archetype$Archetype[i]=="UW Belcher"|
-       df$Archetype$Archetype[i]=="RG Belcher"){
-      
-      df$Archetype$SuperArchetype[i]="Belcher"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Gifts Storm"|
-       df$Archetype$Archetype[i]=="Twiddle Storm"|
-       df$Archetype$Archetype[i]=="Song Storm"){
-      
-      df$Archetype$SuperArchetype[i]="Storm"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Izzet Restore Balance" |
-       df$Archetype$Archetype[i]=="Temur Foretold Balance" |
-       df$Archetype$Archetype[i]=="Izzet Living End"){
-      
-      df$Archetype$SuperArchetype[i]="URx Balance"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Slivers"){
-      
-      df$Archetype$SuperArchetype[i]="Slivers"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="E Tron"){
-      
-      df$Archetype$SuperArchetype[i]="Eldrazi"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="U Tron" |
-       df$Archetype$Archetype[i]=="Dice Factory Tron"){
-      
-      df$Archetype$SuperArchetype[i]="Other Tron"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Elementals"){
-      
-      df$Archetype$SuperArchetype[i]="Elementals"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Humans"){
-      
-      df$Archetype$SuperArchetype[i]="Humans"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Merfolks"){
-      
-      df$Archetype$SuperArchetype[i]="Merfolks"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Heliod Combo" |
-       df$Archetype$Archetype[i]=="GW Heliod"|
-       df$Archetype$Archetype[i]=="Mono White Heliod"){
-      
-      df$Archetype$SuperArchetype[i]="Heliod"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Jund Midrange" |
-       df$Archetype$Archetype[i]=="Jund Lurrus Midrange"|
-       df$Archetype$Archetype[i]=="Sultai Midrange"|
-       df$Archetype$Archetype[i]=="UBRG Midrange"|
-       df$Archetype$Archetype[i]=="Abzan Midrange"|
-       df$Archetype$Archetype[i]=="Golgari Midrange"){
-      
-      df$Archetype$SuperArchetype[i]="BGx Midrange"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Gruul Midrange" |
-       df$Archetype$Archetype[i]=="Naya Midrange"){
-      
-      df$Archetype$SuperArchetype[i]="RGx Midrange"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Dredge"){
-      
-      df$Archetype$SuperArchetype[i]="Dredge"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Burn" |
-       df$Archetype$Archetype[i]=="RW Burn"|
-       df$Archetype$Archetype[i]=="RG Burn"|
-       df$Archetype$Archetype[i]=="RB Burn"){
-      
-      df$Archetype$SuperArchetype[i]="Rx Burn"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Crabvine"){
-      
-      df$Archetype$SuperArchetype[i]="Crabvine"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Orzhov Midrange"){
-      
-      df$Archetype$SuperArchetype[i]="BWx Midrange"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Thopter Urza" |
-       df$Archetype$Archetype[i]=="Uroza" |
-       df$Archetype$Archetype[i]=="Grixis Whirza" |
-       df$Archetype$Archetype[i]=="Paradoxical Urza" |
-       df$Archetype$Archetype[i]=="Urza Oko"){
-      
-      df$Archetype$SuperArchetype[i]="Urza"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Bant Stoneblade" |
-       df$Archetype$Archetype[i]=="UW Stoneblade"){
-      
-      df$Archetype$SuperArchetype[i]="UWx Stoneblade"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Infect"){
-      
-      df$Archetype$SuperArchetype[i]="Infect"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="UB Inverter"){
-      
-      df$Archetype$SuperArchetype[i]="Inverter"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="MonoG Tron" |
-       df$Archetype$Archetype[i]=="KGC Tron"){
-      
-      df$Archetype$SuperArchetype[i]="Gx Tron"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Bogles"){
-      
-      df$Archetype$SuperArchetype[i]="Bogles"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Devoted"|
-       df$Archetype$Archetype[i]=="GW Devoted Lurrus"){
-      
-      df$Archetype$SuperArchetype[i]="Devoted"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Ad Nauseam"){
-      
-      df$Archetype$SuperArchetype[i]="Ad Nauseam"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Rogues"){
-      
-      df$Archetype$SuperArchetype[i]="Rogues"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Mill" |
-       df$Archetype$Archetype[i]=="UB Mill"){
-      
-      df$Archetype$SuperArchetype[i]="Mill"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Hammer Time"){
-      
-      df$Archetype$SuperArchetype[i]="Hammer Time"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Enduring Ideal"){
-      
-      df$Archetype$SuperArchetype[i]="Enduring Ideal"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Polymorph"){
-      
-      df$Archetype$SuperArchetype[i]="Polymorph"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Red Prison" | 
-       df$Archetype$Archetype[i]=="Boros Land Destruction"|
-       df$Archetype$Archetype[i]=="Pyro Prison" ){
-      
-      df$Archetype$SuperArchetype[i]="Red Prison"
-      
-    }
-    
-    if(df$Archetype$Archetype[i]=="Domain Zoo"|
-       df$Archetype$Archetype[i]=="Bushwhacker Zoo"){
-      
-      df$Archetype$SuperArchetype[i]="Zoo"
-    }
-  }
+  # for (i in 1:length(df$Archetype$Archetype)){
+  #   if(df$Archetype$Archetype[i]=="WURG Control" |
+  #      df$Archetype$Archetype[i]=="WUBG Control" |
+  #      df$Archetype$Archetype[i]=="Bant Midrange"| 
+  #      df$Archetype$Archetype[i]=="Scapeshift"| 
+  #      df$Archetype$Archetype[i]=="UBRG Control"| 
+  #      df$Archetype$Archetype[i]=="Niv To Light"| 
+  #      df$Archetype$Archetype[i]=="Omnath Saheeli"| 
+  #      df$Archetype$Archetype[i]=="Temur Control"| 
+  #      df$Archetype$Archetype[i]=="Sultai Control"| 
+  #      df$Archetype$Archetype[i]=="Bant Control"|
+  #      df$Archetype$Archetype[i]=="Simic Control"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="UGx Control"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Jund Prowess" |
+  #      df$Archetype$Archetype[i]=="Gruul Prowess" |
+  #      df$Archetype$Archetype[i]=="Izzet Prowess"| 
+  #      df$Archetype$Archetype[i]=="Boros Prowess"|
+  #      df$Archetype$Archetype[i]=="Mardu Prowess"|
+  #      df$Archetype$Archetype[i]=="Obosh Aggro"| 
+  #      df$Archetype$Archetype[i]=="Mono Red Prowess"| 
+  #      df$Archetype$Archetype[i]=="Rakdos Prowess"| 
+  #      df$Archetype$Archetype[i]=="Jeskai Prowess"| 
+  #      df$Archetype$Archetype[i]=="Naya Prowess"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Rx Prowess"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Jeskai Blink" |
+  #      df$Archetype$Archetype[i]=="Bant Blink"| 
+  #      df$Archetype$Archetype[i]=="WURG Blink" |
+  #      df$Archetype$Archetype[i]=="Abzan Blink"
+  #      ){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Blink"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Jeskai Control" |
+  #      df$Archetype$Archetype[i]=="Izzet Control"| 
+  #      df$Archetype$Archetype[i]=="Dimir Control"| 
+  #      df$Archetype$Archetype[i]=="Azorius Control"|
+  #      df$Archetype$Archetype[i]=="Azorius Midrange"|
+  #      df$Archetype$Archetype[i]=="Esper Control"| 
+  #      df$Archetype$Archetype[i]=="Grixis Control"|
+  #      df$Archetype$Archetype[i]=="UW Miracles"|
+  #      df$Archetype$Archetype[i]=="UR Kiki Boilproof"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Non UGx Control"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Amulet Titan" | 
+  #      df$Archetype$Archetype[i]=="KGC Amulet Titan"| 
+  #      df$Archetype$Archetype[i]=="Primeval Titan"| 
+  #      df$Archetype$Archetype[i]=="Reclaimer Titan"|
+  #      df$Archetype$Archetype[i]=="Valakut Field"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="P.Titan"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="UBRG Shadow" | 
+  #      df$Archetype$Archetype[i]=="Grixis Shadow"|
+  #      df$Archetype$Archetype[i]=="Shadow Prowess"|
+  #      df$Archetype$Archetype[i]=="BR Shadow Prowess"|
+  #      df$Archetype$Archetype[i]=="WBR Shadow Prowess"| 
+  #      df$Archetype$Archetype[i]=="BRG Shadow Prowess"|
+  #      df$Archetype$Archetype[i]=="Jund Shadow"|
+  #      df$Archetype$Archetype[i]=="Rakdos Shadow"|
+  #      df$Archetype$Archetype[i]=="Sultai Shadow"|
+  #      df$Archetype$Archetype[i]=="Esper Shadow"|
+  #      df$Archetype$Archetype[i]=="Orzhov Shadow"|
+  #      df$Archetype$Archetype[i]=="Dimir Shadow"|
+  #      df$Archetype$Archetype[i]=="Mardu Shadow"|
+  #      df$Archetype$Archetype[i]=="RB Shadow Lurrus"|
+  #      df$Archetype$Archetype[i]=="Mardu Shadow Lurrus"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Shadow"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Stoneforge Eldrazi" |
+  #      df$Archetype$Archetype[i]=="Obligator Eldrazi" |
+  #      df$Archetype$Archetype[i]=="Eldrazi Tron" |
+  #      df$Archetype$Archetype[i]=="Green Eldrazi"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Eldrazi"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Azorius Taxes" |
+  #      df$Archetype$Archetype[i]=="Esper Taxes" |
+  #      df$Archetype$Archetype[i]=="Abzan Taxes" |
+  #      df$Archetype$Archetype[i]=="Mono White Taxes"| 
+  #      df$Archetype$Archetype[i]=="Selenya Taxes"|
+  #      df$Archetype$Archetype[i]=="Boros Taxes"|
+  #      df$Archetype$Archetype[i]=="Orzhov Taxes"|
+  #      df$Archetype$Archetype[i]=="Jeskai Taxes"|
+  #      df$Archetype$Archetype[i]=="BW Eldrazi & Taxes"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="D&T"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Abzan Company" | 
+  #      df$Archetype$Archetype[i]=="Selesnya Midrange"|
+  #      df$Archetype$Archetype[i]=="Naya Midrange"  |
+  #      df$Archetype$Archetype[i]=="Badzan"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="GWx Midrange"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Mardu Midrange" | 
+  #      df$Archetype$Archetype[i]=="Rakdos Midrange"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="RBx Midrange"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Bant Spirits" | 
+  #      df$Archetype$Archetype[i]=="Spirits"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Spirits"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Belcher"|
+  #      df$Archetype$Archetype[i]=="UW Belcher"|
+  #      df$Archetype$Archetype[i]=="RG Belcher"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Belcher"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Gifts Storm"|
+  #      df$Archetype$Archetype[i]=="Twiddle Storm"|
+  #      df$Archetype$Archetype[i]=="Song Storm"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Storm"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Izzet Restore Balance" |
+  #      df$Archetype$Archetype[i]=="Temur Foretold Balance" |
+  #      df$Archetype$Archetype[i]=="Izzet Living End"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="URx Balance"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Slivers"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Slivers"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="E Tron"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Eldrazi"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="U Tron" |
+  #      df$Archetype$Archetype[i]=="Dice Factory Tron"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Other Tron"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Elementals"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Elementals"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Humans"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Humans"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Merfolks"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Merfolks"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Heliod Combo" |
+  #      df$Archetype$Archetype[i]=="GW Heliod"|
+  #      df$Archetype$Archetype[i]=="Mono White Heliod"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Heliod"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Jund Midrange" |
+  #      df$Archetype$Archetype[i]=="Jund Lurrus Midrange"|
+  #      df$Archetype$Archetype[i]=="Sultai Midrange"|
+  #      df$Archetype$Archetype[i]=="UBRG Midrange"|
+  #      df$Archetype$Archetype[i]=="Abzan Midrange"|
+  #      df$Archetype$Archetype[i]=="Golgari Midrange"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="BGx Midrange"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Gruul Midrange" |
+  #      df$Archetype$Archetype[i]=="Naya Midrange"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="RGx Midrange"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Dredge"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Dredge"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Burn" |
+  #      df$Archetype$Archetype[i]=="RW Burn"|
+  #      df$Archetype$Archetype[i]=="RG Burn"|
+  #      df$Archetype$Archetype[i]=="RB Burn"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Rx Burn"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Crabvine"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Crabvine"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Orzhov Midrange"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="BWx Midrange"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Thopter Urza" |
+  #      df$Archetype$Archetype[i]=="Uroza" |
+  #      df$Archetype$Archetype[i]=="Grixis Whirza" |
+  #      df$Archetype$Archetype[i]=="Paradoxical Urza" |
+  #      df$Archetype$Archetype[i]=="Urza Oko"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Urza"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Bant Stoneblade" |
+  #      df$Archetype$Archetype[i]=="UW Stoneblade"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="UWx Stoneblade"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Infect"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Infect"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="UB Inverter"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Inverter"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="MonoG Tron" |
+  #      df$Archetype$Archetype[i]=="KGC Tron"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Gx Tron"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Bogles"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Bogles"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Devoted"|
+  #      df$Archetype$Archetype[i]=="GW Devoted Lurrus"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Devoted"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Ad Nauseam"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Ad Nauseam"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Rogues"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Rogues"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Mill" |
+  #      df$Archetype$Archetype[i]=="UB Mill"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Mill"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Hammer Time"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Hammer Time"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Enduring Ideal"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Enduring Ideal"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Polymorph"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Polymorph"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Red Prison" | 
+  #      df$Archetype$Archetype[i]=="Boros Land Destruction"|
+  #      df$Archetype$Archetype[i]=="Pyro Prison" ){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Red Prison"
+  #     
+  #   }
+  #   
+  #   if(df$Archetype$Archetype[i]=="Domain Zoo"|
+  #      df$Archetype$Archetype[i]=="Bushwhacker Zoo"){
+  #     
+  #     df$Archetype$SuperArchetype[i]="Zoo"
+  #   }
+  # }
   
   return(df)
   
