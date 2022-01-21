@@ -520,3 +520,42 @@ print(paste("The win rate of decks with a companion is: ",round(CompWR,2),
 print(paste("The win rate of decks without a companion is: ",round(woCompWR,2),
             "% between ",Beginning," and ",End," in Modern Challenges.",sep=""))
 
+library(e1071)  
+
+#Compare each companion
+wrCompanions=c()
+skewCompanions=c()
+varCompanions=c()
+noCompanions=c()
+wrList=list()
+companions=unique(dfChall$Archetype$Companion)
+
+for (companionIndex in 1:length(companions)){
+  
+  dfCompanion=dfChall[dfChall$Archetype$Companion==companions[companionIndex],]
+  #3 points per win
+  companionWins=(dfCompanion$Points + dfCompanion$T8Points)/3
+  companionMatches=dfCompanion$NRounds + dfCompanion$T8Matches
+  wr=companionWins/companionMatches
+  
+  wrCompanions[companionIndex]=mean(wr)*100
+  noCompanions[companionIndex]=nrow(dfCompanion)
+  skewCompanions[companionIndex]=skewness(wr)
+  varCompanions[companionIndex]=var(wr)
+  wrList[companionIndex]=wr
+  
+  # if(companions[companionIndex]==""){
+  #   print(paste("The average win rate of ", noCompanions[companionIndex]," decks without a companion is ",
+  #               round(wrCompanions[companionIndex],2),"% with a between ",Beginning,
+  #               " and ",End," in Modern Challenges.",sep=""))
+  # }else{
+  #   print(paste("The average win rate of ", noCompanions[companionIndex]," decks with ", 
+  #               companions[companionIndex]," as companion is ",
+  #               round(wrCompanions[companionIndex],2),"% between ",Beginning,
+  #               " and ",End," in Modern Challenges.",sep=""))
+  # }
+}
+
+resComps=data.frame(companions,noCompanions,signif(wrCompanions,4),signif(skewCompanions,3),signif(varCompanions,3))
+colnames(resComps)=c("Companion","No decks","Win rate","WR Skewness","WR Variance")
+resComps
