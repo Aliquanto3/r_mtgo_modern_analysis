@@ -75,7 +75,7 @@ CardsStatsGetter = function(df,board){
     winCountsi=rep(0,nrow(df))
     for (j in 1:nrow(df)){
       if(CardsNames[i] %in% df[[board]][[j]]$CardName){
-        winCountsi[j]=sum((df$Points[j] + df$T8Points[j])/3)
+        winCountsi[j]=sum(df$NWins[j] + df$T8Points[j]/3)
       }
     }
     WinsCounts[i]=sum(winCountsi)

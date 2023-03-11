@@ -1,0 +1,751 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Boseiju, Who Endures",113,66,326,460,70.9,66.5,75," 11 Devotion Walkers 
+ 4 Golgari Stompy 
+ 1 Gruul Big Mana 
+ 2 Gruul Transmogrify 
+ 1 Jund Midrange 
+ 1 Mono Green Stompy 
+ 22 Naya Winota 
+ 21 Simic Lotus Field 
+ 2 Simic Stompy 
+ 1 Sultai Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#thazgar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#cabezadebolo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#naka_mura_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#ejk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#_inf__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#timmytron_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lavafart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#the_chicken_cow_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#citizenofnerdvana_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#aardos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#raest_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#therealtuba_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#rikubo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#xfrcbyerly_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#-alfa-_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#wkmidori_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#unstablevudoo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#nwzilla_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#mitchellsocks_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#gustavogarcia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#raest_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#lasvegaschaos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#thetwinja_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#foyfluffmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#lightningcriedwolf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mattn_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#dylan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#jwf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#kubernetes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sugawara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#capriccioso_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#mstrkrft_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#kristusv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#victorroatt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bullwinkkle_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#rodneybedell_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#tellkou_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#beekeeper_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#rc_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#sgcyrus_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#weirdperson_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#jmaru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gary_brecher_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#katabami_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#raest_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#tellkou_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#playtonguyen_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#islandgosame_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-12#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#salty_orange_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#kasa_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#supercow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#alliesever_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#kytk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#raest_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#jmaru_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#xfile_- 
+","Chris Ostrowski","",0,"Land","NEO",0.6,20.6,1.7
+"Careful Cultivation",8,2,9,14,64.3,35.1,87.2," 2 Gruul Transmogrify 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#capriccioso_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#rodneybedell_nd_place 
+","A. M. Sartor","G",3,"Enchantment","NEO",0,0.6,4
+"Commune with Spirits",4,1,5,7,71.4,29,96.3," 1 Bant Nine  lives  combo 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#zocojr_nd_place 
+","Aurore Folny","G",1,"Sorcery","NEO",0,0.3,4
+"Eiganjo, Seat of the Empire",52,46,224,312,71.8,66.5,76.7," 25 Azorius Control 
+ 1 Bant Humans 
+ 1 Bant Nine  lives  combo 
+ 1 Bant Spirits 
+ 1 Boros Midrange 
+ 13 Boros Prowess 
+ 2 Esper Control 
+ 1 Mono White Book   Midrange 
+ 1 Naya Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#hamuda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#kelmasterp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lumbalgic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#scoutertf_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#ashok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#egormaister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#scoutertf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#salvatto_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#_falcon__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#simpleliquid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#_falcon__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#zocojr_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oscar_franco_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#simpleliquid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#ura_frst_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gary_brecher_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#schnda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#janisss_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#fink_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#schnda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-12#ibroadband_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#notoriousazorius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#ibroadband_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#daking_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#bomattcourier_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#ura_frst_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-28#ibroadband_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#schnda_- 
+","Julian Kok Joon Wen","",0,"Land","NEO",0.3,14.4,1.1
+"Experimental Synthesizer",10,3,14,18,77.8,52.4,93.6," 3 Rakdos Anvil 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oliver_hart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#sick_boy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#joaoclaudioms_- 
+","Yeong-Hao Han","R",1,"Artifact","NEO",0.1,0.9,3.3
+"Fable of the Mirror-Breaker",304,80,393,550,71.5,67.5,75.2," 1 Boros Midrange 
+ 2 Grixis Midrange 
+ 2 Gruul Transmogrify 
+ 2 Jund Midrange 
+ 4 Mardu Grease Fang 
+ 1 Mardu Midrange 
+ 33 Naya Winota 
+ 33 Rakdos Midrange 
+ 2 WURG Winota 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#spockvidaloka_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#cabezadebolo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#naka_mura_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#ejk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#asnook_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#swatzcollins_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#the_chicken_cow_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#xerk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#citizenofnerdvana_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#eragon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#rikubo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#xfrcbyerly_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#dormitian_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#nwzilla_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#brog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#gustavogarcia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#lasvegaschaos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#lightningcriedwolf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#paka_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#dylan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#misplacedginger_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#jacesultimate_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#jwf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sugawara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#willpulliam_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#capriccioso_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#kristusv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bryzem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#alozan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#rodneybedell_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#willpulliam_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#misplacedginger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#runeskjold_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#showtime__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#kritik_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#komattaman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#laplasjan_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#packofrats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#stranger_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#weirdperson_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#rhmaha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gary_brecher_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#starfall_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#wingedhussar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#willpulliam_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#lizziebus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oliver_hart_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#gami______th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#chefen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#ocir_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#comboman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#azatoyellow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lbbl_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#islandgosame_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#soimbagallade_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#azatoyellow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#salty_orange_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#kasa_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#stranger_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#talisker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#spicysheetz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#integralhdk_- 
+","Joseph Meehan","R",3,"Enchantment","NEO",1.5,25,3.8
+"Farewell",52,27,132,187,70.6,63.5,77," 25 Azorius Control 
+ 1 Esper Control 
+ 1 Mardu Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lumbalgic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#ashok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#egormaister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#salvatto_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#simpleliquid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oscar_franco_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#simpleliquid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#schnda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#schnda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lbbl_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#notoriousazorius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#daking_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#schnda_- 
+","Seb McKinnon","W",6,"Sorcery","NEO",0.3,8.4,1.9
+"Gloomshrieker",1,1,5,7,71.4,29,96.3," 1 Jund Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#claudioh_th_place 
+","Fiona Hsieh","B,G",3,"Enchantment,Creature","NEO",0,0.3,1
+"Greasefang, Okiba Boss",40,10,48,69,69.6,57.3,80.1," 6 Esper Grease Fang 
+ 4 Mardu Grease Fang 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#spockvidaloka_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#eragon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#paka_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#gami______th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#coldfire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#coldfire_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#karnagekardsent_- 
+","Victor Adame Minguez","B,W",3,"Creature","NEO",0.2,3.1,4
+"Invoke Despair",4,1,5,7,71.4,29,96.3," 1 Mardu Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lbbl_th_place 
+","Olivier Bernard","B",5,"Sorcery","NEO",0,0.3,4
+"Kaito Shizuki",7,4,18,26,69.2,48.2,85.7," 4 Esper Grease Fang 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#coldfire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#karnagekardsent_- 
+","Yongjae Choi","B,U",3,"Planeswalker","NEO",0,1.2,1.8
+"Kumano Faces Kakkazan",72,18,76,109,69.7,60.2,78.2," 18 Mono Red Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#islandgosame_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#morticiansunion_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#brog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#janisss_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#hcook_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#xwhale_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#bmac_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sandydogmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#islandgosame_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#tellkou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#islandgosame_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#tellkou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#wizard__- 
+","Mike Bierek","R",1,"Enchantment","NEO",0.4,5.6,4
+"March of Otherworldly Light",111,29,144,202,71.3,64.5,77.4," 25 Azorius Control 
+ 1 Boros Midrange 
+ 2 Esper Control 
+ 1 Mono White Book   Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lumbalgic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#ashok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#egormaister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#salvatto_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#simpleliquid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oscar_franco_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#simpleliquid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#schnda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#schnda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#notoriousazorius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#daking_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#schnda_- 
+","Nils Hamm","W",1,"Instant","NEO",0.6,9.1,3.8
+"March of Wretched Sorrow",2,2,10,14,71.4,41.9,91.6," 2 Dimir Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#watoo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mrcafouillette_nd_place 
+","Tyler Jacobson","B",1,"Instant","NEO",0,0.6,1
+"Moonsnare Prototype",8,2,8,14,57.1,28.9,82.3," 2 Simic Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#jjm_th_place 
+","Fariba Khamseh","U",1,"Artifact","NEO",0,0.6,4
+"Oni-Cult Anvil",12,3,14,18,77.8,52.4,93.6," 3 Rakdos Anvil 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oliver_hart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#sick_boy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#joaoclaudioms_- 
+","Yeong-Hao Han","B,R",2,"Artifact","NEO",0.1,0.9,4
+"Otawara, Soaring City",174,151,736,1036,71,68.2,73.8," 2 Ascendancy 
+ 25 Azorius Control 
+ 5 Bant Spirits 
+ 1 Dimir Control 
+ 2 Esper Control 
+ 3 Esper Grease Fang 
+ 2 Grixis Midrange 
+ 14 Izzet Control 
+ 41 Izzet Prowess 
+ 3 Mono Blue Spirits 
+ 30 Phoenix 
+ 21 Simic Lotus Field 
+ 2 Simic Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#_stream_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#dejekt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#kayu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#fingers_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#_inf__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#condescend_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lumbalgic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#remf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#stompthehorizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#pascalmaynard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#marine_rush_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#maikage_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#raest_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#andyawkward_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#killofox_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#musasabi_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#ashok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#egormaister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#wkmidori_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#morillomarcos_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#pokerswizard_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#_against__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#dstorm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#herotsukai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#bresett_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#walaoumpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#joao_andrade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#banjocaveman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#clchad_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mcwinsauce_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#caleb_yetman_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#raest_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#andrw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#_against__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mateusf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#andyawkward_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#joao_andrade_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mattn_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#trukanshii_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#lein__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#miguelcaster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#tunaktunak_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#salvatto_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sarlanga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#andyawkward_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#walaoumpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#kubernetes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#remf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#mikeantor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#simpleliquid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#andrw_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#victorroatt_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bullwinkkle_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tabunghasisi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sheastrausman_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#moon_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#caleb_yetman_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#wkmidori_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#runnrunnr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#shir_kahn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#runeskjold_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#alienware__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#naka_mura_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soulstrong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#dragon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#rc_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oscar_franco_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#nathansteuer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#simpleliquid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#marxelo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#zerh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#jmaru_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#jakobpablo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#schnda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#namenotimportant_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#katabami_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#soulstrong_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#raest_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#alienware__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#chefen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#karnagekardsent_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#rodneybedell_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#_tia__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#xuxa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mateusf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#fink_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lifeisrisk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mrcafouillette_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#schnda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#shir_kahn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oosunq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#o_danielakos_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#playtonguyen_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#bullwinkkle_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#matyo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#notoriousazorius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#hauterho_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#daking_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#alliesever_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#kytk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#ptartswin_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#rearrangedas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-28#starfall_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-28#owlpathsofglory_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-28#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#hauterho_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#mcm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#raest_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#jmaru_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#schnda_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#karnagekardsent_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#zebraunicorn_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#j_gro_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#xfile_- 
+","Alayna Danner","",0,"Land","NEO",0.9,47.2,1.2
+"Secluded Courtyard",8,3,14,21,66.7,43,85.4," 1 Bant Humans 
+ 1 Bant Spirits 
+ 1 Golgari Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#kelmasterp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#smradd_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#remf_th_place 
+","Sam Burley","",0,"Land","NEO",0,0.9,2.7
+"Sokenzan, Crucible of Defiance",104,104,494,687,71.9,68.4,75.2," 1 Boros Midrange 
+ 2 Boros Prowess 
+ 2 Gruul Transmogrify 
+ 13 Izzet Control 
+ 6 Izzet Prowess 
+ 20 Mono Red Burn 
+ 4 Naya Winota 
+ 17 Phoenix 
+ 3 Rakdos Anvil 
+ 34 Rakdos Midrange 
+ 2 Rakdos Sacrifice 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#islandgosame_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#showtime__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#scoutertf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#morticiansunion_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#asnook_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#ptartswin_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#swatzcollins_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#xerk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#based_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#brog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#killofox_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#janisss_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#morillomarcos_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#hcook_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oliver_hart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#bresett_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#walaoumpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#xwhale_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mcwinsauce_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#caleb_yetman_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#mateusf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#fermtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#bmac_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#misplacedginger_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sarlanga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#walaoumpa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#capriccioso_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bryzem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#alozan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#sandydogmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#rodneybedell_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#moon_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#caleb_yetman_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#runnrunnr_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#misplacedginger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#kinghairy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#alienware__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#showtime__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#kritik_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#komattaman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#naka_mura_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#packofrats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#dragon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#stranger_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#nathansteuer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#zerh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#rhmaha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#rearrangedas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#kanister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gary_brecher_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#islandgosame_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#lizziebus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#alienware__rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#sick_boy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#ocir_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#comboman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#rodneybedell_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mateusf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lifeisrisk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oosunq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-10#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#tellkou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-11#azatoyellow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-12#lord_beerus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-12#ibroadband_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#islandgosame_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#sandydogmtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#stranger_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#joaoclaudioms_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#showtime__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#tellkou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#mei_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#talisker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#wizard__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#rearrangedas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-28#xwhale_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#spicysheetz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#_stream_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#luckyinunlucky_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#integralhdk_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#zebraunicorn_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#j_gro_- 
+","Lucas Staniec","",0,"Land","NEO",0.5,32.5,1
+"Takenuma, Abandoned Mire",49,49,235,329,71.4,66.2,76.2," 1 Jund Midrange 
+ 4 Mardu Grease Fang 
+ 3 Mono Black Midrange 
+ 3 Rakdos Anvil 
+ 35 Rakdos Midrange 
+ 2 Rakdos Sacrifice 
+ 1 Sultai Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#spockvidaloka_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#showtime__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#asnook_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#moaozis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#swatzcollins_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#xerk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#eragon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#dormitian_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oliver_hart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#moaozis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#bmac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#paka_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#misplacedginger_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bryzem_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#alozan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#rn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#gazmon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#misplacedginger_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#showtime__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#kritik_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#komattaman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#packofrats_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#cabezadebolo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#stranger_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#rhmaha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#lizziebus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mcwinsauce_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#pokerswizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#gami______th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#sick_boy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#comboman_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#mj__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#stranger_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#joaoclaudioms_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#showtime__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-20#talisker_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-24#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#wiztech_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-31#spicysheetz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#luckyinunlucky_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#komattaman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-01#integralhdk_- 
+","Sam Burley","",0,"Land","NEO",0.2,15.3,1
+"The Reality Chip",6,2,8,14,57.1,28.9,82.3," 2 Simic Stompy 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#jjm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#jjm_th_place 
+","Campbell White","U",2,"Artifact,Creature","NEO",0,0.6,3
+"The Wandering Emperor",115,32,157,223,70.4,63.9,76.3," 25 Azorius Control 
+ 1 Boros Midrange 
+ 3 Esper Control 
+ 1 Esper Grease Fang 
+ 1 Mardu Midrange 
+ 1 Mono White Book   Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#seventhprophet_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-15#lumbalgic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#ashok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#egormaister_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#talisker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-16#bolov_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#kazuga_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-23#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#salvatto_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#tunaktunak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-29#simpleliquid_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#soimbagallade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-30#harry_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#oscar_franco_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#boucha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#simpleliquid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-05#schnda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#bolov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#scalli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#schnda_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#lbbl_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-06-06#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-14#notoriousazorius_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-17#daking_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-25#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-27#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-06-04#schnda_- 
+","William Arnold","W",4,"Planeswalker","NEO",0.6,10,3.6
+"Voltage Surge",2,2,9,11,81.8,48.2,97.7," 2 Rakdos Anvil 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-challenge-2022-05-22#oliver_hart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pioneer-preliminary-2022-05-19#joaoclaudioms_- 
+","Randy Vargas","R",1,"Instant","NEO",0,0.6,1

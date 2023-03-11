@@ -21,7 +21,7 @@ RawFile=paste(MTGFormat,"data.json",sep="_")
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2021-02-17"
+Beginning="2022-10-10"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,26 +29,27 @@ Beginning="2021-02-17"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2022-01-19"
+End="2023-03-06"
+
+#Automatically updates the peiord thresholds to cover the last 4 weeks in the data
+Date.autoupdate = T
 
 #If you want to know the maximum date in the data, use:
 #max(rawData$DATE)
 #after you executed the 2nd file paragraph
 
-#Event type:
-
-#"All Events" = everything available including leagues
-#"Everything but Leagues" = Major Events, official or not, and Preliminaries
-#"Official Competitions" = Major Official Events + Preliminaries
-#"Major Official Events" = Challenge, Champ, Showcase, Premier, Qualifier, MOCS
-#"Major Events Top32" = Major Events, official or unofficial, only top32
-#"Challenges" = Challenges
-#"Preliminaries" = Preliminaries
-#"ManaTraders Series" = ManaTraders Series
-#"NRG Series" = NRG Series
+# Event type:
+# All sources = Everything (except MTGO Leagues - for any filter)
+# Top32 Only = Only events with a top32 (aka not MTGO Preliminaries)
+# Full Meta = Only events with the full metagame available (not MTGO Official results)
+# ManaTraders = ManaTraders Series results
+# Paper = Results from MTG Melee
+# MTGO Official Competitions = Results from the MTGO website
+# MTGO Events with a Top32 = MTGO results with a top32 (so not Preliminaries)
+# MTGO Preliminaries = As per name
 
 #Requires restarting Data Treatment if updated
-EventType="Challenges"
+EventType="Full Meta"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
@@ -56,9 +57,13 @@ Classification="Exact"
 
 #Required metagame share to appear on pie chart (numeric, gets converted to %)
 PieShare=2
+#Automatically update this value with the average presence based on matches
+PieShare.autoupdate=T
 
 #Required metagame share to appear on histogram (numeric, gets converted to %)
 HistShare=2
+#Automatically update this value with the average presence based on matches
+HistShare.autoupdate=T
 
 #WEIGHT OF THE METRICS POINTS FOR THE COMPILATION REQUIRED FOR RANKING
 Presence_Weight=1
@@ -67,10 +72,21 @@ Presence_Weight=1
 PPR_Weight=1
 
 #CODE OF THE LAST SET
-lastSetCode="MH2"
+lastSetCode="ONE"
 
-#TRUE IF YOU WANT TO GET ONLY THE PLAYER DATA, SAVES A LOT OF TIME BY 
-#REMOVING THE COMPUTATION OF THE CARD DATA
-PlayerResultsOnly=T
+#TRUE IF YOU WANT TO GET THE PLAYER DATA, CAN SAVE A LOT OF TIME IF YOU DON'T
+#NEED IT BY SETTING IT ON FALSE
+PlayerResults = F
+
+#TRUE IF YOU WANT TO GET THE CARD DATA, CAN SAVE A LOT OF TIME IF YOU DON'T
+#NEED IT BY SETTING IT ON FALSE
+CardResults = F
+
+#TRUE IF YOU WANT TO GET THE COMPANION DATA, CAN SAVE A LITTLE OF TIME IF YOU DON'T
+#NEED IT BY SETTING IT ON FALSE
+CompanionResults = F
+
+#GET FILE GRAPHS EASIER TO MANIPULATE WITH ILLUSTRATOR IF TRUE, BUT TAKES LONGER
+DrawSVG = F
 
 ###############################################################################

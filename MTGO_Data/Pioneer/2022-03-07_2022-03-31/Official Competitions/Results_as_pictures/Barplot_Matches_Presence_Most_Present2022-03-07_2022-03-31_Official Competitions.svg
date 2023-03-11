@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='720.00pt' height='720.00pt' viewBox='0 0 720.00 720.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='720.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpNzkuMzl8NzE0LjUyfDUzLjExfDY4NS41NA=='>
+    <rect x='79.39' y='53.11' width='635.13' height='632.43' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpNzkuMzl8NzE0LjUyfDUzLjExfDY4NS41NA==)'>
+<polyline points='220.15,685.54 220.15,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='443.95,685.54 443.95,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='667.75,685.54 667.75,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,632.83 714.52,632.83 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,545.00 714.52,545.00 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,457.16 714.52,457.16 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,369.32 714.52,369.32 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,281.49 714.52,281.49 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,193.65 714.52,193.65 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='79.39,105.81 714.52,105.81 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='108.26,685.54 108.26,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='332.05,685.54 332.05,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='555.85,685.54 555.85,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='108.26' y='66.28' width='577.39' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #FB61D7;' />
+<rect x='108.26' y='154.12' width='541.59' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A58AFF;' />
+<rect x='108.26' y='241.96' width='528.16' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #00B6EB;' />
+<rect x='108.26' y='329.80' width='420.74' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #00C094;' />
+<rect x='108.26' y='417.63' width='384.93' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #53B400;' />
+<rect x='108.26' y='505.47' width='367.03' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C49A00;' />
+<rect x='108.26' y='593.31' width='335.69' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #F8766D;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+<text x='74.46' y='635.98' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='50.87px' lengthAdjust='spacingAndGlyphs'>Rakdos Anvil</text>
+<text x='74.46' y='548.15' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='61.65px' lengthAdjust='spacingAndGlyphs'>Mono Red Burn</text>
+<text x='74.46' y='460.31' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='68.98px' lengthAdjust='spacingAndGlyphs'>Rakdos Midrange</text>
+<text x='74.46' y='372.47' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='50.38px' lengthAdjust='spacingAndGlyphs'>Naya Winota</text>
+<text x='74.46' y='284.64' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='67.00px' lengthAdjust='spacingAndGlyphs'>Simic Lotus Field</text>
+<text x='74.46' y='196.80' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='31.80px' lengthAdjust='spacingAndGlyphs'>Phoenix</text>
+<text x='74.46' y='108.96' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='60.16px' lengthAdjust='spacingAndGlyphs'>Azorius Control</text>
+<text x='108.26' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='6.67px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='332.05' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='6.67px' lengthAdjust='spacingAndGlyphs'>5</text>
+<text x='555.85' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='396.95' y='712.20' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='66.66px' lengthAdjust='spacingAndGlyphs'>Presence (%)</text>
+<text x='79.39' y='45.31' style='font-size: 11.00px; font-family: "Arial";' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>by Anael Yahi</text>
+<text x='79.39' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='415.46px' lengthAdjust='spacingAndGlyphs'>Proportion of Exact archetypes in MTGO Official Competitions between</text>
+<text x='79.39' y='29.18' style='font-size: 13.20px; font-family: "Arial";' textLength='477.02px' lengthAdjust='spacingAndGlyphs'> 2022-03-07 and 2022-03-31 based on number of Matches - Other (each &lt;3.03%)</text>
+</g>
+</svg>

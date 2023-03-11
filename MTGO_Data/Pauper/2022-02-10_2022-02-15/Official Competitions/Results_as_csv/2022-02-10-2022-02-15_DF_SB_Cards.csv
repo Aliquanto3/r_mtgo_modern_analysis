@@ -1,0 +1,804 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Ancient Grudge",4,2,9,13,69.2,38.6,90.9," 2 Jund Ramp 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+","Jim Nelson","R",2,"Instant","TSP",0.4,3.1,2
+"2","Annul",22,8,32,53,60.4,46,73.5," 7 Mono   Blue 
+ 1 Mono Blue Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+","Greg Simanson","U",1,"Instant","USG",2.3,12.5,2.8
+"3","Apostle's Blessing",3,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Brad Rigney","W",2,"Instant","NPH",0.3,1.6,3
+"4","Arcane Investigator",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Bram Sels","U",2,"Creature","AFR",0.2,3.1,1
+"5","Beckon Apparition",4,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Larry MacDougall","B,W",1,"Instant","EVE",0.4,1.6,4
+"6","Benevolent Blessing",1,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Ekaterina Burmak","W",2,"Enchantment","CMR",0.1,1.6,1
+"7","Bind the Monster",5,2,8,13,61.5,31.6,86.1," 2 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+","Tran Nguyen","U",1,"Enchantment","KHM",0.5,3.1,2.5
+"8","Blue Elemental Blast",75,22,91,148,61.5,53.1,69.4," 6 Dimir Faeries 
+ 1 Jeskai Ephemerate 
+ 1 Jeskai Familiars 
+ 7 Mono   Blue 
+ 1 Mono Blue Faeries 
+ 2 Simic Elves 
+ 4 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Richard Thomas","U",1,"Instant","LEA",7.8,34.4,3.4
+"9","Cast Down",15,8,38,60,63.3,49.9,75.4," 8 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Bastien L. Deharme","B",2,"Instant","DOM",1.6,12.5,1.9
+"10","Castigate",2,1,4,7,57.1,18.4,90.1," 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Darrell Riche","B,W",2,"Sorcery","GPT",0.2,1.6,2
+"11","Celestial Flare",2,1,4,7,57.1,18.4,90.1," 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","Clint Cearley","W",2,"Instant","M14",0.2,1.6,2
+"12","Chainer's Edict",20,11,44,74,59.5,47.4,70.7," 1 Black   Burn 
+ 8 Dimir Faeries 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#paupea-nyan-nyan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Ben Thompson","B",2,"Sorcery","TOR",2.1,17.2,1.8
+"13","Circle of Protection: Blue",1,1,4,7,57.1,18.4,90.1," 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Dameon Willich","W",2,"Enchantment","LEA",0.1,1.6,1
+"14","Circle of Protection: Green",4,4,21,28,75,55.1,89.3," 3 Boros Bully / Flashback 
+ 1 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+","Sandra Everingham","W",2,"Enchantment","LEA",0.4,6.2,1
+"15","Circle of Protection: Red",5,3,10,19,52.6,28.9,75.6," 2 Boros Bully / Flashback 
+ 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Mark Tedin","W",2,"Enchantment","LEA",0.5,4.7,1.7
+"16","Cram Session",4,1,4,7,57.1,18.4,90.1," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+","Marta Nael","B,G",2,"Sorcery","STX",0.4,1.6,4
+"17","Crimson Acolyte",4,2,9,14,64.3,35.1,87.2," 2 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Dany Orizio","W",2,"Creature","INV",0.4,3.1,2
+"18","Crimson Fleet Commodore",1,1,3,6,50,11.8,88.2," 1 Izzet Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+","Sidharth Chaturvedi","R",4,"Creature","CMR",0.1,1.6,1
+"19","Crypt Rats",1,1,4,7,57.1,18.4,90.1," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+","Paul Lee","B",3,"Creature","VIS",0.1,1.6,1
+"20","Curfew",22,12,47,79,59.5,47.9,70.4," 4 Izzet Faeries 
+ 7 Mono   Blue 
+ 1 Mono Blue Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+","Randy Gallegos","U",1,"Instant","USG",2.3,18.8,1.8
+"21","Darkness",2,1,4,6,66.7,22.3,95.7," 1 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+","Harold McNeill","B",1,"Instant","LEG",0.2,1.6,2
+"22","Dawnbringer Cleric",5,2,11,16,68.8,41.3,89," 1 Jeskai Ephemerate 
+ 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","Lie Setiawan","W",2,"Creature","AFR",0.5,3.1,2.5
+"23","Debt to the Kami",7,3,13,20,65,40.8,84.6," 1 Mono Black Devotion 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+","Jodie Muir","B",3,"Instant","NEO",0.7,4.7,2.3
+"24","Devour Flesh",2,2,8,13,61.5,31.6,86.1," 1 Dimir Faeries 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+","Kev Walker","B",2,"Instant","GTC",0.2,3.1,1
+"25","Disfigure",4,2,9,13,69.2,38.6,90.9," 1 Mono Black Devotion 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+","Justin Sweet","B",1,"Instant","ZEN",0.4,3.1,2
+"26","Dispel",37,20,80,132,60.6,51.7,69," 2 Bogles 
+ 1 Cycle   Storm 
+ 8 Dimir Faeries 
+ 1 Izzet Faeries 
+ 1 Jeskai Familiars 
+ 6 Mono   Blue 
+ 1 Mono Blue Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Vance Kovacs","U",1,"Instant","WWK",3.9,31.2,1.9
+"27","Distress",9,3,13,20,65,40.8,84.6," 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+","Michael Sutfin","B",2,"Sorcery","CHK",0.9,4.7,3
+"28","Divest",2,1,4,7,57.1,18.4,90.1," 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Jesper Ejsing","B",1,"Sorcery","DOM",0.2,1.6,2
+"29","Double Cleave",2,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","rk post","R,W",2,"Instant","EVE",0.2,1.6,2
+"30","Duress",34,17,78,121,64.5,55.2,73," 1 Dimir Faeries 
+ 2 Jund Ramp 
+ 1 Orzhov Pestilence 
+ 13 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+","Lawrence Snelly","B",1,"Sorcery","USG",3.5,26.6,2
+"31","Dust to Dust",49,14,74,105,70.5,60.8,79," 6 Boros Bully / Flashback 
+ 4 Boros Monarch 
+ 1 Jeskai Ephemerate 
+ 1 Jeskai Familiars 
+ 1 Mono   White   Aggro 
+ 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Drew Tucker","W",3,"Sorcery","DRK",5.1,21.9,3.5
+"32","Echoing Truth",9,8,31,53,58.5,44.1,71.9," 4 Dimir Faeries 
+ 1 Izzet Faeries 
+ 3 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Greg Staples","U",2,"Instant","DST",0.9,12.5,1.1
+"33","Electrickery",22,15,75,112,67,57.4,75.6," 1 Bogles 
+ 5 Boros Bully / Flashback 
+ 3 Boros Monarch 
+ 1 Burn 
+ 3 Izzet Faeries 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+","Greg Staples","R",1,"Instant","RTR",2.3,23.4,1.5
+"34","Emerge Unscathed",1,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Steve Argyle","W",1,"Instant","ROE",0.1,1.6,1
+"35","Envelop",2,2,9,13,69.2,38.6,90.9," 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+","Don Hazeltine","U",1,"Instant","JUD",0.2,3.1,1
+"36","Essence Harvest",1,1,4,7,57.1,18.4,90.1," 1 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Daarken","B",3,"Sorcery","AVR",0.1,1.6,1
+"37","Exhume",2,1,4,6,66.7,22.3,95.7," 1 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+","Carl Critchlow","B",2,"Sorcery","USG",0.2,1.6,2
+"38","Feldon's Cane",1,1,4,6,66.7,22.3,95.7," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+","Mark Tedin","",1,"Artifact","ATQ",0.1,1.6,1
+"39","Fiery Cannonade",31,18,83,127,65.4,56.4,73.6," 1 Black   Burn 
+ 1 Boros Monarch 
+ 1 Izzet Faeries 
+ 1 Jeskai Ephemerate 
+ 1 Jeskai Familiars 
+ 2 Jund Ramp 
+ 11 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#paupea-nyan-nyan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+","Ben Wootten","R",3,"Instant","XLN",3.2,28.1,1.7
+"40","Firebrand Archer",1,1,4,7,57.1,18.4,90.1," 1 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+","John Stanko","R",2,"Creature","HOU",0.1,1.6,1
+"41","Flaring Pain",9,8,40,57,70.2,56.6,81.6," 2 Bogles 
+ 3 Boros Bully / Flashback 
+ 1 Burn 
+ 1 Cycle   Storm 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Glen Angus","R",2,"Instant","JUD",0.9,12.5,1.1
+"42","Fragmentize",2,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Jason Felix","W",1,"Sorcery","KLD",0.2,1.6,2
+"43","Geth's Verdict",6,2,9,13,69.2,38.6,90.9," 1 Mono Black Devotion 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+","Whit Brachna","B",2,"Instant","NPH",0.6,3.1,3
+"44","Ghitu Lavarunner",2,1,4,7,57.1,18.4,90.1," 1 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+","Jesper Ejsing","R",1,"Creature","DOM",0.2,1.6,2
+"45","Gorilla Shaman",27,16,74,116,63.8,54.4,72.5," 1 Boros Bully / Flashback 
+ 1 Boros Monarch 
+ 4 Izzet Faeries 
+ 1 Jund Ramp 
+ 9 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+","Anthony S. Waters","R",1,"Creature","ALL",2.8,25,1.7
+"46","Guardian of the Guildpact",1,1,3,6,50,11.8,88.2," 1 Boros Bully / Flashback 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+","Fred Hooper","W",4,"Creature","DIS",0.1,1.6,1
+"47","Gut Shot",8,6,26,41,63.4,46.9,77.9," 6 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#beicodegeia_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#darthkid_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+","Greg Staples","R",1,"Instant","NPH",0.8,9.4,1.3
+"48","Hallow",2,1,4,7,57.1,18.4,90.1," 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","Alex Horley-Orlandelli","W",1,"Instant","DST",0.2,1.6,2
+"49","Holy Light",2,1,4,7,57.1,18.4,90.1," 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","Drew Tucker","W",3,"Instant","DRK",0.2,1.6,2
+"50","Hydroblast",30,11,43,75,57.3,45.4,68.7," 2 Dimir Faeries 
+ 4 Izzet Faeries 
+ 1 Mono Blue Faeries 
+ 4 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Kaja Foglio","U",1,"Instant","ICE",3.1,17.2,2.7
+"51","Ivy Lane Denizen",1,1,4,7,57.1,18.4,90.1," 1 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Winona Nelson","G",4,"Creature","GTC",0.1,1.6,1
+"52","Journey to Nowhere",1,1,6,9,66.7,29.9,92.5," 1 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+","Warren Mahy","W",2,"Enchantment","ZEN",0.1,1.6,1
+"53","Karametra's Blessing",1,1,5,7,71.4,29,96.3," 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+","Wisnu Tan","W",1,"Instant","THB",0.1,1.6,1
+"54","Kessig Flamebreather",1,1,4,6,66.7,22.3,95.7," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+","Lius Lasahido","R",2,"Creature","VOW",0.1,1.6,1
+"55","Krark-Clan Shaman",22,12,55,88,62.5,51.5,72.6," 12 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Thomas M. Baxa","R",1,"Creature","MRD",2.3,18.8,1.8
+"56","Leave No Trace",3,2,10,15,66.7,38.4,88.2," 1 Boros Bully / Flashback 
+ 1 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+","Pat Lee","W",2,"Instant","RAV",0.3,3.1,1.5
+"57","Lifelink",3,2,9,14,64.3,35.1,87.2," 1 Bogles 
+ 1 Mono   White   Heroic 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#travisthe_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Terese Nielsen","W",1,"Enchantment","M10",0.3,3.1,1.5
+"58","Light of Hope",2,1,7,9,77.8,40,97.2," 1 Boros Bully / Flashback 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+","Kimonas Theodossiou","W",1,"Instant","IKO",0.2,1.6,2
+"59","Lone Missionary",4,2,14,17,82.4,56.6,96.2," 2 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+","Svetlin Velinov","W",2,"Creature","ROE",0.4,3.1,2
+"60","Lunarch Veteran",2,1,3,6,50,11.8,88.2," 1 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+","Igor Kieryluk","W",1,"Creature","MID",0.2,1.6,2
+"61","Makeshift Munitions",3,3,16,24,66.7,44.7,84.4," 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+","Filip Burburan","R",2,"Enchantment","XLN",0.3,4.7,1
+"62","Mana Leak",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Christopher Rush","U",2,"Instant","STH",0.2,3.1,1
+"63","Martyr of Ashes",2,1,4,7,57.1,18.4,90.1," 1 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+","Ralph Horsley","R",1,"Creature","CSP",0.2,1.6,2
+"64","Mirrorshell Crab",3,1,4,6,66.7,22.3,95.7," 1 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+","Cristi Balanescu","U",7,"Artifact,Creature","NEO",0.3,1.6,3
+"65","Multani's Decree",3,2,9,13,69.2,38.6,90.9," 2 Jund Ramp 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+","Eric Peterson","G",4,"Sorcery","UDS",0.3,3.1,1.5
+"66","Negate",4,4,15,26,57.7,36.9,76.6," 2 Dimir Faeries 
+ 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Jeremy Jarvis","U",2,"Instant","MOR",0.4,6.2,1
+"67","Nihil Spellbomb",26,10,42,67,62.7,50,74.2," 1 Black   Burn 
+ 1 Mono Black Devotion 
+ 8 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#paupea-nyan-nyan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+","Franz Vohwinkel","",1,"Artifact","SOM",2.7,15.6,2.6
+"68","Oblivion Ring",1,1,5,7,71.4,29,96.3," 1 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+","Wayne England","W",3,"Enchantment","LRW",0.1,1.6,1
+"69","Okiba-Gang Shinobi",3,3,12,21,57.1,34,78.2," 3 Dimir Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+","Mark Zug","B",5,"Creature","BOK",0.3,4.7,1
+"70","Oubliette",5,2,9,14,64.3,35.1,87.2," 1 Mono Black Devotion 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+","Douglas Shuler","B",3,"Enchantment","ARN",0.5,3.1,2.5
+"71","Parapet",5,3,16,22,72.7,49.8,89.3," 3 Boros Bully / Flashback 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+","Mark Poole","W",2,"Enchantment","VIS",0.5,4.7,1.7
+"72","Patrician's Scorn",2,2,9,14,64.3,35.1,87.2," 1 Boros Monarch 
+ 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","John Avon","W",4,"Instant","FUT",0.2,3.1,1
+"73","Pestilence",4,4,18,27,66.7,46,83.5," 1 Mono Black Devotion 
+ 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+","Jesper Myrfors","B",4,"Enchantment","LEA",0.4,6.2,1
+"74","Prismatic Strands",4,2,11,16,68.8,41.3,89," 2 Boros Monarch 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+","Eric Peterson","W",3,"Instant","JUD",0.4,3.1,2
+"75","Pyroblast",69,24,110,168,65.5,57.8,72.6," 1 Bogles 
+ 4 Boros Bully / Flashback 
+ 2 Boros Monarch 
+ 1 Burn 
+ 1 Cycle   Storm 
+ 4 Izzet Faeries 
+ 1 Jeskai Ephemerate 
+ 2 Jund Ramp 
+ 8 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Kaja Foglio","R",1,"Instant","ICE",7.2,37.5,2.9
+"76","Ram Through",1,1,4,7,57.1,18.4,90.1," 1 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Zoltan Boros","G",2,"Instant","IKO",0.1,1.6,1
+"77","Ramosian Rally",1,1,6,7,85.7,42.1,99.6," 1 Boros Bully / Flashback 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+","Christopher Moeller","W",4,"Instant","MMQ",0.1,1.6,1
+"78","Reaping the Graves",6,6,25,39,64.1,47.2,78.8," 2 Dimir Faeries 
+ 4 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Ron Spencer","B",3,"Instant","SCG",0.6,9.4,1
+"79","Red Elemental Blast",51,16,79,117,67.5,58.2,75.9," 1 Black   Burn 
+ 3 Boros Bully / Flashback 
+ 2 Boros Monarch 
+ 1 Izzet Faeries 
+ 1 Jeskai Familiars 
+ 8 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#paupea-nyan-nyan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#billster_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Richard Thomas","R",1,"Instant","LEA",5.3,25,3.2
+"80","Relic of Progenitus",43,28,128,194,66,58.8,72.6," 2 Bogles 
+ 6 Boros Bully / Flashback 
+ 2 Boros Monarch 
+ 7 Dimir Faeries 
+ 1 Izzet Faeries 
+ 2 Jund Ramp 
+ 2 Mono   Blue 
+ 1 Mono   White   Aggro 
+ 5 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#lollopollo_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ecobaronen_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#brunoguerra_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Jean-Sébastien Rossbach","",1,"Artifact","ALA",4.5,43.8,1.5
+"81","Repeal",2,1,4,6,66.7,22.3,95.7," 1 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+","Dan Scott","U",1,"Instant","GPT",0.2,1.6,2
+"82","Revoke Existence",12,6,35,46,76.1,61.2,87.4," 4 Boros Bully / Flashback 
+ 1 Boros Monarch 
+ 1 Orzhov Pestilence 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oskiyaa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#wookiewasabi_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#tarrasque_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#frakom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#lennny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#amoras_th_place 
+","Allen Williams","W",2,"Sorcery","SOM",1.2,9.4,2
+"83","Sage's Row Denizen",1,1,4,6,66.7,22.3,95.7," 1 Jeskai Familiars 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+","Svetlin Velinov","U",3,"Creature","GTC",0.1,1.6,1
+"84","Scattershot Archer",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Steve Argyle","G",1,"Creature","CON",0.2,3.1,1
+"85","Sea Sprite",2,1,3,6,50,11.8,88.2," 1 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#simiced_horizon_th_place 
+","Susan Van Camp","U",2,"Creature","HML",0.2,1.6,2
+"86","Season of Renewal",2,1,5,7,71.4,29,96.3," 1 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+","Rovina Cai","G",3,"Instant","NEO",0.2,1.6,2
+"87","Serrated Arrows",2,1,3,6,50,11.8,88.2," 1 Dimir Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+","David A. Cherry","",4,"Artifact","HML",0.2,1.6,2
+"88","Shenanigans",20,11,47,77,61,49.2,72," 1 Boros Monarch 
+ 10 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#kirblinxy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#draztok_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#robtx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#morenothings_st_place 
+","Lindsey Look","R",2,"Sorcery","MH1",2.1,17.2,1.8
+"89","Smash to Smithereens",8,2,7,13,53.8,25.1,80.8," 1 Black   Burn 
+ 1 Burn 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#paupea-nyan-nyan_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#wizard__th_place 
+","Pete Venters","R",2,"Instant","SHM",0.8,3.1,4
+"90","Snow-Covered Mountain",1,1,4,6,66.7,22.3,95.7," 1 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#billster_th_place 
+","Tom Wänerstrand","",0,"Land","ICE",0.1,1.6,1
+"91","Spell Pierce",4,2,9,13,69.2,38.6,90.9," 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luangne_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#martinezmtg_th_place 
+","Vance Kovacs","U",1,"Instant","ZEN",0.4,3.1,2
+"92","Spidersilk Armor",4,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Scott Hampton","G",3,"Enchantment","MMQ",0.4,3.1,2
+"93","Spire Golem",3,2,6,12,50,21.1,78.9," 1 Mono   Blue 
+ 1 Mono Blue Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+","Daren Bader","",6,"Artifact,Creature","DST",0.3,3.1,1.5
+"94","Standard Bearer",6,2,9,14,64.3,35.1,87.2," 2 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#pollu_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Ron Spencer","W",2,"Creature","APC",0.6,3.1,3
+"95","Steel Sabotage",7,4,15,26,57.7,36.9,76.6," 3 Mono   Blue 
+ 1 Mono Blue Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#oceansoul_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mogged_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hinahara_th_place 
+","Daarken","U",1,"Instant","MBS",0.7,6.2,1.8
+"96","Stonehorn Dignitary",3,1,4,6,66.7,22.3,95.7," 1 Jeskai Familiars 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#hellkito_th_place 
+","Dave Kendall","W",4,"Creature","M12",0.3,1.6,3
+"97","Stormbound Geist",19,11,41,72,56.9,44.7,68.6," 6 Dimir Faeries 
+ 4 Izzet Faeries 
+ 1 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#msskinbolic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#i_b_true_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#hamburgerjung_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+","Dan Scott","U",3,"Creature","DKA",2,17.2,1.7
+"98","Stupefying Touch",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Bradley Williams","U",2,"Enchantment","TOR",0.2,3.1,1
+"99","Suffocating Fumes",14,10,42,69,60.9,48.4,72.4," 8 Dimir Faeries 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#luffydochapeudepalha_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ht_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Anastasia Ovchinnikova","B",3,"Instant","IKO",1.5,15.6,1.4
+"100","Sunlance",2,1,4,7,57.1,18.4,90.1," 1 Mono   White   Aggro 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ravisor_th_place 
+","Volkan Baǵa","W",1,"Sorcery","PLC",0.2,1.6,2
+"101","Temporal Spring",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","John Matson","G,U",3,"Sorcery","APC",0.2,3.1,1
+"102","Tendrils of Corruption",2,1,4,7,57.1,18.4,90.1," 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#le-cookie_th_place 
+","Mike Dringenberg","B",4,"Instant","TSP",0.2,1.6,2
+"103","Thermokarst",2,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Ken Meyer, Jr.","G",3,"Sorcery","ICE",0.2,3.1,1
+"104","Thorn of the Black Rose",4,4,14,26,53.8,33.4,73.4," 4 Dimir Faeries 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#barff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+","David Gaillet","B",4,"Creature","CN2",0.4,6.2,1
+"105","Tormod's Crypt",5,3,15,22,68.2,45.1,86.1," 2 Izzet Faeries 
+ 1 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ziofrancone_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#topgrinder_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#topgrinder_th_place 
+","Christopher Rush","",0,"Artifact","DRK",0.5,4.7,1.7
+"106","Unearth",4,2,9,13,69.2,38.6,90.9," 1 Mono Black Devotion 
+ 1 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#generalscud_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#generalscud_th_place 
+","Don Hazeltine","B",1,"Sorcery","ULG",0.4,3.1,2
+"107","Unexpected Fangs",21,12,52,82,63.4,52,73.8," 5 Dimir Faeries 
+ 7 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#eonwe_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#john_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#medvedev_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_marian__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#mamah_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#bgv_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#gabc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#the_real_dk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#beicodegeia_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#basilnabi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mamah_nd_place 
+","Jesper Ejsing","B",2,"Instant","IKO",2.2,18.8,1.8
+"108","Weather the Storm",12,4,19,28,67.9,47.6,84.1," 2 Jund Ramp 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#renaar_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#mentalmisstep_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#ixidor_th_place 
+","Magali Villeneuve","G",2,"Instant","MH1",1.2,6.2,3
+"109","Wellwisher",3,2,7,13,53.8,25.1,80.8," 2 Simic Elves 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-13#_zodiak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#_zodiak_th_place 
+","Christopher Rush","G",2,"Creature","ONS",0.3,3.1,1.5
+"110","Young Wolf",2,1,4,7,57.1,18.4,90.1," 1 Bogles 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-02-14#piccio_st_place 
+","Ryan Pancoast","G",1,"Creature","DKA",0.2,1.6,2

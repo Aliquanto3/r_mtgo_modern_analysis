@@ -1,0 +1,539 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Boseiju, Who Endures",179,135,698,958,72.9,69.9,75.7," 18 Amulet Titan 
+ 3 Asmo Food 
+ 11 Blue Living End 
+ 1 Calibrated Blast 
+ 11 Creativity Combo 
+ 11 Elementals 
+ 1 Elves 
+ 2 Glimpse Combo 
+ 10 Green Tron 
+ 1 Gruul Midrange 
+ 1 Jund Midrange 
+ 1 Jund Saga 
+ 12 Omnath Control 
+ 1 Omnath Scapeshift 
+ 1 Selesnya Eldrazi 
+ 5 Song Storm 
+ 1 Stoneblade 
+ 8 Temur Footfalls 
+ 3 Titan Shift 
+ 4 Vivien Combo 
+ 1 WURG Control 
+ 28 Yawgmoth 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#dazai_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#tritty_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#screenwriterny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#bradderskull_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#dm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#yungdingo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#crazybaloth_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#chinarapov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#makia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#xfile_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#slaydftw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#xerk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#hectores_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#bobthedog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#rvng_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#predicted_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#hnmagician_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#maxmagicer_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#mistakenn_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#yprincipe_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#isacconoli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#playtonguyen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#gul_dukat_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#voltzwagon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#toxic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#ramzamela_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#boimzz_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#sandile_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#bradderskull_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#claudioh_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#violet_starmine_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#sfialowitness_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#urthstrype_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#aeolus_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#mistakenn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#danny_bambino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#magicplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#lars_duken_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#roter_erzengel_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#bigbaranoia_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#pastratta_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#lrdfwaffles_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#ubwprayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#tixis_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#phill_hellmuth_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#albert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#violet_starmine_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#hectores_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#azor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#maxmagicer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#isacconoli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#gurig_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#zeekery_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#galathehutt_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#brunes_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#thalai_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#durotan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#freddylol_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#sandile_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#tombsimon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#summon_legend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#tcedk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#edraros_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#roter_erzengel_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#bloodraven_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#bobthedog_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#koszul_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#karavek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#mtgwojtek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#demonictutors_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#s_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#hannawarelf_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#gurig_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#_batutinha__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#xerk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#putput_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#onebigpin__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#hnmagician_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#chinarapov_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#ecobaronen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#ohn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#crazybaloth_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#mogg_flunkies_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#xerk_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#leclairandy_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#kinghairy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#baumi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#hectores_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#iselheim_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#demonictutors_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#micro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#koszul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#makia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#snowflak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#screenwriterny_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#bennybo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-02#jacobisboss_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-02#jmak_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-05#graciasportanto_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-05#boimzz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#myra_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#houseofmanamtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#magicofplayer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-08#shindy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-08#karatedom_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-09#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#signblindman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#archaeusdota_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#flamewolf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-16#kanister_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#stainerson_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#white_tsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#thelastbeta_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#connorm_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#hogpog__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#mrjacetwo_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#playtester_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#clamavus_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-23#toddt_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-23#costola_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#maxmagicer_- 
+","Chris Ostrowski","",0,"Land","NEO",0.7,32.9,1.3
+"Colossal Skyturtle",27,17,99,130,76.2,67.9,83.2," 17 Blue Living End 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#makia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#rvng_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#tixis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#latke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#toxic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#rvng_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#brunes_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#makia_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#hugofreitas_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#caronte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#kinghairy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#baumi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#sanpop_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#violent_outburst_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-06#caronte_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#latke_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#marcoshadow_- 
+","Nicholas Gregory","G,U",7,"Enchantment,Creature","NEO",0.1,4.1,1.6
+"Commune with Spirits",4,2,10,15,66.7,38.4,88.2," 2 Enchantress 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#ikero__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#ikero__nd_place 
+","Aurore Folny","G",1,"Sorcery","NEO",0,0.5,2
+"Eiganjo, Seat of the Empire",21,21,106,147,72.1,64.1,79.2," 1 Azorius Control 
+ 1 Grief Blade 
+ 15 Hammer Time 
+ 3 Thopter Urza 
+ 1 Urza Affinity 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#mordekaser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#moosedroppings_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#crusherbotbg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#ls_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#joao_andrade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#thatguyfrombritland_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#joao_andrade_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#nazart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#crusherbotbg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#crusherbotbg_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#friskifraska_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#moosedroppings_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#crusherbotbg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#friskifraska_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#joncos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#crusherbotbg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-06#misstrigger_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-08#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-09#crusherbotbg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#codyf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-23#doublesix_- 
+","Julian Kok Joon Wen","",0,"Land","NEO",0.1,5.1,1
+"Fable of the Mirror-Breaker",117,33,163,220,74.1,67.8,79.7," 18 Creativity Combo 
+ 11 Glimpse Combo 
+ 1 Gruul Midrange 
+ 1 Naya Titan 
+ 1 Rakdos Midrange 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#bobthedog_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#screenwriterny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#coert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#bobthedog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#eebbz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#onlylandsdotcom_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#tyerube_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#phill_hellmuth_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#playtester_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#scipios_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#tyerube_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#tombsimon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#summon_legend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#ginp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#billsive_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#mankeke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#ripharambae_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#ecobaronen_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#swordhunter_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#iselheim_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#pokerswizard_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-05#thebigmoke_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-08#billsive_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#phill_hellmuth_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#billsive_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#tombsimon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#white_tsar_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#playtester_- 
+","Joseph Meehan","R",3,"Enchantment","NEO",0.5,8,3.5
+"Invoke Despair",2,1,5,7,71.4,29,96.3," 1 Coffers Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#sir_snow_th_place 
+","Olivier Bernard","B",5,"Sorcery","NEO",0,0.2,2
+"Lion Sash",2,2,10,14,71.4,41.9,91.6," 1 Grief Blade 
+ 1 Stoneblade 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#nazart_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#mtgwojtek_th_place 
+","Yongjae Choi","W",2,"Artifact,Creature","NEO",0,0.5,1
+"March of Otherworldly Light",17,10,55,74,74.3,62.8,83.8," 1 Azorius Control 
+ 3 Elementals 
+ 1 Esper Control 
+ 1 Hammer Time 
+ 1 Jeskai Control 
+ 3 Omnath Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#mordekaser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#chinarapov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#chaosveiler_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#urthstrype_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#albert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#onebigpin__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#chinarapov_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#joncos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#acheronsgrief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#myra_- 
+","Nils Hamm","W",1,"Instant","NEO",0.1,2.4,1.7
+"March of Reckless Joy",1,1,4,7,57.1,18.4,90.1," 1 Belcher 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#bob_th_place 
+","Fiona Hsieh","R",1,"Instant","NEO",0,0.2,1
+"March of Wretched Sorrow",2,1,5,7,71.4,29,96.3," 1 Coffers Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#sir_snow_th_place 
+","Tyler Jacobson","B",1,"Instant","NEO",0,0.2,2
+"Moonsnare Prototype",3,2,6,8,75,34.9,96.8," 1 Affinity 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-29#goblinyoshi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#codyf_- 
+","Fariba Khamseh","U",1,"Artifact","NEO",0,0.5,1.5
+"Otawara, Soaring City",184,155,794,1093,72.6,69.9,75.3," 1 Affinity 
+ 3 Asmo Food 
+ 1 Azorius Control 
+ 25 Blue Living End 
+ 1 Calibrated Blast 
+ 1 Dimir Shadow 
+ 2 Elementals 
+ 1 Esper Control 
+ 3 Glimpse Combo 
+ 78 Izzet Murktide 
+ 5 Jeskai Control 
+ 1 Jeskai Murktide 
+ 5 Merfolk 
+ 1 Mill 
+ 1 Mono Blue Control 
+ 7 Omnath Control 
+ 1 Saheeli Combo 
+ 10 Temur Footfalls 
+ 4 Thopter Urza 
+ 3 Urza Affinity 
+ 1 WURG Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#mordekaser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#tritty_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#aelalea_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#lb_live_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#_inf__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#robdehaan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#caleb_o_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#yungdingo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#cosmic_sans_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#moosedroppings_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#archaeusdota_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#piegonti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#chinarapov_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#ale_mtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#makia_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#archaeusdota_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#xfile_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#domswitch_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#jeppeapan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#chaosveiler_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#oscar_franco_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#rvng_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#sokos_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#_stn__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#skpchino_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#maxmagicer_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#bernastorres_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#tixis_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#_stream_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#isacconoli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#latke_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#truehero_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#madmaxernst_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#switchjon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#toxic_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#tzio_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#sfialowitness_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#urthstrype_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#madmaxernst_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#tintin-_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#bobthedog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#danker_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#danny_bambino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#magicplayer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#wearevenom_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#yungdingo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#atalaya_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#tulio_jaudy_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#swff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#rvng_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#magicwizard_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#tulio_jaudy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#azor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#reula_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#drakanar_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#maxmagicer_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#viktor_von_muerte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#isacconoli_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#zeekery_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#tibalt_of_red_sub_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#galathehutt_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#brunes_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#albertosd_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#coert_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#moosedroppings_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#tulio_jaudy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#makia_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#alkapwny_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#sokos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#ygo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#scipios_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#swff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#bobthedog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#sodeq_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#onebigpin__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#o_danielakos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#viktor_von_muerte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#ranklynx_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#magic_dan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#matiaskm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#mariobbrega_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#s_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#yungdingo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#hugofreitas_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#beenew_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#kbol__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#_tia__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#gyyby_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#sokos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#_inf__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#hutomomo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#billsive_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#chinarapov_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#madmaxernst_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#ohn_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#caronte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#yungdingo_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#sokos_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#kinghairy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#baumi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#sanpop_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#petefiddy_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#cleverppz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#tspjendrek_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#hoveydw_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#bless_von_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#riseagainstthercs_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#ivc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#nicolasp_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#acheronsgrief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#snowflak_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-29#goblinyoshi_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#violent_outburst_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-02#gigy_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-02#cantillon_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-05#into_play_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-05#takizawa_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-06#caronte_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-06#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-08#billsive_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-09#cavallogoloso_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#juanmixd_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#signblindman_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#albertosd_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#albertosd_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-14#billsive_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#archaeusdota_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#albertosd_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-15#amanatease_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-16#mikhathara_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-16#albertosd_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#fizzbuzz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-20#azatoyellow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#riseagainstthercs_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#latke_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#jaberrr_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#maxmagicer_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-21#simpleliquid_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#codyf_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#boytriton_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-23#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#lukas_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#fermtg_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#xfile_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#peppemiele_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-26#marcoshadow_- 
+","Alayna Danner","",0,"Land","NEO",0.7,37.8,1.2
+"Secluded Courtyard",4,1,7,8,87.5,47.3,99.7," 1 Humans 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#fluorspar_th_place 
+","Sam Burley","",0,"Land","NEO",0,0.2,4
+"Sokenzan, Crucible of Defiance",10,8,44,56,78.6,65.6,88.4," 1 Calibrated Blast 
+ 1 Gruul Midrange 
+ 5 Omnath Control 
+ 1 Rakdos Midrange 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-super-qualifier-2022-07-04#sneakymisato_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-10#urthstrype_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#azor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#zeekery_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#onebigpin__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#kelmasterp_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-12#mcwinsauce_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-20#bigd__- 
+","Lucas Staniec","",0,"Land","NEO",0,2,1.2
+"Spirited Companion",2,1,5,7,71.4,29,96.3," 1 Grief Blade 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#nazart_th_place 
+","Ilse Gort","W",2,"Enchantment,Creature","NEO",0,0.2,2
+"Takenuma, Abandoned Mire",3,3,11,15,73.3,44.9,92.2," 1 Coffers Control 
+ 1 Rakdos Midrange 
+ 1 Yawgmoth 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#sir_snow_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-20#bigd__- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#clamavus_- 
+","Sam Burley","",0,"Land","NEO",0,0.7,1
+"The Reality Chip",35,35,166,225,73.8,67.5,79.4," 34 Hammer Time 
+ 1 Thopter Urza 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#ayzkub__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#metaponto_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#happysandwich_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#liubloodelf_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#jemstuddog_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#ggbuffon_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#iloveyou_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#thijz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#laplasjan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#happysandwich_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#thesawceboss_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#deathnote_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#aurelio_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#jackem_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-17#laplasjan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#ptartswin_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#ticklemetarantino_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#rosencrantz__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#happysandwich_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#jackem_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-18#thijz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#laplasjan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-showcase-challenge-2022-07-24#gyyby_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-29#colletclow_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-29#laplasjan_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#happysandwich_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-06-30#hodortimebaby_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#promidnightz_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-01#happysandwich_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-07#iloveyou_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-09#lilianaofthevess_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-13#mcscards_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-19#jammernaut_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-22#jackem_- 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-23#triosk_- 
+","Campbell White","U",2,"Artifact,Creature","NEO",0.1,8.5,1
+"The Wandering Emperor",9,6,26,40,65,48.3,79.4," 1 Azorius Control 
+ 1 Esper Control 
+ 4 Jeskai Control 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-03#mordekaser_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-04#chaosveiler_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#viktor_von_muerte_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#ivc_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-25#acheronsgrief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-preliminary-2022-07-09#cavallogoloso_- 
+","Tommy Arnold","W",4,"Planeswalker","NEO",0,1.5,1.5
+"Touch the Spirit Realm",3,1,5,7,71.4,29,96.3," 1 Grief Blade 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/modern-challenge-2022-07-11#nazart_th_place 
+","Marta Nael","W",3,"Enchantment","NEO",0,0.2,3

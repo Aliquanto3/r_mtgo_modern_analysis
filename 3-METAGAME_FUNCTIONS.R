@@ -1,27 +1,26 @@
 ################################################################################
 #LIBRARIES
-#install.packages("ggplot2")
-#install.packages("dplyr")
-#install.packages("ggrepel")
-#install.packages("jsonlite")
-#install.packages("tidyverse")
-#install.packages("data.table")
-#install.packages("purrr")
-#install.packages("jsonify")
-#install.packages("plyr")
-#install.packages("FactoMineR")
-#install.packages("factoextra")
-#install.packages("corrplot")
-#install.packages("ggpubr")
-#install.packages("ClustMAPDP")
-#install.packages("expm")
-#install.packages("matrixStats")
-#devtools::install_github('thomasp85/gganimate')
-#install.packages('gganimate')
-#install.packages("gifski")
-#install.packages("raster")
-#install.packages("conflicted")
-#install.packages("xlsx") 
+# install.packages("ggplot2")
+# install.packages("dplyr")
+# install.packages("ggrepel")
+# install.packages("jsonlite")
+# install.packages("tidyverse")
+# install.packages("data.table")
+# install.packages("purrr")
+# install.packages("jsonify")
+# install.packages("plyr")
+# install.packages("FactoMineR")
+# install.packages("factoextra")
+# install.packages("corrplot")
+# install.packages("ggpubr")
+# install.packages("ClustMAPDP")
+# install.packages("expm")
+# install.packages("matrixStats")
+# install.packages('gganimate')
+# install.packages("gifski")
+# install.packages("raster")
+# install.packages("conflicted")
+# install.packages("xlsx")
 library(ggplot2)
 library(dplyr)
 library(ggrepel)
@@ -35,7 +34,7 @@ library(FactoMineR)
 library(factoextra)
 library(corrplot)
 library(ggpubr)
-library(ClustMAPDP)
+#library(ClustMAPDP)
 library(expm)
 library(matrixStats)
 library(gganimate)
@@ -57,26 +56,10 @@ conflict_prefer("View", "utils")
 
 ################################################################################
 
-#VARIABLE FOR THE ACCURACY ON THE NAMING OF THE ARCHETYPES
-#PROVIDES THE NAME OF THE COLUMN OF THE DATAFRAME TO BE USED
-getArchetypeAcc = function(Classification){
-  archetype_acc=NA
-  if(Classification=="Super"){
-    archetype_acc="SuperArchetype"
-  }else if(Classification=="Exact"){
-    archetype_acc="Archetype"
-  }
-  return(archetype_acc)
-}
-
-#UNCOMMENT IF YOU EXECUTE THIS FILE ALONE
-archetype_acc=getArchetypeAcc(Classification)
-
 #LIST ALL THE DIFFERENT ARCHETYPES IN THE DATA
-generate_archetype_list = function(df,beginning,end){
+generate_archetype_list = function(df){
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
-  periodDf=subset(df, Date >= as.Date(beginning) & Date < as.Date(end))
-  arch_list=data.frame(unique(df$Archetype[archetype_acc]))
+  arch_list=data.frame(unique(df$Archetype$Archetype))
   names(arch_list)[1] = c("Archetype")
   return(arch_list)
 }
@@ -85,12 +68,13 @@ generate_archetype_list = function(df,beginning,end){
 #presence CAN BE EITHER "Copies", "Players", "Matches" or "Ratio M/P"
 generate_metagame_data = function(df,graph_share,presence,beginning,end){
   
-  arch_list=generate_archetype_list(df,beginning,end)
+  arch_list=generate_archetype_list(df)
   
   #ADD THE PRESENCE OF EACH ARCHETYPE IN THE DATA
   arch_list$Presence=rep(0,length(arch_list$Archetype))
+  
   for (i in 1:length(arch_list$Presence)){
-    arch_id=which(df$Archetype[archetype_acc]==arch_list$Archetype[i])
+    arch_id=which(df$Archetype$Archetype==arch_list$Archetype[i])
     if (presence=="Copies"){
       #NUMBER OF COPIES
       arch_list$Presence[i]=length(arch_id)
@@ -153,8 +137,8 @@ metagame_pie_chart = function(df,presence,beginning,end,EventType){
   ggplot(df_gen, aes(x="", -Share, fill = Archetype)) + 
     geom_bar(width = 1, size = 1, color = "white", stat = "identity") + 
     coord_polar("y", start=0) + 
-    geom_text(aes(label = paste0(Share, "%")), 
-              position = position_stack(vjust = 0.5)) +
+    geom_text(aes(label = paste0(Share, "%"), x = 1.3), 
+              position = position_stack(vjust = 0.5), size = 3) +
     labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anael Yahi",
          title = generate_metagame_graph_title(
            presence,beginning,end,EventType)) + 
@@ -169,36 +153,6 @@ metagame_pie_chart = function(df,presence,beginning,end,EventType){
           legend.text = element_text(size = 17))
   
 }
-
-
-# # TODO
-# metagame_pie_chart_dark = function(df,presence,beginning,end,EventType){
-#   
-#   #CHANGE THE NUMBER FOR THE PROPORTION OF THE "OTHERS" CATEGORY HERE
-#   df_gen=generate_metagame_data(df,PieShare,presence,beginning,end)
-#   
-#   ggplot(df_gen, aes(x="", -Share, fill = Archetype)) + 
-#     geom_bar(width = 1, size = 1, color = "#152238", stat = "identity") + 
-#     coord_polar("y", start=0) + 
-#     geom_text(aes(label = paste0(Share, "%")), colour = "white",
-#               position = position_stack(vjust = 0.5)) +
-#     labs(x = NULL, y = NULL, fill = NULL, subtitle = "by Anael Yahi",
-#          title = generate_metagame_graph_title(
-#            presence,beginning,end,EventType)) + 
-#     guides(color = FALSE, size = FALSE) +
-#     scale_fill_paletteer_d("pals::glasbey") +
-#     theme(axis.line = element_blank(),
-#           axis.text = element_blank(),
-#           axis.ticks = element_blank(),
-#           plot.title = element_text(hjust = 0.5, colour = "lightgrey",size = 20),
-#           plot.subtitle = element_text(hjust = 0.5,size = 18, colour = "lightgrey"),
-#           legend.text = element_text(size = 17, colour = "lightgrey"),
-#           panel.background = element_rect(fill = "#152238"),
-#           plot.background = element_rect(fill = "#152238"),
-#           legend.background = element_rect(fill = "#152238")
-#           )
-#   
-# }
 
 #GENERATE A BOX PLOT BASED ON DATA IN DF
 #presence CAN BE EITHER "Copies", "Players" or "Matches"
@@ -229,55 +183,53 @@ metagame_box_plot = function(df,presence,beginning,end,EventType,histShare){
 }
 
 #LIST ALL THE DIFFERENT PLAYERS IN THE DATA
-generate_player_list = function(df,beginning,end){
+generate_player_list = function(df){
   #CREATE A DATAFRAME CONTAINING THE LIST OF ARCHETYPES
-  periodDf=subset(df, Date >= as.Date(beginning) & Date < as.Date(end))
   play_list=data.frame(unique(df$Player))
   names(play_list)[1] = c("PlayerS")
   return(play_list)
 }
 
 #FILL IN METRIC POINTS IN A PLAYER DATA FRAME
-metric_points_players = function(df,beginning,end){
-  df2=subset(df, Date >= as.Date(beginning) & Date < as.Date(end))
+metric_points_players = function(df){
   #GET THE LIST OF THE DIFFERENT PLAYERS IN THE DATA
-  metric_df_players=generate_player_list(df2,beginning,end)
+  metric_df_players=generate_player_list(df)
   
-  metric_df_players$NAppearances=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$TotalMatches=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$WinrateAverage=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$Winrate95Min=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$Winrate95Max=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$TotalPoints=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$ArchetypeNames=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$ArchetypeCounts=rep(0,length(metric_df_players$PlayerS))
-  metric_df_players$URL=rep(0,length(metric_df_players$PlayerS))
-  for (i in 1:length(metric_df_players$PlayerS)){
+  metric_df_players$NAppearances=rep(0,nrow(metric_df_players))
+  metric_df_players$TotalMatches=rep(0,nrow(metric_df_players))
+  metric_df_players$WinrateAverage=rep(0,nrow(metric_df_players))
+  metric_df_players$Winrate95Min=rep(0,nrow(metric_df_players))
+  metric_df_players$Winrate95Max=rep(0,nrow(metric_df_players))
+  metric_df_players$TotalPoints=rep(0,nrow(metric_df_players))
+  metric_df_players$ArchetypeNames=rep(0,nrow(metric_df_players))
+  metric_df_players$ArchetypeCounts=rep(0,nrow(metric_df_players))
+  metric_df_players$URL=rep(0,nrow(metric_df_players))
+  for (i in 1:nrow(metric_df_players)){
     #POSITION OF THE CORRESPONDING EXACT OR SUPER ARCHETYPE IN THE DATA
-    play_identification=which(df2$Player==metric_df_players$PlayerS[i])
-    df3=df2[play_identification,]
+    play_identification=which(df$Player==metric_df_players$PlayerS[i])
+    df2=df[play_identification,]
     #NUMBER OF APPEARANCES IN THE DATA OF THE CORRESPONDING ARCHETYPE
     metric_df_players$NAppearances[i]=length(play_identification)
     #LIST OF DIFFERENT ARCHETYPES THAT PLAYER PLAYED
-    metric_df_players$ArchetypeNames[i]=list(unique(df3$Archetype$Archetype))
-    #paste(unique(df3$Archetype$Archetype),collapse=",")
+    metric_df_players$ArchetypeNames[i]=list(unique(df2$Archetype$Archetype))
+    #paste(unique(df2$Archetype$Archetype),collapse=",")
     arch_count=c()
     for(j in 1:length(metric_df_players$ArchetypeNames[[i]])){
-      arch_count[j]=length(df3[df3$Archetype$Archetype==metric_df_players$
+      arch_count[j]=length(df2[df2$Archetype$Archetype==metric_df_players$
                                  ArchetypeNames[[i]][[j]],]$AnchorUri)
     }
     metric_df_players$ArchetypeCounts[i]=list(arch_count)
     
-    metric_df_players$URL[i]=list(unique(df3$AnchorUri))
-    #paste(df3$AnchorUri,collapse=",")
+    metric_df_players$URL[i]=list(unique(df2$AnchorUri))
+    #paste(df2$AnchorUri,collapse=",")
     
     #NUMBER OF MATCHES PLAYED BY THAT ARCHETYPE IN THE DATA
-    metric_df_players$TotalMatches[i]=sum(df3$NRounds,
-                                          df3$T8Matches)
+    metric_df_players$TotalMatches[i]=sum(df2$NRounds,
+                                          df2$T8Matches)
     #NUMBER OF WINS OF THAT ARCHETYPE
-    total_wins_arch=sum((df3$Points + df3$T8Points)/3)
+    total_wins_arch=sum(df2$NWins + df2$T8Points/3)
     #NUMBER OF MATCHES OF THAT ARCHETYPE
-    total_matches_arch=sum(df3$NRounds + df3$T8Matches)
+    total_matches_arch=sum(df2$NRounds + df2$T8Matches)
     metric_df_players$TotalPoints[i]=total_wins_arch*3
     
     #95% CONFIDENCE INTERVALS OF THE WINRATE
@@ -300,11 +252,10 @@ metric_points_players = function(df,beginning,end){
 }
 
 #FILL IN METRIC POINTS IN AN ARCHETYPES DATA FRAME
-metric_points_archetypes = function(df,beginning,end){
-  df2=subset(df, Date >= as.Date(beginning) & Date < as.Date(end))
+metric_points_archetypes = function(df){
   #GET THE LIST OF THE DIFFERENT ARCHETYPES IN THE DATA
-  metric_df=generate_archetype_list(df2,beginning,end)
-  players_df=metric_points_players(df,beginning,end)
+  metric_df=generate_archetype_list(df)
+  players_df=metric_points_players(df)
   
   metric_df$NCopies=rep(0,length(metric_df$Archetype))
   metric_df$NPlayers=rep(0,length(metric_df$Archetype))
@@ -317,25 +268,22 @@ metric_points_archetypes = function(df,beginning,end){
   
   for (i in 1:length(metric_df$Archetype)){
     #POSITION OF THE CORRESPONDING EXACT OR SUPER ARCHETYPE IN THE DATA
-    arch_identification=which(df2$Archetype[archetype_acc]==metric_df$Archetype[i])
+    arch_identification=which(df$Archetype$Archetype==metric_df$Archetype[i])
+    dfArchID = df[arch_identification,]
     #NUMBER OF APPEARANCES IN THE DATA OF THE CORRESPONDING ARCHETYPE
     metric_df$NCopies[i]=length(arch_identification)
     #NUMBER OF DIFFERENT PLAYERS PLAYING THAT DECK
-    metric_df$NPlayers[i]=length(unique(df2[arch_identification,]$Player))
+    metric_df$NPlayers[i]=length(unique(dfArchID$Player))
     #NUMBER OF MATCHES PLAYED BY THAT ARCHETYPE IN THE DATA
-    metric_df$TotalMatches[i]=sum(df2[arch_identification,]$NRounds,
-                                      df2[arch_identification,]$T8Matches)
+    metric_df$TotalMatches[i]=sum(dfArchID$NRounds, dfArchID$T8Matches)
     #NUMBER OF MATCHES PER PLAYER - THE HIGHER, THE MORE A PLAYER wiTH THAT DECK
     #APPEARED IN THE RESULTS
-    metric_df$MatchesPerPlayer[i]=metric_df$TotalMatches[i]/
-      metric_df$NPlayers[i]
+    metric_df$MatchesPerPlayer[i]=metric_df$TotalMatches[i]/metric_df$NPlayers[i]
     
     #NUMBER OF WINS OF THAT ARCHETYPE
-    total_wins_arch=sum((df2$Points[arch_identification] + 
-                           df2$T8Points[arch_identification])/3)
-    #NUMBER OF MATCHES OF THAT ARCHETYPE
-    total_matches_arch=sum(df2$NRounds[arch_identification] + 
-                             df2$T8Matches[arch_identification])
+    total_wins_arch=sum(dfArchID$NWins + dfArchID$T8Points/3)
+    #NUMBER OF MATCHES OF THAT ARCHETYPE - not accounting for draws
+    total_matches_arch=sum(dfArchID$NRounds - dfArchID$NDraws + dfArchID$T8Matches)
     
     #95% CONFIDENCE INTERVALS OF THE WINRATE
     #EFFECTIVE WINRATE IN THE DATA
@@ -542,26 +490,43 @@ Circle diameters depending on",diameters,"\nby Anael Yahi",sep=" ")
 #https://www.vicioussyndicate.com/vs-meta-score-new-metric-measuring-archetypes-standing-meta/
 archetypes_ranking = function(metric_df,beginning,end){
   
-  metric_df$NormalizedSum=metric_df$WinrateAverage
-  for (i in 1:length(metric_df$NormalizedSum)){
-    metric_df$NormalizedSum[i] = 
-      (Presence_Weight * (metric_df$TotalMatches[i]- 
-                            min(metric_df$TotalMatches)) / 
-         max(metric_df$TotalMatches)
-       +
-         (PPR_Weight * metric_df$WinrateAverage[i]-
-            min(metric_df$WinrateAverage)) / 
-         max(metric_df$WinrateAverage )
-       
-      ) / (Presence_Weight+PPR_Weight)
-  }
+  beginning=as.Date(beginning,format="%Y-%m-%d", origin ="1970-01-01")
+  end=as.Date(end,format="%Y-%m-%d", origin ="1970-01-01")
+  
+  #Make the values of both metrics start at 0 by substracting the minimum value
+  metric_df_start_at_0=metric_df
+  metric_df_start_at_0$TotalMatches = 
+    metric_df_start_at_0$TotalMatches - min(metric_df_start_at_0$TotalMatches)
+  metric_df_start_at_0$WinrateAverage = 
+    metric_df_start_at_0$WinrateAverage - min(metric_df_start_at_0$WinrateAverage)
+  
+  #Make the values of both metrics go up to 1 by dividing by the maximum value
+  metric_df_between_0_and_1 = metric_df_start_at_0
+  metric_df_between_0_and_1$TotalMatches = 
+    metric_df_between_0_and_1$TotalMatches / max(metric_df_between_0_and_1$TotalMatches)
+  metric_df_between_0_and_1$WinrateAverage = 
+    metric_df_between_0_and_1$WinrateAverage / max(metric_df_between_0_and_1$WinrateAverage)
+  
+  #We now have normalized metrics we can sum
+  metric_df_normalized=metric_df_between_0_and_1
+  metric_df_normalized$NormalizedSum = 
+    Presence_Weight * metric_df_normalized$TotalMatches +
+    PPR_Weight * metric_df_normalized$WinrateAverage
+  
+  #Also divide by the weights of each metric, so that even if we have a deck 
+  #with the maximum value for each metric, i.e. 1 after normalization, 
+  #we also find 1 as the value for the mark granted to the deck by the sum
+  metric_df_normalized$NormalizedSum = 
+    metric_df_normalized$NormalizedSum / (Presence_Weight+PPR_Weight)
+  
+  #Re-affect those new values to the original dataframe
+  metric_df$NormalizedPresence=metric_df_normalized$TotalMatches
+  metric_df$NormalizedWinrate=metric_df_normalized$WinrateAverage
+  metric_df$NormalizedSum=metric_df_normalized$NormalizedSum
   
   metric_df = metric_df[order(-metric_df$NormalizedSum),]
   
-  metric_df$RANK=metric_df$NormalizedSum
-  for (i in 1:length(metric_df$RANK)){
-    metric_df$RANK[i]=i
-  }
+  metric_df$RANK=(1:nrow(metric_df))
   
   metric_df$VSMetaScore=metric_df$NormalizedSum
   MetaPeak=c(max(metric_df$TotalMatches) - min(metric_df$TotalMatches) /
@@ -879,10 +844,10 @@ generate_tiers_lists = function(arch_ranked){
   arch_metric_score_tiers2=arch_metric_score[arch_metric_score$NormalizedSum<=mmc &
                                                arch_metric_score$NormalizedSum>=mmc-sdmc,]
   arch_metric_score_tiers2.5=arch_metric_score[arch_metric_score$NormalizedSum<mmc-sdmc,]
-  arch_metric_score_tiers1
-  arch_metric_score_tiers1.5
-  arch_metric_score_tiers2
-  arch_metric_score_tiers2.5
+  # arch_metric_score_tiers1
+  # arch_metric_score_tiers1.5
+  # arch_metric_score_tiers2
+  # arch_metric_score_tiers2.5
   
   #TIERS LIST BASED ON VS META SCORE
   arch_meta_score=arch_ranked[c("Archetype","VSMetaScore")]
@@ -896,10 +861,10 @@ generate_tiers_lists = function(arch_ranked){
   arch_meta_score_tiers1.5=arch_meta_score[arch_meta_score$VSMetaScore<=mms &
                                              arch_meta_score$VSMetaScore>=mms-sdms,]
   arch_meta_score_tiers1=arch_meta_score[arch_meta_score$VSMetaScore<mms-sdms,]
-  arch_meta_score_tiers1
-  arch_meta_score_tiers1.5
-  arch_meta_score_tiers2
-  arch_meta_score_tiers2.5
+  # arch_meta_score_tiers1
+  # arch_meta_score_tiers1.5
+  # arch_meta_score_tiers2
+  # arch_meta_score_tiers2.5
   
   #TIERS LIST BASED ON PRESENCE
   arch_presence_score=arch_ranked[c("Archetype","TotalMatches")]
@@ -913,10 +878,10 @@ generate_tiers_lists = function(arch_ranked){
   arch_presence_score_tiers2=arch_presence_score[arch_presence_score$TotalMatches<=mps &
                                                    arch_presence_score$TotalMatches>=mps-sdps,]
   arch_presence_score_tiers2.5=arch_presence_score[arch_presence_score$TotalMatches<mps-sdps,]
-  arch_presence_score_tiers1
-  arch_presence_score_tiers1.5
-  arch_presence_score_tiers2
-  arch_presence_score_tiers2.5
+  # arch_presence_score_tiers1
+  # arch_presence_score_tiers1.5
+  # arch_presence_score_tiers2
+  # arch_presence_score_tiers2.5
   
   #TIERS LIST BASED ON AVERAGE WINRATE
   arch_winrate_score=arch_ranked[c("Archetype","WinrateAverage")]
@@ -930,10 +895,10 @@ generate_tiers_lists = function(arch_ranked){
   arch_winrate_score_tiers2=arch_winrate_score[arch_winrate_score$WinrateAverage<=mws &
                                                  arch_winrate_score$WinrateAverage>=mws-sdws,]
   arch_winrate_score_tiers2.5=arch_winrate_score[arch_winrate_score$WinrateAverage<mws-sdws,]
-  arch_winrate_score_tiers1
-  arch_winrate_score_tiers1.5
-  arch_winrate_score_tiers2
-  arch_winrate_score_tiers2.5
+  # arch_winrate_score_tiers1
+  # arch_winrate_score_tiers1.5
+  # arch_winrate_score_tiers2
+  # arch_winrate_score_tiers2.5
   
   #TIERS LIST BASED ON LOWER ESTIMATION OF WINRATE
   arch_low_winrate_score=arch_ranked[c("Archetype","Winrate95Min")]
@@ -947,10 +912,10 @@ generate_tiers_lists = function(arch_ranked){
   arch_low_winrate_score_tiers2=arch_low_winrate_score[arch_low_winrate_score$Winrate95Min<=mlws &
                                                          arch_low_winrate_score$Winrate95Min>=mlws-sdlws,]
   arch_low_winrate_score_tiers2.5=arch_low_winrate_score[arch_low_winrate_score$Winrate95Min<mlws-sdlws,]
-  arch_low_winrate_score_tiers1
-  arch_low_winrate_score_tiers1.5
-  arch_low_winrate_score_tiers2
-  arch_low_winrate_score_tiers2.5
+  # arch_low_winrate_score_tiers1
+  # arch_low_winrate_score_tiers1.5
+  # arch_low_winrate_score_tiers2
+  # arch_low_winrate_score_tiers2.5
   
   #EXPORT ALL THE TIERS LISTS TO CSV
   low_winrate_score_tiers_list=list(paste(arch_low_winrate_score_tiers1$Archetype,collapse=" - "),
@@ -990,10 +955,8 @@ generate_tiers_lists = function(arch_ranked){
 players_top8 = function(df,beginning,end) {
   
   #REMOVES ALL THE PLAYERS WHOSE RESULT 
-  top8results = c("1st Place","2nd Place", "3rd Place", "4th Place", "5th Place", 
-                  "6th Place", "7th Place", "8th Place")
-  dftop8=df[df$Result %in% top8results,]
-  top8players=generate_player_list(dftop8,beginning,end)
+  dftop8=df[df$NumericResult <=8,]
+  top8players=generate_player_list(dftop8)
   top8players$NAppearances=rep(1,length(top8players$PlayerS))
   for (i in 1:length(top8players$NAppearances)){
     play_identification=which(dftop8$Player==top8players$PlayerS[i])

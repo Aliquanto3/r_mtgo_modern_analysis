@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<svg xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' class='svglite' width='720.00pt' height='720.00pt' viewBox='0 0 720.00 720.00'>
+<defs>
+  <style type='text/css'><![CDATA[
+    .svglite line, .svglite polyline, .svglite polygon, .svglite path, .svglite rect, .svglite circle {
+      fill: none;
+      stroke: #000000;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      stroke-miterlimit: 10.00;
+    }
+    .svglite text {
+      white-space: pre;
+    }
+  ]]></style>
+</defs>
+<rect width='100%' height='100%' style='stroke: none; fill: none;'/>
+<defs>
+  <clipPath id='cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA='>
+    <rect x='0.00' y='0.00' width='720.00' height='720.00' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+</g>
+<defs>
+  <clipPath id='cpOTIuNTh8NzE0LjUyfDUzLjExfDY4NS41NA=='>
+    <rect x='92.58' y='53.11' width='621.94' height='632.43' />
+  </clipPath>
+</defs>
+<g clip-path='url(#cpOTIuNTh8NzE0LjUyfDUzLjExfDY4NS41NA==)'>
+<polyline points='230.43,685.54 230.43,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='449.57,685.54 449.57,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='668.72,685.54 668.72,53.11 ' style='stroke-width: 0.53; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,632.83 714.52,632.83 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,545.00 714.52,545.00 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,457.16 714.52,457.16 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,369.32 714.52,369.32 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,281.49 714.52,281.49 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,193.65 714.52,193.65 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='92.58,105.81 714.52,105.81 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='120.85,685.54 120.85,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='340.00,685.54 340.00,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<polyline points='559.15,685.54 559.15,53.11 ' style='stroke-width: 1.07; stroke: #EBEBEB; stroke-linecap: butt;' />
+<rect x='120.85' y='66.28' width='565.40' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #FB61D7;' />
+<rect x='120.85' y='154.12' width='267.36' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #A58AFF;' />
+<rect x='120.85' y='241.96' width='238.87' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #00B6EB;' />
+<rect x='120.85' y='417.63' width='142.44' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #53B400;' />
+<rect x='120.85' y='329.80' width='142.44' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #00C094;' />
+<rect x='120.85' y='505.47' width='138.06' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #C49A00;' />
+<rect x='120.85' y='593.31' width='133.68' height='79.05' style='stroke-width: 1.07; stroke: none; stroke-linecap: square; stroke-linejoin: miter; fill: #F8766D;' />
+</g>
+<g clip-path='url(#cpMC4wMHw3MjAuMDB8MC4wMHw3MjAuMDA=)'>
+<text x='87.65' y='635.98' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='60.16px' lengthAdjust='spacingAndGlyphs'>Azorius Control</text>
+<text x='87.65' y='548.15' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='68.63px' lengthAdjust='spacingAndGlyphs'>Devotion Walkers</text>
+<text x='87.65' y='460.31' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='82.17px' lengthAdjust='spacingAndGlyphs'>Mono White Humans</text>
+<text x='87.65' y='372.47' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='53.81px' lengthAdjust='spacingAndGlyphs'>Gruul Stompy</text>
+<text x='87.65' y='284.64' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='68.98px' lengthAdjust='spacingAndGlyphs'>Rakdos Midrange</text>
+<text x='87.65' y='196.80' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='80.22px' lengthAdjust='spacingAndGlyphs'>Simic Lotus   Strings</text>
+<text x='87.65' y='108.96' text-anchor='end' style='font-size: 8.80px;fill: #4D4D4D; font-family: "Arial";' textLength='31.80px' lengthAdjust='spacingAndGlyphs'>Phoenix</text>
+<text x='120.85' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='6.67px' lengthAdjust='spacingAndGlyphs'>0</text>
+<text x='340.00' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>10</text>
+<text x='559.15' y='699.07' text-anchor='middle' style='font-size: 12.00px;fill: #4D4D4D; font-family: "Arial";' textLength='13.35px' lengthAdjust='spacingAndGlyphs'>20</text>
+<text x='403.55' y='712.20' text-anchor='middle' style='font-size: 11.00px; font-family: "Arial";' textLength='66.66px' lengthAdjust='spacingAndGlyphs'>Presence (%)</text>
+<text x='92.58' y='45.31' style='font-size: 11.00px; font-family: "Arial";' textLength='66.28px' lengthAdjust='spacingAndGlyphs'>by Anael Yahi</text>
+<text x='92.58' y='14.93' style='font-size: 13.20px; font-family: "Arial";' textLength='415.46px' lengthAdjust='spacingAndGlyphs'>Proportion of Exact archetypes in MTGO Official Competitions between</text>
+<text x='92.58' y='29.18' style='font-size: 13.20px; font-family: "Arial";' textLength='475.06px' lengthAdjust='spacingAndGlyphs'> 2022-11-12 and 2022-11-14 based on number of Matches - Other (each &lt;5.56%)</text>
+</g>
+</svg>

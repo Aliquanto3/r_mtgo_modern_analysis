@@ -1,0 +1,284 @@
+"CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"Chrome Courier",3,1,4,7,57.1,18.4,90.1," 1 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#jrhwhite_th_place 
+","Hector Ortiz","U,W",3,"Artifact,Creature","MH2",0,0.4,3
+"Darkmoss Bridge",4,2,11,14,78.6,49.2,95.3," 1 Atog   Affinity 
+ 1 Jund Ramp 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#itshubflower_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#cliffboyardee_th_place 
+","Raoul Vitale","",0,"Artifact,Land","MH2",0,0.8,2
+"Dihada's Ploy",2,2,14,17,82.4,56.6,96.2," 2 Cycle   Storm 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#bryant_cook_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#bryant_cook_st_place 
+","Jason A. Engle","B,U",3,"Instant","MH2",0,0.8,1
+"Drossforge Bridge",195,68,330,493,66.9,62.6,71.1," 35 Atog   Affinity 
+ 1 Jund Ramp 
+ 8 Rakdos Goblins 
+ 24 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#backoff_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#luffydochapeudepalha_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#itshubflower_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#tozla_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#hamuda_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#fakeshaver_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#nsg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#villadallacava_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#vini_torres_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#milkk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#draztok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#spartano_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#mathonical_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#hamuda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#lsmguys_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#martinezmtg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#pmizz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#nsg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#luffydochapeudepalha_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#draztok_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#geme_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#maxmagicer_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#phantomthief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#sonan_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#hamuda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#tozla_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#riuuk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#jogandopelado_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#lampalot_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#abac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#aarong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#robtx_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#c_el_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#mentalmisstep_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#carvs_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#spokes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#ankylosaur_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#naoseinenhum_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#hamuda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#darkuna_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#sanpop_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#danlogan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#cliffboyardee_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#hinahara_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#hamuda_th_place 
+","Raoul Vitale","",0,"Artifact,Land","MH2",1.2,26.2,2.9
+"Galvanic Relay",16,4,19,26,73.1,52.2,88.4," 1 Serpentine   Curve 
+ 3 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#giorgiocombo_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#tyerube_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#spokes_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-preliminary-2022-01-26#saidinraken_- 
+","Lucas Staniec","R",3,"Sorcery","MH2",0.1,1.5,4
+"Goblin Anarchomancer",4,1,4,6,66.7,22.3,95.7," 1 Gruul Ramp 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#smradd_st_place 
+","Joe Slucher","G,R",2,"Creature","MH2",0,0.4,4
+"Hard Evidence",4,2,10,15,66.7,38.4,88.2," 2 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#sultailyfe_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#sultailyfe_nd_place 
+","Yeong-Hao Han","U",1,"Sorcery","MH2",0,0.8,2
+"Late to Dinner",5,4,19,28,67.9,47.6,84.1," 4 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#jrhwhite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#lupi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+","Kev Walker","W",4,"Sorcery","MH2",0,1.5,1.2
+"Lose Focus",22,18,87,127,68.5,59.7,76.5," 1 Dimir Control 
+ 1 Dimir Faeries 
+ 6 Izzet Faeries 
+ 2 Jeskai Ephemerate 
+ 8 Mono   Blue 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#monste_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#paulocabral_br_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#monste_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#_dissonance__th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#paulocabral_br_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#kaikas_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#oceansoul_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#brunoguerra_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#modern_monkey_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#aegisaziz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#cicciogire_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#oceansoul_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#trm_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#beenew_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#bielzito_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-preliminary-2022-01-26#cicciogire_- 
+","Martina Fackova","U",2,"Instant","MH2",0.1,6.9,1.2
+"Mistvault Bridge",110,52,254,380,66.8,61.9,71.6," 34 Atog   Affinity 
+ 18 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#backoff_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#luffydochapeudepalha_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#tozla_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#nsg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#villadallacava_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#vini_torres_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#milkk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#draztok_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#spartano_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#mathonical_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#lsmguys_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#martinezmtg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#pmizz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#nsg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#luffydochapeudepalha_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#draztok_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#geme_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#maxmagicer_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#phantomthief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#sonan_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#tozla_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#abac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#robtx_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#mentalmisstep_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#carvs_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#ankylosaur_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#naoseinenhum_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#hamuda_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#darkuna_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#sanpop_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#danlogan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#hamuda_th_place 
+","Mathias Kollros","",0,"Artifact,Land","MH2",0.7,20,2.1
+"Razortide Bridge",13,6,28,43,65.1,49.1,79," 2 Boros Bully / Flashback 
+ 4 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#jrhwhite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#lupi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#idraftthebeatz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#idraftthebeatz_th_place 
+","Rob Alexander","",0,"Artifact,Land","MH2",0.1,2.3,2.2
+"Rustvale Bridge",31,8,36,56,64.3,50.4,76.6," 2 Boros Bully / Flashback 
+ 1 Boros Monarch 
+ 5 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#janicestone_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#tarkanmag_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#jrhwhite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#lupi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#idraftthebeatz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#idraftthebeatz_th_place 
+","Craig J Spearing","",0,"Artifact,Land","MH2",0.2,3.1,3.9
+"Silverbluff Bridge",108,52,254,379,67,62,71.7," 31 Atog   Affinity 
+ 2 Boros Bully / Flashback 
+ 5 Jeskai Ephemerate 
+ 14 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#backoff_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#luffydochapeudepalha_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#ixidor_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#janicestone_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#tozla_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#martinezmtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#nsg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#villadallacava_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#vini_torres_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#milkk_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#spartano_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#mathonical_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#jrhwhite_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-10#lsmguys_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#martinezmtg_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#pmizz_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#liv_one_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#nsg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#luffydochapeudepalha_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#geme_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#maxmagicer_rd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#backoff_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#lupi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#phantomthief_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#condescend_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#pmizz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#tozla_st_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#vini_torres_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#abac_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#jujubean___th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#mentalmisstep_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#carvs_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#ankylosaur_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#idraftthebeatz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#darkuna_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-super-qualifier-2022-01-29#sanpop_nd_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#danlogan_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#luffydochapeudepalha_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#idraftthebeatz_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#jujubean___th_place 
+","Joseph Meehan","",0,"Artifact,Land","MH2",0.7,20,2.1
+"Slagwoods Bridge",9,3,14,21,66.7,43,85.4," 1 Jund Ramp 
+ 2 Unknown 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#jogandopelado_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#aarong_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-31#cliffboyardee_th_place 
+","Lucas Graciano","",0,"Artifact,Land","MH2",0.1,1.2,3
+"Soul of Migration",5,3,15,21,71.4,47.8,88.7," 3 Jeskai Ephemerate 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-17#lupi_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#shadaro_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#flyingspaghetti_th_place 
+","Kev Walker","W",7,"Creature","MH2",0,1.2,1.7
+"Step Through",8,8,32,49,65.3,50.4,78.3," 8 Azorius Familiars 
+"," https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-09#kampo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#kampo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-16#steb_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#kasa_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-23#houseofmanamtg_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-challenge-2022-01-24#kampo_th_place 
+ https://magic.wizards.com/en/articles/archive/mtgo-standings/pauper-preliminary-2022-01-26#a_adeptoterra_- 
+","Randy Gallegos","U",5,"Sorcery","MH2",0.1,3.1,1

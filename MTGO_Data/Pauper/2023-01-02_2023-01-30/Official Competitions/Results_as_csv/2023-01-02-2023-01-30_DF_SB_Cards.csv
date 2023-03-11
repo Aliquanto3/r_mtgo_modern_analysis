@@ -1,0 +1,2335 @@
+"","CardNames","CardCount","DeckCount","WinCount","MatchCount","WinrateAverage","Winrate95Min","Winrate95Max","Archetypes","URL","Artists","Colors","CMC","Types","FirstSet","CardCountOutTotalCards","DeckCountOutTotalDecks","AverageCopies"
+"1","Abrade",10,5,34,43,79.1,64,90," 5 Moggwart 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+","Jonas De Ro","R",2,"Instant","HOU",0.2,1.8,2
+"2","Ancient Grudge",10,10,51,74,68.9,57.1,79.2," 10 Flicker Tron 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","Jim Nelson","R",2,"Instant","TSP",0.2,3.7,1
+"3","Annul",38,14,61,95,64.2,53.7,73.8," 1 Dimir Faeries 
+ 7 Mono Blue Faeries 
+ 6 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+","Greg Simanson","U",1,"Instant","USG",0.9,5.1,2.7
+"4","Apostle's Blessing",1,1,4,7,57.1,18.4,90.1," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+","Brad Rigney","W",2,"Instant","NPH",0,0.4,1
+"5","Arashin Cleric",8,3,13,19,68.4,43.4,87.4," 2 Orzhov Ephemerate 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+","Chris Rahn","W",2,"Creature","FRF",0.2,1.1,2.7
+"6","Armadillo Cloak",4,2,11,16,68.8,41.3,89," 2 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+","Paolo Parente","G,W",3,"Enchantment","INV",0.1,0.7,2
+"7","Arms of Hadar",11,8,38,58,65.5,51.9,77.5," 2 Affinity Control 
+ 5 Gates 
+ 1 Orzhov Ephemerate 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+","Mirko Failoni","B",4,"Sorcery","CLB",0.3,2.9,1.4
+"8","Azure Fleet Admiral",1,1,6,8,75,34.9,96.8," 1 Dimir Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+","Sidharth Chaturvedi","U",4,"Creature","CMR",0,0.4,1
+"9","Beckon Apparition",2,1,3,6,50,11.8,88.2," 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+","Larry MacDougall","B,W",1,"Instant","EVE",0,0.4,2
+"10","Benevolent Blessing",2,1,3,6,50,11.8,88.2," 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+","Ekaterina Burmak","W",2,"Enchantment","CMR",0,0.4,2
+"11","Blue Elemental Blast",285,82,366,562,65.1,61,69.1," 40 Affinity Control 
+ 1 Blink 
+ 6 Caw Gate 
+ 1 Dimir Faeries 
+ 2 Familiars 
+ 6 Flicker Tron 
+ 3 Izzet Faeries 
+ 8 Mono Blue Faeries 
+ 10 Terror 
+ 3 Turbo Fog 
+ 1 Unknown 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Heisen01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Richard Thomas","U",1,"Instant","LEA",7,30.1,3.5
+"12","Bonesplitter",1,1,3,6,50,11.8,88.2," 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+","Darrell Riche","",1,"Artifact","MRD",0,0.4,1
+"13","Breath Weapon",6,6,31,45,68.9,53.4,81.8," 3 Flicker Tron 
+ 1 Unknown 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+","Adam Vehige","R",3,"Instant","CLB",0.1,2.2,1
+"14","Cast Down",9,7,37,53,69.8,55.7,81.7," 2 Affinity Control 
+ 2 Flicker Tron 
+ 3 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+","Bastien L. Deharme","B",2,"Instant","DOM",0.2,2.6,1.3
+"15","Celestial Flare",2,1,4,6,66.7,22.3,95.7," 1 Boros Metalcraft 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+","Clint Cearley","W",2,"Instant","M14",0,0.4,2
+"16","Chainer's Edict",216,105,463,717,64.6,60.9,68.1," 47 Affinity Control 
+ 2 Dimir Faeries 
+ 2 Flicker Tron 
+ 1 Gates 
+ 29 Orzhov Ephemerate 
+ 22 Terror 
+ 2 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Ben Thompson","B",2,"Sorcery","TOR",5.3,38.6,2.1
+"17","Circle of Protection: Red",7,4,19,28,67.9,47.6,84.1," 1 Boros Metalcraft 
+ 1 Flicker Tron 
+ 1 Orzhov Ephemerate 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+","Mark Tedin","W",2,"Enchantment","LEA",0.2,1.5,1.8
+"18","Coalition Honor Guard",1,1,3,6,50,11.8,88.2," 1 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+","Eric Peterson","W",4,"Creature","APC",0,0.4,1
+"19","Counterspell",2,2,10,14,71.4,41.9,91.6," 2 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+","Mark Poole","U",2,"Instant","LEA",0,0.7,1
+"20","Crimson Acolyte",54,23,96,155,61.9,53.8,69.6," 2 Caw Gate 
+ 12 Gates 
+ 1 Orzhov Ephemerate 
+ 6 Walls Combo 
+ 1 White Agro 
+ 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Koala40 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+","Dany Orizio","W",2,"Creature","INV",1.3,8.5,2.3
+"21","Curfew",13,10,42,65,64.6,51.8,76.1," 5 Izzet Faeries 
+ 5 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+","Randy Gallegos","U",1,"Instant","USG",0.3,3.7,1.3
+"22","Darkness",15,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Harold McNeill","B",1,"Instant","LEG",0.4,1.8,3
+"23","Dawnbringer Cleric",78,47,208,324,64.2,58.7,69.4," 1 Blink 
+ 1 Boros Bully 
+ 3 Boros Metalcraft 
+ 4 Caw Gate 
+ 1 Familiars 
+ 7 Gates 
+ 28 Orzhov Ephemerate 
+ 1 White Agro 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Soldatpacif 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Lie Setiawan","W",2,"Creature","AFR",1.9,17.3,1.7
+"24","Deep Analysis",3,3,10,19,52.6,28.9,75.6," 1 Caw Gate 
+ 2 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+","Daren Bader","U",4,"Sorcery","TOR",0.1,1.1,1
+"25","Deglamer",6,2,10,14,71.4,41.9,91.6," 1 Cascade 
+ 1 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+","Zoltan Boros & Gabor Szikszai","G",2,"Instant","MOR",0.1,0.7,3
+"26","Destroy Evil",43,32,128,210,61,54,67.6," 1 Boros Metalcraft 
+ 2 Caw Gate 
+ 1 Familiars 
+ 9 Flicker Tron 
+ 15 Gates 
+ 4 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Heisen01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Anna Christenson","W",2,"Instant","DMU",1.1,11.8,1.3
+"27","Devour Flesh",3,2,11,14,78.6,49.2,95.3," 2 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+","Kev Walker","B",2,"Instant","GTC",0.1,0.7,1.5
+"28","Diabolic Edict",12,7,28,45,62.2,46.5,76.2," 2 Affinity Control 
+ 1 Dimir Faeries 
+ 1 Flicker Tron 
+ 1 Gates 
+ 2 Rakdos Madness 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+","Ron Spencer","B",2,"Instant","TMP",0.3,2.6,1.7
+"29","Dinrova Horror",1,1,5,8,62.5,24.5,91.5," 1 Flicker Tron 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+","Johann Bodin","B,U",6,"Creature","GTC",0,0.4,1
+"30","Dispel",46,38,163,254,64.2,57.9,70.1," 1 Caw Gate 
+ 1 Dimir Faeries 
+ 1 Familiars 
+ 1 Gates 
+ 1 Izzet Faeries 
+ 3 Mono Blue Faeries 
+ 24 Terror 
+ 4 Turbo Fog 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Vance Kovacs","U",1,"Instant","WWK",1.1,14,1.2
+"31","Duress",30,17,86,125,68.8,59.9,76.8," 4 Affinity Control 
+ 5 Cycle Storm 
+ 5 Moggwart 
+ 2 Rakdos Madness 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+","Lawrence Snelly","B",1,"Sorcery","USG",0.7,6.2,1.8
+"32","Dust to Dust",288,75,328,512,64.1,59.7,68.2," 4 Boros Bully 
+ 3 Boros Metalcraft 
+ 12 Caw Gate 
+ 3 Familiars 
+ 19 Gates 
+ 29 Orzhov Ephemerate 
+ 1 Unknown 
+ 1 White Agro 
+ 3 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Koala40 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Heisen01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Soldatpacif 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_malekz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Drew Tucker","W",3,"Sorcery","DRK",7.1,27.6,3.8
+"33","Echoing Truth",12,7,29,46,63,47.5,76.8," 1 Izzet Faeries 
+ 6 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+","Greg Staples","U",2,"Instant","DST",0.3,2.6,1.7
+"34","Electrickery",23,12,50,79,63.3,51.7,73.9," 1 Affinity Control 
+ 1 Boros Bully 
+ 2 Boros Metalcraft 
+ 1 Caw Gate 
+ 4 Izzet Faeries 
+ 1 Red Heroic 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Jordanescu 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Soldatpacif 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+","Greg Staples","R",1,"Instant","RTR",0.6,4.4,1.9
+"35","End the Festivities",79,29,120,192,62.5,55.2,69.4," 26 Kuldotha Prowess 
+ 2 Rakdos Madness 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Oscar_Franco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Rudberg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Xuxa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mahers 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Lord_Beerus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MEZZELE 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Nekrus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+","Chris Rallis","R",1,"Sorcery","VOW",1.9,10.7,2.7
+"36","Envelop",3,2,8,13,61.5,31.6,86.1," 2 Affinity Control 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+","Don Hazeltine","U",1,"Instant","JUD",0.1,0.7,1.5
+"37","Exclude",3,3,12,20,60,36.1,80.9," 1 Dimir Faeries 
+ 1 Flicker Tron 
+ 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+","Mark Romanoski","U",3,"Instant","INV",0.1,1.1,1
+"38","Faerie Macabre",9,3,14,20,70,45.7,88.1," 3 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+","rk post","B",3,"Creature","SHM",0.2,1.1,3
+"39","Fangren Marauder",7,7,37,52,71.2,56.9,82.9," 7 Flicker Tron 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+","James Ryman","G",6,"Creature","MBS",0.2,2.6,1
+"40","Fathom Seer",5,5,21,33,63.6,45.1,79.6," 1 Dimir Faeries 
+ 4 Izzet Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+","Ralph Horsley","U",2,"Creature","TSP",0.1,1.8,1
+"41","Faultgrinder",3,3,11,19,57.9,33.5,79.7," 3 Flicker Tron 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","Anthony S. Waters","R",7,"Creature","LRW",0.1,1.1,1
+"42","Fiery Cannonade",6,5,19,31,61.3,42.2,78.2," 1 Cascade 
+ 4 Izzet Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+","Ben Wootten","R",3,"Instant","XLN",0.1,1.8,1.2
+"43","Flame Slash",4,1,3,6,50,11.8,88.2," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_medvedev 
+","Raymond Swanland","R",1,"Sorcery","ROE",0.1,0.4,4
+"44","Flaring Pain",70,36,156,243,64.2,57.8,70.2," 19 Bogles 
+ 3 Boros Bully 
+ 1 Caw Gate 
+ 1 Gates 
+ 2 Kiln Fiend 
+ 7 Kuldotha Prowess 
+ 1 Red Heroic 
+ 1 Slivers 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_SuperCow12653 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Jordanescu 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Nekrus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","Glen Angus","R",2,"Instant","JUD",1.7,13.2,1.9
+"45","Forest",5,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Christopher Rush","",0,"Land","LEA",0.1,1.8,1
+"46","Freewind Falcon",95,25,103,164,62.8,54.9,70.2," 22 Bogles 
+ 2 Gates 
+ 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_SuperCow12653 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","Una Fricker","W",2,"Creature","VIS",2.3,9.2,3.8
+"47","Ghostfire",1,1,3,6,50,11.8,88.2," 1 Izzet Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+","Cyril Van Der Haegen","",3,"Instant","FUT",0,0.4,1
+"48","Gnaw to the Bone",15,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Scott Chou","G",3,"Instant","ISD",0.4,1.8,3
+"49","Goblin Chirurgeon",4,1,3,6,50,11.8,88.2," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_medvedev 
+","Daniel Gelon","R",1,"Creature","FEM",0.1,0.4,4
+"50","Gorilla Shaman",298,123,553,852,64.9,61.6,68.1," 55 Affinity Control 
+ 4 Boros Bully 
+ 1 Boros Metalcraft 
+ 1 Cascade 
+ 6 Caw Gate 
+ 9 Flicker Tron 
+ 2 Gates 
+ 7 Izzet Faeries 
+ 22 Kuldotha Prowess 
+ 5 Moggwart 
+ 1 Rakdos Madness 
+ 1 Unknown 
+ 6 Walls Combo 
+ 3 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Koala40 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Oscar_Franco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Rudberg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Xuxa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mahers 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Lord_Beerus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Soldatpacif 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_malekz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Anthony S. Waters","R",1,"Creature","ALL",7.3,45.2,2.4
+"51","Grim Initiate",2,1,4,7,57.1,18.4,90.1," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+","Jason Felix","R",1,"Creature","WAR",0,0.4,2
+"52","Guardian Naga",2,2,9,13,69.2,38.6,90.9," 2 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+","Tom Babbey","W",7,"Creature","CLB",0,0.7,1
+"53","Guardian of the Guildpact",4,3,12,19,63.2,38.4,83.7," 3 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+","Fred Hooper","W",4,"Creature","DIS",0.1,1.1,1.3
+"54","Gut Shot",10,5,18,31,58.1,39.1,75.5," 2 Bogles 
+ 2 Mono Blue Faeries 
+ 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_SuperCow12653 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+","Greg Staples","R",1,"Instant","NPH",0.2,1.8,2
+"55","Healer of the Glade",22,6,28,42,66.7,50.5,80.4," 6 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+","Daarken","G",1,"Creature","M20",0.5,2.2,3.7
+"56","Hydroblast",277,80,342,539,63.5,59.2,67.5," 24 Affinity Control 
+ 5 Caw Gate 
+ 1 Dimir Faeries 
+ 2 Familiars 
+ 11 Flicker Tron 
+ 5 Izzet Faeries 
+ 9 Mono Blue Faeries 
+ 19 Terror 
+ 3 Turbo Fog 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Koala40 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_malekz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","Kaja Foglio","U",1,"Instant","ICE",6.8,29.4,3.5
+"57","Infuriate",3,1,4,6,66.7,22.3,95.7," 1 Red Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Jordanescu 
+","Caio Monteiro","R",1,"Instant","M20",0.1,0.4,3
+"58","Introduction to Prophecy",10,5,34,43,79.1,64,90," 5 Moggwart 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+","Micah Epstein","",3,"Sorcery","STX",0.2,1.8,2
+"59","Kenku Artificer",7,7,33,50,66,51.2,78.8," 7 Affinity Control 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+","Dave Greco","U",3,"Creature","CLB",0.2,2.6,1
+"60","Krark-Clan Shaman",64,46,208,319,65.2,59.7,70.4," 40 Affinity Control 
+ 5 Moggwart 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Thomas M. Baxa","R",1,"Creature","MRD",1.6,16.9,1.4
+"61","Leave No Trace",1,1,5,7,71.4,29,96.3," 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+","Pat Lee","W",2,"Instant","RAV",0,0.4,1
+"62","Lifelink",27,22,92,145,63.4,55.1,71.3," 21 Bogles 
+ 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","Terese Nielsen","W",1,"Enchantment","M10",0.7,8.1,1.2
+"63","Lightning Bolt",2,1,4,7,57.1,18.4,90.1," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+","Christopher Rush","R",1,"Instant","LEA",0,0.4,2
+"64","Lone Missionary",91,30,139,210,66.2,59.4,72.6," 27 Orzhov Ephemerate 
+ 1 Unknown 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+","Svetlin Velinov","W",2,"Creature","ROE",2.2,11,3
+"65","Lose Focus",2,1,4,6,66.7,22.3,95.7," 1 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+","Martina Fackova","U",2,"Instant","MH2",0,0.4,2
+"66","Lumithread Field",4,2,14,18,77.8,52.4,93.6," 2 Boros Bully 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+","Scott Altmann","W",2,"Enchantment","FUT",0.1,0.7,2
+"67","Makeshift Munitions",7,6,22,38,57.9,40.8,73.7," 5 Affinity Control 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+","Filip Burburan","R",2,"Enchantment","XLN",0.2,2.2,1.2
+"68","Masked Vandal",4,1,4,7,57.1,18.4,90.1," 1 Slivers 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+","Jason A. Engle","G",2,"Creature","KHM",0.1,0.4,4
+"69","Metallic Rebuke",28,15,72,108,66.7,56.9,75.4," 15 Affinity Control 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Eric Deschamps","U",3,"Instant","AER",0.7,5.5,1.9
+"70","Mine Collapse",6,4,19,28,67.9,47.6,84.1," 4 Kuldotha Prowess 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+","Bud Cook","R",4,"Instant","MH2",0.1,1.5,1.5
+"71","Mistblade Shinobi",1,1,3,6,50,11.8,88.2," 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+","Kev Walker","U",3,"Creature","BOK",0,0.4,1
+"72","Mogis's Favor",1,1,3,6,50,11.8,88.2," 1 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+","Uriah Voth","B",1,"Enchantment","THB",0,0.4,1
+"73","Molten Rain",14,6,21,38,55.3,38.3,71.4," 5 Kuldotha Prowess 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MEZZELE 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Alleyezonme 
+","Hugh Jamieson","R",3,"Sorcery","MRD",0.3,2.2,2.3
+"74","Moment's Peace",7,4,19,27,70.4,49.8,86.2," 1 Flicker Tron 
+ 3 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+","Rebecca Guay","G",2,"Instant","ODY",0.2,1.5,1.8
+"75","Moonblade Shinobi",6,5,21,33,63.6,45.1,79.6," 1 Dimir Faeries 
+ 3 Izzet Faeries 
+ 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+","Taylor Ingvarsson","U",4,"Creature","MH1",0.1,1.8,1.2
+"76","Mountain",5,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Douglas Shuler","",0,"Land","LEA",0.1,1.8,1
+"77","Mournwhelk",1,1,3,6,50,11.8,88.2," 1 Flicker Tron 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+","Jeremy Jarvis","B",7,"Creature","LRW",0,0.4,1
+"78","Mukotai Ambusher",2,1,6,8,75,34.9,96.8," 1 Dimir Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+","Raymond Swanland","B",4,"Artifact,Creature","NEO",0,0.4,2
+"79","Nausea",6,6,28,42,66.7,50.5,80.4," 6 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+","Jeff Miracola","B",2,"Sorcery","EXO",0.1,2.2,1
+"80","Navigator's Compass",6,3,11,19,57.9,33.5,79.7," 3 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+","Sung Choi","",1,"Artifact","DOM",0.1,1.1,2
+"81","Negate",57,32,145,221,65.6,58.9,71.9," 26 Affinity Control 
+ 2 Familiars 
+ 2 Flicker Tron 
+ 1 Gates 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_bolov0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Jeremy Jarvis","U",2,"Instant","MOR",1.4,11.8,1.8
+"82","Nihil Spellbomb",97,65,292,448,65.2,60.6,69.6," 29 Affinity Control 
+ 1 Dimir Faeries 
+ 7 Gates 
+ 2 Moggwart 
+ 24 Terror 
+ 2 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Franz Vohwinkel","",1,"Artifact","SOM",2.4,23.9,1.5
+"83","Nylea's Disciple",2,2,9,13,69.2,38.6,90.9," 2 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+","Trevor Claxton","G",4,"Creature","THS",0,0.7,1
+"84","Obsidian Acolyte",3,3,14,20,70,45.7,88.1," 1 Gates 
+ 2 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+","Matthew D. Wilson","W",2,"Creature","INV",0.1,1.1,1
+"85","Okiba-Gang Shinobi",1,1,6,8,75,34.9,96.8," 1 Dimir Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+","Mark Zug","B",5,"Creature","BOK",0,0.4,1
+"86","Omen of the Dead",2,2,10,15,66.7,38.4,88.2," 2 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+","Piotr Dura","B",1,"Enchantment","THB",0,0.7,1
+"87","Phantom Wings",1,1,3,6,50,11.8,88.2," 1 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+","Una Fricker","U",2,"Enchantment","WTH",0,0.4,1
+"88","Prismatic Strands",17,12,57,82,69.5,58.4,79.2," 2 Familiars 
+ 9 Orzhov Ephemerate 
+ 1 White Agro 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+","Eric Peterson","W",3,"Instant","JUD",0.4,4.4,1.4
+"89","Psychic Barrier",1,1,3,6,50,11.8,88.2," 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+","Dan Scott","U",2,"Instant","NPH",0,0.4,1
+"90","Pulse of Murasa",6,6,28,42,66.7,50.5,80.4," 6 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+","Matt Stewart","G",3,"Instant","OGW",0.1,2.2,1
+"91","Pyroblast",295,96,427,658,64.9,61.1,68.5," 28 Affinity Control 
+ 2 Boros Bully 
+ 8 Caw Gate 
+ 5 Cycle Storm 
+ 12 Flicker Tron 
+ 14 Gates 
+ 4 Izzet Faeries 
+ 1 Kiln Fiend 
+ 13 Kuldotha Prowess 
+ 5 Moggwart 
+ 1 Red Heroic 
+ 1 Unknown 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Oscar_Franco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Rudberg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Jordanescu 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mahers 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_sebastianpozzo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Lord_Beerus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Condescend 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MEZZELE 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Schiaveto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Dreddybajs 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Nekrus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Butakov 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_fingers1991 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_malekz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","Kaja Foglio","R",1,"Instant","ICE",7.2,35.3,3.1
+"92","Ram Through",40,21,89,139,64,55.5,72," 21 Bogles 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","Zoltan Boros","G",2,"Instant","IKO",1,7.7,1.9
+"93","Ramosian Rally",4,2,9,14,64.3,35.1,87.2," 2 Boros Bully 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+","Christopher Moeller","W",4,"Instant","MMQ",0.1,0.7,2
+"94","Ray of Revelation",5,4,16,27,59.3,38.8,77.6," 1 Gates 
+ 3 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+","Doug Chaffee","W",2,"Instant","JUD",0.1,1.5,1.2
+"95","Raze",4,1,3,6,50,11.8,88.2," 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_medvedev 
+","Mike Raabe","R",1,"Sorcery","USG",0.1,0.4,4
+"96","Recommission",1,1,6,8,75,34.9,96.8," 1 Boros Metalcraft 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+","Andrew Mar","W",2,"Sorcery","BRO",0,0.4,1
+"97","Red Elemental Blast",147,55,233,374,62.3,57.2,67.2," 18 Affinity Control 
+ 2 Boros Bully 
+ 3 Boros Metalcraft 
+ 6 Caw Gate 
+ 5 Flicker Tron 
+ 5 Gates 
+ 3 Izzet Faeries 
+ 1 Kiln Fiend 
+ 12 Kuldotha Prowess 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Koala40 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_LuffyDoChapeuDePalha 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ronaldogaru1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Xuxa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_vini_torres 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_kaikas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__Marian_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Soldatpacif 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Chord_For_15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_KidRenan 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Beicodegeia 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Richard Thomas","R",1,"Instant","LEA",3.6,20.2,2.7
+"98","Relic of Progenitus",223,88,373,592,63,59,66.9," 1 Affinity Control 
+ 1 Boros Metalcraft 
+ 1 Cascade 
+ 10 Caw Gate 
+ 1 Dimir Faeries 
+ 19 Gates 
+ 21 Kuldotha Prowess 
+ 6 Mono Blue Faeries 
+ 24 Orzhov Ephemerate 
+ 1 White Agro 
+ 3 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Oscar_Franco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Heisen01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Rudberg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Xuxa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_nekonekoneko 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Supremoguy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mahers 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Lord_Beerus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Backoff 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_squeeeeeeps 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_FATTOCATTO 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Maccaciock 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Nekrus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_AliEnWaRe_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Pacto_das_Guildas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Oceansoul92 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_flower270 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_malekz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Jean-Sébastien Rossbach","",1,"Artifact","ALA",5.5,32.4,2.5
+"99","Return to Nature",6,4,18,26,69.2,48.2,85.7," 4 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+","Alayna Danner","G",2,"Instant","WAR",0.1,1.5,1.5
+"100","Revoke Existence",41,21,89,141,63.1,54.6,71.1," 1 Blink 
+ 1 Boros Bully 
+ 1 Boros Metalcraft 
+ 3 Caw Gate 
+ 3 Familiars 
+ 6 Gates 
+ 3 Orzhov Ephemerate 
+ 1 White Agro 
+ 2 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_QueMario 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Heisen01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_RegitehT 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_twister66 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_jwaves 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gn42 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tarmofir3 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+","Allen Williams","W",2,"Sorcery","SOM",1,7.7,2
+"101","Rotten Reunion",32,19,88,132,66.7,57.9,74.6," 19 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Aaron Miller","B",1,"Instant","MID",0.8,7,1.7
+"102","Sacred Cat",2,1,3,6,50,11.8,88.2," 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+","Zezhou Chen","W",1,"Creature","AKH",0,0.4,2
+"103","Sage's Row Denizen",2,2,9,13,69.2,38.6,90.9," 2 Familiars 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_JakeHelms 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_EhDM 
+","Svetlin Velinov","U",3,"Creature","GTC",0,0.7,1
+"104","Saruli Gatekeepers",4,3,13,20,65,40.8,84.6," 3 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+","Chris Rahn","G",4,"Creature","DGM",0.1,1.1,1.3
+"105","Scattershot Archer",8,4,17,27,63,42.4,80.6," 3 Bogles 
+ 1 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+","Steve Argyle","G",1,"Creature","CON",0.2,1.5,2
+"106","Sea Sprite",2,1,3,6,50,11.8,88.2," 1 Dimir Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+","Susan Van Camp","U",2,"Creature","HML",0,0.4,2
+"107","Searing Blaze",13,4,23,32,71.9,53.3,86.3," 3 Kuldotha Prowess 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Alakhai 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_PvtEnormous 
+","James Paick","R",2,"Instant","WWK",0.3,1.5,3.2
+"108","Serene Heart",5,4,16,26,61.5,40.6,79.8," 3 Flicker Tron 
+ 1 Slivers 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Fink64 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","D. Alexander Gregory","G",2,"Instant","MIR",0.1,1.5,1.2
+"109","Serrated Arrows",1,1,3,6,50,11.8,88.2," 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+","David A. Cherry","",4,"Artifact","HML",0,0.4,1
+"110","Shattering Blow",24,7,25,43,58.1,42.1,73," 7 Izzet Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ezocratto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+","Steve Prescott","R,W",2,"Instant","GTC",0.6,2.6,3.4
+"111","Shenanigans",2,2,8,13,61.5,31.6,86.1," 2 Affinity Control 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Gift_given 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Gift_given 
+","Lindsey Look","R",2,"Sorcery","MH1",0,0.7,1
+"112","Shrivel",20,15,70,106,66,56.2,75," 3 Orzhov Ephemerate 
+ 11 Terror 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Jung Park","B",2,"Sorcery","ROE",0.5,5.5,1.3
+"113","Singe",2,1,4,6,66.7,22.3,95.7," 1 Red Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Jordanescu 
+","John Avon","R",1,"Instant","PLS",0,0.4,2
+"114","Smash to Dust",36,21,100,150,66.7,58.5,74.1," 3 Boros Bully 
+ 1 Boros Metalcraft 
+ 1 Cascade 
+ 8 Gates 
+ 2 Kuldotha Prowess 
+ 5 Moggwart 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_galeogiao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Lisior 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MEZZELE 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Jpsn54 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Weiden 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Kengur 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Potovisck 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_IAB_MaGiC 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Dr. Jon Osterman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Alvatar 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck___Noob__ 
+","Marc Simonetti","R",2,"Sorcery","DMU",0.9,7.7,1.7
+"115","Smash to Smithereens",89,28,113,185,61.1,53.7,68.1," 25 Kuldotha Prowess 
+ 2 Rakdos Madness 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Oscar_Franco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__Shatun_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Xuxa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mitchellsocks 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_FranMtg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mahers 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Solidsnake408 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Lord_Beerus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MEZZELE 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_knnccb87 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Vertyx_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_ura_frst 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Nekrus 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_NickNorman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_PvtEnormous 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sMann2.0 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+","Pete Venters","R",2,"Instant","SHM",2.2,10.3,3.2
+"116","Snuff Out",5,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Mike Ploog","B",4,"Instant","MMQ",0.1,1.8,1
+"117","Spell Pierce",7,7,34,50,68,53.3,80.5," 1 Mono Blue Faeries 
+ 6 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Vance Kovacs","U",1,"Instant","ZEN",0.2,2.6,1
+"118","Spreading Seas",1,1,3,6,50,11.8,88.2," 1 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Mogged 
+","Jung Park","U",2,"Enchantment","ZEN",0,0.4,1
+"119","Standard Bearer",89,28,118,185,63.8,56.4,70.7," 22 Bogles 
+ 3 Gates 
+ 2 Walls Combo 
+ 1 White Heroic 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_SuperCow12653 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Casanova_13 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Arielle 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_apas72 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__rash_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_SinkholeCAM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","Ron Spencer","W",2,"Creature","APC",2.2,10.3,3.2
+"120","Steel Sabotage",17,7,30,47,63.8,48.5,77.3," 1 Dimir Faeries 
+ 1 Mono Blue Faeries 
+ 5 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+","Daarken","U",1,"Instant","MBS",0.4,2.6,2.4
+"121","Stonehorn Dignitary",6,5,20,34,58.8,40.7,75.4," 1 Blink 
+ 3 Flicker Tron 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_gartuyzz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+","Dave Kendall","W",4,"Creature","M12",0.1,1.8,1.2
+"122","Stormbound Geist",2,2,6,12,50,21.1,78.9," 2 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+","Dan Scott","U",3,"Creature","DKA",0,0.7,1
+"123","Stream of Thought",2,2,10,14,71.4,41.9,91.6," 2 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_NotThatBad 
+","Seb McKinnon","U",1,"Sorcery","MH1",0,0.7,1
+"124","Suffocating Fumes",91,62,273,424,64.4,59.6,68.9," 8 Affinity Control 
+ 2 Dimir Faeries 
+ 2 Gates 
+ 29 Orzhov Ephemerate 
+ 1 Slivers 
+ 20 Terror 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck__DissonancE_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_O_danielakos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Kirblinxy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ManBoyChild 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_DarkHellkite 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_AppleSK1nG_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_lampalot 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_billster47 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_PivoUlivo 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_msskinbolic 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_MatheusPonciano 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_nazart 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_toondoslav 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_WhiTe TsaR 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_BERNASTORRES 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_McWinSauce 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_pepeteam 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Hamuda 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck__Batutinha_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_billsive 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Arukasnobnes 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_LuffyDoChapeuDePalha 
+","Anastasia Ovchinnikova","B",3,"Instant","IKO",2.2,22.8,1.5
+"125","Swirling Sandstorm",1,1,4,6,66.7,22.3,95.7," 1 Gates 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Madamix 
+","Tony Szczudlo","R",4,"Sorcery","JUD",0,0.4,1
+"126","Take Up the Shield",3,1,4,7,57.1,18.4,90.1," 1 Slivers 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+","Manuel Castañón","W",2,"Instant","DMU",0.1,0.4,3
+"127","Tamiyo's Safekeeping",10,6,30,45,66.7,51,80," 2 Bogles 
+ 4 Walls Combo 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Ramelao 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_lindoso01 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+","Aurore Folny","G",1,"Instant","NEO",0.2,2.2,1.7
+"128","Thermo-Alchemist",6,2,8,13,61.5,31.6,86.1," 2 Rakdos Madness 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_ScreenwriterNY 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_ScreenwriterNY 
+","Raymond Swanland","R",2,"Creature","EMN",0.1,0.7,3
+"129","Thorn of the Black Rose",15,14,66,98,67.3,57.1,76.5," 1 Dimir Faeries 
+ 12 Terror 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_JMM 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","David Gaillet","B",4,"Creature","CN2",0.4,5.1,1.1
+"130","Tolarian Terror",12,3,14,20,70,45.7,88.1," 3 Turbo Fog 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_FunkiMunki 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Sti 
+","Vincent Christiaens","U",7,"Creature","DMU",0.3,1.1,4
+"131","Tormod's Crypt",3,2,8,12,66.7,34.9,90.1," 1 Turbo Fog 
+ 1 Wildfire 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Hollywood88 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Foresterf 
+","Christopher Rush","",0,"Artifact","DRK",0.1,0.7,1.5
+"132","Turn Aside",4,3,14,20,70,45.7,88.1," 3 Affinity Control 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_discoverN 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_discoverN 
+","Shelly Wan","U",1,"Instant","SOM",0.1,1.1,1.3
+"133","Underworld Rage-Hound",4,3,13,20,65,40.8,84.6," 2 Izzet Faeries 
+ 1 Kiln Fiend 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_MichaelArmando 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Brivenix 
+","Tyler Walpole","R",2,"Creature","THB",0.1,1.1,1.3
+"134","Unearth",3,1,4,7,57.1,18.4,90.1," 1 Slivers 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_VivaSkegVegas 
+","Don Hazeltine","B",1,"Sorcery","ULG",0.1,0.4,3
+"135","Unexpected Fangs",34,29,128,196,65.3,58.2,71.9," 5 Affinity Control 
+ 2 Dimir Faeries 
+ 21 Terror 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_ecobaronen 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_musasabi 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_karatedom 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_adrianretamosa 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Magicofplayer1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cicciogire 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Lennny 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_TheRealJulys 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_OlonJohnson 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_qbturtle15 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_helvetti 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_ziofrancone 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Brivenix 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__TOP_G 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_KingHairy 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck__against_ 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_moon11 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_bombaj 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_cristorisorto 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_roter_Erzengel 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_sheastrausman 
+","Jesper Ejsing","B",2,"Instant","IKO",0.8,10.7,1.2
+"136","Unholy Heat",6,3,12,19,63.2,38.4,83.7," 3 Kuldotha Prowess 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Rudberg 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Alleyezonme 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_Alleyezonme 
+","Kari Christensen","R",1,"Instant","MH2",0.1,1.1,2
+"137","Unmake",4,2,6,12,50,21.1,78.9," 2 Orzhov Ephemerate 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Add1ct3d 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck__Batutinha_ 
+","Steven Belledin","B,W",3,"Instant","EVE",0.1,0.7,2
+"138","Viridian Longbow",1,1,3,6,50,11.8,88.2," 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Brivenix 
+","Jeremy Jarvis","",1,"Artifact","MRD",0,0.4,1
+"139","Vision Charm",5,5,26,36,72.2,54.8,85.8," 5 Cycle Storm 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Tyerube1618 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_Tyerube1618 
+","Greg Spalenka","U",1,"Instant","VIS",0.1,1.8,1
+"140","Vitality Charm",34,17,75,114,65.8,56.3,74.4," 17 Bogles 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_MTGMack 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Wizard_2002 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_420dragon 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_HinaHara 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1412509952#deck_Mogged 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_mariogomes097 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_JUJUBEAN__2004 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_Map_Territory 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Mmfood 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_xfile 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_yPrincipe 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_hockeybro26 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Mogged 
+","David Martin","G",1,"Instant","ONS",0.8,6.2,2
+"141","Weakstone's Subjugation",7,2,6,12,50,21.1,78.9," 1 Blink 
+ 1 Mono Blue Faeries 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Cesta 
+","Igor Kieryluk","U",1,"Enchantment","BRO",0.2,0.7,3.5
+"142","Weather the Storm",23,14,65,98,66.3,56.1,75.6," 1 Blink 
+ 1 Cascade 
+ 11 Flicker Tron 
+ 1 Unknown 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_RNAPBP1 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-1512509963#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_medvedev 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_Videgain 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2112512378#deck_RGrzywocz 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_A_AdeptoTerra 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2812515837#deck_Cherryxman 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_RClint21 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_TopGrinder 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_Videgain 
+","Magali Villeneuve","G",2,"Instant","MH1",0.6,5.1,1.6
+"143","Young Wolf",15,7,30,48,62.5,47.4,76," 7 Bogles 
+"," https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0712508234#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_SuperCow12653 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_eltranco 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-0812508245#deck_Unknowless 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2212512391#deck_LasVegasChaos 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-qualifier-2023-01-2812515832#deck_ZAAAAMU 
+ https://www.mtgo.com/en/mtgo/decklist/pauper-challenge-2023-01-2912515850#deck_8675309 
+","Ryan Pancoast","G",1,"Creature","DKA",0.4,2.6,2.1
