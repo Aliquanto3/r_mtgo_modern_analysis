@@ -107,8 +107,8 @@ Cards=c("Urza's Saga", "Ragavan, Nimble Pilferer", "Dragon's Rage Channeler",
 
 # TODO : cardComparison(Cards)
 
-getURLofCard("Play with Fire")
-getURLofDeck("Izzet Control")
+getURLofCard("Play with Fire",df)
+getURLofDeck("Izzet Control",df)
 getConflictURL(df)
 getConflictArchetype(df)
 getUnknown(df)
