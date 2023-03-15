@@ -62,7 +62,7 @@ generate_Prelim_Data = function(PrelimData) {
   #CALCULATE THE NUMBER OF DEFEATS OF EACH DECK IN PRELIMINARIES -
   #NUMBER OF ROUNDS MINUS THE NUMBER OF POINTS/3 (3 PTS EARNED BY WIN)
   PrelimData$NWins = PrelimData$Points / 3
-  PrelimData$NDraws = 0 # for merge with Full meta events
+  PrelimData$NDraws = rep(0, nrow(PrelimData)) # for merge with Full meta events
   PrelimData$NDefeats = PrelimData$NRounds - PrelimData$Points / 3
   
   #ADD TOP8 COLUMNS FOR MERGE WITH CHALLENGES
@@ -241,10 +241,10 @@ generate_df = function(EventType, MTGFormat, RawFile, Date.autoupdate) {
   rawData$Points = as.numeric(rawData$Points)
   # View(rawData)
   
-  if(Date.autoupdate){
-    Beginning = max(rawData$Date) - 28
-    End = max(rawData$Date)
-  }
+  # if(Date.autoupdate){
+  #   Beginning = max(rawData$Date) - 28
+  #   End = max(rawData$Date)
+  # }
   
   if (is.na(Beginning)) {
     Beginning = min(rawData$Date)
@@ -311,19 +311,19 @@ generate_df = function(EventType, MTGFormat, RawFile, Date.autoupdate) {
                                periodData$AnchorUri),]
     
     if (EventType == "MTGO Official Competitions") {
-      MTGOTop32Data = periodData[!grepl("Preliminary", periodData$Tournament),]
-      PrelimData = periodData[grep("Preliminary", periodData$Tournament),]
+      MTGOTop32Data = MTGOData[!grepl("Preliminary", MTGOData$Tournament),]
+      PrelimData = MTGOData[grep("Preliminary", MTGOData$Tournament),]
       df = rbind(generate_Tournament_Data(MTGOTop32Data),
                  generate_Prelim_Data(PrelimData))
       
     } else if (EventType == "MTGO Events with a Top32") {
       # MTGO tournaments with a top32, so not Preliminaries (nor Leagues, already filtered)
-      MTGOTop32Data = periodData[!grepl("Preliminary", periodData$Tournament),]
+      MTGOTop32Data = MTGOData[!grepl("Preliminary", MTGOData$Tournament),]
       df = generate_Tournament_Data(MTGOTop32Data)
       
     } else if (EventType == "MTGO Preliminaries") {
       # Preliminaries only
-      PrelimData = periodData[grep("Preliminary", periodData$Tournament),]
+      PrelimData = MTGOData[grep("Preliminary", MTGOData$Tournament),]
       df = generate_Prelim_Data(PrelimData)
     }
   }

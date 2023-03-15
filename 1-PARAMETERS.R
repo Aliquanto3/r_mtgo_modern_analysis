@@ -13,7 +13,7 @@ DirectoryFile="MTGO_Data"
 
 #Format of the wanted events: NA if all
 #"All_Formats,"Sealed","Standard","Pioneer","Modern","Legacy","Vintage","Pauper"
-MTGFormat="Modern"
+MTGFormat="Pioneer"
 
 #Name of the file
 #Requires restarting Data Treatment if updated
@@ -21,7 +21,7 @@ RawFile=paste(MTGFormat,"data.json",sep="_")
 
 #Earliest date - if NA, starts from the beginning of the data
 #Requires restarting Data Treatment if updated
-Beginning="2022-10-10"
+Beginning="2022-06-07"
 
 #If you want to know the minimum date in the data, use:
 #min(rawData$DATE)
@@ -29,9 +29,9 @@ Beginning="2022-10-10"
 
 #Latest date - if NA, goes up to the end of the data
 #Requires restarting Data Treatment if updated
-End="2023-03-06"
+End="2023-03-13"
 
-#Automatically updates the peiord thresholds to cover the last 4 weeks in the data
+#Automatically updates the period thresholds to cover the last 4 weeks in the data
 Date.autoupdate = T
 
 #If you want to know the maximum date in the data, use:
@@ -49,7 +49,7 @@ Date.autoupdate = T
 # MTGO Preliminaries = As per name
 
 #Requires restarting Data Treatment if updated
-EventType="Full Meta"
+EventType="Paper"
 
 #Type of deck classification - "Super" or "Exact"
 #Requires restarting Data Treatment if updated
